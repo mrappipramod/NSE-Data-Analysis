@@ -234,9 +234,12 @@ NIFTY500_LIVE_URL = "https://niftyindices.com/IndexConstituent/ind_nifty500list.
 NIFTY500_FALLBACK_PATH = Path(__file__).resolve().parent.parent / "data" / "nifty500_fallback.csv"
 
 
-@st.cache_data(ttl=60 * 60 * 24)
-def load_universe(index: str = "NIFTY500") -> pd.DataFrame:
+def _load_universe_impl(index: str = "NIFTY500") -> pd.DataFrame:
     """
+    Pure, Streamlit-independent implementation. Used directly by headless scripts
+    (e.g. scripts/export_daily.py for GitHub Actions) and wrapped by `load_universe`
+    below for the interactive Streamlit app's caching.
+
     Returns a DataFrame with columns: Symbol, Company Name, Industry.
     Tries the live NSE Indices CSV first; falls back to a bundled static snapshot
     if the network call fails (rate-limited, blocked, offline, endpoint moved, etc).
@@ -272,3 +275,14 @@ def load_universe(index: str = "NIFTY500") -> pd.DataFrame:
 
     else:
         raise ValueError(f"Unknown index: {index}")
+
+
+@st.cache_data(ttl=60 * 60 * 24)
+def load_universe(index: str = "NIFTY500") -> pd.DataFrame:
+    """
+    Streamlit-cached wrapper around `_load_universe_impl`, for use inside the
+    interactive app (app/main.py). Headless scripts should call
+    `_load_universe_impl` directly instead, to avoid any dependency on a live
+    Streamlit runtime context.
+    """
+    return _load_universe_impl(index)

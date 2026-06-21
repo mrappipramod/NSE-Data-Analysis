@@ -84,15 +84,21 @@ in your environment before attempting a full Nifty 500 run.
 nse-fundamental-screener/
 ├── app/
 │   └── main.py                  # Streamlit entry point — run this
+├── scripts/
+│   └── export_daily.py          # Headless pipeline for scheduled/automated exports
 ├── utils/
 │   ├── data_fetcher.py          # yfinance wrapper: retries, backoff, disk caching, universe loader
 │   ├── trend_analysis.py        # Multi-year CAGR, growth consistency, margin trend
 │   ├── valuation.py             # DCF, Graham Number, relative valuation, blending
 │   ├── scoring_engine.py        # Five-pillar composite scoring (0-100)
-│   └── peer_comparison.py       # Sector medians, percentile ranks
+│   ├── peer_comparison.py       # Sector medians, percentile ranks
+│   └── exporter.py              # Converts results to the external JSON/CSV feed schema
 ├── data/
 │   ├── nifty500_fallback.csv    # Static snapshot used only if the live NSE Indices fetch fails
-│   └── cache/                   # Runtime parquet cache (gitignored, regenerated automatically)
+│   ├── cache/                   # Runtime parquet cache (gitignored, regenerated automatically)
+│   └── exports/                 # Daily JSON/CSV exports (committed — this is what external sites fetch)
+├── .github/workflows/
+│   └── daily_export.yml         # GitHub Action: runs the export daily, auto-commits the result
 ├── .streamlit/config.toml       # Theme & server defaults
 ├── requirements.txt
 └── README.md
@@ -146,7 +152,133 @@ this is the one step you'll need to run yourself.)
 
 ---
 
-## Known limitations / honest caveats
+## Exporting for external consumption (techno-fundamental combo)
+
+If you have a **separate website doing technical analysis** and want to combine it with
+this fundamental data, the recommended approach — given a different stack/host and no
+shared database — is: **this repo publishes a daily JSON file; your other site fetches it
+over plain HTTPS.** No API server, no database, no shared infrastructure required.
+
+### How it works
+
+```
+Streamlit app / scheduled script  →  commits JSON to GitHub  →  your site fetches raw URL
+```
+
+1. **GitHub Actions runs daily** (`.github/workflows/daily_export.yml`, scheduled for
+   after NSE market close) and writes `data/exports/latest.json` + `latest.csv`, then
+   auto-commits them.
+2. Your other website fetches the **raw file URL** directly:
+   ```
+   https://raw.githubusercontent.com/<your-username>/<your-repo>/main/data/exports/latest.json
+   ```
+3. Parse it, join on `symbol`, combine with your technical scores.
+
+You can also run the export manually any time:
+```bash
+python scripts/export_daily.py --universe NIFTY500
+# or, for a quick test:
+python scripts/export_daily.py --universe NIFTY50
+```
+Or trigger the GitHub Action on demand from the repo's **Actions** tab ("Run workflow").
+
+### JSON schema
+
+```jsonc
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-21T18:00:00+00:00",   // UTC ISO 8601 — check freshness here
+  "universe": "NIFTY500",
+  "stock_count": 487,
+  "data_source": "yfinance (Yahoo Finance, unofficial)",
+  "disclaimer": "...",
+  "stocks": {
+    "RELIANCE": {
+      "symbol": "RELIANCE",
+      "company_name": "Reliance Industries Ltd.",
+      "sector": "Energy",
+      "industry": "Petroleum",
+      "price": 2500.5,
+      "ratios": {
+        "pe": 24.3, "pb": 2.1, "roe_pct": 12.5,
+        "debt_to_equity": 45.2, "profit_margin_pct": 8.3
+      },
+      "growth": {
+        "revenue_cagr_pct": 11.2, "net_income_cagr_pct": 9.8,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0, "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 2650.0, "graham_number": 2400.0,
+        "blended_fair_value": 2700.0, "estimated_upside_pct": 8.0,
+        "valuation_models_used": 3
+      },
+      "fundamental_score": {
+        "total": 72, "rating": "🟢 BUY",
+        "pillars": { "valuation": 14, "profitability": 12, "stability": 15, "growth": 20, "valuation_upside": 11 },
+        "key_notes": ["Strong ROE", "Margins expanding"]
+      }
+    }
+    // ...one entry per symbol, keyed for O(1) lookup
+  }
+}
+```
+
+Numeric fields are `null` (not `NaN`) when data was unavailable — this is valid JSON
+that any standard parser handles cleanly. **Always check `generated_at`** in your
+consuming code so a stale fetch (e.g. if the daily Action failed) is visible rather
+than silently treated as current.
+
+### Example fetch code
+
+**Python:**
+```python
+import requests
+data = requests.get(
+    "https://raw.githubusercontent.com/<you>/<repo>/main/data/exports/latest.json"
+).json()
+reliance = data["stocks"]["RELIANCE"]
+print(reliance["fundamental_score"]["total"], reliance["fundamental_score"]["rating"])
+```
+
+**PHP:**
+```php
+$json = file_get_contents("https://raw.githubusercontent.com/<you>/<repo>/main/data/exports/latest.json");
+$data = json_decode($json, true);
+echo $data["stocks"]["RELIANCE"]["fundamental_score"]["total"];
+```
+
+**JavaScript / Node:**
+```javascript
+const res = await fetch("https://raw.githubusercontent.com/<you>/<repo>/main/data/exports/latest.json");
+const data = await res.json();
+console.log(data.stocks.RELIANCE.fundamental_score.total);
+```
+
+### Combining with technical analysis (techno-fundamental score)
+
+A simple combined score on your technical site might look like:
+```python
+combined_score = 0.5 * fundamental_data["fundamental_score"]["total"] + 0.5 * your_technical_score
+```
+Weight however makes sense for your strategy — the fundamental score is 0-100 by design
+specifically so it's easy to blend with another 0-100 technical score.
+
+### Important caveats for this approach
+
+- **This is a daily snapshot, not real-time.** Fine for fundamentals (they don't move
+  intraday), but don't expect this to update faster than once a day unless you change
+  the Action's cron schedule and re-run more often (mind yfinance rate limits if you do).
+- **`raw.githubusercontent.com` has no uptime SLA** — it's reliable in practice but not
+  contractually guaranteed. For a public repo this is free; for a private repo you'd need
+  to pass a GitHub token in the fetch request's `Authorization` header from your other site.
+- **If you outgrow this** (need real-time, need write access from multiple services, need
+  auth), migrate to a small Postgres/Supabase instance and point both apps at it — the
+  `utils/` scoring logic doesn't change, only where the output is written/read.
+
+---
+
+
 
 - **Not investment advice.** Scores and "fair value" estimates are model outputs from limited
   public data, not recommendations.

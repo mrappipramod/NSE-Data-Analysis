@@ -1,0 +1,46 @@
+name: Daily Fundamental Data Export
+
+# Runs the headless screener pipeline daily and commits the refreshed JSON/CSV
+# back to the repo, so any external site can fetch the raw GitHub URL for the
+# latest fundamental scores without needing its own server or database.
+
+on:
+  schedule:
+    # 18:00 UTC = 11:30 PM IST — after NSE market close, before next trading day.
+    # Adjust the cron expression if you want a different time.
+    - cron: "0 18 * * 1-5"   # Mon-Fri only (NSE trading days)
+  workflow_dispatch: {}       # also allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90   # full Nifty 500 run can take a while; adjust if needed
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run headless export
+        run: |
+          python scripts/export_daily.py --universe NIFTY500
+        # To run a faster/smaller subset instead while testing, use e.g.:
+        #   python scripts/export_daily.py --universe NIFTY50
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/exports/
+          git diff --quiet --cached || git commit -m "Auto-update fundamental data export $(date -u +'%Y-%m-%d')"
+          git push
