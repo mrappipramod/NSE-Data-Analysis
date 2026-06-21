@@ -90,15 +90,26 @@ elif len(universe_df) <= 5:
     max_stocks = len(universe_df)
     st.sidebar.caption(f"Analyzing all {max_stocks} symbol(s) — too few for a range slider.")
 else:
+    full_size = len(universe_df)
+    # Default to the FULL selected universe — if someone picks "Nifty 500" they want 500,
+    # not a silently truncated 50. The slider lets them deliberately scope down for speed,
+    # but it never defaults to a fraction of what they asked for.
     max_stocks = st.sidebar.slider(
         "Max stocks to analyze this run",
         min_value=5,
-        max_value=min(500, len(universe_df)),
-        value=min(50, len(universe_df)),
+        max_value=min(500, full_size),
+        value=min(500, full_size),
         step=5,
-        help="Nifty 500 full run can take a long time on first fetch (no cache yet) due to yfinance rate limits. "
+        help="Defaults to the full universe you selected. A full Nifty 500 run can take "
+             "15-40+ minutes on first fetch (no cache yet) due to yfinance rate limits. "
+             "Drag down to scope to fewer stocks for a faster test run. "
              "Subsequent runs reuse the 6-hour disk cache and are much faster.",
     )
+    if full_size > 100 and max_stocks == full_size:
+        st.sidebar.info(
+            f"⏱️ Running all {full_size} stocks can take a while on first fetch. "
+            "Drag the slider down if you just want to test with fewer stocks first."
+        )
 
 sector_filter = st.sidebar.multiselect(
     "Filter by Industry (optional)",
