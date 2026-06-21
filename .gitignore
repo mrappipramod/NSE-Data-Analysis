@@ -1,17 +1,27 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
 
-# Data files
-*.xlsx
-*.csv
-*.zip
-nse_data/
+# Virtual environments
+venv/
+env/
+.venv/
 
-# Streamlit secrets
+# Streamlit
 .streamlit/secrets.toml
 
-# IDE
+# Data cache (regenerated at runtime, shouldn't be committed)
+data/cache/*
+!data/cache/.gitkeep
+
+# OS / editor
+.DS_Store
 .vscode/
 .idea/
+*.swp
+
+# Logs
+*.log
