@@ -1,9 +1,14 @@
 import streamlit as st
-import yfinance as yf
 import pandas as pd
-import numpy as np
+import yfinance as yf
 import datetime as dt
 import plotly.express as px
+
+# =====================================================
+
+# PAGE CONFIG
+
+# =====================================================
 
 st.set_page_config(
 page_title="NSE Stock Analyzer",
@@ -11,75 +16,72 @@ page_icon="📈",
 layout="wide"
 )
 
-# --------------------------------------------------
+# =====================================================
 
 # CACHE
 
-# --------------------------------------------------
+# =====================================================
 
 @st.cache_data(ttl=3600)
-def download_stock(symbol, start_date, end_date):
+def load_stock(symbol, start_date, end_date):
 
 ```
 try:
 
-    df = yf.download(
-        symbol + ".NS",
+    data = yf.download(
+        f"{symbol}.NS",
         start=start_date,
         end=end_date,
         auto_adjust=True,
-        progress=False
+        progress=False,
+        threads=False
     )
 
-    if df.empty:
+    if data.empty:
         return None
 
-    df.reset_index(inplace=True)
-    return df
+    data.reset_index(inplace=True)
 
-except Exception:
+    return data
+
+except Exception as e:
     return None
 ```
 
-# --------------------------------------------------
+# =====================================================
 
 # ANALYSIS
 
-# --------------------------------------------------
+# =====================================================
 
-def calculate_metrics(df):
+def calculate_stats(df):
 
 ```
-first_close = float(df["Close"].iloc[0])
-last_close = float(df["Close"].iloc[-1])
+first_price = float(df["Close"].iloc[0])
+last_price = float(df["Close"].iloc[-1])
 
-total_return = (
-    (last_close - first_close)
-    / first_close
+return_pct = (
+    (last_price - first_price)
+    / first_price
 ) * 100
 
-high = float(df["High"].max())
-low = float(df["Low"].min())
-
-avg_volume = int(df["Volume"].mean())
-
 return {
-    "return_pct": total_return,
-    "high": high,
-    "low": low,
-    "avg_volume": avg_volume
+    "Return %": round(return_pct, 2),
+    "High": round(df["High"].max(), 2),
+    "Low": round(df["Low"].min(), 2),
+    "Avg Volume": int(df["Volume"].mean())
 }
 ```
 
-# --------------------------------------------------
+# =====================================================
 
 # SIDEBAR
 
-# --------------------------------------------------
+# =====================================================
 
-st.sidebar.header("Settings")
+st.sidebar.title("Settings")
 
-stock_list = [
+default_stocks = [
 "RELIANCE",
 "TCS",
 "INFY",
@@ -89,17 +91,12 @@ stock_list = [
 "ITC",
 "LT",
 "AXISBANK",
-"BAJFINANCE",
-"WIPRO",
-"MARUTI",
-"TATAMOTORS",
-"HCLTECH",
-"SUNPHARMA"
+"BAJFINANCE"
 ]
 
-selected_stocks = st.sidebar.multiselect(
+stocks = st.sidebar.multiselect(
 "Select Stocks",
-stock_list,
+default_stocks,
 default=["RELIANCE", "TCS"]
 )
 
@@ -113,81 +110,92 @@ end_date = st.sidebar.date_input(
 dt.date.today()
 )
 
-# --------------------------------------------------
+# =====================================================
 
-# TITLE
+# HEADER
 
-# --------------------------------------------------
+# =====================================================
 
 st.title("📈 NSE Stock Analyzer")
 
-st.markdown(
-"Analyze NSE stocks with historical performance, charts and rankings."
+st.caption(
+"Historical analysis using Yahoo Finance"
 )
 
-# --------------------------------------------------
+# =====================================================
 
-# RUN
+# RUN BUTTON
 
-# --------------------------------------------------
+# =====================================================
 
-if st.button("🚀 Run Analysis"):
+if st.button("🚀 Analyze Stocks"):
 
 ```
+if not stocks:
+
+    st.warning(
+        "Please select at least one stock."
+    )
+    st.stop()
+
 if start_date >= end_date:
 
-    st.error("Start Date must be before End Date.")
+    st.error(
+        "Start Date must be before End Date."
+    )
     st.stop()
 
 results = []
 
 progress = st.progress(0)
 
-for idx, stock in enumerate(selected_stocks):
+for idx, stock in enumerate(stocks):
 
-    df = download_stock(
+    df = load_stock(
         stock,
         start_date,
         end_date
     )
 
-    if df is None:
-        continue
+    if df is not None:
 
-    metrics = calculate_metrics(df)
+        stats = calculate_stats(df)
 
-    results.append({
-        "Stock": stock,
-        "Return %": round(
-            metrics["return_pct"], 2
-        ),
-        "High": round(
-            metrics["high"], 2
-        ),
-        "Low": round(
-            metrics["low"], 2
-        ),
-        "Avg Volume":
-            metrics["avg_volume"]
-    })
+        stats["Stock"] = stock
+
+        results.append(stats)
 
     progress.progress(
-        (idx + 1)
-        / len(selected_stocks)
+        (idx + 1) / len(stocks)
     )
 
 if len(results) == 0:
 
     st.error(
-        "No stock data found."
+        "No data downloaded."
     )
     st.stop()
 
 result_df = pd.DataFrame(results)
 
-# ----------------------------------------------
+result_df = result_df[
+    [
+        "Stock",
+        "Return %",
+        "High",
+        "Low",
+        "Avg Volume"
+    ]
+]
+
+result_df = result_df.sort_values(
+    "Return %",
+    ascending=False
+)
+
+# =================================================
 # METRICS
-# ----------------------------------------------
+# =================================================
 
 c1, c2, c3, c4 = st.columns(4)
 
@@ -213,25 +221,35 @@ c4.metric(
 
 st.divider()
 
-# ----------------------------------------------
-# PERFORMANCE TABLE
-# ----------------------------------------------
+# =================================================
+# TABLE
+# =================================================
 
 st.subheader("🏆 Performance Ranking")
-
-result_df = result_df.sort_values(
-    "Return %",
-    ascending=False
-)
 
 st.dataframe(
     result_df,
     use_container_width=True
 )
 
-# ----------------------------------------------
+# =================================================
+# DOWNLOAD CSV
+# =================================================
+
+csv = result_df.to_csv(
+    index=False
+).encode("utf-8")
+
+st.download_button(
+    "⬇ Download Results",
+    csv,
+    "stock_analysis.csv",
+    "text/csv"
+)
+
+# =================================================
 # BAR CHART
-# ----------------------------------------------
+# =================================================
 
 st.subheader("📊 Return Comparison")
 
@@ -239,7 +257,7 @@ fig = px.bar(
     result_df,
     x="Stock",
     y="Return %",
-    title="Stock Returns"
+    title="Stock Return Comparison"
 )
 
 st.plotly_chart(
@@ -247,15 +265,15 @@ st.plotly_chart(
     use_container_width=True
 )
 
-# ----------------------------------------------
-# INDIVIDUAL CHARTS
-# ----------------------------------------------
+# =================================================
+# STOCK CHARTS
+# =================================================
 
-st.subheader("📈 Stock Price Charts")
+st.subheader("📈 Individual Charts")
 
-for stock in selected_stocks:
+for stock in stocks:
 
-    df = download_stock(
+    df = load_stock(
         stock,
         start_date,
         end_date
@@ -264,15 +282,11 @@ for stock in selected_stocks:
     if df is None:
         continue
 
-    st.markdown(
-        f"### {stock}"
-    )
-
     chart = px.line(
         df,
         x="Date",
         y="Close",
-        title=f"{stock} Closing Price"
+        title=f"{stock} Close Price"
     )
 
     st.plotly_chart(
@@ -281,7 +295,7 @@ for stock in selected_stocks:
     )
 
     with st.expander(
-        f"View Raw Data - {stock}"
+        f"View Data - {stock}"
     ):
         st.dataframe(
             df.tail(100),
