@@ -70,6 +70,9 @@ if universe_choice == "Custom list":
         value="RELIANCE, TCS, INFY",
     )
     symbols_requested = [s.strip().upper() for s in custom_input.split(",") if s.strip()]
+    # de-duplicate while preserving order, in case the user pastes repeats
+    seen = set()
+    symbols_requested = [s for s in symbols_requested if not (s in seen or seen.add(s))]
     universe_df = pd.DataFrame({"Symbol": symbols_requested, "Company Name": symbols_requested, "Industry": "Unknown"})
 else:
     index_key = "NIFTY50" if universe_choice.startswith("Nifty 50") else "NIFTY500"
@@ -79,15 +82,23 @@ else:
         st.sidebar.error(f"Failed to load universe list: {e}")
         st.stop()
 
-max_stocks = st.sidebar.slider(
-    "Max stocks to analyze this run",
-    min_value=5,
-    max_value=min(500, len(universe_df)),
-    value=min(50, len(universe_df)),
-    step=5,
-    help="Nifty 500 full run can take a long time on first fetch (no cache yet) due to yfinance rate limits. "
-         "Subsequent runs reuse the 6-hour disk cache and are much faster.",
-)
+if universe_df.empty:
+    st.sidebar.warning("Enter at least one valid NSE symbol above.")
+    max_stocks = 0
+elif len(universe_df) <= 5:
+    # Slider needs min < max; with a handful of symbols just use all of them, no slider needed.
+    max_stocks = len(universe_df)
+    st.sidebar.caption(f"Analyzing all {max_stocks} symbol(s) — too few for a range slider.")
+else:
+    max_stocks = st.sidebar.slider(
+        "Max stocks to analyze this run",
+        min_value=5,
+        max_value=min(500, len(universe_df)),
+        value=min(50, len(universe_df)),
+        step=5,
+        help="Nifty 500 full run can take a long time on first fetch (no cache yet) due to yfinance rate limits. "
+             "Subsequent runs reuse the 6-hour disk cache and are much faster.",
+    )
 
 sector_filter = st.sidebar.multiselect(
     "Filter by Industry (optional)",
