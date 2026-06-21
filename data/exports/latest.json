@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-21T08:59:43.625312+00:00",
   "universe": "NIFTY500",
-  "stock_count": 226,
+  "stock_count": 227,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -10508,6 +10508,53 @@
           "Appears overvalued vs blended intrinsic estimate (~-73%)"
         ]
       }
+    },
+    "MOLDTKPAC": {
+      "symbol": "MOLDTKPAC",
+      "company_name": "Mold-Tek Packaging Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "price": 701.0,
+      "ratios": {
+        "pe": 31.9799,
+        "pb": 3.3768,
+        "roe_pct": 10.98,
+        "debt_to_equity": 31.851,
+        "profit_margin_pct": 8.22
+      },
+      "growth": {
+        "revenue_cagr_pct": 6.9,
+        "net_income_cagr_pct": -3.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 319.97,
+        "blended_fair_value": 319.97,
+        "estimated_upside_pct": -54.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 10,
+          "stability": 11,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (8.2%)",
+          "Manageable debt level",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-54%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-21T17:02:05.269282+00:00"
     }
   }
 }
