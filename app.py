@@ -1,82 +1,100 @@
 import streamlit as st
-import pandas as pd
 import yfinance as yf
+import pandas as pd
+import numpy as np
 import datetime as dt
-import plotly.express as px
 
 # =====================================================
 # PAGE CONFIG
 # =====================================================
 
 st.set_page_config(
-    page_title="NSE Stock Analyzer",
-    page_icon="📈",
+    page_title="NSE Fundamental Analyzer",
+    page_icon="📊",
     layout="wide"
 )
 
+st.title("📊 NSE Fundamental Stock Analyzer")
+st.caption("Fundamental analysis using Yahoo Finance financial data")
+
 # =====================================================
-# SAFE DATA LOADER
+# DATA LOADER
 # =====================================================
 
 @st.cache_data(ttl=3600)
-def load_stock(symbol, start_date, end_date):
+def get_fundamentals(symbol):
 
-    df = yf.download(
-        f"{symbol}.NS",
-        start=start_date,
-        end=end_date,
-        auto_adjust=True,
-        progress=False,
-        threads=False
-    )
+    try:
+        stock = yf.Ticker(symbol + ".NS")
 
-    # empty check
-    if df is None or df.empty:
-        return None
+        info = stock.info
 
-    # fix multi-index columns (common Streamlit/Yahoo issue)
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(0)
+        financials = stock.financials
+        balance_sheet = stock.balance_sheet
+        cashflow = stock.cashflow
 
-    df = df.reset_index()
+        return info, financials, balance_sheet, cashflow
 
-    # clean column names
-    df.columns = [str(c).strip() for c in df.columns]
-
-    return df
+    except Exception:
+        return None, None, None, None
 
 
 # =====================================================
-# SAFE STATS CALCULATION (FIXED YOUR ERROR)
+# FUNDAMENTAL SCORE CALCULATION
 # =====================================================
 
-def calculate_stats(df):
+def calculate_score(info):
 
-    if df is None or len(df) < 2:
-        return None
+    score = 0
+    reasons = []
 
-    # SAFE scalar extraction (FIX FOR YOUR ERROR)
-    start_price = float(pd.to_numeric(df["Close"].iloc[0], errors="coerce"))
-    end_price = float(pd.to_numeric(df["Close"].iloc[-1], errors="coerce"))
+    pe = info.get("trailingPE")
+    pb = info.get("priceToBook")
+    roe = info.get("returnOnEquity")
+    debt_to_equity = info.get("debtToEquity")
+    profit_margin = info.get("profitMargins")
 
-    if pd.isna(start_price) or pd.isna(end_price):
-        return None
+    # PE Ratio
+    if pe and pe > 0:
+        if pe < 20:
+            score += 25
+            reasons.append("Good PE ratio")
+        elif pe < 35:
+            score += 15
+        else:
+            score -= 10
 
-    return_pct = ((end_price - start_price) / start_price) * 100
+    # PB Ratio
+    if pb and pb < 3:
+        score += 20
+        reasons.append("Good Price/Book value")
 
-    return {
-        "Return %": round(return_pct, 2),
-        "High": round(float(df["High"].max()), 2),
-        "Low": round(float(df["Low"].min()), 2),
-        "Avg Volume": int(df["Volume"].fillna(0).mean())
-    }
+    # ROE
+    if roe:
+        roe_pct = roe * 100
+        if roe_pct > 15:
+            score += 25
+            reasons.append("Strong ROE")
+
+    # Debt to Equity
+    if debt_to_equity is not None:
+        if debt_to_equity < 1:
+            score += 15
+        else:
+            score -= 10
+
+    # Profit margin
+    if profit_margin:
+        if profit_margin > 0.1:
+            score += 15
+            reasons.append("Healthy profit margin")
+
+    return score, reasons
 
 
 # =====================================================
-# SIDEBAR
+# STOCK LIST
 # =====================================================
-
-st.sidebar.title("📊 Settings")
 
 stocks = [
     "RELIANCE",
@@ -88,85 +106,68 @@ stocks = [
     "ITC",
     "LT",
     "AXISBANK",
-    "BAJFINAJ"
+    "BAJFINANCE",
+    "HCLTECH",
+    "WIPRO"
 ]
 
-selected_stocks = st.sidebar.multiselect(
+selected = st.multiselect(
     "Select Stocks",
     stocks,
     default=["RELIANCE", "TCS"]
 )
 
-start_date = st.sidebar.date_input(
-    "Start Date",
-    dt.date.today() - dt.timedelta(days=180)
-)
-
-end_date = st.sidebar.date_input(
-    "End Date",
-    dt.date.today()
-)
-
 # =====================================================
-# TITLE
+# RUN BUTTON
 # =====================================================
 
-st.title("📈 NSE Stock Analyzer (Stable Version)")
-st.caption("Yahoo Finance based analysis with safe production-grade handling")
-
-# =====================================================
-# RUN ANALYSIS
-# =====================================================
-
-if st.button("🚀 Run Analysis"):
-
-    if len(selected_stocks) == 0:
-        st.warning("Please select at least one stock.")
-        st.stop()
-
-    if start_date >= end_date:
-        st.error("Start date must be before end date.")
-        st.stop()
+if st.button("📊 Analyze Fundamentals"):
 
     results = []
+
     progress = st.progress(0)
 
-    for i, stock in enumerate(selected_stocks):
+    for i, stock in enumerate(selected):
 
-        df = load_stock(stock, start_date, end_date)
+        info, fin, bs, cf = get_fundamentals(stock)
 
-        stats = calculate_stats(df)
+        if not info:
+            continue
 
-        if df is not None and stats is not None:
+        score, reasons = calculate_score(info)
 
-            results.append({
-                "Stock": stock,
-                **stats
-            })
+        results.append({
+            "Stock": stock,
+            "Sector": info.get("sector"),
+            "PE Ratio": info.get("trailingPE"),
+            "PB Ratio": info.get("priceToBook"),
+            "ROE": round(info.get("returnOnEquity", 0) * 100, 2) if info.get("returnOnEquity") else None,
+            "Debt/Equity": info.get("debtToEquity"),
+            "Profit Margin": round(info.get("profitMargins", 0) * 100, 2) if info.get("profitMargins") else None,
+            "Market Cap": info.get("marketCap"),
+            "Fundamental Score": score,
+            "Strengths": ", ".join(reasons)
+        })
 
-        progress.progress((i + 1) / len(selected_stocks))
+        progress.progress((i + 1) / len(selected))
 
-    if len(results) == 0:
-        st.error("No valid stock data found.")
+    if not results:
+        st.error("No data found for selected stocks")
         st.stop()
 
-    result_df = pd.DataFrame(results)
+    df = pd.DataFrame(results)
 
-    result_df = result_df.sort_values(
-        "Return %",
-        ascending=False
-    )
+    df = df.sort_values("Fundamental Score", ascending=False)
 
     # =====================================================
     # METRICS
     # =====================================================
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2, c3 = st.columns(3)
 
-    c1.metric("Stocks", len(result_df))
-    c2.metric("Best Return", f"{result_df['Return %'].max():.2f}%")
-    c3.metric("Worst Return", f"{result_df['Return %'].min():.2f}%")
-    c4.metric("Avg Return", f"{result_df['Return %'].mean():.2f}%")
+    c1.metric("Stocks Analyzed", len(df))
+    c2.metric("Best Score", df["Fundamental Score"].max())
+    c3.metric("Avg Score", round(df["Fundamental Score"].mean(), 2))
 
     st.divider()
 
@@ -174,60 +175,37 @@ if st.button("🚀 Run Analysis"):
     # TABLE
     # =====================================================
 
-    st.subheader("🏆 Performance Ranking")
+    st.subheader("🏆 Fundamental Ranking")
 
-    st.dataframe(result_df, use_container_width=True)
+    st.dataframe(df, use_container_width=True)
 
     # =====================================================
-    # DOWNLOAD CSV
+    # BEST STOCK
     # =====================================================
 
-    csv = result_df.to_csv(index=False).encode("utf-8")
+    st.subheader("⭐ Top Fundamental Stock")
+
+    best = df.iloc[0]
+
+    st.success(
+        f"""
+        **{best['Stock']}**
+
+        Score: {best['Fundamental Score']}
+
+        Strengths: {best['Strengths']}
+        """
+    )
+
+    # =====================================================
+    # DOWNLOAD
+    # =====================================================
+
+    csv = df.to_csv(index=False).encode("utf-8")
 
     st.download_button(
-        "⬇ Download CSV",
+        "⬇ Download Report",
         csv,
-        "stock_analysis.csv",
+        "fundamental_analysis.csv",
         "text/csv"
     )
-
-    # =====================================================
-    # BAR CHART
-    # =====================================================
-
-    st.subheader("📊 Returns Comparison")
-
-    fig = px.bar(
-        result_df,
-        x="Stock",
-        y="Return %",
-        title="Stock Performance"
-    )
-
-    st.plotly_chart(fig, use_container_width=True)
-
-    # =====================================================
-    # INDIVIDUAL STOCK CHARTS
-    # =====================================================
-
-    st.subheader("📈 Stock Price Charts")
-
-    for stock in selected_stocks:
-
-        df = load_stock(stock, start_date, end_date)
-
-        if df is None:
-            continue
-
-        fig = px.line(
-            df,
-            x="Date",
-            y="Close",
-            title=f"{stock} Price Trend"
-        )
-
-        st.plotly_chart(fig, use_container_width=True)
-
-        with st.expander(f"📁 Raw Data - {stock}"):
-
-            st.dataframe(df.tail(100), use_container_width=True)
