@@ -3,212 +3,201 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 
-# ==============================
-# PAGE
-# ==============================
+st.set_page_config(page_title="Fundamental Screener PRO", layout="wide")
 
-st.set_page_config(
-    page_title="Fundamental Stock Analyzer PRO",
-    layout="wide"
+st.title("📊 NSE Fundamental Screener PRO")
+st.caption("With custom search + Nifty universe filtering")
+
+# =====================================================
+# STOCK UNIVERSES (CLEAN + NON DUPLICATE)
+# =====================================================
+
+NIFTY_50 = [
+    "RELIANCE","TCS","INFY","HDFCBANK","ICICIBANK","SBIN",
+    "ITC","LT","AXISBANK","BAJFINANCE","KOTAKBANK","HINDUNILVR",
+    "ASIANPAINT","MARUTI","SUNPHARMA","TITAN","ULTRACEMCO",
+    "NESTLEIND","WIPRO","POWERGRID","NTPC","ONGC","COALINDIA"
+]
+
+MIDCAP = [
+    "AUBANK","DMART","VBL","SRF","PIIND","BERGEPAINT",
+    "GODREJCP","MUTHOOTFIN","NAUKRI","TORNTPHARM"
+]
+
+SMALLCAP = [
+    "IRCTC","KPITTECH","RVNL","HAL","BEL","POLYCAB",
+    "LTIM","OFSS","PAGEIND","CONCOR"
+]
+
+# =====================================================
+# CUSTOM SEARCH INPUT
+# =====================================================
+
+st.sidebar.header("🔎 Stock Universe Builder")
+
+search_input = st.sidebar.text_input(
+    "Custom Stock (comma separated)",
+    placeholder="e.g. RELIANCE, TCS, INFY"
 )
 
-st.title("📊 NSE Fundamental Analysis PRO")
-st.caption("Deep financial analysis (Valuation + Growth + Stability)")
+use_nifty50 = st.sidebar.checkbox("Include Nifty 50", True)
+use_midcap = st.sidebar.checkbox("Include Midcap")
+use_smallcap = st.sidebar.checkbox("Include Smallcap")
 
-# ==============================
-# DATA
-# ==============================
+# =====================================================
+# BUILD FINAL LIST (NO DUPLICATES)
+# =====================================================
+
+final_stocks = []
+
+if use_nifty50:
+    final_stocks += NIFTY_50
+
+if use_midcap:
+    final_stocks += MIDCAP
+
+if use_smallcap:
+    final_stocks += SMALLCAP
+
+# Custom user input
+if search_input:
+    custom = [x.strip().upper() for x in search_input.split(",")]
+    final_stocks += custom
+
+# REMOVE DUPLICATES (IMPORTANT FIX)
+final_stocks = sorted(list(set(final_stocks)))
+
+# =====================================================
+# MULTI SELECT UI
+# =====================================================
+
+selected = st.multiselect(
+    "Select Stocks to Analyze",
+    final_stocks,
+    default=final_stocks[:5]
+)
+
+st.write(f"Total Universe Size: {len(final_stocks)} stocks")
+
+# =====================================================
+# DATA LOADER
+# =====================================================
 
 @st.cache_data(ttl=3600)
 def get_data(symbol):
 
     stock = yf.Ticker(symbol + ".NS")
-    info = stock.info
+    return stock.info
 
-    try:
-        financials = stock.financials
-    except:
-        financials = None
+# =====================================================
+# SCORE ENGINE (IMPROVED)
+# =====================================================
 
-    return info, financials
-
-# ==============================
-# SAFE VALUE HELPER
-# ==============================
-
-def safe(val):
-    if val is None:
-        return 0
-    if isinstance(val, (int, float)):
-        return val
-    return 0
-
-# ==============================
-# SCORE ENGINE (REAL FUNDAMENTAL MODEL)
-# ==============================
-
-def score_stock(info):
+def score(info):
 
     score = 0
-    notes = []
 
     pe = info.get("trailingPE")
     pb = info.get("priceToBook")
-    roe = safe(info.get("returnOnEquity")) * 100
-    roe = roe if roe else 0
-
+    roe = (info.get("returnOnEquity") or 0) * 100
     debt = info.get("debtToEquity") or 0
-    profit_margin = safe(info.get("profitMargins")) * 100
+    margin = (info.get("profitMargins") or 0) * 100
 
-    revenue_growth = safe(info.get("revenueGrowth")) * 100
-    earnings_growth = safe(info.get("earningsGrowth")) * 100
+    growth = (info.get("earningsGrowth") or 0) * 100
 
-    # ---------------- VALUATION (25)
+    # valuation
     if pe and pe > 0:
-        if pe < 20:
-            score += 10
-        elif pe < 35:
-            score += 5
-        else:
-            score -= 5
+        if pe < 20: score += 15
+        elif pe < 35: score += 8
 
     if pb and pb < 3:
         score += 10
 
-    # ---------------- PROFITABILITY (25)
+    # profitability
     if roe > 15:
-        score += 15
-        notes.append("Strong ROE")
-
-    if profit_margin > 10:
-        score += 10
-        notes.append("Healthy margin")
-
-    # ---------------- STABILITY (25)
-    if debt < 1:
         score += 20
-        notes.append("Low debt")
 
-    # ---------------- GROWTH (25)
-    if revenue_growth > 10:
-        score += 10
-    if earnings_growth > 10:
+    if margin > 10:
         score += 15
-        notes.append("Strong earnings growth")
 
-    # FINAL SCORE CAP
-    score = max(0, min(100, score))
+    # stability
+    if debt < 1:
+        score += 15
 
-    return score, notes
+    # growth
+    if growth > 10:
+        score += 25
 
-# ==============================
-# STOCK LIST
-# ==============================
+    return min(score, 100)
 
-stocks = [
-    "RELIANCE", "TCS", "INFY", "HDFCBANK",
-    "ICICIBANK", "SBIN", "ITC", "LT",
-    "AXISBANK", "BAJFINAJ"
-]
-
-selected = st.multiselect(
-    "Select Stocks",
-    stocks,
-    default=["RELIANCE", "TCS"]
-)
-
-# ==============================
+# =====================================================
 # RUN
-# ==============================
+# =====================================================
 
-if st.button("📊 Run Deep Fundamental Analysis"):
+if st.button("📊 Run Analysis"):
 
     results = []
-
     progress = st.progress(0)
 
-    for i, s in enumerate(selected):
+    for i, stock in enumerate(selected):
 
-        info, fin = get_data(s)
+        try:
+            info = get_data(stock)
+        except:
+            continue
 
         if not info:
             continue
 
-        score, notes = score_stock(info)
+        s = score(info)
 
-        # BUY / HOLD / SELL logic
-        if score >= 70:
-            rating = "🟢 BUY"
-        elif score >= 45:
+        if s >= 70:
+            rating = "🟢 STRONG BUY"
+        elif s >= 50:
             rating = "🟡 HOLD"
         else:
             rating = "🔴 AVOID"
 
         results.append({
-            "Stock": s,
+            "Stock": stock,
             "Sector": info.get("sector"),
             "PE": info.get("trailingPE"),
             "PB": info.get("priceToBook"),
-            "ROE %": round(safe(info.get("returnOnEquity")) * 100, 2),
+            "ROE %": round((info.get("returnOnEquity") or 0)*100,2),
             "Debt/Equity": info.get("debtToEquity"),
-            "Profit Margin %": round(safe(info.get("profitMargins")) * 100, 2),
-            "Revenue Growth %": round(safe(info.get("revenueGrowth")) * 100, 2),
-            "Earnings Growth %": round(safe(info.get("earningsGrowth")) * 100, 2),
-            "Score": score,
-            "Rating": rating,
-            "Strengths": ", ".join(notes)
+            "Margin %": round((info.get("profitMargins") or 0)*100,2),
+            "Growth %": round((info.get("earningsGrowth") or 0)*100,2),
+            "Score": s,
+            "Rating": rating
         })
 
-        progress.progress((i + 1) / len(selected))
+        progress.progress((i+1)/len(selected))
 
     df = pd.DataFrame(results)
 
+    if df.empty:
+        st.error("No data found")
+        st.stop()
+
     df = df.sort_values("Score", ascending=False)
 
-    # ==============================
-    # METRICS
-    # ==============================
+    # =================================================
+    # OUTPUT
+    # =================================================
 
-    c1, c2, c3 = st.columns(3)
-
-    c1.metric("Stocks", len(df))
-    c2.metric("Best Score", df["Score"].max())
-    c3.metric("Avg Score", round(df["Score"].mean(), 2))
-
-    st.divider()
-
-    # ==============================
-    # TABLE
-    # ==============================
-
-    st.subheader("🏆 Fundamental Ranking")
+    st.subheader("🏆 Ranking")
 
     st.dataframe(df, use_container_width=True)
 
-    # ==============================
-    # TOP STOCK
-    # ==============================
-
-    top = df.iloc[0]
-
     st.success(
-        f"""
-        ⭐ **Best Stock: {top['Stock']}**
-        Score: {top['Score']}
-        Rating: {top['Rating']}
-        Strengths: {top['Strengths']}
-        """
+        f"Top Stock: {df.iloc[0]['Stock']} | Score: {df.iloc[0]['Score']}"
     )
-
-    # ==============================
-    # DOWNLOAD
-    # ==============================
 
     csv = df.to_csv(index=False).encode("utf-8")
 
     st.download_button(
         "⬇ Download Report",
         csv,
-        "fundamental_pro_analysis.csv",
+        "nse_fundamental_report.csv",
         "text/csv"
     )
