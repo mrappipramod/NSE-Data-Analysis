@@ -20,6 +20,7 @@ from utils.scoring_engine import composite_score, safe
 from utils.valuation import simple_dcf, graham_number, relative_valuation, blended_intrinsic_value
 from utils.peer_comparison import compute_sector_medians, attach_peer_context, get_sector_median
 from utils.trend_analysis import compute_trends
+from utils.exporter import build_export_payload, write_export, write_export_csv
 
 st.set_page_config(
     page_title="NSE Fundamental Screener PRO",
@@ -254,6 +255,7 @@ if run:
     st.session_state["screener_df"] = df
     st.session_state["deep_data"] = deep_data
     st.session_state["failures"] = failures
+    st.session_state["universe_label"] = universe_choice  # snapshot at run-time, not read-time
 
 # ---------------------------------------------------------------------------
 # Display results (persisted across reruns via session_state)
@@ -263,6 +265,7 @@ if "screener_df" in st.session_state:
     df = st.session_state["screener_df"]
     deep_data = st.session_state["deep_data"]
     failures = st.session_state["failures"]
+    result_universe_label = st.session_state.get("universe_label", universe_choice)
 
     st.divider()
 
@@ -297,7 +300,43 @@ if "screener_df" in st.session_state:
     )
 
     csv = df.to_csv(index=False).encode("utf-8")
-    st.download_button("⬇ Download Full Report (CSV)", csv, "fundamental_pro_analysis.csv", "text/csv")
+
+    export_payload = build_export_payload(df, deep_data, universe_label=result_universe_label)
+    import json as _json
+    json_bytes = _json.dumps(export_payload, indent=2, ensure_ascii=False).encode("utf-8")
+
+    dl_col1, dl_col2 = st.columns(2)
+    with dl_col1:
+        st.download_button("⬇ Download Full Report (CSV)", csv, "fundamental_pro_analysis.csv", "text/csv")
+    with dl_col2:
+        st.download_button(
+            "⬇ Download JSON (for external sites/APIs)",
+            json_bytes,
+            "latest.json",
+            "application/json",
+            help="Structured JSON feed designed for an external technical-analysis site to "
+                 "consume — see README 'Exporting for external consumption' for the schema "
+                 "and integration code.",
+        )
+
+    with st.expander("🔌 How to feed this into another website (techno-fundamental combo)"):
+        st.markdown(
+            """
+**Recommended approach: commit this JSON to a GitHub repo, fetch it from your other site.**
+
+1. Download the JSON above (or run `python scripts/export_daily.py` from the repo on a schedule).
+2. Commit it to a public (or private+token) GitHub repo, e.g. at `data/latest.json`.
+3. Your other site fetches the **raw file URL** directly over HTTPS — no API server needed:
+   ```
+   https://raw.githubusercontent.com/<you>/<repo>/main/data/latest.json
+   ```
+4. Parse the JSON and join on `symbol` against your technical-analysis scores.
+
+This gives you a daily-refreshed, zero-infrastructure data feed. See the README section
+**"Exporting for external consumption"** for the full schema reference and example fetch
+code in Python, PHP, and JavaScript.
+            """
+        )
 
     st.divider()
 
