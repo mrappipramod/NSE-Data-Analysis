@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-21T08:59:43.625312+00:00",
   "universe": "NIFTY500",
-  "stock_count": 228,
+  "stock_count": 229,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -10603,6 +10603,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-06-21T17:03:42.110262+00:00"
+    },
+    "NAM-INDIA": {
+      "symbol": "NAM-INDIA",
+      "company_name": "Nippon Life India Asset Management Limited",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "price": 1187.0,
+      "ratios": {
+        "pe": 50.254,
+        "pb": 16.2276,
+        "roe_pct": 34.48,
+        "debt_to_equity": 1.617,
+        "profit_margin_pct": 52.14
+      },
+      "growth": {
+        "revenue_cagr_pct": 26.1,
+        "net_income_cagr_pct": 28.3,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 617.96,
+        "graham_number": 197.16,
+        "blended_fair_value": 407.56,
+        "estimated_upside_pct": -65.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 20,
+          "stability": 10,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (34.5%)",
+          "High net margin (52.1%)",
+          "Leverage ratio not directly comparable (financial sector)",
+          "Strong revenue CAGR (26.1%)",
+          "Strong profit CAGR (28.3%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-21T17:05:32.032294+00:00"
     }
   }
 }
