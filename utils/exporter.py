@@ -16,11 +16,19 @@ Design goals for the schema:
   own combined score from the raw ratios
 
 Merge behavior (important):
-- The daily Nifty 500 batch export REPLACES the whole file by default.
+- The daily Nifty 500 batch export REPLACES the whole file by default
+  (write_export, source="batch").
 - Individually-searched stocks (outside the batch universe, e.g. a small/recent
   listing not in Nifty 500) are tagged `"source": "manual_search"` and are
   PRESERVED across batch re-exports unless the batch itself re-fetches that same
   symbol — see `write_export(..., preserve_manual=True)`.
+- Scheduled chunk runs (cron-driven, ~165 symbols at a time across the full
+  NSE universe) tag entries `"source": "scheduled_chunk"` and MERGE just their
+  slice of symbols into the existing file, leaving every other entry (from
+  prior chunks, prior days, or manual searches) untouched — see
+  `write_chunk_to_export`. This is distinct from write_export's full-replace
+  behavior because a single chunk run only ever has a small fraction of the
+  total universe in hand at once.
 """
 
 from __future__ import annotations
@@ -58,9 +66,9 @@ def _clean_value(v):
 def _build_stock_entry(row: pd.Series, deep_entry: dict, source: str = "batch") -> dict:
     """
     Builds a single symbol's export entry from one row of the screener DataFrame
-    plus its matching deep_data dict. Shared by both the full-batch export and
-    the single ad-hoc stock search, so the schema can never silently diverge
-    between the two code paths.
+    plus its matching deep_data dict. Shared by the full-batch export, the
+    single ad-hoc stock search, AND the scheduled chunk refresh, so the schema
+    can never silently diverge between any of the three code paths.
     """
     result = deep_entry.get("result", {})
     trends = deep_entry.get("trends", {})
@@ -111,7 +119,7 @@ def _build_stock_entry(row: pd.Series, deep_entry: dict, source: str = "batch") 
             "key_notes": result.get("notes", [])[:6] if result else [],
         },
 
-        "source": source,  # "batch" (Nifty 50/500 run) or "manual_search" (ad-hoc single-stock lookup)
+        "source": source,  # "batch" | "manual_search" | "scheduled_chunk"
         "updated_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -169,6 +177,16 @@ def write_export(df: pd.DataFrame, deep_data: dict, universe_label: str,
     wiped out. If the batch happens to include a symbol that was previously
     manual, the fresh batch data wins (it's more complete: sector medians,
     peer ranking, etc).
+
+    Note: this REPLACES the entire stocks dict (aside from the manual-search
+    preservation above). It does NOT preserve "scheduled_chunk" entries the
+    same way — if you run both write_export (full Nifty 500/50 batch) and the
+    scheduled chunk refresh against the same latest.json, a write_export call
+    will wipe out scheduled_chunk entries outside its own batch universe,
+    same as it always did for any non-"manual_search" entry. If you're running
+    the scheduled chunk refresh as your primary universe coverage, prefer
+    write_chunk_to_export for ongoing updates and reserve write_export for
+    full intentional re-baselines.
     """
     payload = build_export_payload(df, deep_data, universe_label, source="batch")
 
@@ -205,6 +223,10 @@ def add_single_stock_to_export(row: pd.Series, deep_entry: dict,
     waiting for the next scheduled batch run, and rather than being a UI-only
     result that disappears when you close the tab.
 
+    Also called by scripts/fetch_single.py for the Cloudflare on-demand
+    fallback (a symbol searched on the consuming site that isn't in latest.json
+    yet triggers this same path via a GitHub Actions workflow_dispatch).
+
     Creates a fresh minimal file if latest.json doesn't exist yet.
     """
     output_path = Path(output_path)
@@ -236,6 +258,80 @@ def add_single_stock_to_export(row: pd.Series, deep_entry: dict,
         json.dump(existing, f, indent=2, ensure_ascii=False)
 
     return output_path
+
+
+def write_chunk_to_export(df: pd.DataFrame, deep_data: dict,
+                           output_path: str | Path = "data/exports/latest.json",
+                           universe_label: str = "NSE_ALL_CHUNKED") -> tuple[Path, int]:
+    """
+    Merges one scheduled chunk's worth of freshly-scored symbols into
+    latest.json, leaving every other existing entry (from prior chunks, prior
+    days, manual searches, or an earlier full batch run) completely untouched.
+
+    Used by scripts/fetch_chunk.py, the cron-driven scheduled refresh that
+    processes a rotating ~165-symbol slice of the full NSE universe
+    (data/universe/equity_main.csv + equity_sme.csv) every ~90 minutes,
+    instead of one giant multi-hour run across all ~2640 symbols at once.
+
+    Why this is separate from add_single_stock_to_export:
+    That function does one symbol at a time and re-reads/re-writes the whole
+    file per call — fine for a single ad-hoc lookup, wasteful for a chunk of
+    ~165 symbols every scheduled run (165 file read+write cycles instead of 1).
+    This function takes the whole chunk's DataFrame + deep_data dict and does
+    exactly one read and one write.
+
+    Why this is separate from write_export:
+    write_export() REPLACES the entire stocks dict (it's built for "I just
+    re-scored the whole universe in one run"). A chunk run only has ~165 of
+    ~2640 symbols this pass — replacing the whole file would wipe out the
+    other ~2475 entries until their turn comes back around in the rotation,
+    days later. This function merges just the given symbols in.
+
+    Returns (output_path, count_of_symbols_written) — the count is useful for
+    the calling script's own logging, since df.iterrows() could in principle
+    contain rows with a missing/falsy Symbol that get silently skipped here.
+
+    The top-level `generated_at` IS bumped here (unlike
+    add_single_stock_to_export's single-symbol path) — a chunk run is a real
+    (partial) refresh pass, not a one-off addition, so it's reasonable for
+    consumers to see the dataset's overall freshness timestamp move forward
+    as chunks complete throughout the day. `universe` is also updated to
+    reflect that the file now reflects the chunked-rotation approach.
+    """
+    output_path = Path(output_path)
+    existing = load_existing_export(output_path)
+
+    if existing is None or "stocks" not in existing:
+        existing = {
+            "schema_version": SCHEMA_VERSION,
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "universe": universe_label,
+            "stock_count": 0,
+            "data_source": "yfinance (Yahoo Finance, unofficial)",
+            "disclaimer": (
+                "Fundamental research data only, not investment advice. Scores and fair-value "
+                "estimates are model outputs from limited public data. See README for methodology."
+            ),
+            "stocks": {},
+        }
+
+    written = 0
+    for _, row in df.iterrows():
+        symbol = row.get("Symbol")
+        if not symbol:
+            continue
+        existing["stocks"][symbol] = _build_stock_entry(row, deep_data.get(symbol, {}), source="scheduled_chunk")
+        written += 1
+
+    existing["stock_count"] = len(existing["stocks"])
+    existing["generated_at"] = datetime.now(timezone.utc).isoformat()
+    existing["universe"] = universe_label
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(existing, f, indent=2, ensure_ascii=False)
+
+    return output_path, written
 
 
 def write_export_csv(df: pd.DataFrame, output_path: str | Path = "data/exports/latest.csv") -> Path:
