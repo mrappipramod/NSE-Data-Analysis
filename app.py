@@ -2,113 +2,113 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 import numpy as np
-import datetime as dt
 
-# =====================================================
-# PAGE CONFIG
-# =====================================================
+# ==============================
+# PAGE
+# ==============================
 
 st.set_page_config(
-    page_title="NSE Fundamental Analyzer",
-    page_icon="📊",
+    page_title="Fundamental Stock Analyzer PRO",
     layout="wide"
 )
 
-st.title("📊 NSE Fundamental Stock Analyzer")
-st.caption("Fundamental analysis using Yahoo Finance financial data")
+st.title("📊 NSE Fundamental Analysis PRO")
+st.caption("Deep financial analysis (Valuation + Growth + Stability)")
 
-# =====================================================
-# DATA LOADER
-# =====================================================
+# ==============================
+# DATA
+# ==============================
 
 @st.cache_data(ttl=3600)
-def get_fundamentals(symbol):
+def get_data(symbol):
+
+    stock = yf.Ticker(symbol + ".NS")
+    info = stock.info
 
     try:
-        stock = yf.Ticker(symbol + ".NS")
-
-        info = stock.info
-
         financials = stock.financials
-        balance_sheet = stock.balance_sheet
-        cashflow = stock.cashflow
+    except:
+        financials = None
 
-        return info, financials, balance_sheet, cashflow
+    return info, financials
 
-    except Exception:
-        return None, None, None, None
+# ==============================
+# SAFE VALUE HELPER
+# ==============================
 
+def safe(val):
+    if val is None:
+        return 0
+    if isinstance(val, (int, float)):
+        return val
+    return 0
 
-# =====================================================
-# FUNDAMENTAL SCORE CALCULATION
-# =====================================================
+# ==============================
+# SCORE ENGINE (REAL FUNDAMENTAL MODEL)
+# ==============================
 
-def calculate_score(info):
+def score_stock(info):
 
     score = 0
-    reasons = []
+    notes = []
 
     pe = info.get("trailingPE")
     pb = info.get("priceToBook")
-    roe = info.get("returnOnEquity")
-    debt_to_equity = info.get("debtToEquity")
-    profit_margin = info.get("profitMargins")
+    roe = safe(info.get("returnOnEquity")) * 100
+    roe = roe if roe else 0
 
-    # PE Ratio
+    debt = info.get("debtToEquity") or 0
+    profit_margin = safe(info.get("profitMargins")) * 100
+
+    revenue_growth = safe(info.get("revenueGrowth")) * 100
+    earnings_growth = safe(info.get("earningsGrowth")) * 100
+
+    # ---------------- VALUATION (25)
     if pe and pe > 0:
         if pe < 20:
-            score += 25
-            reasons.append("Good PE ratio")
+            score += 10
         elif pe < 35:
-            score += 15
+            score += 5
         else:
-            score -= 10
+            score -= 5
 
-    # PB Ratio
     if pb and pb < 3:
+        score += 10
+
+    # ---------------- PROFITABILITY (25)
+    if roe > 15:
+        score += 15
+        notes.append("Strong ROE")
+
+    if profit_margin > 10:
+        score += 10
+        notes.append("Healthy margin")
+
+    # ---------------- STABILITY (25)
+    if debt < 1:
         score += 20
-        reasons.append("Good Price/Book value")
+        notes.append("Low debt")
 
-    # ROE
-    if roe:
-        roe_pct = roe * 100
-        if roe_pct > 15:
-            score += 25
-            reasons.append("Strong ROE")
+    # ---------------- GROWTH (25)
+    if revenue_growth > 10:
+        score += 10
+    if earnings_growth > 10:
+        score += 15
+        notes.append("Strong earnings growth")
 
-    # Debt to Equity
-    if debt_to_equity is not None:
-        if debt_to_equity < 1:
-            score += 15
-        else:
-            score -= 10
+    # FINAL SCORE CAP
+    score = max(0, min(100, score))
 
-    # Profit margin
-    if profit_margin:
-        if profit_margin > 0.1:
-            score += 15
-            reasons.append("Healthy profit margin")
+    return score, notes
 
-    return score, reasons
-
-
-# =====================================================
+# ==============================
 # STOCK LIST
-# =====================================================
+# ==============================
 
 stocks = [
-    "RELIANCE",
-    "TCS",
-    "INFY",
-    "HDFCBANK",
-    "ICICIBANK",
-    "SBIN",
-    "ITC",
-    "LT",
-    "AXISBANK",
-    "BAJFINANCE",
-    "HCLTECH",
-    "WIPRO"
+    "RELIANCE", "TCS", "INFY", "HDFCBANK",
+    "ICICIBANK", "SBIN", "ITC", "LT",
+    "AXISBANK", "BAJFINAJ"
 ]
 
 selected = st.multiselect(
@@ -117,95 +117,98 @@ selected = st.multiselect(
     default=["RELIANCE", "TCS"]
 )
 
-# =====================================================
-# RUN BUTTON
-# =====================================================
+# ==============================
+# RUN
+# ==============================
 
-if st.button("📊 Analyze Fundamentals"):
+if st.button("📊 Run Deep Fundamental Analysis"):
 
     results = []
 
     progress = st.progress(0)
 
-    for i, stock in enumerate(selected):
+    for i, s in enumerate(selected):
 
-        info, fin, bs, cf = get_fundamentals(stock)
+        info, fin = get_data(s)
 
         if not info:
             continue
 
-        score, reasons = calculate_score(info)
+        score, notes = score_stock(info)
+
+        # BUY / HOLD / SELL logic
+        if score >= 70:
+            rating = "🟢 BUY"
+        elif score >= 45:
+            rating = "🟡 HOLD"
+        else:
+            rating = "🔴 AVOID"
 
         results.append({
-            "Stock": stock,
+            "Stock": s,
             "Sector": info.get("sector"),
-            "PE Ratio": info.get("trailingPE"),
-            "PB Ratio": info.get("priceToBook"),
-            "ROE": round(info.get("returnOnEquity", 0) * 100, 2) if info.get("returnOnEquity") else None,
+            "PE": info.get("trailingPE"),
+            "PB": info.get("priceToBook"),
+            "ROE %": round(safe(info.get("returnOnEquity")) * 100, 2),
             "Debt/Equity": info.get("debtToEquity"),
-            "Profit Margin": round(info.get("profitMargins", 0) * 100, 2) if info.get("profitMargins") else None,
-            "Market Cap": info.get("marketCap"),
-            "Fundamental Score": score,
-            "Strengths": ", ".join(reasons)
+            "Profit Margin %": round(safe(info.get("profitMargins")) * 100, 2),
+            "Revenue Growth %": round(safe(info.get("revenueGrowth")) * 100, 2),
+            "Earnings Growth %": round(safe(info.get("earningsGrowth")) * 100, 2),
+            "Score": score,
+            "Rating": rating,
+            "Strengths": ", ".join(notes)
         })
 
         progress.progress((i + 1) / len(selected))
 
-    if not results:
-        st.error("No data found for selected stocks")
-        st.stop()
-
     df = pd.DataFrame(results)
 
-    df = df.sort_values("Fundamental Score", ascending=False)
+    df = df.sort_values("Score", ascending=False)
 
-    # =====================================================
+    # ==============================
     # METRICS
-    # =====================================================
+    # ==============================
 
     c1, c2, c3 = st.columns(3)
 
-    c1.metric("Stocks Analyzed", len(df))
-    c2.metric("Best Score", df["Fundamental Score"].max())
-    c3.metric("Avg Score", round(df["Fundamental Score"].mean(), 2))
+    c1.metric("Stocks", len(df))
+    c2.metric("Best Score", df["Score"].max())
+    c3.metric("Avg Score", round(df["Score"].mean(), 2))
 
     st.divider()
 
-    # =====================================================
+    # ==============================
     # TABLE
-    # =====================================================
+    # ==============================
 
     st.subheader("🏆 Fundamental Ranking")
 
     st.dataframe(df, use_container_width=True)
 
-    # =====================================================
-    # BEST STOCK
-    # =====================================================
+    # ==============================
+    # TOP STOCK
+    # ==============================
 
-    st.subheader("⭐ Top Fundamental Stock")
-
-    best = df.iloc[0]
+    top = df.iloc[0]
 
     st.success(
         f"""
-        **{best['Stock']}**
-
-        Score: {best['Fundamental Score']}
-
-        Strengths: {best['Strengths']}
+        ⭐ **Best Stock: {top['Stock']}**
+        Score: {top['Score']}
+        Rating: {top['Rating']}
+        Strengths: {top['Strengths']}
         """
     )
 
-    # =====================================================
+    # ==============================
     # DOWNLOAD
-    # =====================================================
+    # ==============================
 
     csv = df.to_csv(index=False).encode("utf-8")
 
     st.download_button(
         "⬇ Download Report",
         csv,
-        "fundamental_analysis.csv",
+        "fundamental_pro_analysis.csv",
         "text/csv"
     )
