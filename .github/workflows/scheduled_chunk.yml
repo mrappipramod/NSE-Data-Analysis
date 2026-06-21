@@ -1,0 +1,65 @@
+name: Scheduled Universe Chunk Refresh
+
+# Processes the next ~165 symbols from the combined main-board + SME
+# universe every ~90 minutes, merging results into data/exports/latest.json
+# and advancing data/cursor.json so the next run continues where this one
+# left off. See scripts/fetch_chunk.py for the full design rationale.
+#
+# At 165 symbols / 90 min, the 2091 main-board symbols complete in ~13 runs
+# (~19.5h), leaving ~3 spare runs/day as buffer for SME coverage (550 symbols,
+# completing its own rotation in roughly 1-2 days) and for retrying any chunk
+# that mostly failed instead of cascading delay into the next day.
+on:
+  schedule:
+    # Two cron lines combine to give EXACT 90-minute spacing across the day
+    # (cron has no native "every 90 minutes" step since 90 doesn't divide an
+    # hour evenly). Verified: 0,90,180,...1350 min from midnight — 16 runs/day,
+    # every gap exactly 90 min. GitHub cron times are UTC and best-effort
+    # (can run a few minutes late under platform load).
+    - cron: "0 */3 * * *"        # 00:00, 03:00, 06:00, ... 21:00 UTC
+    - cron: "30 1-23/3 * * *"    # 01:30, 04:30, 07:30, ... 22:30 UTC
+  workflow_dispatch: {}  # manual trigger for testing / catching up after an outage
+
+permissions:
+  contents: write
+
+# Only one chunk run at a time — overlapping runs would both read the same
+# cursor position and process duplicate/conflicting slices.
+concurrency:
+  group: scheduled-chunk-refresh
+  cancel-in-progress: false
+
+jobs:
+  run-chunk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45  # generous margin over the expected ~20-30 min for ~140 symbols
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run next chunk
+        run: python scripts/fetch_chunk.py --chunk-size 165
+
+      - name: Commit updated export + cursor
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/exports/latest.json data/cursor.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Scheduled chunk refresh"
+            git pull --rebase origin main
+            git push origin main
+          fi
