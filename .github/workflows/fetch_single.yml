@@ -1,0 +1,56 @@
+name: Fetch Single Symbol (on-demand)
+
+# Triggered by the Cloudflare /api/fundamentals function via the GitHub REST
+# API (workflow_dispatch) when a requested symbol isn't found in
+# data/exports/latest.json. Computes that one symbol's fundamentals and
+# merges it into latest.json, tagged source="manual_search".
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: "NSE symbol to fetch (no .NS suffix), e.g. RELIANCE"
+        required: true
+        type: string
+
+# Prevent two on-demand runs for the SAME symbol racing each other and
+# clobbering the commit. Different symbols can still run concurrently.
+concurrency:
+  group: fetch-single-${{ github.event.inputs.symbol }}
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch + score + value + merge into latest.json
+        run: python scripts/fetch_single.py --symbol "${{ github.event.inputs.symbol }}"
+
+      - name: Commit updated export (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/exports/latest.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit (symbol may already have been current)."
+          else
+            git commit -m "On-demand fetch: ${{ github.event.inputs.symbol }}"
+            # Pull --rebase in case the daily batch export or another on-demand
+            # run landed a commit while this job was running, then push.
+            git pull --rebase origin main
+            git push origin main
+          fi
