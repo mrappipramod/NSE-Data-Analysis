@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-21T17:40:47.328366+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 376,
+  "stock_count": 377,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -17754,6 +17754,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-06-21T17:44:32.901990+00:00"
+    },
+    "PETRONET": {
+      "symbol": "PETRONET",
+      "company_name": "Petronet LNG Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "price": 288.25,
+      "ratios": {
+        "pe": 11.0568,
+        "pb": 1.9398,
+        "roe_pct": 18.56,
+        "debt_to_equity": 10.507,
+        "profit_margin_pct": 8.99
+      },
+      "growth": {
+        "revenue_cagr_pct": -9.6,
+        "net_income_cagr_pct": 5.6,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 0.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 172.72,
+        "graham_number": 295.23,
+        "blended_fair_value": 233.98,
+        "estimated_upside_pct": -18.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 53,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.6%)",
+          "Healthy net margin (9.0%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-9.6%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-21T19:11:04.345431+00:00"
     }
   }
 }
