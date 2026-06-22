@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-21T23:54:14.752089+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 955,
+  "stock_count": 956,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -45683,6 +45683,54 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-06-21T23:54:14.751967+00:00"
+    },
+    "WAAREERTL": {
+      "symbol": "WAAREERTL",
+      "company_name": "Waaree Renewable Technologies Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 1027.4,
+      "ratios": {
+        "pe": 22.4079,
+        "pb": 16.2687,
+        "roe_pct": 0.0,
+        "debt_to_equity": 15.598,
+        "profit_margin_pct": -34.03
+      },
+      "growth": {
+        "revenue_cagr_pct": 111.8,
+        "net_income_cagr_pct": 105.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 468.55,
+        "graham_number": 255.24,
+        "blended_fair_value": 361.89,
+        "estimated_upside_pct": -64.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 39,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 2,
+          "stability": 12,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong revenue CAGR (111.8%)",
+          "Strong profit CAGR (105.2%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-65%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-22T04:53:24.455800+00:00"
     }
   }
 }
