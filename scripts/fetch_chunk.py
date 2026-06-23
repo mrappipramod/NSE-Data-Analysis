@@ -57,7 +57,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from utils.data_fetcher import YFinanceSource
 from utils.analyzer import analyze_stock
-from utils.exporter import write_chunk_to_export  # see exporter_chunk_addon.py — copy into exporter.py first
+from utils.exporter import write_chunk_to_export
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("fetch_chunk")
@@ -67,6 +67,7 @@ MAIN_UNIVERSE_PATH = REPO_ROOT / "data" / "universe" / "equity_main.csv"
 SME_UNIVERSE_PATH = REPO_ROOT / "data" / "universe" / "equity_sme.csv"
 DEFAULT_CURSOR_PATH = REPO_ROOT / "data" / "cursor.json"
 DEFAULT_CHUNK_SIZE = 165
+BLACKLIST_PATH = REPO_ROOT / "data" / "blacklist.txt"
 
 # Be polite to yfinance across a chunk of ~140 sequential requests — same
 # spirit as YFinanceSource's own jittered inter-request delay, applied here
@@ -74,6 +75,42 @@ DEFAULT_CHUNK_SIZE = 165
 # per symbol in a tight loop below.
 INTER_SYMBOL_DELAY_SEC = 0.3
 
+
+# ---------------------------------------------------------------------------
+# Blacklist helpers (skip permanent dead symbols)
+# ---------------------------------------------------------------------------
+
+def load_blacklist() -> set[str]:
+    """Return a set of symbols that have previously failed permanently."""
+    if not BLACKLIST_PATH.exists():
+        return set()
+    with open(BLACKLIST_PATH, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def save_blacklist(symbol: str) -> None:
+    """Append one symbol to the blacklist file."""
+    with open(BLACKLIST_PATH, "a", encoding="utf-8") as f:
+        f.write(symbol + "\n")
+
+
+def is_transient_error(error_msg: str) -> bool:
+    """
+    Return True if the error might resolve on retry (network, rate‑limit, etc.),
+    False if it's a permanent issue (invalid/delisted symbol, no data).
+    """
+    permanent_patterns = [
+        "Empty info payload",
+        "invalid/delisted",
+        "No data returned",
+        "No data found",
+    ]
+    return not any(p in error_msg for p in permanent_patterns)
+
+
+# ---------------------------------------------------------------------------
+# Universe loading
+# ---------------------------------------------------------------------------
 
 def load_universe_list() -> list[tuple[str, str]]:
     """
@@ -97,6 +134,10 @@ def load_universe_list() -> list[tuple[str, str]]:
     return combined
 
 
+# ---------------------------------------------------------------------------
+# Cursor I/O
+# ---------------------------------------------------------------------------
+
 def load_cursor(path: Path) -> int:
     if not path.exists():
         return 0
@@ -113,6 +154,10 @@ def save_cursor(path: Path, position: int) -> None:
     path.write_text(json.dumps({"position": position}, indent=2), encoding="utf-8")
 
 
+# ---------------------------------------------------------------------------
+# Main chunk runner
+# ---------------------------------------------------------------------------
+
 def run_chunk(chunk_size: int, cursor_path: Path) -> int:
     universe = load_universe_list()
     total = len(universe)
@@ -125,29 +170,47 @@ def run_chunk(chunk_size: int, cursor_path: Path) -> int:
     # continuous rather than leaving a short final chunk every cycle.
     end = start + chunk_size
     if end <= total:
-        slice_symbols = universe[start:end]
+        raw_slice = universe[start:end]
     else:
-        slice_symbols = universe[start:total] + universe[0:end - total]
+        raw_slice = universe[start:total] + universe[0:end - total]
 
-    log.info(f"Universe size: {total} | cursor start: {start} | processing {len(slice_symbols)} symbols")
+    # Skip blacklisted symbols (permanent failures)
+    blacklist = load_blacklist()
+    slice_symbols = [(sym, name) for sym, name in raw_slice if sym not in blacklist]
+    skipped_blacklisted = len(raw_slice) - len(slice_symbols)
+
+    if not slice_symbols:
+        log.warning("All symbols in this chunk are blacklisted – advancing cursor and exiting.")
+        new_position = end % total
+        save_cursor(cursor_path, new_position)
+        log.info(f"Cursor advanced to position {new_position} (of {total})")
+        return 0
+
+    log.info(
+        f"Universe size: {total} | cursor start: {start} | "
+        f"processing {len(slice_symbols)} symbols (skipped {skipped_blacklisted} blacklisted)"
+    )
 
     source = YFinanceSource()
     rows = []
     deep_data = {}
-    failures = []
+    failures = []  # only transient failures go here
 
     for i, (symbol, company) in enumerate(slice_symbols):
         try:
-            fr = source.fetch(symbol, use_cache=True)  # cache IS used here (unlike fetch_single.py's
-                                                          # on-demand path) — a scheduled chunk benefits
-                                                          # from the 6h disk cache if a symbol was somehow
-                                                          # already fetched recently (e.g. via manual search)
+            fr = source.fetch(symbol, use_cache=True)
             if not fr.ok:
-                failures.append((symbol, fr.error))
+                if is_transient_error(fr.error):
+                    failures.append((symbol, fr.error))
+                else:
+                    # Permanent error – blacklist and skip, do NOT count as failure
+                    log.warning(f"{symbol}: permanent error ({fr.error}) – blacklisting")
+                    save_blacklist(symbol)
                 continue
 
             analysis = analyze_stock(symbol, fr)
             if analysis is None:
+                # analyze_stock returns None only for severe issues; treat as transient? We'll mark as failure.
                 failures.append((symbol, "analyze_stock returned None"))
                 continue
 
@@ -155,12 +218,13 @@ def run_chunk(chunk_size: int, cursor_path: Path) -> int:
             deep_data[symbol] = analysis["deep"]
 
         except Exception as e:
+            # Unexpected exception – treat as transient (could be network, parse, etc.)
             failures.append((symbol, str(e)))
 
         if i < len(slice_symbols) - 1:
             time.sleep(INTER_SYMBOL_DELAY_SEC)
 
-    log.info(f"Chunk done: {len(rows)} succeeded, {len(failures)} failed")
+    log.info(f"Chunk done: {len(rows)} succeeded, {len(failures)} transient failures")
     for sym, err in failures[:20]:  # cap log spam if a whole chunk fails
         log.warning(f"  {sym}: {err}")
 
@@ -171,16 +235,14 @@ def run_chunk(chunk_size: int, cursor_path: Path) -> int:
     else:
         log.warning("No symbols succeeded this chunk — latest.json not touched.")
 
-    # CURSOR ADVANCEMENT: advance even if some individual symbols failed
-    # (isolated per-symbol failures are expected and already logged above —
-    # matching fetch_universe()'s existing "one bad ticker never kills the
-    # run" philosophy). Only refuse to advance on a near-total wipeout, so a
-    # systemic problem (e.g. yfinance fully down, bad token) doesn't silently
-    # burn through the whole rotation marking everything "done" with no data.
-    failure_rate = len(failures) / len(slice_symbols) if slice_symbols else 1.0
+    # CURSOR ADVANCEMENT: advance only if the transient failure rate is < 90%.
+    # Permanent errors (empty payload, delisted) are already excluded from `failures`,
+    # so they do not block progress.
+    attempted = len(slice_symbols)
+    failure_rate = len(failures) / attempted if attempted > 0 else 0.0
     if failure_rate >= 0.9:
         log.error(
-            f"Failure rate {failure_rate:.0%} — NOT advancing cursor, "
+            f"Transient failure rate {failure_rate:.0%} (≥90%) — NOT advancing cursor, "
             f"this chunk will be retried next run instead of being skipped."
         )
         return 1
@@ -190,6 +252,10 @@ def run_chunk(chunk_size: int, cursor_path: Path) -> int:
     log.info(f"Cursor advanced to position {new_position} (of {total})")
     return 0
 
+
+# ---------------------------------------------------------------------------
+# CLI entry point
+# ---------------------------------------------------------------------------
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
