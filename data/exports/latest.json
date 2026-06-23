@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-22T22:59:25.905810+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 472,
+  "stock_count": 473,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -22734,6 +22734,51 @@
       },
       "source": "manual_search",
       "updated_at": "2026-06-23T02:27:12.037782+00:00"
+    },
+    "MRPL": {
+      "symbol": "MRPL",
+      "company_name": "Mangalore Refinery and Petrochemicals Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "price": 156.75,
+      "ratios": {
+        "pe": 14.276,
+        "pb": 1.9279,
+        "roe_pct": 14.17,
+        "debt_to_equity": 108.059,
+        "profit_margin_pct": 2.17
+      },
+      "growth": {
+        "revenue_cagr_pct": -6.6,
+        "net_income_cagr_pct": -10.2,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -24.57,
+        "graham_number": 141.73,
+        "blended_fair_value": 141.73,
+        "estimated_upside_pct": -9.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 4,
+          "stability": 6,
+          "growth": 2,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Declining revenue trend (-6.6%)",
+          "Profit growth declining/negative"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-23T05:14:37.998593+00:00"
     }
   }
 }
