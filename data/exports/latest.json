@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-24T04:21:03.257297+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 957,
+  "stock_count": 958,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -46037,6 +46037,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-06-24T04:21:03.257272+00:00"
+    },
+    "MSTCLTD": {
+      "symbol": "MSTCLTD",
+      "company_name": "MSTC Limited",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "price": 664.9,
+      "ratios": {
+        "pe": 21.4346,
+        "pb": 5.178,
+        "roe_pct": 26.6,
+        "debt_to_equity": 16.041,
+        "profit_margin_pct": 59.09
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.3,
+        "net_income_cagr_pct": -3.4,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 299.37,
+        "blended_fair_value": 299.37,
+        "estimated_upside_pct": -55.0,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 51,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 20,
+          "stability": 18,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (26.6%)",
+          "High net margin (59.1%)",
+          "Very low debt",
+          "Healthy revenue CAGR (8.3%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-55%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-24T05:05:26.542878+00:00"
     }
   }
 }
