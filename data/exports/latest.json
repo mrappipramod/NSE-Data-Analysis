@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-25T04:21:29.397792+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 817,
+  "stock_count": 818,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -38972,6 +38972,50 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-06-25T04:21:29.397562+00:00"
+    },
+    "CASTROL": {
+      "symbol": "CASTROL",
+      "company_name": "Castrol India Ltd.",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "price": 288.8,
+      "ratios": {
+        "pe": 21.5362,
+        "pb": 20.8084,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 0.0
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 0
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 5,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-25T05:23:04.228666+00:00"
     }
   }
 }
