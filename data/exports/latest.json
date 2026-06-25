@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-06-25T09:42:18.173287+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1114,
+  "stock_count": 1115,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -53249,6 +53249,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-06-25T09:42:18.173264+00:00"
+    },
+    "POLYMED": {
+      "symbol": "POLYMED",
+      "company_name": "Poly Medicure Limited",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "price": 1650.0,
+      "ratios": {
+        "pe": 52.0505,
+        "pb": 5.3845,
+        "roe_pct": 10.85,
+        "debt_to_equity": 11.227,
+        "profit_margin_pct": 17.18
+      },
+      "growth": {
+        "revenue_cagr_pct": 19.1,
+        "net_income_cagr_pct": 22.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 467.51,
+        "blended_fair_value": 467.51,
+        "estimated_upside_pct": -71.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 53,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (17.2%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (19.1%)",
+          "Strong profit CAGR (22.7%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-06-25T09:45:11.049075+00:00"
     }
   }
 }
