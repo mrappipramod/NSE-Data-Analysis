@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-25T21:14:20.861631+00:00",
+  "generated_at": "2026-06-25T22:35:01.786384+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 526,
+  "stock_count": 629,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -519,12 +519,12 @@
       "valuation": {
         "dcf_fair_value": 197.4,
         "graham_number": 154.54,
-        "blended_fair_value": 296.24,
-        "estimated_upside_pct": 69.3,
+        "blended_fair_value": 175.97,
+        "estimated_upside_pct": 0.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 73,
+        "total": 64,
         "rating": "🟢 BUY",
         "pillars": {
           "valuation": 17,
@@ -534,7 +534,6 @@
           "valuation_upside": 6
         },
         "key_notes": [
-          "Trading below sector median PE",
           "Attractive PEG ratio",
           "Strong ROE (15.4%)",
           "Healthy net margin (14.2%)",
@@ -542,8 +541,8 @@
           "Strong liquidity position"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.440023+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783753+00:00"
     },
     "M&M": {
       "symbol": "M&M",
@@ -911,13 +910,13 @@
       "valuation": {
         "dcf_fair_value": 337.36,
         "graham_number": 226.55,
-        "blended_fair_value": 374.03,
-        "estimated_upside_pct": 36.8,
+        "blended_fair_value": 281.96,
+        "estimated_upside_pct": 3.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 70,
-        "rating": "🟢 BUY",
+        "total": 58,
+        "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 9,
           "profitability": 20,
@@ -926,16 +925,16 @@
           "valuation_upside": 6
         },
         "key_notes": [
-          "Trading below sector median PE",
           "Excellent ROE (20.4%)",
           "High net margin (22.6%)",
           "Manageable debt level",
           "Declining revenue trend (-19.2%)",
-          "Strong profit CAGR (18.0%)"
+          "Strong profit CAGR (18.0%)",
+          "Margins expanding"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.440738+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777647+00:00"
     },
     "LICHSGFIN": {
       "symbol": "LICHSGFIN",
@@ -4079,8 +4078,8 @@
       "valuation": {
         "dcf_fair_value": 762.18,
         "graham_number": 653.28,
-        "blended_fair_value": 1051.04,
-        "estimated_upside_pct": -27.8,
+        "blended_fair_value": 707.73,
+        "estimated_upside_pct": -51.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -4102,8 +4101,8 @@
           "Margins expanding"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.446583+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782594+00:00"
     },
     "MCX": {
       "symbol": "MCX",
@@ -4324,13 +4323,13 @@
       "valuation": {
         "dcf_fair_value": 217.8,
         "graham_number": 413.26,
-        "blended_fair_value": 924.59,
-        "estimated_upside_pct": 15.2,
+        "blended_fair_value": 315.53,
+        "estimated_upside_pct": -60.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 54,
-        "rating": "🟡 HOLD",
+        "total": 39,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 4,
           "profitability": 0,
@@ -4342,11 +4341,11 @@
           "Very low debt",
           "Strong liquidity position",
           "Consistent YoY growth",
-          "Modest estimated undervaluation (~15%)"
+          "Appears overvalued vs blended intrinsic estimate (~-61%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.447034+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783322+00:00"
     },
     "NAUKRI": {
       "symbol": "NAUKRI",
@@ -5536,13 +5535,13 @@
       "valuation": {
         "dcf_fair_value": 610.58,
         "graham_number": 397.12,
-        "blended_fair_value": 785.62,
-        "estimated_upside_pct": 76.4,
+        "blended_fair_value": 503.85,
+        "estimated_upside_pct": 13.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 49,
-        "rating": "🟡 HOLD",
+        "total": 44,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 12,
           "profitability": 2,
@@ -5551,16 +5550,15 @@
           "valuation_upside": 10
         },
         "key_notes": [
-          "Trading below sector median PE",
           "High leverage",
           "Strong profit CAGR (33.2%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Significant estimated undervaluation (~76%)"
+          "Modest estimated undervaluation (~13%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.449256+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785532+00:00"
     },
     "IRB": {
       "symbol": "IRB",
@@ -6508,13 +6506,13 @@
       "valuation": {
         "dcf_fair_value": 141.19,
         "graham_number": 88.85,
-        "blended_fair_value": 208.68,
-        "estimated_upside_pct": -31.8,
+        "blended_fair_value": 115.02,
+        "estimated_upside_pct": -62.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 46,
-        "rating": "🟡 HOLD",
+        "total": 41,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 0,
           "profitability": 4,
@@ -6528,11 +6526,11 @@
           "Healthy revenue CAGR (13.4%)",
           "Strong profit CAGR (17.7%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-32%)"
+          "Appears overvalued vs blended intrinsic estimate (~-62%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.451259+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778493+00:00"
     },
     "FORTIS": {
       "symbol": "FORTIS",
@@ -6753,13 +6751,13 @@
       "valuation": {
         "dcf_fair_value": 56.47,
         "graham_number": 110.77,
-        "blended_fair_value": 327.67,
-        "estimated_upside_pct": -35.5,
+        "blended_fair_value": 83.62,
+        "estimated_upside_pct": -83.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 45,
-        "rating": "🟡 HOLD",
+        "total": 40,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 0,
           "profitability": 6,
@@ -6773,11 +6771,11 @@
           "Strong revenue CAGR (17.3%)",
           "Strong profit CAGR (26.6%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-36%)"
+          "Appears overvalued vs blended intrinsic estimate (~-84%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.451693+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777475+00:00"
     },
     "ICICIGI": {
       "symbol": "ICICIGI",
@@ -8691,13 +8689,13 @@
       "valuation": {
         "dcf_fair_value": 97.09,
         "graham_number": 88.6,
-        "blended_fair_value": 114.91,
-        "estimated_upside_pct": 3.2,
+        "blended_fair_value": 92.84,
+        "estimated_upside_pct": -16.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 36,
-        "rating": "🟠 WEAK",
+        "total": 25,
+        "rating": "🔴 AVOID",
         "pillars": {
           "valuation": 7,
           "profitability": 0,
@@ -8709,11 +8707,12 @@
           "Trading near/below book value",
           "High leverage",
           "Strong liquidity position",
-          "Strong profit CAGR (78.8%)"
+          "Strong profit CAGR (78.8%)",
+          "Appears overvalued vs blended intrinsic estimate (~-17%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.455333+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785196+00:00"
     },
     "AUBANK": {
       "symbol": "AUBANK",
@@ -9269,8 +9268,8 @@
       "valuation": {
         "dcf_fair_value": null,
         "graham_number": 221.52,
-        "blended_fair_value": 641.3,
-        "estimated_upside_pct": -50.8,
+        "blended_fair_value": 221.52,
+        "estimated_upside_pct": -83.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -9284,15 +9283,14 @@
           "valuation_upside": 0
         },
         "key_notes": [
-          "Trading above sector median PE",
           "Very low debt",
           "Healthy revenue CAGR (14.5%)",
           "Strong profit CAGR (40.7%)",
-          "Appears overvalued vs blended intrinsic estimate (~-51%)"
+          "Appears overvalued vs blended intrinsic estimate (~-83%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.456397+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780886+00:00"
     },
     "JINDALSTEL": {
       "symbol": "JINDALSTEL",
@@ -10929,8 +10927,8 @@
       "valuation": {
         "dcf_fair_value": -0.85,
         "graham_number": 43.17,
-        "blended_fair_value": 128.75,
-        "estimated_upside_pct": -73.5,
+        "blended_fair_value": 43.17,
+        "estimated_upside_pct": -91.1,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -10944,15 +10942,14 @@
           "valuation_upside": 0
         },
         "key_notes": [
-          "Trading above sector median PE",
           "High leverage",
           "Profit growth declining/negative",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-74%)"
+          "Appears overvalued vs blended intrinsic estimate (~-91%)"
         ]
       },
-      "source": "batch",
-      "updated_at": "2026-06-25T19:54:35.459533+00:00"
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783063+00:00"
     },
     "CASTROL": {
       "symbol": "CASTROL",
@@ -25336,6 +25333,4943 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-06-25T21:14:20.861606+00:00"
+    },
+    "UYFINCORP": {
+      "symbol": "UYFINCORP",
+      "company_name": "U. Y. Fincorp Limited",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "price": 14.02,
+      "ratios": {
+        "pe": 5.5197,
+        "pb": 0.6851,
+        "roe_pct": 13.44,
+        "debt_to_equity": 0.862,
+        "profit_margin_pct": 29.64
+      },
+      "growth": {
+        "revenue_cagr_pct": 37.0,
+        "net_income_cagr_pct": 84.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 34.2,
+        "blended_fair_value": 34.2,
+        "estimated_upside_pct": 143.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 77,
+        "rating": "🟢 STRONG BUY",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 15,
+          "stability": 10,
+          "growth": 22,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (29.6%)",
+          "Leverage ratio not directly comparable (financial sector)",
+          "Strong revenue CAGR (37.0%)",
+          "Strong profit CAGR (84.0%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.776471+00:00"
+    },
+    "V2RETAIL": {
+      "symbol": "V2RETAIL",
+      "company_name": "V2 Retail Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "price": 221.23,
+      "ratios": {
+        "pe": 48.3035,
+        "pb": 8.5841,
+        "roe_pct": 25.96,
+        "debt_to_equity": 110.224,
+        "profit_margin_pct": 5.28
+      },
+      "growth": {
+        "revenue_cagr_pct": 54.2,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 51.53,
+        "blended_fair_value": 51.53,
+        "estimated_upside_pct": -76.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 33,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 9,
+          "stability": 6,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (26.0%)",
+          "Strong revenue CAGR (54.2%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-77%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.776600+00:00"
+    },
+    "VADILALIND": {
+      "symbol": "VADILALIND",
+      "company_name": "Vadilal Industries Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 6377.1,
+      "ratios": {
+        "pe": 29.5756,
+        "pb": 5.8381,
+        "roe_pct": 20.06,
+        "debt_to_equity": 26.996,
+        "profit_margin_pct": 10.32
+      },
+      "growth": {
+        "revenue_cagr_pct": 12.5,
+        "net_income_cagr_pct": 17.2,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1127.89,
+        "graham_number": 2302.04,
+        "blended_fair_value": 1714.97,
+        "estimated_upside_pct": -73.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 60,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 15,
+          "stability": 20,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (20.1%)",
+          "Healthy net margin (10.3%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (12.5%)",
+          "Strong profit CAGR (17.2%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.776726+00:00"
+    },
+    "VAIBHAVGBL": {
+      "symbol": "VAIBHAVGBL",
+      "company_name": "Vaibhav Global Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Luxury Goods",
+      "price": 232.9,
+      "ratios": {
+        "pe": 14.7967,
+        "pb": 2.3548,
+        "roe_pct": 17.75,
+        "debt_to_equity": 25.234,
+        "profit_margin_pct": 7.21
+      },
+      "growth": {
+        "revenue_cagr_pct": 11.3,
+        "net_income_cagr_pct": 36.4,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 331.15,
+        "graham_number": 187.16,
+        "blended_fair_value": 259.15,
+        "estimated_upside_pct": 11.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 69,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 7,
+          "stability": 20,
+          "growth": 20,
+          "valuation_upside": 10
+        },
+        "key_notes": [
+          "Strong ROE (17.8%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (11.3%)",
+          "Strong profit CAGR (36.4%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.776832+00:00"
+    },
+    "VAKRANGEE": {
+      "symbol": "VAKRANGEE",
+      "company_name": "Vakrangee Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 6.15,
+      "ratios": {
+        "pe": 61.5,
+        "pb": 2.9328,
+        "roe_pct": 5.11,
+        "debt_to_equity": 1.705,
+        "profit_margin_pct": 4.42
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.9,
+        "net_income_cagr_pct": 123.8,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 8.03,
+        "graham_number": 2.17,
+        "blended_fair_value": 5.1,
+        "estimated_upside_pct": -17.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High leverage",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (8.9%)",
+          "Strong profit CAGR (123.8%)",
+          "Appears overvalued vs blended intrinsic estimate (~-17%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.776929+00:00"
+    },
+    "VALIANTORG": {
+      "symbol": "VALIANTORG",
+      "company_name": "Valiant Organics Limited",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "price": 284.9,
+      "ratios": {
+        "pe": 24.0422,
+        "pb": 1.0807,
+        "roe_pct": 4.48,
+        "debt_to_equity": 33.698,
+        "profit_margin_pct": 4.5
+      },
+      "growth": {
+        "revenue_cagr_pct": -11.1,
+        "net_income_cagr_pct": -27.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 76.1,
+        "graham_number": 265.12,
+        "blended_fair_value": 170.61,
+        "estimated_upside_pct": -40.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 23,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Manageable debt level",
+          "Declining revenue trend (-11.1%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-40%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777021+00:00"
+    },
+    "VARDHACRLC": {
+      "symbol": "VARDHACRLC",
+      "company_name": "Vardhman Acrylics Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 44.6,
+      "ratios": {
+        "pe": 13.1563,
+        "pb": 1.4115,
+        "roe_pct": 11.06,
+        "debt_to_equity": null,
+        "profit_margin_pct": 8.55
+      },
+      "growth": {
+        "revenue_cagr_pct": -9.2,
+        "net_income_cagr_pct": -6.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 24.71,
+        "graham_number": 49.09,
+        "blended_fair_value": 36.9,
+        "estimated_upside_pct": -17.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 33,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 10,
+          "stability": 8,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Healthy net margin (8.6%)",
+          "Strong liquidity position",
+          "Declining revenue trend (-9.2%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-17%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777111+00:00"
+    },
+    "VARDMNPOLY": {
+      "symbol": "VARDMNPOLY",
+      "company_name": "Vardhman Polytex Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 6.97,
+      "ratios": {
+        "pe": 41.0,
+        "pb": -1.5823,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 3.24
+      },
+      "growth": {
+        "revenue_cagr_pct": -27.3,
+        "net_income_cagr_pct": 72.7,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 0.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 12,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Declining revenue trend (-27.3%)",
+          "Strong profit CAGR (72.7%)",
+          "Margins expanding",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777204+00:00"
+    },
+    "VARROC": {
+      "symbol": "VARROC",
+      "company_name": "Varroc Engineering Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 611.65,
+      "ratios": {
+        "pe": 41.4959,
+        "pb": 5.2453,
+        "roe_pct": 13.46,
+        "debt_to_equity": 50.855,
+        "profit_margin_pct": 2.53
+      },
+      "growth": {
+        "revenue_cagr_pct": 9.3,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 38.06,
+        "graham_number": 196.66,
+        "blended_fair_value": 196.66,
+        "estimated_upside_pct": -67.8,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 27,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 4,
+          "stability": 8,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Healthy revenue CAGR (9.3%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-68%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777293+00:00"
+    },
+    "VASWANI": {
+      "symbol": "VASWANI",
+      "company_name": "Vaswani Industries Limited",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 53.5,
+      "ratios": {
+        "pe": 40.8397,
+        "pb": 1.1511,
+        "roe_pct": 2.95,
+        "debt_to_equity": 184.536,
+        "profit_margin_pct": 0.91
+      },
+      "growth": {
+        "revenue_cagr_pct": 6.1,
+        "net_income_cagr_pct": -11.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 37.01,
+        "blended_fair_value": 37.01,
+        "estimated_upside_pct": -30.8,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 22,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 2,
+          "stability": 3,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High leverage",
+          "Profit growth declining/negative",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-31%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777387+00:00"
+    },
+    "VCL": {
+      "symbol": "VCL",
+      "company_name": "Vaxtex Cotfab Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 1.32,
+      "ratios": {
+        "pe": 4.4,
+        "pb": 1.0936,
+        "roe_pct": 27.1,
+        "debt_to_equity": 23.444,
+        "profit_margin_pct": 49.48
+      },
+      "growth": {
+        "revenue_cagr_pct": -45.0,
+        "net_income_cagr_pct": 69.6,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 2.85,
+        "blended_fair_value": 2.85,
+        "estimated_upside_pct": 115.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 77,
+        "rating": "🟢 STRONG BUY",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 18,
+          "stability": 17,
+          "growth": 12,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Excellent ROE (27.1%)",
+          "High net margin (49.5%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-45.0%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777562+00:00"
+    },
+    "VEEDOL": {
+      "symbol": "VEEDOL",
+      "company_name": "Veedol Corporation Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 1467.8,
+      "ratios": {
+        "pe": 13.0113,
+        "pb": 2.5525,
+        "roe_pct": 19.66,
+        "debt_to_equity": 1.534,
+        "profit_margin_pct": 8.84
+      },
+      "growth": {
+        "revenue_cagr_pct": 5.4,
+        "net_income_cagr_pct": 18.7,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1587.72,
+        "graham_number": 1208.14,
+        "blended_fair_value": 1397.93,
+        "estimated_upside_pct": -4.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 11,
+          "stability": 8,
+          "growth": 20,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Strong ROE (19.7%)",
+          "Healthy net margin (8.8%)",
+          "High leverage",
+          "Strong liquidity position",
+          "Strong profit CAGR (18.7%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777776+00:00"
+    },
+    "VELJAN": {
+      "symbol": "VELJAN",
+      "company_name": "Veljan Denison Limited",
+      "sector": "",
+      "industry": "",
+      "price": 1212.1,
+      "ratios": {
+        "pe": null,
+        "pb": null,
+        "roe_pct": 10.84,
+        "debt_to_equity": 0.445,
+        "profit_margin_pct": 15.75
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 0
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 54,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 16,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (15.7%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Positive YoY revenue growth (10.7%)",
+          "Positive YoY earnings growth (12.7%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777875+00:00"
+    },
+    "VENKEYS": {
+      "symbol": "VENKEYS",
+      "company_name": "Venky's (India) Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "price": 1421.5,
+      "ratios": {
+        "pe": 14.3818,
+        "pb": 1.2546,
+        "roe_pct": 9.07,
+        "debt_to_equity": 10.432,
+        "profit_margin_pct": 3.74
+      },
+      "growth": {
+        "revenue_cagr_pct": -2.8,
+        "net_income_cagr_pct": 25.5,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1278.6,
+        "graham_number": 1587.37,
+        "blended_fair_value": 1432.98,
+        "estimated_upside_pct": 0.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 2,
+          "stability": 20,
+          "growth": 12,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-2.8%)",
+          "Strong profit CAGR (25.5%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.777972+00:00"
+    },
+    "VENTIVE": {
+      "symbol": "VENTIVE",
+      "company_name": "VENTIVE",
+      "sector": "Consumer Cyclical",
+      "industry": "Lodging",
+      "price": 643.9,
+      "ratios": {
+        "pe": 35.2629,
+        "pb": 2.7308,
+        "roe_pct": 7.92,
+        "debt_to_equity": 38.079,
+        "profit_margin_pct": 15.96
+      },
+      "growth": {
+        "revenue_cagr_pct": 13.1,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 607.48,
+        "graham_number": 311.25,
+        "blended_fair_value": 459.37,
+        "estimated_upside_pct": -28.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 38,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 11,
+          "stability": 11,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (16.0%)",
+          "Manageable debt level",
+          "Healthy revenue CAGR (13.1%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-29%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778060+00:00"
+    },
+    "VENUSPIPES": {
+      "symbol": "VENUSPIPES",
+      "company_name": "Venus Pipes and Tubes Limited",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 1696.5,
+      "ratios": {
+        "pe": 34.3074,
+        "pb": 5.7117,
+        "roe_pct": 16.99,
+        "debt_to_equity": 42.948,
+        "profit_margin_pct": 8.74
+      },
+      "growth": {
+        "revenue_cagr_pct": 28.8,
+        "net_income_cagr_pct": 32.1,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 574.87,
+        "blended_fair_value": 574.87,
+        "estimated_upside_pct": -66.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 49,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 11,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (17.0%)",
+          "Healthy net margin (8.7%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (28.8%)",
+          "Strong profit CAGR (32.1%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778146+00:00"
+    },
+    "VERANDA": {
+      "symbol": "VERANDA",
+      "company_name": "Veranda Learning Solutions Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "price": 234.37,
+      "ratios": {
+        "pe": 20.1695,
+        "pb": 2.4886,
+        "roe_pct": 21.21,
+        "debt_to_equity": 39.893,
+        "profit_margin_pct": 21.92
+      },
+      "growth": {
+        "revenue_cagr_pct": 44.0,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 232.59,
+        "graham_number": 156.92,
+        "blended_fair_value": 194.75,
+        "estimated_upside_pct": -16.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 20,
+          "stability": 8,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (21.2%)",
+          "High net margin (21.9%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (44.0%)",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778234+00:00"
+    },
+    "VESUVIUS": {
+      "symbol": "VESUVIUS",
+      "company_name": "Vesuvius India Limited",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 469.05,
+      "ratios": {
+        "pe": 36.4736,
+        "pb": 5.7214,
+        "roe_pct": 0.0,
+        "debt_to_equity": 0.826,
+        "profit_margin_pct": 12.28
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.3,
+        "net_income_cagr_pct": 31.3,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 115.08,
+        "graham_number": 154.02,
+        "blended_fair_value": 134.55,
+        "estimated_upside_pct": -71.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 34,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 6,
+          "stability": 3,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (12.3%)",
+          "Strong revenue CAGR (16.3%)",
+          "Strong profit CAGR (31.3%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-71%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778320+00:00"
+    },
+    "VGL": {
+      "symbol": "VGL",
+      "company_name": "VGL",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 66.03,
+      "ratios": {
+        "pe": 27.0615,
+        "pb": 2.209,
+        "roe_pct": 22.08,
+        "debt_to_equity": 3.735,
+        "profit_margin_pct": 19.82
+      },
+      "growth": {
+        "revenue_cagr_pct": -37.7,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 0.79,
+        "graham_number": 40.51,
+        "blended_fair_value": 40.51,
+        "estimated_upside_pct": -38.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 16,
+          "stability": 0,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (22.1%)",
+          "High net margin (19.8%)",
+          "High leverage",
+          "Declining revenue trend (-37.7%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-39%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778406+00:00"
+    },
+    "VHL": {
+      "symbol": "VHL",
+      "company_name": "Vardhman Holdings Limited",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "price": 3562.4,
+      "ratios": {
+        "pe": 5.2622,
+        "pb": 0.3044,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 1454.86
+      },
+      "growth": {
+        "revenue_cagr_pct": -45.1,
+        "net_income_cagr_pct": -1.8,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 13352.07,
+        "blended_fair_value": 13352.07,
+        "estimated_upside_pct": 274.8,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 46,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 11,
+          "stability": 0,
+          "growth": 5,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (1454.9%)",
+          "Declining revenue trend (-45.1%)",
+          "Profit growth declining/negative",
+          "Margins expanding",
+          "Significant estimated undervaluation (~275%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778578+00:00"
+    },
+    "VIDHIING": {
+      "symbol": "VIDHIING",
+      "company_name": "Vidhi Specialty Food Ingredients Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 279.25,
+      "ratios": {
+        "pe": 28.4658,
+        "pb": 4.2589,
+        "roe_pct": 15.57,
+        "debt_to_equity": 17.578,
+        "profit_margin_pct": 12.88
+      },
+      "growth": {
+        "revenue_cagr_pct": -1.4,
+        "net_income_cagr_pct": 9.1,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 54.63,
+        "graham_number": 120.3,
+        "blended_fair_value": 87.47,
+        "estimated_upside_pct": -68.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 48,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (15.6%)",
+          "Healthy net margin (12.9%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-1.4%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778661+00:00"
+    },
+    "VIDYAWIRES": {
+      "symbol": "VIDYAWIRES",
+      "company_name": "VIDYAWIRES",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "price": 97.65,
+      "ratios": {
+        "pe": 36.0332,
+        "pb": 8.3569,
+        "roe_pct": 17.84,
+        "debt_to_equity": 17.772,
+        "profit_margin_pct": 3.13
+      },
+      "growth": {
+        "revenue_cagr_pct": 22.2,
+        "net_income_cagr_pct": 38.9,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 26.69,
+        "blended_fair_value": 26.69,
+        "estimated_upside_pct": -72.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 49,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 7,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (17.8%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (22.2%)",
+          "Strong profit CAGR (38.9%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778788+00:00"
+    },
+    "VIJAYA": {
+      "symbol": "VIJAYA",
+      "company_name": "Vijaya Diagnostic Centre Limited",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 1367.8,
+      "ratios": {
+        "pe": 81.4167,
+        "pb": 14.6979,
+        "roe_pct": 19.7,
+        "debt_to_equity": 44.15,
+        "profit_margin_pct": 21.25
+      },
+      "growth": {
+        "revenue_cagr_pct": 21.1,
+        "net_income_cagr_pct": 26.9,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 227.9,
+        "graham_number": 187.56,
+        "blended_fair_value": 207.73,
+        "estimated_upside_pct": -84.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 59,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 16,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (19.7%)",
+          "High net margin (21.2%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (21.1%)",
+          "Strong profit CAGR (26.9%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778892+00:00"
+    },
+    "VIKASECO": {
+      "symbol": "VIKASECO",
+      "company_name": "Vikas Ecotech Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 1.23,
+      "ratios": {
+        "pe": 20.5,
+        "pb": 0.4256,
+        "roe_pct": 0.0,
+        "debt_to_equity": 9.468,
+        "profit_margin_pct": 1.99
+      },
+      "growth": {
+        "revenue_cagr_pct": 18.2,
+        "net_income_cagr_pct": 130.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 1.98,
+        "blended_fair_value": 1.98,
+        "estimated_upside_pct": 61.0,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 0,
+          "stability": 12,
+          "growth": 18,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong revenue CAGR (18.2%)",
+          "Strong profit CAGR (130.2%)",
+          "Significant estimated undervaluation (~61%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.778980+00:00"
+    },
+    "VIKASLIFE": {
+      "symbol": "VIKASLIFE",
+      "company_name": "Vikas Lifecare Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "price": 1.46,
+      "ratios": {
+        "pe": null,
+        "pb": 0.4911,
+        "roe_pct": 0.0,
+        "debt_to_equity": 17.508,
+        "profit_margin_pct": -5.59
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.8,
+        "net_income_cagr_pct": null,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 12,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong revenue CAGR (16.8%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779060+00:00"
+    },
+    "VIKRAMSOLR": {
+      "symbol": "VIKRAMSOLR",
+      "company_name": "VIKRAMSOLR",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 185.28,
+      "ratios": {
+        "pe": 13.6235,
+        "pb": 2.1175,
+        "roe_pct": 21.34,
+        "debt_to_equity": 20.366,
+        "profit_margin_pct": 9.8
+      },
+      "growth": {
+        "revenue_cagr_pct": 32.3,
+        "net_income_cagr_pct": 219.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 163.63,
+        "blended_fair_value": 163.63,
+        "estimated_upside_pct": -11.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 72,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 15,
+          "stability": 20,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (21.3%)",
+          "Healthy net margin (9.8%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (32.3%)",
+          "Strong profit CAGR (219.0%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779142+00:00"
+    },
+    "VIKRAN": {
+      "symbol": "VIKRAN",
+      "company_name": "VIKRAN",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 70.24,
+      "ratios": {
+        "pe": 17.3432,
+        "pb": 1.2572,
+        "roe_pct": 10.76,
+        "debt_to_equity": 24.318,
+        "profit_margin_pct": 7.34
+      },
+      "growth": {
+        "revenue_cagr_pct": 33.6,
+        "net_income_cagr_pct": 28.9,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 71.35,
+        "blended_fair_value": 71.35,
+        "estimated_upside_pct": 1.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 66,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 6,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (33.6%)",
+          "Strong profit CAGR (28.9%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779224+00:00"
+    },
+    "VIMTALABS": {
+      "symbol": "VIMTALABS",
+      "company_name": "Vimta Labs Limited",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 598.0,
+      "ratios": {
+        "pe": 34.3876,
+        "pb": 5.8468,
+        "roe_pct": 18.55,
+        "debt_to_equity": 0.729,
+        "profit_margin_pct": 18.92
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.9,
+        "net_income_cagr_pct": 17.2,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 207.59,
+        "graham_number": 200.05,
+        "blended_fair_value": 203.82,
+        "estimated_upside_pct": -65.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 54,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 16,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.6%)",
+          "High net margin (18.9%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (8.9%)",
+          "Strong profit CAGR (17.2%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779310+00:00"
+    },
+    "VINATIORGA": {
+      "symbol": "VINATIORGA",
+      "company_name": "Vinati Organics Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 1367.3,
+      "ratios": {
+        "pe": 31.9388,
+        "pb": 4.8313,
+        "roe_pct": 14.9,
+        "debt_to_equity": null,
+        "profit_margin_pct": 19.93
+      },
+      "growth": {
+        "revenue_cagr_pct": 2.6,
+        "net_income_cagr_pct": 1.9,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 407.45,
+        "graham_number": 522.11,
+        "blended_fair_value": 464.78,
+        "estimated_upside_pct": -66.0,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 15,
+          "stability": 8,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (19.9%)",
+          "Strong liquidity position",
+          "Appears overvalued vs blended intrinsic estimate (~-66%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779426+00:00"
+    },
+    "VINCOFE": {
+      "symbol": "VINCOFE",
+      "company_name": "Vintage Coffee and Beverages Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "price": 151.17,
+      "ratios": {
+        "pe": 30.4778,
+        "pb": 4.1677,
+        "roe_pct": 16.56,
+        "debt_to_equity": 21.719,
+        "profit_margin_pct": 13.05
+      },
+      "growth": {
+        "revenue_cagr_pct": 106.4,
+        "net_income_cagr_pct": 165.4,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 63.62,
+        "blended_fair_value": 63.62,
+        "estimated_upside_pct": -57.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (16.6%)",
+          "Healthy net margin (13.1%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (106.4%)",
+          "Strong profit CAGR (165.4%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779514+00:00"
+    },
+    "VINDHYATEL": {
+      "symbol": "VINDHYATEL",
+      "company_name": "Vindhya Telelinks Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 2141.2,
+      "ratios": {
+        "pe": 11.5186,
+        "pb": 0.5972,
+        "roe_pct": 5.31,
+        "debt_to_equity": 34.118,
+        "profit_margin_pct": 6.13
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.5,
+        "net_income_cagr_pct": 5.9,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 3872.38,
+        "blended_fair_value": 3872.38,
+        "estimated_upside_pct": 80.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 51,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 20,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 5,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Attractive PEG ratio",
+          "Manageable debt level",
+          "Significant estimated undervaluation (~81%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779604+00:00"
+    },
+    "VINNY": {
+      "symbol": "VINNY",
+      "company_name": "Vinny Overseas Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 1.18,
+      "ratios": {
+        "pe": 59.0,
+        "pb": 0.5963,
+        "roe_pct": 1.12,
+        "debt_to_equity": 19.671,
+        "profit_margin_pct": 0.74
+      },
+      "growth": {
+        "revenue_cagr_pct": 5.8,
+        "net_income_cagr_pct": -27.4,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 0.94,
+        "blended_fair_value": 0.94,
+        "estimated_upside_pct": -20.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 35,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-20%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779685+00:00"
+    },
+    "VINYLINDIA": {
+      "symbol": "VINYLINDIA",
+      "company_name": "Vinyl Chemicals (India) Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 257.0,
+      "ratios": {
+        "pe": 28.5873,
+        "pb": 3.6265,
+        "roe_pct": 12.84,
+        "debt_to_equity": 0.38,
+        "profit_margin_pct": 2.53
+      },
+      "growth": {
+        "revenue_cagr_pct": -12.1,
+        "net_income_cagr_pct": -22.6,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 119.73,
+        "blended_fair_value": 119.73,
+        "estimated_upside_pct": -53.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 4,
+          "stability": 16,
+          "growth": 2,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Declining revenue trend (-12.1%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-53%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779788+00:00"
+    },
+    "VIPIND": {
+      "symbol": "VIPIND",
+      "company_name": "V.I.P. Industries Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Footwear & Accessories",
+      "price": 312.45,
+      "ratios": {
+        "pe": null,
+        "pb": 9.5653,
+        "roe_pct": -74.64,
+        "debt_to_equity": 254.843,
+        "profit_margin_pct": -18.19
+      },
+      "growth": {
+        "revenue_cagr_pct": -3.7,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 55.9,
+        "graham_number": null,
+        "blended_fair_value": 55.9,
+        "estimated_upside_pct": -82.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 0,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High leverage",
+          "Declining revenue trend (-3.7%)",
+          "Appears overvalued vs blended intrinsic estimate (~-82%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779870+00:00"
+    },
+    "VIPULLTD": {
+      "symbol": "VIPULLTD",
+      "company_name": "Vipul Limited",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Diversified",
+      "price": 12.98,
+      "ratios": {
+        "pe": null,
+        "pb": 0.4461,
+        "roe_pct": 0.0,
+        "debt_to_equity": 19.491,
+        "profit_margin_pct": -44.31
+      },
+      "growth": {
+        "revenue_cagr_pct": -14.3,
+        "net_income_cagr_pct": null,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 20.51,
+        "graham_number": null,
+        "blended_fair_value": 20.51,
+        "estimated_upside_pct": 58.0,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 36,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 12,
+          "growth": 2,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Declining revenue trend (-14.3%)",
+          "Significant estimated undervaluation (~58%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.779958+00:00"
+    },
+    "VIRINCHI": {
+      "symbol": "VIRINCHI",
+      "company_name": "Virinchi Limited",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 16.86,
+      "ratios": {
+        "pe": null,
+        "pb": 0.3624,
+        "roe_pct": -5.73,
+        "debt_to_equity": 56.699,
+        "profit_margin_pct": -9.18
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.8,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -20.83,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 22,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 13,
+          "growth": 2,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780037+00:00"
+    },
+    "VISAKAIND": {
+      "symbol": "VISAKAIND",
+      "company_name": "Visaka Industries Limited",
+      "sector": "Industrials",
+      "industry": "Building Products & Equipment",
+      "price": 75.44,
+      "ratios": {
+        "pe": 7.6356,
+        "pb": 0.7886,
+        "roe_pct": 10.87,
+        "debt_to_equity": 36.591,
+        "profit_margin_pct": 5.09
+      },
+      "growth": {
+        "revenue_cagr_pct": 0.6,
+        "net_income_cagr_pct": 16.8,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 185.59,
+        "graham_number": 145.83,
+        "blended_fair_value": 165.71,
+        "estimated_upside_pct": 119.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 62,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 4,
+          "stability": 13,
+          "growth": 15,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong profit CAGR (16.8%)",
+          "Significant estimated undervaluation (~120%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780122+00:00"
+    },
+    "VISHNU": {
+      "symbol": "VISHNU",
+      "company_name": "Vishnu Chemicals Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 608.4,
+      "ratios": {
+        "pe": 28.7796,
+        "pb": 4.0982,
+        "roe_pct": 14.22,
+        "debt_to_equity": 49.066,
+        "profit_margin_pct": 8.84
+      },
+      "growth": {
+        "revenue_cagr_pct": 4.9,
+        "net_income_cagr_pct": 1.4,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 265.73,
+        "blended_fair_value": 265.73,
+        "estimated_upside_pct": -56.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 36,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 10,
+          "stability": 13,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (8.8%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Appears overvalued vs blended intrinsic estimate (~-56%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780205+00:00"
+    },
+    "VISHWARAJ": {
+      "symbol": "VISHWARAJ",
+      "company_name": "Vishwaraj Sugar Industries Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Confectioners",
+      "price": 5.39,
+      "ratios": {
+        "pe": null,
+        "pb": 0.4809,
+        "roe_pct": -10.56,
+        "debt_to_equity": 166.266,
+        "profit_margin_pct": -7.48
+      },
+      "growth": {
+        "revenue_cagr_pct": -15.1,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 0.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 7,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High leverage",
+          "Declining revenue trend (-15.1%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780287+00:00"
+    },
+    "VIVIDHA": {
+      "symbol": "VIVIDHA",
+      "company_name": "Visagar Polytex Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 0.54,
+      "ratios": {
+        "pe": null,
+        "pb": 67.5,
+        "roe_pct": -425.41,
+        "debt_to_equity": null,
+        "profit_margin_pct": 0.0
+      },
+      "growth": {
+        "revenue_cagr_pct": -47.3,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 50.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -0.17,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 10,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 2,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong liquidity position",
+          "Declining revenue trend (-47.3%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780371+00:00"
+    },
+    "VIYASH": {
+      "symbol": "VIYASH",
+      "company_name": "Viyash Scientific Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 269.3,
+      "ratios": {
+        "pe": 67.1571,
+        "pb": 4.0172,
+        "roe_pct": 11.56,
+        "debt_to_equity": 15.724,
+        "profit_margin_pct": 5.18
+      },
+      "growth": {
+        "revenue_cagr_pct": 34.1,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 116.96,
+        "graham_number": 77.77,
+        "blended_fair_value": 97.36,
+        "estimated_upside_pct": -63.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 41,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 6,
+          "stability": 20,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (34.1%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-64%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780457+00:00"
+    },
+    "VLSFINANCE": {
+      "symbol": "VLSFINANCE",
+      "company_name": "VLS Finance Limited",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "price": 262.27,
+      "ratios": {
+        "pe": 40.3492,
+        "pb": 0.415,
+        "roe_pct": 0.95,
+        "debt_to_equity": 0.014,
+        "profit_margin_pct": 45.38
+      },
+      "growth": {
+        "revenue_cagr_pct": -26.9,
+        "net_income_cagr_pct": -27.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 304.01,
+        "blended_fair_value": 304.01,
+        "estimated_upside_pct": 15.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 40,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 11,
+          "stability": 10,
+          "growth": 2,
+          "valuation_upside": 10
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (45.4%)",
+          "Leverage ratio not directly comparable (financial sector)",
+          "Declining revenue trend (-26.9%)",
+          "Profit growth declining/negative",
+          "Modest estimated undervaluation (~16%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780540+00:00"
+    },
+    "VMART": {
+      "symbol": "VMART",
+      "company_name": "V-Mart Retail Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Department Stores",
+      "price": 762.1,
+      "ratios": {
+        "pe": 64.8596,
+        "pb": 6.0661,
+        "roe_pct": 14.08,
+        "debt_to_equity": 100.682,
+        "profit_margin_pct": 3.27
+      },
+      "growth": {
+        "revenue_cagr_pct": 15.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 889.09,
+        "graham_number": 182.25,
+        "blended_fair_value": 535.67,
+        "estimated_upside_pct": -29.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 28,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 4,
+          "stability": 6,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong revenue CAGR (15.5%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-30%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780621+00:00"
+    },
+    "VMM": {
+      "symbol": "VMM",
+      "company_name": "VMM",
+      "sector": "Consumer Cyclical",
+      "industry": "Department Stores",
+      "price": 116.39,
+      "ratios": {
+        "pe": 65.3876,
+        "pb": 7.7879,
+        "roe_pct": 12.15,
+        "debt_to_equity": 26.817,
+        "profit_margin_pct": 6.5
+      },
+      "growth": {
+        "revenue_cagr_pct": 19.5,
+        "net_income_cagr_pct": 37.7,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 76.37,
+        "graham_number": 24.47,
+        "blended_fair_value": 50.42,
+        "estimated_upside_pct": -56.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 46,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 4,
+          "stability": 17,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (19.5%)",
+          "Strong profit CAGR (37.7%)",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780715+00:00"
+    },
+    "VOLTAMP": {
+      "symbol": "VOLTAMP",
+      "company_name": "Voltamp Transformers Limited",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "price": 10304.0,
+      "ratios": {
+        "pe": 34.0842,
+        "pb": 6.3382,
+        "roe_pct": 18.07,
+        "debt_to_equity": 0.03,
+        "profit_margin_pct": 14.18
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.1,
+        "net_income_cagr_pct": 15.2,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 452.24,
+        "graham_number": 3325.34,
+        "blended_fair_value": 3325.34,
+        "estimated_upside_pct": -67.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.1%)",
+          "Healthy net margin (14.2%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (16.1%)",
+          "Strong profit CAGR (15.2%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780804+00:00"
+    },
+    "VRAJ": {
+      "symbol": "VRAJ",
+      "company_name": "VRAJ",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 117.97,
+      "ratios": {
+        "pe": 12.1619,
+        "pb": 0.9419,
+        "roe_pct": 7.74,
+        "debt_to_equity": 9.921,
+        "profit_margin_pct": 5.44
+      },
+      "growth": {
+        "revenue_cagr_pct": 4.5,
+        "net_income_cagr_pct": -16.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 165.33,
+        "blended_fair_value": 165.33,
+        "estimated_upside_pct": 40.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 2,
+          "stability": 20,
+          "growth": 5,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Significant estimated undervaluation (~40%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.780970+00:00"
+    },
+    "VRLLOG": {
+      "symbol": "VRLLOG",
+      "company_name": "VRL Logistics Limited",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "price": 239.58,
+      "ratios": {
+        "pe": 17.6812,
+        "pb": 3.8251,
+        "roe_pct": 21.27,
+        "debt_to_equity": 101.023,
+        "profit_margin_pct": 7.35
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.0,
+        "net_income_cagr_pct": -9.8,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 277.9,
+        "graham_number": 138.19,
+        "blended_fair_value": 208.04,
+        "estimated_upside_pct": -13.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 35,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 11,
+          "stability": 3,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (21.3%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-13%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781055+00:00"
+    },
+    "VSSL": {
+      "symbol": "VSSL",
+      "company_name": "Vardhman Special Steels Limited",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 282.9,
+      "ratios": {
+        "pe": 21.5625,
+        "pb": 2.242,
+        "roe_pct": 11.76,
+        "debt_to_equity": 7.281,
+        "profit_margin_pct": 6.96
+      },
+      "growth": {
+        "revenue_cagr_pct": 0.6,
+        "net_income_cagr_pct": 6.7,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 193.0,
+        "blended_fair_value": 193.0,
+        "estimated_upside_pct": -31.8,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 43,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 6,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Appears overvalued vs blended intrinsic estimate (~-32%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781150+00:00"
+    },
+    "VSTIND": {
+      "symbol": "VSTIND",
+      "company_name": "VST Industries Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Tobacco",
+      "price": 261.1,
+      "ratios": {
+        "pe": 15.1714,
+        "pb": 3.4927,
+        "roe_pct": 21.11,
+        "debt_to_equity": null,
+        "profit_margin_pct": 19.96
+      },
+      "growth": {
+        "revenue_cagr_pct": 4.2,
+        "net_income_cagr_pct": -3.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 190.58,
+        "graham_number": 170.14,
+        "blended_fair_value": 180.36,
+        "estimated_upside_pct": -30.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 42,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 20,
+          "stability": 8,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (21.1%)",
+          "High net margin (20.0%)",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-31%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781237+00:00"
+    },
+    "VSTL": {
+      "symbol": "VSTL",
+      "company_name": "Vibhor Steel Tubes Limited",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 116.37,
+      "ratios": {
+        "pe": 25.0797,
+        "pb": 1.1183,
+        "roe_pct": 4.57,
+        "debt_to_equity": 97.86,
+        "profit_margin_pct": 0.77
+      },
+      "growth": {
+        "revenue_cagr_pct": 1.1,
+        "net_income_cagr_pct": -25.3,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 104.23,
+        "blended_fair_value": 104.23,
+        "estimated_upside_pct": -10.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 23,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 0,
+          "stability": 6,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-10%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781322+00:00"
+    },
+    "VSTTILLERS": {
+      "symbol": "VSTTILLERS",
+      "company_name": "V.S.T. Tillers Tractors Limited",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "price": 4483.1,
+      "ratios": {
+        "pe": 37.1425,
+        "pb": 3.6675,
+        "roe_pct": 9.99,
+        "debt_to_equity": 0.175,
+        "profit_margin_pct": 8.44
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.4,
+        "net_income_cagr_pct": 4.3,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 2846.42,
+        "graham_number": 1821.99,
+        "blended_fair_value": 2334.2,
+        "estimated_upside_pct": -47.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 40,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 6,
+          "stability": 20,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (8.4%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Appears overvalued vs blended intrinsic estimate (~-48%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781408+00:00"
+    },
+    "VTL": {
+      "symbol": "VTL",
+      "company_name": "Vardhman Textiles Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 634.3,
+      "ratios": {
+        "pe": 24.2099,
+        "pb": 1.7781,
+        "roe_pct": 7.33,
+        "debt_to_equity": 17.52,
+        "profit_margin_pct": 7.55
+      },
+      "growth": {
+        "revenue_cagr_pct": -0.2,
+        "net_income_cagr_pct": -2.1,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 458.58,
+        "blended_fair_value": 458.58,
+        "estimated_upside_pct": -27.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 2,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-0.2%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-28%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781493+00:00"
+    },
+    "WAAREEENER": {
+      "symbol": "WAAREEENER",
+      "company_name": "WAAREEENER",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 3009.4,
+      "ratios": {
+        "pe": 23.3794,
+        "pb": 5.9925,
+        "roe_pct": 31.57,
+        "debt_to_equity": 21.402,
+        "profit_margin_pct": 13.99
+      },
+      "growth": {
+        "revenue_cagr_pct": 58.9,
+        "net_income_cagr_pct": 97.4,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 1206.01,
+        "blended_fair_value": 1206.01,
+        "estimated_upside_pct": -59.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 60,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 15,
+          "stability": 15,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (31.6%)",
+          "Healthy net margin (14.0%)",
+          "Very low debt",
+          "Strong revenue CAGR (58.9%)",
+          "Strong profit CAGR (97.4%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781576+00:00"
+    },
+    "WAAREEINDO": {
+      "symbol": "WAAREEINDO",
+      "company_name": "Indosolar Limited",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 404.7,
+      "ratios": {
+        "pe": 6.8269,
+        "pb": 5.8693,
+        "roe_pct": 150.63,
+        "debt_to_equity": 1.07,
+        "profit_margin_pct": 36.27
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": -38.9,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 245.78,
+        "graham_number": 303.26,
+        "blended_fair_value": 274.52,
+        "estimated_upside_pct": -32.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 49,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 8,
+          "profitability": 20,
+          "stability": 11,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (150.6%)",
+          "High net margin (36.3%)",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781660+00:00"
+    },
+    "WAAREERTL": {
+      "symbol": "WAAREERTL",
+      "company_name": "Waaree Renewable Technologies Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 1020.65,
+      "ratios": {
+        "pe": 22.2606,
+        "pb": 16.1618,
+        "roe_pct": 0.0,
+        "debt_to_equity": 15.598,
+        "profit_margin_pct": -34.03
+      },
+      "growth": {
+        "revenue_cagr_pct": 111.8,
+        "net_income_cagr_pct": 105.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 468.55,
+        "graham_number": 255.24,
+        "blended_fair_value": 361.89,
+        "estimated_upside_pct": -64.5,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 39,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 2,
+          "stability": 12,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong revenue CAGR (111.8%)",
+          "Strong profit CAGR (105.2%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-64%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781756+00:00"
+    },
+    "WABAG": {
+      "symbol": "WABAG",
+      "company_name": "VA Tech Wabag Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 2110.8,
+      "ratios": {
+        "pe": 30.4721,
+        "pb": 4.6489,
+        "roe_pct": 15.67,
+        "debt_to_equity": 8.874,
+        "profit_margin_pct": 9.39
+      },
+      "growth": {
+        "revenue_cagr_pct": 10.2,
+        "net_income_cagr_pct": 205.5,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 754.7,
+        "graham_number": 841.22,
+        "blended_fair_value": 797.96,
+        "estimated_upside_pct": -62.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 51,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (15.7%)",
+          "Healthy net margin (9.4%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (10.2%)",
+          "Strong profit CAGR (205.5%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781842+00:00"
+    },
+    "WAKEFIT": {
+      "symbol": "WAKEFIT",
+      "company_name": "WAKEFIT",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "price": 119.83,
+      "ratios": {
+        "pe": 19.9717,
+        "pb": 3.508,
+        "roe_pct": 22.9,
+        "debt_to_equity": 24.021,
+        "profit_margin_pct": 12.71
+      },
+      "growth": {
+        "revenue_cagr_pct": 23.2,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 195.36,
+        "graham_number": 67.91,
+        "blended_fair_value": 131.63,
+        "estimated_upside_pct": 9.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 66,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 18,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Excellent ROE (22.9%)",
+          "Healthy net margin (12.7%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (23.2%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.781924+00:00"
+    },
+    "WALCHANNAG": {
+      "symbol": "WALCHANNAG",
+      "company_name": "Walchandnagar Industries Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 273.75,
+      "ratios": {
+        "pe": null,
+        "pb": 5.2167,
+        "roe_pct": -4.01,
+        "debt_to_equity": 61.011,
+        "profit_margin_pct": -5.33
+      },
+      "growth": {
+        "revenue_cagr_pct": -4.8,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 16,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Declining revenue trend (-4.8%)",
+          "Margins expanding",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782005+00:00"
+    },
+    "WANBURY": {
+      "symbol": "WANBURY",
+      "company_name": "Wanbury Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 274.35,
+      "ratios": {
+        "pe": 14.1199,
+        "pb": 8.4804,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": -25.9
+      },
+      "growth": {
+        "revenue_cagr_pct": 9.3,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 118.92,
+        "blended_fair_value": 118.92,
+        "estimated_upside_pct": -56.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 23,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 8,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy revenue CAGR (9.3%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-57%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782090+00:00"
+    },
+    "WCIL": {
+      "symbol": "WCIL",
+      "company_name": "WCIL",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "price": 101.01,
+      "ratios": {
+        "pe": 26.5118,
+        "pb": 1.1878,
+        "roe_pct": 4.58,
+        "debt_to_equity": 26.012,
+        "profit_margin_pct": 2.12
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.9,
+        "net_income_cagr_pct": -18.4,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 85.38,
+        "blended_fair_value": 85.38,
+        "estimated_upside_pct": -15.5,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 40,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-16%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782182+00:00"
+    },
+    "WEALTH": {
+      "symbol": "WEALTH",
+      "company_name": "Wealth First Portfolio Managers Limited",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "price": 994.9,
+      "ratios": {
+        "pe": 27.4002,
+        "pb": 7.0445,
+        "roe_pct": 25.64,
+        "debt_to_equity": null,
+        "profit_margin_pct": 54.41
+      },
+      "growth": {
+        "revenue_cagr_pct": -44.0,
+        "net_income_cagr_pct": 40.9,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 551.64,
+        "graham_number": 339.68,
+        "blended_fair_value": 445.66,
+        "estimated_upside_pct": -55.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 40,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 20,
+          "stability": 0,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (25.6%)",
+          "High net margin (54.4%)",
+          "Declining revenue trend (-44.0%)",
+          "Strong profit CAGR (40.9%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-55%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782266+00:00"
+    },
+    "WEBELSOLAR": {
+      "symbol": "WEBELSOLAR",
+      "company_name": "Websol Energy System Limited",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 101.48,
+      "ratios": {
+        "pe": 14.5387,
+        "pb": 10.9483,
+        "roe_pct": 66.69,
+        "debt_to_equity": 20.729,
+        "profit_margin_pct": 28.87
+      },
+      "growth": {
+        "revenue_cagr_pct": 293.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 49.59,
+        "graham_number": 38.15,
+        "blended_fair_value": 43.87,
+        "estimated_upside_pct": -56.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 66,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 8,
+          "profitability": 20,
+          "stability": 20,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (66.7%)",
+          "High net margin (28.9%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (293.5%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782348+00:00"
+    },
+    "WEIZMANIND": {
+      "symbol": "WEIZMANIND",
+      "company_name": "Weizmann Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 85.55,
+      "ratios": {
+        "pe": 19.0111,
+        "pb": 2.0989,
+        "roe_pct": 9.32,
+        "debt_to_equity": 9.442,
+        "profit_margin_pct": 4.67
+      },
+      "growth": {
+        "revenue_cagr_pct": -2.1,
+        "net_income_cagr_pct": 11.5,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 49.34,
+        "graham_number": 64.24,
+        "blended_fair_value": 56.79,
+        "estimated_upside_pct": -33.6,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 32,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 0,
+          "stability": 15,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Declining revenue trend (-2.1%)",
+          "Appears overvalued vs blended intrinsic estimate (~-34%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782431+00:00"
+    },
+    "WEL": {
+      "symbol": "WEL",
+      "company_name": "Wonder Electricals Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "price": 97.28,
+      "ratios": {
+        "pe": 143.0588,
+        "pb": 14.7887,
+        "roe_pct": 8.76,
+        "debt_to_equity": 107.754,
+        "profit_margin_pct": 1.39
+      },
+      "growth": {
+        "revenue_cagr_pct": 18.1,
+        "net_income_cagr_pct": 13.2,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 27.66,
+        "graham_number": 10.03,
+        "blended_fair_value": 18.84,
+        "estimated_upside_pct": -80.6,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 24,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 6,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong revenue CAGR (18.1%)",
+          "Appears overvalued vs blended intrinsic estimate (~-81%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782513+00:00"
+    },
+    "WELENT": {
+      "symbol": "WELENT",
+      "company_name": "Welspun Enterprises Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 572.45,
+      "ratios": {
+        "pe": 21.8242,
+        "pb": 2.5194,
+        "roe_pct": 13.6,
+        "debt_to_equity": 60.918,
+        "profit_margin_pct": 9.68
+      },
+      "growth": {
+        "revenue_cagr_pct": 10.2,
+        "net_income_cagr_pct": -21.5,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 91.24,
+        "graham_number": 366.2,
+        "blended_fair_value": 228.72,
+        "estimated_upside_pct": -60.0,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 52,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 14,
+          "profitability": 10,
+          "stability": 16,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Attractive PEG ratio",
+          "Healthy net margin (9.7%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (10.2%)",
+          "Profit growth declining/negative"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782679+00:00"
+    },
+    "WELSPLSOL": {
+      "symbol": "WELSPLSOL",
+      "company_name": "Welspun Specialty Solutions Limited",
+      "sector": "",
+      "industry": "",
+      "price": 58.09,
+      "ratios": {
+        "pe": null,
+        "pb": 9.0342,
+        "roe_pct": 5.09,
+        "debt_to_equity": 7.686,
+        "profit_margin_pct": 2.56
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 0
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 15,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 15,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782798+00:00"
+    },
+    "WELSPUNLIV": {
+      "symbol": "WELSPUNLIV",
+      "company_name": "Welspun Living Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 167.32,
+      "ratios": {
+        "pe": 78.1869,
+        "pb": 3.4614,
+        "roe_pct": 4.3,
+        "debt_to_equity": 46.501,
+        "profit_margin_pct": 2.17
+      },
+      "growth": {
+        "revenue_cagr_pct": 9.6,
+        "net_income_cagr_pct": 0.9,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 130.33,
+        "graham_number": 48.24,
+        "blended_fair_value": 89.29,
+        "estimated_upside_pct": -46.6,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 29,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 13,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (9.6%)",
+          "Appears overvalued vs blended intrinsic estimate (~-47%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782895+00:00"
+    },
+    "WENDT": {
+      "symbol": "WENDT",
+      "company_name": "Wendt (India) Limited",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "price": 7559.5,
+      "ratios": {
+        "pe": 103.9821,
+        "pb": 5.9554,
+        "roe_pct": 5.85,
+        "debt_to_equity": 0.075,
+        "profit_margin_pct": 6.16
+      },
+      "growth": {
+        "revenue_cagr_pct": 4.1,
+        "net_income_cagr_pct": -28.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1025.29,
+        "graham_number": 1440.95,
+        "blended_fair_value": 1233.12,
+        "estimated_upside_pct": -83.7,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 28,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-84%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.782978+00:00"
+    },
+    "WEWORK": {
+      "symbol": "WEWORK",
+      "company_name": "WEWORK",
+      "sector": "Real Estate",
+      "industry": "Real Estate Services",
+      "price": 626.55,
+      "ratios": {
+        "pe": 116.0278,
+        "pb": 41.7839,
+        "roe_pct": 29.99,
+        "debt_to_equity": 1854.959,
+        "profit_margin_pct": 3.05
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 2
+      },
+      "valuation": {
+        "dcf_fair_value": 1186.5,
+        "graham_number": 42.68,
+        "blended_fair_value": 614.59,
+        "estimated_upside_pct": -1.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 19,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 0,
+          "growth": 0,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Excellent ROE (30.0%)",
+          "High leverage"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783149+00:00"
+    },
+    "WHEELS": {
+      "symbol": "WHEELS",
+      "company_name": "Wheels India Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 1674.4,
+      "ratios": {
+        "pe": 26.3934,
+        "pb": 3.9274,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 3.19
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.8,
+        "net_income_cagr_pct": 41.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1487.97,
+        "graham_number": 780.1,
+        "blended_fair_value": 1134.04,
+        "estimated_upside_pct": -32.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy revenue CAGR (8.8%)",
+          "Strong profit CAGR (41.0%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-32%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783234+00:00"
+    },
+    "WILLAMAGOR": {
+      "symbol": "WILLAMAGOR",
+      "company_name": "Williamson Magor & Co. Limited",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "price": 26.18,
+      "ratios": {
+        "pe": null,
+        "pb": -0.1584,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": -81.71
+      },
+      "growth": {
+        "revenue_cagr_pct": -12.1,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -499.54,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 8,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Declining revenue trend (-12.1%)",
+          "Margins expanding",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783406+00:00"
+    },
+    "WINDLAS": {
+      "symbol": "WINDLAS",
+      "company_name": "Windlas Biotech Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 859.0,
+      "ratios": {
+        "pe": 27.5497,
+        "pb": 3.376,
+        "roe_pct": 12.23,
+        "debt_to_equity": 6.067,
+        "profit_margin_pct": 7.35
+      },
+      "growth": {
+        "revenue_cagr_pct": 21.0,
+        "net_income_cagr_pct": 16.0,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 624.88,
+        "graham_number": 422.5,
+        "blended_fair_value": 523.69,
+        "estimated_upside_pct": -39.0,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 4,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (21.0%)",
+          "Strong profit CAGR (16.0%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-39%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783489+00:00"
+    },
+    "WINDMACHIN": {
+      "symbol": "WINDMACHIN",
+      "company_name": "Windsor Machines Limited",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 305.15,
+      "ratios": {
+        "pe": 3390.5554,
+        "pb": 3.5251,
+        "roe_pct": 0.1,
+        "debt_to_equity": 17.494,
+        "profit_margin_pct": 0.11
+      },
+      "growth": {
+        "revenue_cagr_pct": 15.2,
+        "net_income_cagr_pct": -48.3,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 13.24,
+        "blended_fair_value": 13.24,
+        "estimated_upside_pct": -95.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 17,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (15.2%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-96%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783573+00:00"
+    },
+    "WIPL": {
+      "symbol": "WIPL",
+      "company_name": "The Western India Plywoods Limited",
+      "sector": "Basic Materials",
+      "industry": "Lumber & Wood Production",
+      "price": 174.52,
+      "ratios": {
+        "pe": 202.9302,
+        "pb": 2.9573,
+        "roe_pct": 1.0,
+        "debt_to_equity": 20.837,
+        "profit_margin_pct": 0.38
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.4,
+        "net_income_cagr_pct": -50.3,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 74.23,
+        "graham_number": 33.79,
+        "blended_fair_value": 54.01,
+        "estimated_upside_pct": -69.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 32,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-69%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783656+00:00"
+    },
+    "WOCKPHARMA": {
+      "symbol": "WOCKPHARMA",
+      "company_name": "Wockhardt Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 1965.2,
+      "ratios": {
+        "pe": 148.9917,
+        "pb": 6.4552,
+        "roe_pct": 4.0,
+        "debt_to_equity": 42.284,
+        "profit_margin_pct": 6.31
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.4,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -64.94,
+        "graham_number": 300.58,
+        "blended_fair_value": 300.58,
+        "estimated_upside_pct": -84.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 2,
+          "stability": 13,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (8.4%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-85%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783841+00:00"
+    },
+    "WONDERLA": {
+      "symbol": "WONDERLA",
+      "company_name": "Wonderla Holidays Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "price": 495.8,
+      "ratios": {
+        "pe": 38.7041,
+        "pb": 1.8207,
+        "roe_pct": 4.64,
+        "debt_to_equity": 0.348,
+        "profit_margin_pct": 15.75
+      },
+      "growth": {
+        "revenue_cagr_pct": 6.8,
+        "net_income_cagr_pct": -18.1,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 280.16,
+        "blended_fair_value": 280.16,
+        "estimated_upside_pct": -43.5,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 32,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 7,
+          "stability": 16,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (15.8%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-44%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.783924+00:00"
+    },
+    "WORTHPERI": {
+      "symbol": "WORTHPERI",
+      "company_name": "Worth Peripherals Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "price": 130.52,
+      "ratios": {
+        "pe": 14.0647,
+        "pb": 1.1276,
+        "roe_pct": 9.42,
+        "debt_to_equity": 20.288,
+        "profit_margin_pct": 4.8
+      },
+      "growth": {
+        "revenue_cagr_pct": 1.1,
+        "net_income_cagr_pct": -6.8,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 155.46,
+        "blended_fair_value": 155.46,
+        "estimated_upside_pct": 19.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 53,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 10
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Modest estimated undervaluation (~19%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784006+00:00"
+    },
+    "WPIL": {
+      "symbol": "WPIL",
+      "company_name": "WPIL Limited",
+      "sector": "",
+      "industry": "",
+      "price": 493.55,
+      "ratios": {
+        "pe": null,
+        "pb": 3.0276,
+        "roe_pct": 10.97,
+        "debt_to_equity": 25.558,
+        "profit_margin_pct": 8.53
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 0
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 47,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 10,
+          "stability": 20,
+          "growth": 13,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (8.5%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Positive YoY earnings growth (2200.0%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784083+00:00"
+    },
+    "WSI": {
+      "symbol": "WSI",
+      "company_name": "W.S. Industries (India) Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 67.41,
+      "ratios": {
+        "pe": 204.2727,
+        "pb": 1.1636,
+        "roe_pct": 0.75,
+        "debt_to_equity": 17.361,
+        "profit_margin_pct": 2.84
+      },
+      "growth": {
+        "revenue_cagr_pct": 4.8,
+        "net_income_cagr_pct": -49.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 20.74,
+        "blended_fair_value": 20.74,
+        "estimated_upside_pct": -69.2,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 37,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 2,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Very low debt",
+          "Strong liquidity position",
+          "Profit growth declining/negative",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-69%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784169+00:00"
+    },
+    "WSTCSTPAPR": {
+      "symbol": "WSTCSTPAPR",
+      "company_name": "West Coast Paper Mills Limited",
+      "sector": "Basic Materials",
+      "industry": "Paper & Paper Products",
+      "price": 496.85,
+      "ratios": {
+        "pe": 21.7917,
+        "pb": 0.9096,
+        "roe_pct": 3.77,
+        "debt_to_equity": 8.243,
+        "profit_margin_pct": 3.52
+      },
+      "growth": {
+        "revenue_cagr_pct": -4.4,
+        "net_income_cagr_pct": -45.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 158.43,
+        "graham_number": 529.35,
+        "blended_fair_value": 343.89,
+        "estimated_upside_pct": -30.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 37,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 17,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Attractive PEG ratio",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-4.4%)",
+          "Profit growth declining/negative"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784257+00:00"
+    },
+    "XCHANGING": {
+      "symbol": "XCHANGING",
+      "company_name": "Xchanging Solutions Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 62.46,
+      "ratios": {
+        "pe": 11.6966,
+        "pb": 1.8959,
+        "roe_pct": 15.75,
+        "debt_to_equity": 17.954,
+        "profit_margin_pct": 29.3
+      },
+      "growth": {
+        "revenue_cagr_pct": 5.2,
+        "net_income_cagr_pct": 9.8,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 61.97,
+        "graham_number": 62.92,
+        "blended_fair_value": 62.45,
+        "estimated_upside_pct": -0.0,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 71,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 18,
+          "stability": 20,
+          "growth": 15,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Strong ROE (15.8%)",
+          "High net margin (29.3%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784340+00:00"
+    },
+    "XELPMOC": {
+      "symbol": "XELPMOC",
+      "company_name": "Xelpmoc Design and Tech Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 85.99,
+      "ratios": {
+        "pe": null,
+        "pb": 1.6497,
+        "roe_pct": -10.94,
+        "debt_to_equity": 0.922,
+        "profit_margin_pct": -203.27
+      },
+      "growth": {
+        "revenue_cagr_pct": -36.7,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 0.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 15,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong liquidity position",
+          "Declining revenue trend (-36.7%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784421+00:00"
+    },
+    "XPROINDIA": {
+      "symbol": "XPROINDIA",
+      "company_name": "Xpro India Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 1341.2,
+      "ratios": {
+        "pe": 157.9741,
+        "pb": 4.5911,
+        "roe_pct": 2.78,
+        "debt_to_equity": 40.676,
+        "profit_margin_pct": 3.87
+      },
+      "growth": {
+        "revenue_cagr_pct": -0.1,
+        "net_income_cagr_pct": -24.9,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 236.23,
+        "blended_fair_value": 236.23,
+        "estimated_upside_pct": -82.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 16,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 16,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Declining revenue trend (-0.1%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-82%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784504+00:00"
+    },
+    "XTGLOBAL": {
+      "symbol": "XTGLOBAL",
+      "company_name": "XTGLOBAL",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 30.96,
+      "ratios": {
+        "pe": 36.8571,
+        "pb": 2.8448,
+        "roe_pct": 7.3,
+        "debt_to_equity": 23.79,
+        "profit_margin_pct": 3.96
+      },
+      "growth": {
+        "revenue_cagr_pct": 15.1,
+        "net_income_cagr_pct": 5.5,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 14.34,
+        "blended_fair_value": 14.34,
+        "estimated_upside_pct": -53.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 39,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (15.1%)",
+          "Appears overvalued vs blended intrinsic estimate (~-54%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784586+00:00"
+    },
+    "YASHO": {
+      "symbol": "YASHO",
+      "company_name": "Yasho Industries Limited",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 2868.5,
+      "ratios": {
+        "pe": 136.4653,
+        "pb": 8.087,
+        "roe_pct": 5.85,
+        "debt_to_equity": 125.684,
+        "profit_margin_pct": 3.04
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.5,
+        "net_income_cagr_pct": -28.1,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 657.42,
+        "graham_number": 409.58,
+        "blended_fair_value": 533.5,
+        "estimated_upside_pct": -81.4,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 13,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 2,
+          "stability": 6,
+          "growth": 5,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-81%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784672+00:00"
+    },
+    "YATHARTH": {
+      "symbol": "YATHARTH",
+      "company_name": "Yatharth Hospital & Trauma Care Services Limited",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "price": 837.05,
+      "ratios": {
+        "pe": 46.0677,
+        "pb": 4.7762,
+        "roe_pct": 9.89,
+        "debt_to_equity": 14.614,
+        "profit_margin_pct": 14.22
+      },
+      "growth": {
+        "revenue_cagr_pct": 32.4,
+        "net_income_cagr_pct": 38.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 267.67,
+        "blended_fair_value": 267.67,
+        "estimated_upside_pct": -68.0,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 46,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 6,
+          "stability": 20,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (14.2%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (32.4%)",
+          "Strong profit CAGR (38.7%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784774+00:00"
+    },
+    "YATRA": {
+      "symbol": "YATRA",
+      "company_name": "Yatra Online Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "price": 109.69,
+      "ratios": {
+        "pe": 36.8087,
+        "pb": 2.115,
+        "roe_pct": 5.8,
+        "debt_to_equity": 12.403,
+        "profit_margin_pct": 4.65
+      },
+      "growth": {
+        "revenue_cagr_pct": 43.9,
+        "net_income_cagr_pct": 83.1,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 54.97,
+        "graham_number": 58.97,
+        "blended_fair_value": 56.97,
+        "estimated_upside_pct": -48.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 44,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (43.9%)",
+          "Strong profit CAGR (83.1%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-48%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784860+00:00"
+    },
+    "YESBANK": {
+      "symbol": "YESBANK",
+      "company_name": "Yes Bank Limited",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 24.87,
+      "ratios": {
+        "pe": 22.2054,
+        "pb": 1.5789,
+        "roe_pct": 7.09,
+        "debt_to_equity": null,
+        "profit_margin_pct": 22.05
+      },
+      "growth": {
+        "revenue_cagr_pct": 21.6,
+        "net_income_cagr_pct": 68.4,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 184.61,
+        "graham_number": 19.92,
+        "blended_fair_value": 102.27,
+        "estimated_upside_pct": 311.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 11,
+          "stability": 0,
+          "growth": 20,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "High net margin (22.0%)",
+          "Strong revenue CAGR (21.6%)",
+          "Strong profit CAGR (68.4%)",
+          "Consistent YoY growth",
+          "Significant estimated undervaluation (~311%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.784946+00:00"
+    },
+    "YUKEN": {
+      "symbol": "YUKEN",
+      "company_name": "Yuken India Limited",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 748.95,
+      "ratios": {
+        "pe": 69.4115,
+        "pb": 2.7266,
+        "roe_pct": 4.27,
+        "debt_to_equity": 30.736,
+        "profit_margin_pct": 3.13
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.6,
+        "net_income_cagr_pct": 14.8,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 258.24,
+        "blended_fair_value": 258.24,
+        "estimated_upside_pct": -65.5,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-66%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785028+00:00"
+    },
+    "ZAGGLE": {
+      "symbol": "ZAGGLE",
+      "company_name": "Zaggle Prepaid Ocean Services Limited",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 205.6,
+      "ratios": {
+        "pe": 20.0195,
+        "pb": 2.1157,
+        "roe_pct": 10.45,
+        "debt_to_equity": 3.884,
+        "profit_margin_pct": 7.24
+      },
+      "growth": {
+        "revenue_cagr_pct": 51.1,
+        "net_income_cagr_pct": 82.0,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 149.85,
+        "blended_fair_value": 149.85,
+        "estimated_upside_pct": -27.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 47,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 8,
+          "stability": 8,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High leverage",
+          "Strong liquidity position",
+          "Strong revenue CAGR (51.1%)",
+          "Strong profit CAGR (82.0%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-27%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785113+00:00"
+    },
+    "ZEEMEDIA": {
+      "symbol": "ZEEMEDIA",
+      "company_name": "Zee Media Corporation Limited",
+      "sector": "Communication Services",
+      "industry": "Broadcasting",
+      "price": 8.23,
+      "ratios": {
+        "pe": 274.3333,
+        "pb": 2.6069,
+        "roe_pct": 0.85,
+        "debt_to_equity": 37.194,
+        "profit_margin_pct": 0.25
+      },
+      "growth": {
+        "revenue_cagr_pct": 1.8,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 17.77,
+        "graham_number": 1.46,
+        "blended_fair_value": 9.62,
+        "estimated_upside_pct": 16.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 8,
+          "valuation_upside": 10
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Margins expanding",
+          "Modest estimated undervaluation (~17%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785280+00:00"
+    },
+    "ZENITHEXPO": {
+      "symbol": "ZENITHEXPO",
+      "company_name": "Zenith Exports Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 200.04,
+      "ratios": {
+        "pe": 47.1792,
+        "pb": 1.2774,
+        "roe_pct": 2.76,
+        "debt_to_equity": 2.521,
+        "profit_margin_pct": 3.54
+      },
+      "growth": {
+        "revenue_cagr_pct": 2.5,
+        "net_income_cagr_pct": 13.2,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 140.33,
+        "graham_number": 122.23,
+        "blended_fair_value": 131.28,
+        "estimated_upside_pct": -34.4,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 25,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High leverage",
+          "Strong liquidity position",
+          "Appears overvalued vs blended intrinsic estimate (~-34%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785368+00:00"
+    },
+    "ZENITHSTL": {
+      "symbol": "ZENITHSTL",
+      "company_name": "Zenith Steel Pipes & Industries Limited",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 5.59,
+      "ratios": {
+        "pe": 18.0323,
+        "pb": -0.3183,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 8.21
+      },
+      "growth": {
+        "revenue_cagr_pct": -28.8,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 0.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 9,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 4,
+          "stability": 0,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (8.2%)",
+          "Declining revenue trend (-28.8%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785448+00:00"
+    },
+    "ZENTEC": {
+      "symbol": "ZENTEC",
+      "company_name": "Zen Technologies Limited",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 1771.2,
+      "ratios": {
+        "pe": 82.1521,
+        "pb": 8.863,
+        "roe_pct": 11.83,
+        "debt_to_equity": 0.95,
+        "profit_margin_pct": 28.13
+      },
+      "growth": {
+        "revenue_cagr_pct": 46.5,
+        "net_income_cagr_pct": 65.4,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 612.45,
+        "graham_number": 311.36,
+        "blended_fair_value": 461.91,
+        "estimated_upside_pct": -73.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 48,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 15,
+          "stability": 11,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (28.1%)",
+          "Strong liquidity position",
+          "Strong revenue CAGR (46.5%)",
+          "Strong profit CAGR (65.4%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-74%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785616+00:00"
+    },
+    "ZFCVINDIA": {
+      "symbol": "ZFCVINDIA",
+      "company_name": "ZF Commercial Vehicle Control Systems India Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 2616.0,
+      "ratios": {
+        "pe": 57.5071,
+        "pb": 8.0672,
+        "roe_pct": 14.98,
+        "debt_to_equity": null,
+        "profit_margin_pct": 12.55
+      },
+      "growth": {
+        "revenue_cagr_pct": 6.2,
+        "net_income_cagr_pct": 17.6,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 950.94,
+        "graham_number": 576.11,
+        "blended_fair_value": 763.53,
+        "estimated_upside_pct": -70.8,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 38,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 10,
+          "stability": 8,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (12.6%)",
+          "Strong liquidity position",
+          "Strong profit CAGR (17.6%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-71%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785711+00:00"
+    },
+    "ZFSTEERING": {
+      "symbol": "ZFSTEERING",
+      "company_name": "ZF Steering Gear (India) Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 676.15,
+      "ratios": {
+        "pe": 39.938,
+        "pb": null,
+        "roe_pct": 2.54,
+        "debt_to_equity": 22.157,
+        "profit_margin_pct": 2.7
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.5,
+        "net_income_cagr_pct": -14.4,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 25,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 15,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Healthy revenue CAGR (8.5%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785793+00:00"
+    },
+    "ZODIACLOTH": {
+      "symbol": "ZODIACLOTH",
+      "company_name": "Zodiac Clothing Company Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Manufacturing",
+      "price": 83.28,
+      "ratios": {
+        "pe": null,
+        "pb": 1.2047,
+        "roe_pct": -18.08,
+        "debt_to_equity": 58.75,
+        "profit_margin_pct": -21.7
+      },
+      "growth": {
+        "revenue_cagr_pct": -1.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -11.18,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 18,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Manageable debt level",
+          "Declining revenue trend (-1.5%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785872+00:00"
+    },
+    "ZOTA": {
+      "symbol": "ZOTA",
+      "company_name": "Zota Health Care Limited",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "price": 1389.5,
+      "ratios": {
+        "pe": null,
+        "pb": 13.4854,
+        "roe_pct": -16.05,
+        "debt_to_equity": 38.847,
+        "profit_margin_pct": -13.73
+      },
+      "growth": {
+        "revenue_cagr_pct": 56.7,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 25,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 13,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (56.7%)",
+          "Consistent YoY growth",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.785961+00:00"
+    },
+    "ZSARACOM": {
+      "symbol": "ZSARACOM",
+      "company_name": "Saraswati Commercial (India) Limited",
+      "sector": "",
+      "industry": "",
+      "price": 9590.0,
+      "ratios": {
+        "pe": null,
+        "pb": null,
+        "roe_pct": 8.88,
+        "debt_to_equity": 0.011,
+        "profit_margin_pct": 76.32
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 0
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 28,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 11,
+          "stability": 17,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (76.3%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.786038+00:00"
+    },
+    "ZUARI": {
+      "symbol": "ZUARI",
+      "company_name": "ZUARI",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 230.98,
+      "ratios": {
+        "pe": 1.0561,
+        "pb": null,
+        "roe_pct": 0.0,
+        "debt_to_equity": 30.705,
+        "profit_margin_pct": 24.33
+      },
+      "growth": {
+        "revenue_cagr_pct": -11.1,
+        "net_income_cagr_pct": 24.5,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 33,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 8,
+          "profitability": 7,
+          "stability": 8,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (24.3%)",
+          "Manageable debt level",
+          "Declining revenue trend (-11.1%)",
+          "Strong profit CAGR (24.5%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.786121+00:00"
+    },
+    "ZUARIIND": {
+      "symbol": "ZUARIIND",
+      "company_name": "Zuari Industries Limited",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "price": 260.65,
+      "ratios": {
+        "pe": 7.1884,
+        "pb": 0.2144,
+        "roe_pct": 2.45,
+        "debt_to_equity": 72.104,
+        "profit_margin_pct": 10.33
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.1,
+        "net_income_cagr_pct": -29.7,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -153.97,
+        "graham_number": 995.89,
+        "blended_fair_value": 995.89,
+        "estimated_upside_pct": 282.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 52,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 6,
+          "stability": 8,
+          "growth": 8,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Healthy net margin (10.3%)",
+          "Manageable debt level",
+          "Profit growth declining/negative",
+          "Significant estimated undervaluation (~282%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.786204+00:00"
+    },
+    "ZYDUSLIFE": {
+      "symbol": "ZYDUSLIFE",
+      "company_name": "Zydus Lifesciences Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 1101.4,
+      "ratios": {
+        "pe": 21.9709,
+        "pb": 4.3795,
+        "roe_pct": 18.32,
+        "debt_to_equity": 42.242,
+        "profit_margin_pct": 18.57
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.5,
+        "net_income_cagr_pct": 37.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 532.6,
+        "blended_fair_value": 532.6,
+        "estimated_upside_pct": -51.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 16,
+          "stability": 11,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.3%)",
+          "High net margin (18.6%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (16.5%)",
+          "Strong profit CAGR (37.0%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.786283+00:00"
+    },
+    "ZYDUSWELL": {
+      "symbol": "ZYDUSWELL",
+      "company_name": "Zydus Wellness Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 518.1,
+      "ratios": {
+        "pe": 83.5645,
+        "pb": 2.8882,
+        "roe_pct": 3.43,
+        "debt_to_equity": 54.974,
+        "profit_margin_pct": 4.98
+      },
+      "growth": {
+        "revenue_cagr_pct": 20.7,
+        "net_income_cagr_pct": -14.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 13.86,
+        "graham_number": 158.19,
+        "blended_fair_value": 158.19,
+        "estimated_upside_pct": -69.5,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 2,
+          "stability": 13,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (20.7%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-70%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-06-25T22:35:01.786364+00:00"
     }
   }
 }
