@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-02T05:17:09.480773+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1105,
+  "stock_count": 1106,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -53092,6 +53092,53 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-02T05:17:09.480745+00:00"
+    },
+    "SOBHA": {
+      "symbol": "SOBHA",
+      "company_name": "Sobha Limited",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Development",
+      "price": 1427.6,
+      "ratios": {
+        "pe": 79.0914,
+        "pb": 3.2336,
+        "roe_pct": 4.17,
+        "debt_to_equity": 24.62,
+        "profit_margin_pct": 3.73
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.3,
+        "net_income_cagr_pct": 22.9,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 538.5,
+        "graham_number": 423.44,
+        "blended_fair_value": 480.97,
+        "estimated_upside_pct": -66.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 37,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 15,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong revenue CAGR (16.3%)",
+          "Strong profit CAGR (22.9%)",
+          "Appears overvalued vs blended intrinsic estimate (~-66%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-02T08:40:45.171860+00:00"
     }
   }
 }
