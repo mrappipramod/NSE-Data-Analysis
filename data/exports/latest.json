@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-03T15:36:58.485755+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1692,
+  "stock_count": 1693,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -81259,6 +81259,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-03T16:04:50.282345+00:00"
+    },
+    "TANLA": {
+      "symbol": "TANLA",
+      "company_name": "Tanla Platforms Limited",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 539.05,
+      "ratios": {
+        "pe": 14.1002,
+        "pb": 2.8733,
+        "roe_pct": 21.41,
+        "debt_to_equity": 2.118,
+        "profit_margin_pct": 11.53
+      },
+      "growth": {
+        "revenue_cagr_pct": 9.6,
+        "net_income_cagr_pct": 4.4,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 732.21,
+        "graham_number": 401.71,
+        "blended_fair_value": 566.96,
+        "estimated_upside_pct": 5.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 53,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 15,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 6
+        },
+        "key_notes": [
+          "Excellent ROE (21.4%)",
+          "Healthy net margin (11.5%)",
+          "High leverage",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (9.6%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-03T16:28:08.801737+00:00"
     }
   }
 }
