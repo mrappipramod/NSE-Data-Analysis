@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-02T23:38:40.777234+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 811,
+  "stock_count": 812,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -39047,6 +39047,53 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-02T23:38:40.777205+00:00"
+    },
+    "OPTIEMUS": {
+      "symbol": "OPTIEMUS",
+      "company_name": "Optiemus Infracom Limited",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "price": 502.5,
+      "ratios": {
+        "pe": 68.0894,
+        "pb": 5.6803,
+        "roe_pct": 8.71,
+        "debt_to_equity": 45.355,
+        "profit_margin_pct": 3.68
+      },
+      "growth": {
+        "revenue_cagr_pct": 15.7,
+        "net_income_cagr_pct": 16.4,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 121.2,
+        "blended_fair_value": 121.2,
+        "estimated_upside_pct": -75.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 11,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong revenue CAGR (15.7%)",
+          "Strong profit CAGR (16.4%)",
+          "Appears overvalued vs blended intrinsic estimate (~-76%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-03T04:03:47.508239+00:00"
     }
   }
 }
