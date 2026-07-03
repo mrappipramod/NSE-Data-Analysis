@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-03T15:36:58.485755+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1691,
+  "stock_count": 1692,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -81210,6 +81210,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-03T16:01:57.610604+00:00"
+    },
+    "TIMETECHNO": {
+      "symbol": "TIMETECHNO",
+      "company_name": "Time Technoplast Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "price": 181.04,
+      "ratios": {
+        "pe": 18.1221,
+        "pb": 2.1866,
+        "roe_pct": 13.37,
+        "debt_to_equity": 17.605,
+        "profit_margin_pct": 7.67
+      },
+      "growth": {
+        "revenue_cagr_pct": 12.5,
+        "net_income_cagr_pct": 28.9,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 136.42,
+        "blended_fair_value": 136.42,
+        "estimated_upside_pct": -24.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 6,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (12.5%)",
+          "Strong profit CAGR (28.9%)",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-03T16:04:50.282345+00:00"
     }
   }
 }
