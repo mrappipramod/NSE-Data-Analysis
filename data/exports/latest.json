@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-03T23:37:42.243348+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 632,
+  "stock_count": 633,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -30101,6 +30101,51 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-03T23:37:42.243326+00:00"
+    },
+    "CIEINDIA": {
+      "symbol": "CIEINDIA",
+      "company_name": "CIE Automotive India Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 471.05,
+      "ratios": {
+        "pe": 20.7877,
+        "pb": 2.3957,
+        "roe_pct": 0.0,
+        "debt_to_equity": 5.71,
+        "profit_margin_pct": 5.73
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 369.5,
+        "graham_number": 316.62,
+        "blended_fair_value": 343.06,
+        "estimated_upside_pct": -27.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 31,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 2,
+          "stability": 12,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Appears overvalued vs blended intrinsic estimate (~-27%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-04T03:51:44.013567+00:00"
     }
   }
 }
