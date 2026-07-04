@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-03T23:37:42.243348+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 633,
+  "stock_count": 634,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -30146,6 +30146,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-04T03:54:21.660279+00:00"
+    },
+    "RBLBANK": {
+      "symbol": "RBLBANK",
+      "company_name": "RBL Bank Limited",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 361.1,
+      "ratios": {
+        "pe": 25.6463,
+        "pb": 1.3346,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 9.08
+      },
+      "growth": {
+        "revenue_cagr_pct": 12.1,
+        "net_income_cagr_pct": -1.5,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 957.75,
+        "graham_number": 292.77,
+        "blended_fair_value": 625.26,
+        "estimated_upside_pct": 73.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 43,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 6,
+          "stability": 0,
+          "growth": 10,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Healthy net margin (9.1%)",
+          "Healthy revenue CAGR (12.1%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Significant estimated undervaluation (~73%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-04T03:58:05.252951+00:00"
     }
   }
 }
