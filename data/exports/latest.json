@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T04:13:58.181051+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 953,
+  "stock_count": 954,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -45834,6 +45834,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-07T04:13:58.181027+00:00"
+    },
+    "JSWINFRA": {
+      "symbol": "JSWINFRA",
+      "company_name": "JSW Infrastructure Limited",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "price": 320.8,
+      "ratios": {
+        "pe": 44.3707,
+        "pb": 6.1496,
+        "roe_pct": 13.95,
+        "debt_to_equity": 59.002,
+        "profit_margin_pct": 28.38
+      },
+      "growth": {
+        "revenue_cagr_pct": 19.3,
+        "net_income_cagr_pct": 27.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 92.12,
+        "blended_fair_value": 92.12,
+        "estimated_upside_pct": -71.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 51,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 15,
+          "stability": 16,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (28.4%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (19.3%)",
+          "Strong profit CAGR (27.2%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T04:44:25.002548+00:00"
     }
   }
 }
