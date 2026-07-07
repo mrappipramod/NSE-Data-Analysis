@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T04:13:58.181051+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 955,
+  "stock_count": 956,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -45931,6 +45931,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-07T04:49:00.016592+00:00"
+    },
+    "JYOTICNC": {
+      "symbol": "JYOTICNC",
+      "company_name": "Jyoti CNC Automation Limited",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 757.1,
+      "ratios": {
+        "pe": 51.19,
+        "pb": 8.6087,
+        "roe_pct": 18.22,
+        "debt_to_equity": 42.609,
+        "profit_margin_pct": 16.05
+      },
+      "growth": {
+        "revenue_cagr_pct": 31.2,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 171.07,
+        "blended_fair_value": 171.07,
+        "estimated_upside_pct": -77.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 49,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 13,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.2%)",
+          "High net margin (16.1%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (31.2%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T04:54:21.104296+00:00"
     }
   }
 }
