@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T18:30:39.576377+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1992,
+  "stock_count": 1993,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -95634,6 +95634,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-07T18:47:38.134215+00:00"
+    },
+    "ZENTEC": {
+      "symbol": "ZENTEC",
+      "company_name": "Zen Technologies Limited",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 1863.4,
+      "ratios": {
+        "pe": 86.7101,
+        "pb": 9.3244,
+        "roe_pct": 11.83,
+        "debt_to_equity": 0.95,
+        "profit_margin_pct": 28.13
+      },
+      "growth": {
+        "revenue_cagr_pct": 46.5,
+        "net_income_cagr_pct": 65.4,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 612.44,
+        "graham_number": 310.85,
+        "blended_fair_value": 461.65,
+        "estimated_upside_pct": -75.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 48,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 15,
+          "stability": 11,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (28.1%)",
+          "Strong liquidity position",
+          "Strong revenue CAGR (46.5%)",
+          "Strong profit CAGR (65.4%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-75%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T18:49:25.349561+00:00"
     }
   }
 }
