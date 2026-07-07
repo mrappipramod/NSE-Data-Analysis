@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T17:29:23.083975+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1846,
+  "stock_count": 1847,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -88647,6 +88647,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-07T17:48:51.120982+00:00"
+    },
+    "ZYDUSLIFE": {
+      "symbol": "ZYDUSLIFE",
+      "company_name": "Zydus Lifesciences Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 1153.0,
+      "ratios": {
+        "pe": 23.037,
+        "pb": 4.5846,
+        "roe_pct": 18.32,
+        "debt_to_equity": 42.242,
+        "profit_margin_pct": 18.57
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.5,
+        "net_income_cagr_pct": 37.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 532.18,
+        "blended_fair_value": 532.18,
+        "estimated_upside_pct": -53.8,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 16,
+          "stability": 11,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.3%)",
+          "High net margin (18.6%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (16.5%)",
+          "Strong profit CAGR (37.0%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T17:52:01.163350+00:00"
     }
   }
 }
