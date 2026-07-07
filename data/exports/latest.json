@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T04:13:58.181051+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 958,
+  "stock_count": 959,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -46077,6 +46077,54 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-07T05:01:34.709215+00:00"
+    },
+    "PARADEEP": {
+      "symbol": "PARADEEP",
+      "company_name": "Paradeep Phosphates Limited",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 139.74,
+      "ratios": {
+        "pe": 14.9455,
+        "pb": 2.1372,
+        "roe_pct": 18.36,
+        "debt_to_equity": 101.822,
+        "profit_margin_pct": 4.57
+      },
+      "growth": {
+        "revenue_cagr_pct": 66.0,
+        "net_income_cagr_pct": 48.5,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 117.28,
+        "blended_fair_value": 117.28,
+        "estimated_upside_pct": -16.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 45,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 7,
+          "stability": 6,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.4%)",
+          "Strong revenue CAGR (66.0%)",
+          "Strong profit CAGR (48.5%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-16%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T05:02:44.567663+00:00"
     }
   }
 }
