@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T04:13:58.181051+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 957,
+  "stock_count": 958,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -46028,6 +46028,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-07T04:58:34.415119+00:00"
+    },
+    "TBOTEK": {
+      "symbol": "TBOTEK",
+      "company_name": "TBOTEK",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "price": 1479.3,
+      "ratios": {
+        "pe": 64.7963,
+        "pb": 10.2016,
+        "roe_pct": 17.79,
+        "debt_to_equity": 48.762,
+        "profit_margin_pct": 9.12
+      },
+      "growth": {
+        "revenue_cagr_pct": 39.7,
+        "net_income_cagr_pct": 19.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 272.92,
+        "blended_fair_value": 272.92,
+        "estimated_upside_pct": -81.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 42,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 11,
+          "stability": 11,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (17.8%)",
+          "Healthy net margin (9.1%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (39.7%)",
+          "Strong profit CAGR (19.2%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T05:01:34.709215+00:00"
     }
   }
 }
