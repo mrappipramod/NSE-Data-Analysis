@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T17:29:23.083975+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1845,
+  "stock_count": 1846,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -88600,6 +88600,53 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-07T17:29:23.083950+00:00"
+    },
+    "WELSPUNLIV": {
+      "symbol": "WELSPUNLIV",
+      "company_name": "Welspun Living Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Textile Manufacturing",
+      "price": 170.43,
+      "ratios": {
+        "pe": 79.6402,
+        "pb": 3.5257,
+        "roe_pct": 4.3,
+        "debt_to_equity": 46.501,
+        "profit_margin_pct": 2.17
+      },
+      "growth": {
+        "revenue_cagr_pct": 9.6,
+        "net_income_cagr_pct": 0.9,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 130.33,
+        "graham_number": 48.24,
+        "blended_fair_value": 89.29,
+        "estimated_upside_pct": -47.6,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 29,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 13,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (9.6%)",
+          "Appears overvalued vs blended intrinsic estimate (~-48%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-07T17:48:51.120982+00:00"
     }
   }
 }
