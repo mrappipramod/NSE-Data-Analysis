@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-08T14:38:17.879916+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1653,
+  "stock_count": 1654,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -79073,6 +79073,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-08T14:47:00.003501+00:00"
+    },
+    "SWIGGY": {
+      "symbol": "SWIGGY",
+      "company_name": "SWIGGY",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "price": 261.41,
+      "ratios": {
+        "pe": null,
+        "pb": 3.4189,
+        "roe_pct": -29.12,
+        "debt_to_equity": 13.929,
+        "profit_margin_pct": -18.02
+      },
+      "growth": {
+        "revenue_cagr_pct": 41.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 42,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (41.5%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-08T15:13:39.920413+00:00"
     }
   }
 }
