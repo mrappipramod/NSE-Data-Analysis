@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-07T23:32:06.634151+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 637,
+  "stock_count": 638,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -30343,6 +30343,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-07T23:32:06.634127+00:00"
+    },
+    "HONAUT": {
+      "symbol": "HONAUT",
+      "company_name": "Honeywell Automation India Limited",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "price": 38140.0,
+      "ratios": {
+        "pe": 64.3029,
+        "pb": 7.5574,
+        "roe_pct": 12.35,
+        "debt_to_equity": 2.476,
+        "profit_margin_pct": 11.21
+      },
+      "growth": {
+        "revenue_cagr_pct": 10.9,
+        "net_income_cagr_pct": 6.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 14463.18,
+        "graham_number": 8206.75,
+        "blended_fair_value": 11334.97,
+        "estimated_upside_pct": -70.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 10,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (11.2%)",
+          "High leverage",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (10.9%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-70%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-08T03:32:46.249656+00:00"
     }
   }
 }
