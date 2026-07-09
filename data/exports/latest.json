@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T10:40:21.407981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1225,
+  "stock_count": 1226,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -58539,6 +58539,54 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-09T15:12:48.049755+00:00"
+    },
+    "GRANULES": {
+      "symbol": "GRANULES",
+      "company_name": "Granules India Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 882.05,
+      "ratios": {
+        "pe": 36.002,
+        "pb": 4.2484,
+        "roe_pct": 13.52,
+        "debt_to_equity": 29.735,
+        "profit_margin_pct": 11.09
+      },
+      "growth": {
+        "revenue_cagr_pct": 5.9,
+        "net_income_cagr_pct": 4.8,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 129.9,
+        "graham_number": 338.31,
+        "blended_fair_value": 234.11,
+        "estimated_upside_pct": -73.5,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 40,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 10,
+          "stability": 17,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Attractive PEG ratio",
+          "Healthy net margin (11.1%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Appears overvalued vs blended intrinsic estimate (~-74%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T15:13:38.009560+00:00"
     }
   }
 }
