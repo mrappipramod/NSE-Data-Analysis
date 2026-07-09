@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T10:40:21.407981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1221,
+  "stock_count": 1222,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -58343,6 +58343,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-09T10:40:21.407957+00:00"
+    },
+    "PREMIERENE": {
+      "symbol": "PREMIERENE",
+      "company_name": "PREMIERENE",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 1089.2,
+      "ratios": {
+        "pe": 32.407,
+        "pb": 11.3913,
+        "roe_pct": 42.33,
+        "debt_to_equity": 86.005,
+        "profit_margin_pct": 19.3
+      },
+      "growth": {
+        "revenue_cagr_pct": 76.3,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 268.9,
+        "blended_fair_value": 268.9,
+        "estimated_upside_pct": -75.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 49,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 20,
+          "stability": 11,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (42.3%)",
+          "High net margin (19.3%)",
+          "Strong liquidity position",
+          "Strong revenue CAGR (76.3%)",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T13:27:16.308979+00:00"
     }
   }
 }
