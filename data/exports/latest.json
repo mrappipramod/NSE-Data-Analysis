@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T10:40:21.407981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1222,
+  "stock_count": 1223,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -58392,6 +58392,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-09T13:27:16.308979+00:00"
+    },
+    "CARTRADE": {
+      "symbol": "CARTRADE",
+      "company_name": "CarTrade Tech Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto & Truck Dealerships",
+      "price": 2735.2,
+      "ratios": {
+        "pe": 61.2039,
+        "pb": 5.2709,
+        "roe_pct": 9.85,
+        "debt_to_equity": 5.363,
+        "profit_margin_pct": 28.62
+      },
+      "growth": {
+        "revenue_cagr_pct": 29.0,
+        "net_income_cagr_pct": 87.2,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1546.94,
+        "graham_number": 722.35,
+        "blended_fair_value": 1134.64,
+        "estimated_upside_pct": -58.5,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 56,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 11,
+          "stability": 20,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (28.6%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (29.0%)",
+          "Strong profit CAGR (87.2%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T14:19:40.021170+00:00"
     }
   }
 }
