@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T16:19:52.585650+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1521,
+  "stock_count": 1522,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -72773,6 +72773,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-09T16:19:52.585617+00:00"
+    },
+    "LODHA": {
+      "symbol": "LODHA",
+      "company_name": "Lodha Developers Limited",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Development",
+      "price": 1192.15,
+      "ratios": {
+        "pe": 34.8276,
+        "pb": 5.114,
+        "roe_pct": 15.71,
+        "debt_to_equity": 42.238,
+        "profit_margin_pct": 20.56
+      },
+      "growth": {
+        "revenue_cagr_pct": 21.3,
+        "net_income_cagr_pct": 91.7,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 143.0,
+        "graham_number": 423.72,
+        "blended_fair_value": 283.36,
+        "estimated_upside_pct": -76.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 56,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 13,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (15.7%)",
+          "High net margin (20.6%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (21.3%)",
+          "Strong profit CAGR (91.7%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T17:47:26.535084+00:00"
     }
   }
 }
