@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T05:38:12.674539+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 933,
+  "stock_count": 934,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -44537,6 +44537,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-09T05:38:12.674511+00:00"
+    },
+    "OIL": {
+      "symbol": "OIL",
+      "company_name": "Oil India Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "price": 429.3,
+      "ratios": {
+        "pe": 10.3696,
+        "pb": 1.2038,
+        "roe_pct": 12.74,
+        "debt_to_equity": 58.741,
+        "profit_margin_pct": 19.5
+      },
+      "growth": {
+        "revenue_cagr_pct": -2.0,
+        "net_income_cagr_pct": -8.8,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 576.36,
+        "blended_fair_value": 576.36,
+        "estimated_upside_pct": 34.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 58,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 15,
+          "stability": 11,
+          "growth": 2,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (19.5%)",
+          "Manageable debt level",
+          "Declining revenue trend (-2.0%)",
+          "Profit growth declining/negative",
+          "Significant estimated undervaluation (~34%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T06:43:11.118259+00:00"
     }
   }
 }
