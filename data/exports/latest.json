@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T10:40:21.407981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1226,
+  "stock_count": 1227,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -58587,6 +58587,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-09T15:13:38.009560+00:00"
+    },
+    "MAPMYINDIA": {
+      "symbol": "MAPMYINDIA",
+      "company_name": "C. E. Info Systems Limited",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 1069.2,
+      "ratios": {
+        "pe": 43.6408,
+        "pb": 6.4639,
+        "roe_pct": 15.8,
+        "debt_to_equity": 0.778,
+        "profit_margin_pct": 28.3
+      },
+      "growth": {
+        "revenue_cagr_pct": 19.0,
+        "net_income_cagr_pct": 7.7,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 312.53,
+        "graham_number": 301.96,
+        "blended_fair_value": 307.25,
+        "estimated_upside_pct": -71.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 49,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 16,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (15.8%)",
+          "High net margin (28.3%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (19.0%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T15:14:39.884645+00:00"
     }
   }
 }
