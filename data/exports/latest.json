@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-09T10:40:21.407981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1224,
+  "stock_count": 1225,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -58490,6 +58490,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-09T14:20:31.818806+00:00"
+    },
+    "RITES": {
+      "symbol": "RITES",
+      "company_name": "RITES Limited",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 222.75,
+      "ratios": {
+        "pe": 26.0526,
+        "pb": 3.9991,
+        "roe_pct": 16.4,
+        "debt_to_equity": 0.236,
+        "profit_margin_pct": 16.99
+      },
+      "growth": {
+        "revenue_cagr_pct": -2.4,
+        "net_income_cagr_pct": -8.9,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 80.72,
+        "graham_number": 103.51,
+        "blended_fair_value": 92.12,
+        "estimated_upside_pct": -58.6,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 42,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 16,
+          "stability": 17,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (16.4%)",
+          "High net margin (17.0%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-2.4%)",
+          "Profit growth declining/negative"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-09T15:12:48.049755+00:00"
     }
   }
 }
