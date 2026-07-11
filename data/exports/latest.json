@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-11T11:33:07.273261+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1700,
+  "stock_count": 1701,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -81647,6 +81647,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-11T11:33:07.273122+00:00"
+    },
+    "ANANDRATHI": {
+      "symbol": "ANANDRATHI",
+      "company_name": "Anand Rathi Wealth Limited",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "price": 2146.8,
+      "ratios": {
+        "pe": 77.5298,
+        "pb": 35.7116,
+        "roe_pct": 0.0,
+        "debt_to_equity": 8.25,
+        "profit_margin_pct": 33.19
+      },
+      "growth": {
+        "revenue_cagr_pct": 27.9,
+        "net_income_cagr_pct": 33.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 478.43,
+        "graham_number": 193.53,
+        "blended_fair_value": 335.98,
+        "estimated_upside_pct": -84.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 41,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 11,
+          "stability": 10,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (33.2%)",
+          "Leverage ratio not directly comparable (financial sector)",
+          "Strong revenue CAGR (27.9%)",
+          "Strong profit CAGR (33.0%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-84%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-11T12:26:05.044609+00:00"
     }
   }
 }
