@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-16T04:36:57.899579+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1121,
+  "stock_count": 1122,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -53859,6 +53859,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-16T04:36:57.899499+00:00"
+    },
+    "VIJAYA": {
+      "symbol": "VIJAYA",
+      "company_name": "Vijaya Diagnostic Centre Limited",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 1392.0,
+      "ratios": {
+        "pe": 83.2038,
+        "pb": 14.9579,
+        "roe_pct": 19.7,
+        "debt_to_equity": 44.15,
+        "profit_margin_pct": 21.25
+      },
+      "growth": {
+        "revenue_cagr_pct": 21.1,
+        "net_income_cagr_pct": 26.9,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 227.9,
+        "graham_number": 187.16,
+        "blended_fair_value": 207.53,
+        "estimated_upside_pct": -85.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 59,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 16,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (19.7%)",
+          "High net margin (21.2%)",
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Strong revenue CAGR (21.1%)",
+          "Strong profit CAGR (26.9%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-16T06:46:24.856123+00:00"
     }
   }
 }
