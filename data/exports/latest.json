@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-16T15:24:39.492453+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1814,
+  "stock_count": 1815,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -86759,6 +86759,54 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-16T15:24:39.492426+00:00"
+    },
+    "DEEPAKFERT": {
+      "symbol": "DEEPAKFERT",
+      "company_name": "Deepak Fertilisers And Petrochemicals Corporation Limited",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "price": 1601.1,
+      "ratios": {
+        "pe": 27.4208,
+        "pb": 2.9535,
+        "roe_pct": 10.77,
+        "debt_to_equity": 75.969,
+        "profit_margin_pct": 6.41
+      },
+      "growth": {
+        "revenue_cagr_pct": 9.8,
+        "net_income_cagr_pct": -15.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 843.92,
+        "blended_fair_value": 843.92,
+        "estimated_upside_pct": -47.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 37,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 14,
+          "profitability": 4,
+          "stability": 11,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Attractive PEG ratio",
+          "Manageable debt level",
+          "Healthy revenue CAGR (9.8%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-47%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-16T15:31:26.704557+00:00"
     }
   }
 }
