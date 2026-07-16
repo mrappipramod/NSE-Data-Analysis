@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-16T15:24:39.492453+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1815,
+  "stock_count": 1816,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -86807,6 +86807,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-16T15:31:26.704557+00:00"
+    },
+    "EMMVEE": {
+      "symbol": "EMMVEE",
+      "company_name": "EMMVEE",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 365.35,
+      "ratios": {
+        "pe": 19.8452,
+        "pb": 6.8427,
+        "roe_pct": 51.12,
+        "debt_to_equity": 9.745,
+        "profit_margin_pct": 21.42
+      },
+      "growth": {
+        "revenue_cagr_pct": 102.9,
+        "net_income_cagr_pct": 394.6,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 148.72,
+        "blended_fair_value": 148.72,
+        "estimated_upside_pct": -59.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 67,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 20,
+          "stability": 17,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (51.1%)",
+          "High net margin (21.4%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (102.9%)",
+          "Strong profit CAGR (394.6%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-16T15:33:41.968224+00:00"
     }
   }
 }
