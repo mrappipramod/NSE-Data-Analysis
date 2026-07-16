@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-16T15:24:39.492453+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1817,
+  "stock_count": 1818,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -86905,6 +86905,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-16T15:34:57.776700+00:00"
+    },
+    "CCL": {
+      "symbol": "CCL",
+      "company_name": "CCL Products (India) Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 1195.9,
+      "ratios": {
+        "pe": 41.0821,
+        "pb": 6.793,
+        "roe_pct": 18.0,
+        "debt_to_equity": 56.487,
+        "profit_margin_pct": 8.69
+      },
+      "growth": {
+        "revenue_cagr_pct": 29.1,
+        "net_income_cagr_pct": 11.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1590.34,
+        "graham_number": 339.57,
+        "blended_fair_value": 964.95,
+        "estimated_upside_pct": -19.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 42,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 11,
+          "growth": 18,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (18.0%)",
+          "Healthy net margin (8.7%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (29.1%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-19%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-16T15:35:35.452468+00:00"
     }
   }
 }
