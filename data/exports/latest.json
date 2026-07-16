@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-16T15:24:39.492453+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1816,
+  "stock_count": 1817,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -86856,6 +86856,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-16T15:33:41.968224+00:00"
+    },
+    "GILLETTE": {
+      "symbol": "GILLETTE",
+      "company_name": "Gillette India Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "price": 7788.0,
+      "ratios": {
+        "pe": 47.6563,
+        "pb": 26.8133,
+        "roe_pct": 66.44,
+        "debt_to_equity": 0.002,
+        "profit_margin_pct": 21.11
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.0,
+        "net_income_cagr_pct": 19.3,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 3
+      },
+      "valuation": {
+        "dcf_fair_value": 2467.02,
+        "graham_number": 1033.43,
+        "blended_fair_value": 1750.22,
+        "estimated_upside_pct": -77.5,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 59,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 20,
+          "stability": 17,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (66.4%)",
+          "High net margin (21.1%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (8.0%)",
+          "Strong profit CAGR (19.3%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-16T15:34:57.776700+00:00"
     }
   }
 }
