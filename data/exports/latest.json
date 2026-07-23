@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-23T14:29:40.041049+00:00",
+  "generated_at": "2026-07-23T15:34:42.960309+00:00",
   "universe": "NSE_ALL_CHUNKED",
   "stock_count": 2396,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
@@ -402,10 +402,10 @@
       "company_name": "Escorts Kubota Limited",
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "price": 2948.4,
+      "price": 2907.1,
       "ratios": {
-        "pe": 23.7468,
-        "pb": 2.666,
+        "pe": 23.4198,
+        "pb": 2.6287,
         "roe_pct": 12.02,
         "debt_to_equity": 1.309,
         "profit_margin_pct": 20.75
@@ -419,9 +419,9 @@
       },
       "valuation": {
         "dcf_fair_value": 2539.22,
-        "graham_number": 1757.7,
-        "blended_fair_value": 2148.46,
-        "estimated_upside_pct": -27.1,
+        "graham_number": 1757.49,
+        "blended_fair_value": 2148.36,
+        "estimated_upside_pct": -26.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -444,17 +444,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768126+00:00"
+      "updated_at": "2026-07-23T15:34:42.953805+00:00"
     },
     "EMAMILTD": {
       "symbol": "EMAMILTD",
       "company_name": "Emami Limited",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
-      "price": 413.9,
+      "price": 416.25,
       "ratios": {
-        "pe": 23.3183,
-        "pb": 6.1792,
+        "pe": 23.4375,
+        "pb": 6.2143,
         "roe_pct": 27.61,
         "debt_to_equity": 5.541,
         "profit_margin_pct": 20.51
@@ -468,9 +468,9 @@
       },
       "valuation": {
         "dcf_fair_value": 273.99,
-        "graham_number": 163.56,
-        "blended_fair_value": 218.78,
-        "estimated_upside_pct": -47.1,
+        "graham_number": 163.6,
+        "blended_fair_value": 218.8,
+        "estimated_upside_pct": -47.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -493,7 +493,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765554+00:00"
+      "updated_at": "2026-07-23T15:34:42.951285+00:00"
     },
     "CHAMBLFERT": {
       "symbol": "CHAMBLFERT",
@@ -1431,10 +1431,10 @@
       "company_name": "Finolex Industries Limited",
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
-      "price": 164.23,
+      "price": 159.93,
       "ratios": {
-        "pe": 16.9484,
-        "pb": 1.6321,
+        "pe": 16.5046,
+        "pb": 1.5894,
         "roe_pct": 9.73,
         "debt_to_equity": 7.171,
         "profit_margin_pct": 14.56
@@ -1450,7 +1450,7 @@
         "dcf_fair_value": 56.69,
         "graham_number": 148.12,
         "blended_fair_value": 102.41,
-        "estimated_upside_pct": -37.6,
+        "estimated_upside_pct": -36.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -1473,7 +1473,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771643+00:00"
+      "updated_at": "2026-07-23T15:34:42.957236+00:00"
     },
     "ALKEM": {
       "symbol": "ALKEM",
@@ -1627,13 +1627,13 @@
       "company_name": "Dr. Reddy's Laboratories Limited",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
-      "price": 1182.8,
+      "price": 1166.3,
       "ratios": {
-        "pe": 23.0206,
-        "pb": 2.6121,
-        "roe_pct": 11.83,
+        "pe": 29.3483,
+        "pb": 2.5756,
+        "roe_pct": 0.0,
         "debt_to_equity": 20.328,
-        "profit_margin_pct": 12.76
+        "profit_margin_pct": 10.0
       },
       "growth": {
         "revenue_cagr_pct": 11.0,
@@ -1643,33 +1643,33 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 449.02,
-        "graham_number": 723.52,
-        "blended_fair_value": 586.27,
-        "estimated_upside_pct": -50.4,
+        "dcf_fair_value": 449.01,
+        "graham_number": 636.31,
+        "blended_fair_value": 542.66,
+        "estimated_upside_pct": -53.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 47,
-        "rating": "🟡 HOLD",
+        "total": 35,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 9,
-          "profitability": 8,
-          "stability": 20,
+          "profitability": 4,
+          "stability": 12,
           "growth": 10,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Healthy net margin (12.8%)",
+          "Healthy net margin (10.0%)",
           "Very low debt",
-          "Strong liquidity position",
           "Healthy revenue CAGR (11.0%)",
           "Profit growth declining/negative",
-          "Consistent YoY growth"
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-54%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761885+00:00"
+      "updated_at": "2026-07-23T15:34:42.947688+00:00"
     },
     "ICICIBANK": {
       "symbol": "ICICIBANK",
@@ -3071,10 +3071,10 @@
       "company_name": "Divi's Laboratories Limited",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
-      "price": 7386.5,
+      "price": 7305.0,
       "ratios": {
-        "pe": 76.4648,
-        "pb": 11.6991,
+        "pe": 75.4961,
+        "pb": 11.57,
         "roe_pct": 16.19,
         "debt_to_equity": 0.042,
         "profit_margin_pct": 24.32
@@ -3088,9 +3088,9 @@
       },
       "valuation": {
         "dcf_fair_value": 284.43,
-        "graham_number": 1171.45,
-        "blended_fair_value": 1171.45,
-        "estimated_upside_pct": -84.1,
+        "graham_number": 1172.42,
+        "blended_fair_value": 1172.42,
+        "estimated_upside_pct": -84.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -3113,7 +3113,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759659+00:00"
+      "updated_at": "2026-07-23T15:34:42.945468+00:00"
     },
     "NAVINFLUOR": {
       "symbol": "NAVINFLUOR",
@@ -3266,10 +3266,10 @@
       "company_name": "DLF Limited",
       "sector": "Real Estate",
       "industry": "Real Estate - Development",
-      "price": 651.5,
+      "price": 642.2,
       "ratios": {
-        "pe": 36.4986,
-        "pb": 3.5464,
+        "pe": 35.9776,
+        "pb": 3.4958,
         "roe_pct": 10.03,
         "debt_to_equity": 0.673,
         "profit_margin_pct": 53.88
@@ -3285,7 +3285,7 @@
         "dcf_fair_value": 542.76,
         "graham_number": 271.63,
         "blended_fair_value": 407.19,
-        "estimated_upside_pct": -37.5,
+        "estimated_upside_pct": -36.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -3308,7 +3308,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759981+00:00"
+      "updated_at": "2026-07-23T15:34:42.945783+00:00"
     },
     "PERSISTENT": {
       "symbol": "PERSISTENT",
@@ -4041,10 +4041,10 @@
       "company_name": "Eicher Motors Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
-      "price": 7632.0,
+      "price": 7721.5,
       "ratios": {
-        "pe": 38.0269,
-        "pb": 8.3407,
+        "pe": 38.469,
+        "pb": 8.4385,
         "roe_pct": 23.77,
         "debt_to_equity": 2.048,
         "profit_margin_pct": 23.56
@@ -4058,9 +4058,9 @@
       },
       "valuation": {
         "dcf_fair_value": 3504.11,
-        "graham_number": 2032.74,
-        "blended_fair_value": 2768.43,
-        "estimated_upside_pct": -63.7,
+        "graham_number": 2032.84,
+        "blended_fair_value": 2768.47,
+        "estimated_upside_pct": -64.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -4083,7 +4083,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763445+00:00"
+      "updated_at": "2026-07-23T15:34:42.949166+00:00"
     },
     "RAYMOND": {
       "symbol": "RAYMOND",
@@ -4817,10 +4817,10 @@
       "company_name": "GAIL (India) Limited",
       "sector": "Utilities",
       "industry": "Utilities - Regulated Gas",
-      "price": 173.01,
+      "price": 171.99,
       "ratios": {
-        "pe": 14.9922,
-        "pb": 1.2764,
+        "pe": 14.9297,
+        "pb": 1.2688,
         "roe_pct": 8.69,
         "debt_to_equity": 27.809,
         "profit_margin_pct": 5.36
@@ -4833,10 +4833,10 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": null,
-        "graham_number": 187.6,
-        "blended_fair_value": 187.6,
-        "estimated_upside_pct": 8.4,
+        "dcf_fair_value": 10.23,
+        "graham_number": 187.44,
+        "blended_fair_value": 187.44,
+        "estimated_upside_pct": 9.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -4857,7 +4857,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773621+00:00"
+      "updated_at": "2026-07-23T15:34:42.959146+00:00"
     },
     "BOSCHLTD": {
       "symbol": "BOSCHLTD",
@@ -4913,10 +4913,10 @@
       "company_name": "The Federal Bank Limited",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
-      "price": 353.25,
+      "price": 354.4,
       "ratios": {
-        "pe": 18.6117,
-        "pb": 2.1746,
+        "pe": 18.962,
+        "pb": 2.1817,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 30.72
@@ -4930,9 +4930,9 @@
       },
       "valuation": {
         "dcf_fair_value": 388.79,
-        "graham_number": 263.39,
-        "blended_fair_value": 326.09,
-        "estimated_upside_pct": -7.7,
+        "graham_number": 261.37,
+        "blended_fair_value": 325.08,
+        "estimated_upside_pct": -8.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -4952,7 +4952,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770575+00:00"
+      "updated_at": "2026-07-23T15:34:42.956198+00:00"
     },
     "TRENT": {
       "symbol": "TRENT",
@@ -6025,10 +6025,10 @@
       "company_name": "Exide Industries Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 447.85,
+      "price": 439.75,
       "ratios": {
-        "pe": 43.9069,
-        "pb": 2.7377,
+        "pe": 43.6693,
+        "pb": 2.6882,
         "roe_pct": 6.17,
         "debt_to_equity": 11.308,
         "profit_margin_pct": 4.75
@@ -6042,9 +6042,9 @@
       },
       "valuation": {
         "dcf_fair_value": 235.19,
-        "graham_number": 193.76,
-        "blended_fair_value": 214.47,
-        "estimated_upside_pct": -52.1,
+        "graham_number": 192.52,
+        "blended_fair_value": 213.86,
+        "estimated_upside_pct": -51.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -6060,11 +6060,11 @@
         "key_notes": [
           "Very low debt",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-52%)"
+          "Appears overvalued vs blended intrinsic estimate (~-51%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769510+00:00"
+      "updated_at": "2026-07-23T15:34:42.955169+00:00"
     },
     "VGUARD": {
       "symbol": "VGUARD",
@@ -6120,10 +6120,10 @@
       "company_name": "Dixon Technologies (India) Limited",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "price": 13882.0,
+      "price": 13829.0,
       "ratios": {
-        "pe": 51.4816,
-        "pb": 15.4635,
+        "pe": 51.3497,
+        "pb": 15.4045,
         "roe_pct": 37.13,
         "debt_to_equity": 18.457,
         "profit_margin_pct": 2.94
@@ -6137,9 +6137,9 @@
       },
       "valuation": {
         "dcf_fair_value": 3367.03,
-        "graham_number": 2333.8,
-        "blended_fair_value": 2850.41,
-        "estimated_upside_pct": -79.5,
+        "graham_number": 2332.33,
+        "blended_fair_value": 2849.68,
+        "estimated_upside_pct": -79.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -6158,11 +6158,11 @@
           "Strong revenue CAGR (58.9%)",
           "Strong profit CAGR (77.9%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-80%)"
+          "Appears overvalued vs blended intrinsic estimate (~-79%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759768+00:00"
+      "updated_at": "2026-07-23T15:34:42.945574+00:00"
     },
     "ADANIPOWER": {
       "symbol": "ADANIPOWER",
@@ -6312,10 +6312,10 @@
       "company_name": "Fortis Healthcare Limited",
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
-      "price": 949.85,
+      "price": 943.65,
       "ratios": {
-        "pe": 69.0298,
-        "pb": 7.2467,
+        "pe": 68.5294,
+        "pb": 7.1994,
         "roe_pct": 11.01,
         "debt_to_equity": 34.15,
         "profit_margin_pct": 11.41
@@ -6329,9 +6329,9 @@
       },
       "valuation": {
         "dcf_fair_value": 151.03,
-        "graham_number": 201.45,
-        "blended_fair_value": 176.24,
-        "estimated_upside_pct": -81.4,
+        "graham_number": 201.52,
+        "blended_fair_value": 176.28,
+        "estimated_upside_pct": -81.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -6354,7 +6354,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772705+00:00"
+      "updated_at": "2026-07-23T15:34:42.958306+00:00"
     },
     "ASIANPAINT": {
       "symbol": "ASIANPAINT",
@@ -9813,10 +9813,10 @@
       "company_name": "Avenue Supermarts Limited",
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
-      "price": 4000.5,
+      "price": 4035.0,
       "ratios": {
-        "pe": 85.2803,
-        "pb": 10.6412,
+        "pe": 86.1995,
+        "pb": 10.7329,
         "roe_pct": 0.0,
         "debt_to_equity": 9.913,
         "profit_margin_pct": 4.29
@@ -9830,9 +9830,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 629.92,
-        "blended_fair_value": 629.92,
-        "estimated_upside_pct": -84.3,
+        "graham_number": 629.25,
+        "blended_fair_value": 629.25,
+        "estimated_upside_pct": -84.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -9853,7 +9853,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760192+00:00"
+      "updated_at": "2026-07-23T15:34:42.946030+00:00"
     },
     "TATAELXSI": {
       "symbol": "TATAELXSI",
@@ -10754,10 +10754,10 @@
       "company_name": "Devyani International Limited",
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "price": 110.63,
+      "price": 109.87,
       "ratios": {
         "pe": null,
-        "pb": 9.0075,
+        "pb": 8.9456,
         "roe_pct": -2.59,
         "debt_to_equity": 203.327,
         "profit_margin_pct": -0.69
@@ -10773,7 +10773,7 @@
         "dcf_fair_value": 78.55,
         "graham_number": null,
         "blended_fair_value": 78.55,
-        "estimated_upside_pct": -29.0,
+        "estimated_upside_pct": -28.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -10790,11 +10790,11 @@
           "High leverage",
           "Strong revenue CAGR (23.6%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-29%)"
+          "Appears overvalued vs blended intrinsic estimate (~-28%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757784+00:00"
+      "updated_at": "2026-07-23T15:34:42.943629+00:00"
     },
     "STARHEALTH": {
       "symbol": "STARHEALTH",
@@ -65004,10 +65004,10 @@
       "company_name": "Delta Corp Limited",
       "sector": "Consumer Cyclical",
       "industry": "Resorts & Casinos",
-      "price": 62.86,
+      "price": 62.53,
       "ratios": {
-        "pe": 19.7053,
-        "pb": 0.7528,
+        "pe": 19.6019,
+        "pb": 0.7489,
         "roe_pct": 3.47,
         "debt_to_equity": 2.175,
         "profit_margin_pct": 12.39
@@ -65023,7 +65023,7 @@
         "dcf_fair_value": null,
         "graham_number": 77.41,
         "blended_fair_value": 77.41,
-        "estimated_upside_pct": 23.1,
+        "estimated_upside_pct": 23.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65046,17 +65046,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T11:18:57.700525+00:00"
+      "updated_at": "2026-07-23T15:34:42.942613+00:00"
     },
     "DELTAMAGNT": {
       "symbol": "DELTAMAGNT",
       "company_name": "Delta Manufacturing Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 58.26,
+      "price": 57.31,
       "ratios": {
         "pe": null,
-        "pb": 27.3521,
+        "pb": 26.9061,
         "roe_pct": -12.56,
         "debt_to_equity": 1732.804,
         "profit_margin_pct": -20.06
@@ -65093,17 +65093,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757003+00:00"
+      "updated_at": "2026-07-23T15:34:42.942749+00:00"
     },
     "DEN": {
       "symbol": "DEN",
       "company_name": "DEN Networks Limited",
       "sector": "Communication Services",
       "industry": "Entertainment",
-      "price": 27.4,
+      "price": 26.97,
       "ratios": {
-        "pe": 8.8103,
-        "pb": 0.3432,
+        "pe": 8.672,
+        "pb": 0.3378,
         "roe_pct": 0.0,
         "debt_to_equity": 0.524,
         "profit_margin_pct": 15.19
@@ -65119,7 +65119,7 @@
         "dcf_fair_value": null,
         "graham_number": 74.74,
         "blended_fair_value": 74.74,
-        "estimated_upside_pct": 172.8,
+        "estimated_upside_pct": 177.1,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65138,21 +65138,21 @@
           "Manageable debt level",
           "Declining revenue trend (-4.1%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~173%)"
+          "Significant estimated undervaluation (~177%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757144+00:00"
+      "updated_at": "2026-07-23T15:34:42.942892+00:00"
     },
     "DENORA": {
       "symbol": "DENORA",
       "company_name": "De Nora India Limited",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "price": 863.55,
+      "price": 867.35,
       "ratios": {
-        "pe": 50.5591,
-        "pb": 3.5469,
+        "pe": 50.7222,
+        "pb": 3.5625,
         "roe_pct": 7.26,
         "debt_to_equity": null,
         "profit_margin_pct": 7.45
@@ -65166,9 +65166,9 @@
       },
       "valuation": {
         "dcf_fair_value": 561.13,
-        "graham_number": 305.88,
-        "blended_fair_value": 433.5,
-        "estimated_upside_pct": -49.8,
+        "graham_number": 306.06,
+        "blended_fair_value": 433.6,
+        "estimated_upside_pct": -50.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -65189,17 +65189,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757264+00:00"
+      "updated_at": "2026-07-23T15:34:42.943018+00:00"
     },
     "DENTA": {
       "symbol": "DENTA",
       "company_name": "DENTA",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "price": 332.45,
+      "price": 330.7,
       "ratios": {
-        "pe": 14.5811,
-        "pb": 1.935,
+        "pe": 14.498,
+        "pb": 1.9248,
         "roe_pct": 14.04,
         "debt_to_equity": 2.636,
         "profit_margin_pct": 24.32
@@ -65213,9 +65213,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 296.88,
-        "blended_fair_value": 296.88,
-        "estimated_upside_pct": -10.7,
+        "graham_number": 296.94,
+        "blended_fair_value": 296.94,
+        "estimated_upside_pct": -10.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65233,21 +65233,21 @@
           "High leverage",
           "Strong liquidity position",
           "Healthy revenue CAGR (12.9%)",
-          "Appears overvalued vs blended intrinsic estimate (~-11%)"
+          "Appears overvalued vs blended intrinsic estimate (~-10%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757409+00:00"
+      "updated_at": "2026-07-23T15:34:42.943200+00:00"
     },
     "DEVIT": {
       "symbol": "DEVIT",
       "company_name": "Dev Information Technology Limited",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 26.7,
+      "price": 26.04,
       "ratios": {
-        "pe": 2.0273,
-        "pb": 1.3955,
+        "pe": 1.9653,
+        "pb": 1.361,
         "roe_pct": 84.91,
         "debt_to_equity": 28.008,
         "profit_margin_pct": 39.99
@@ -65261,9 +65261,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 75.3,
-        "blended_fair_value": 75.3,
-        "estimated_upside_pct": 182.0,
+        "graham_number": 75.52,
+        "blended_fair_value": 75.52,
+        "estimated_upside_pct": 190.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65286,17 +65286,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757565+00:00"
+      "updated_at": "2026-07-23T15:34:42.943392+00:00"
     },
     "DEVX": {
       "symbol": "DEVX",
       "company_name": "Dev Accelerator Limited",
       "sector": "Real Estate",
       "industry": "Real Estate Services",
-      "price": 34.09,
+      "price": 34.06,
       "ratios": {
-        "pe": 30.7117,
-        "pb": 1.9914,
+        "pe": 30.6847,
+        "pb": 1.9896,
         "roe_pct": 7.35,
         "debt_to_equity": 199.506,
         "profit_margin_pct": 3.9
@@ -65334,17 +65334,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757677+00:00"
+      "updated_at": "2026-07-23T15:34:42.943514+00:00"
     },
     "DGCONTENT": {
       "symbol": "DGCONTENT",
       "company_name": "Digicontent Limited",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "price": 24.3,
+      "price": 24.37,
       "ratios": {
-        "pe": 186.9231,
-        "pb": 3.948,
+        "pe": 187.4615,
+        "pb": 3.9594,
         "roe_pct": 2.52,
         "debt_to_equity": 265.556,
         "profit_margin_pct": 0.17
@@ -65360,7 +65360,7 @@
         "dcf_fair_value": 122.34,
         "graham_number": 4.24,
         "blended_fair_value": 63.29,
-        "estimated_upside_pct": 160.5,
+        "estimated_upside_pct": 159.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -65382,17 +65382,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.757898+00:00"
+      "updated_at": "2026-07-23T15:34:42.943739+00:00"
     },
     "DHAMPURSUG": {
       "symbol": "DHAMPURSUG",
       "company_name": "Dhampur Sugar Mills Limited",
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "price": 142.83,
+      "price": 142.18,
       "ratios": {
-        "pe": 14.1556,
-        "pb": 0.769,
+        "pe": 14.1052,
+        "pb": 0.7655,
         "roe_pct": 5.56,
         "debt_to_equity": 75.024,
         "profit_margin_pct": 3.31
@@ -65406,9 +65406,9 @@
       },
       "valuation": {
         "dcf_fair_value": 210.62,
-        "graham_number": 205.35,
-        "blended_fair_value": 207.99,
-        "estimated_upside_pct": 45.6,
+        "graham_number": 205.25,
+        "blended_fair_value": 207.94,
+        "estimated_upside_pct": 46.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -65430,17 +65430,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758007+00:00"
+      "updated_at": "2026-07-23T15:34:42.943871+00:00"
     },
     "DHANBANK": {
       "symbol": "DHANBANK",
       "company_name": "Dhanlaxmi Bank Limited",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
-      "price": 34.04,
+      "price": 34.36,
       "ratios": {
-        "pe": 13.0923,
-        "pb": 0.9131,
+        "pe": 13.2154,
+        "pb": 0.9217,
         "roe_pct": 7.16,
         "debt_to_equity": null,
         "profit_margin_pct": 13.95
@@ -65456,7 +65456,7 @@
         "dcf_fair_value": 348.17,
         "graham_number": 46.7,
         "blended_fair_value": 46.7,
-        "estimated_upside_pct": 37.2,
+        "estimated_upside_pct": 35.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65475,21 +65475,21 @@
           "Healthy revenue CAGR (14.0%)",
           "Strong profit CAGR (27.7%)",
           "Consistent YoY growth",
-          "Significant estimated undervaluation (~37%)"
+          "Significant estimated undervaluation (~36%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758111+00:00"
+      "updated_at": "2026-07-23T15:34:42.943985+00:00"
     },
     "DHANUKA": {
       "symbol": "DHANUKA",
       "company_name": "Dhanuka Agritech Limited",
       "sector": "Basic Materials",
       "industry": "Agricultural Inputs",
-      "price": 1009.5,
+      "price": 1010.9,
       "ratios": {
-        "pe": 15.8378,
-        "pb": 2.7056,
+        "pe": 15.8697,
+        "pb": 2.7093,
         "roe_pct": 18.62,
         "debt_to_equity": 1.822,
         "profit_margin_pct": 14.22
@@ -65503,9 +65503,9 @@
       },
       "valuation": {
         "dcf_fair_value": 647.66,
-        "graham_number": 731.51,
-        "blended_fair_value": 689.59,
-        "estimated_upside_pct": -31.7,
+        "graham_number": 731.28,
+        "blended_fair_value": 689.47,
+        "estimated_upside_pct": -31.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -65528,17 +65528,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758215+00:00"
+      "updated_at": "2026-07-23T15:34:42.944092+00:00"
     },
     "DHARMAJ": {
       "symbol": "DHARMAJ",
       "company_name": "Dharmaj Crop Guard Limited",
       "sector": "Basic Materials",
       "industry": "Agricultural Inputs",
-      "price": 260.55,
+      "price": 259.7,
       "ratios": {
-        "pe": 16.1032,
-        "pb": 1.9678,
+        "pe": 16.0507,
+        "pb": 1.9614,
         "roe_pct": 12.96,
         "debt_to_equity": 29.375,
         "profit_margin_pct": 4.8
@@ -65554,7 +65554,7 @@
         "dcf_fair_value": -31.3,
         "graham_number": 219.55,
         "blended_fair_value": 219.55,
-        "estimated_upside_pct": -15.7,
+        "estimated_upside_pct": -15.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65577,17 +65577,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758364+00:00"
+      "updated_at": "2026-07-23T15:34:42.944200+00:00"
     },
     "DHUNINV": {
       "symbol": "DHUNINV",
       "company_name": "Dhunseri Investments Limited",
       "sector": "Financial Services",
       "industry": "Capital Markets",
-      "price": 892.6,
+      "price": 890.8,
       "ratios": {
-        "pe": 30.0134,
-        "pb": 0.1984,
+        "pe": 29.9731,
+        "pb": 0.198,
         "roe_pct": 1.35,
         "debt_to_equity": 27.145,
         "profit_margin_pct": 4.26
@@ -65601,16 +65601,16 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 1734.94,
-        "blended_fair_value": 1734.94,
-        "estimated_upside_pct": 94.4,
+        "graham_number": 1734.36,
+        "blended_fair_value": 1734.36,
+        "estimated_upside_pct": 94.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 42,
-        "rating": "🟠 WEAK",
+        "total": 47,
+        "rating": "🟡 HOLD",
         "pillars": {
-          "valuation": 7,
+          "valuation": 12,
           "profitability": 0,
           "stability": 10,
           "growth": 10,
@@ -65621,21 +65621,21 @@
           "Leverage ratio not directly comparable (financial sector)",
           "Strong revenue CAGR (19.5%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~94%)"
+          "Significant estimated undervaluation (~95%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758486+00:00"
+      "updated_at": "2026-07-23T15:34:42.944304+00:00"
     },
     "DIACABS": {
       "symbol": "DIACABS",
       "company_name": "Diamond Power Infrastructure Limited",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "price": 269.14,
+      "price": 273.93,
       "ratios": {
-        "pe": 90.0134,
-        "pb": -23.479,
+        "pe": 91.6154,
+        "pb": -23.8969,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 8.28
@@ -65674,17 +65674,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758596+00:00"
+      "updated_at": "2026-07-23T15:34:42.944407+00:00"
     },
     "DIAMINESQ": {
       "symbol": "DIAMINESQ",
       "company_name": "Diamines and Chemicals Limited",
       "sector": "Basic Materials",
       "industry": "Chemicals",
-      "price": 248.77,
+      "price": 250.08,
       "ratios": {
         "pe": null,
-        "pb": 1.5898,
+        "pb": 1.5982,
         "roe_pct": -8.02,
         "debt_to_equity": 5.197,
         "profit_margin_pct": -33.22
@@ -65721,17 +65721,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758697+00:00"
+      "updated_at": "2026-07-23T15:34:42.944510+00:00"
     },
     "DIAMONDYD": {
       "symbol": "DIAMONDYD",
       "company_name": "Prataap Snacks Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 1132.0,
+      "price": 1114.7,
       "ratios": {
-        "pe": 281.592,
-        "pb": 3.8327,
+        "pe": 273.2108,
+        "pb": 3.7741,
         "roe_pct": 1.4,
         "debt_to_equity": 6.454,
         "profit_margin_pct": 0.56
@@ -65745,9 +65745,9 @@
       },
       "valuation": {
         "dcf_fair_value": 167.12,
-        "graham_number": 163.45,
-        "blended_fair_value": 165.28,
-        "estimated_upside_pct": -85.4,
+        "graham_number": 164.66,
+        "blended_fair_value": 165.89,
+        "estimated_upside_pct": -85.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -65768,17 +65768,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758801+00:00"
+      "updated_at": "2026-07-23T15:34:42.944613+00:00"
     },
     "DICIND": {
       "symbol": "DICIND",
       "company_name": "DIC India Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 522.55,
+      "price": 509.15,
       "ratios": {
-        "pe": 25.2074,
-        "pb": 1.119,
+        "pe": 24.5373,
+        "pb": 1.0903,
         "roe_pct": 0.0,
         "debt_to_equity": 0.954,
         "profit_margin_pct": 2.05
@@ -65792,9 +65792,9 @@
       },
       "valuation": {
         "dcf_fair_value": 508.92,
-        "graham_number": 466.71,
-        "blended_fair_value": 487.81,
-        "estimated_upside_pct": -6.6,
+        "graham_number": 466.93,
+        "blended_fair_value": 487.93,
+        "estimated_upside_pct": -4.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -65814,17 +65814,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.758904+00:00"
+      "updated_at": "2026-07-23T15:34:42.944716+00:00"
     },
     "DIFFNKG": {
       "symbol": "DIFFNKG",
       "company_name": "DIFFNKG",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "price": 392.8,
+      "price": 385.1,
       "ratios": {
-        "pe": 28.2793,
-        "pb": 3.6134,
+        "pe": 28.4207,
+        "pb": 3.5425,
         "roe_pct": 13.01,
         "debt_to_equity": 7.057,
         "profit_margin_pct": 12.38
@@ -65838,9 +65838,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 184.32,
-        "blended_fair_value": 184.32,
-        "estimated_upside_pct": -53.1,
+        "graham_number": 182.05,
+        "blended_fair_value": 182.05,
+        "estimated_upside_pct": -52.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65863,17 +65863,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759005+00:00"
+      "updated_at": "2026-07-23T15:34:42.944822+00:00"
     },
     "DIGIDRIVE": {
       "symbol": "DIGIDRIVE",
       "company_name": "Digidrive Distributors Limited",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "price": 18.04,
+      "price": 17.95,
       "ratios": {
-        "pe": 12.8857,
-        "pb": 0.2589,
+        "pe": 12.8214,
+        "pb": 0.2576,
         "roe_pct": 1.97,
         "debt_to_equity": 0.32,
         "profit_margin_pct": 11.66
@@ -65889,7 +65889,7 @@
         "dcf_fair_value": null,
         "graham_number": 46.85,
         "blended_fair_value": 46.85,
-        "estimated_upside_pct": 159.7,
+        "estimated_upside_pct": 161.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65907,21 +65907,21 @@
           "Healthy net margin (11.7%)",
           "Manageable debt level",
           "Strong liquidity position",
-          "Significant estimated undervaluation (~160%)"
+          "Significant estimated undervaluation (~161%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759112+00:00"
+      "updated_at": "2026-07-23T15:34:42.944951+00:00"
     },
     "DIGITIDE": {
       "symbol": "DIGITIDE",
       "company_name": "Digitide Solutions Limited",
       "sector": "Industrials",
       "industry": "Specialty Business Services",
-      "price": 100.9,
+      "price": 101.42,
       "ratios": {
         "pe": null,
-        "pb": 1.7982,
+        "pb": 1.8075,
         "roe_pct": 0.61,
         "debt_to_equity": 57.944,
         "profit_margin_pct": -0.53
@@ -65937,7 +65937,7 @@
         "dcf_fair_value": 83.81,
         "graham_number": null,
         "blended_fair_value": 83.81,
-        "estimated_upside_pct": -16.9,
+        "estimated_upside_pct": -17.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -65957,17 +65957,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759213+00:00"
+      "updated_at": "2026-07-23T15:34:42.945058+00:00"
     },
     "DIGJAMLMTD": {
       "symbol": "DIGJAMLMTD",
       "company_name": "Digjam Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 44.01,
+      "price": 42.0,
       "ratios": {
-        "pe": 37.9397,
-        "pb": 20.1419,
+        "pe": 36.2069,
+        "pb": 19.222,
         "roe_pct": 47.4,
         "debt_to_equity": 1361.379,
         "profit_margin_pct": -3.0
@@ -65983,7 +65983,7 @@
         "dcf_fair_value": null,
         "graham_number": 7.55,
         "blended_fair_value": 7.55,
-        "estimated_upside_pct": -82.8,
+        "estimated_upside_pct": -82.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66001,21 +66001,21 @@
           "High leverage",
           "Strong liquidity position",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-83%)"
+          "Appears overvalued vs blended intrinsic estimate (~-82%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759319+00:00"
+      "updated_at": "2026-07-23T15:34:42.945163+00:00"
     },
     "DISAQ": {
       "symbol": "DISAQ",
       "company_name": "DISA India Limited",
       "sector": "",
       "industry": "",
-      "price": 11965.0,
+      "price": 12099.0,
       "ratios": {
         "pe": null,
-        "pb": 5.7024,
+        "pb": 5.766,
         "roe_pct": 18.75,
         "debt_to_equity": null,
         "profit_margin_pct": 12.61
@@ -66052,17 +66052,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759444+00:00"
+      "updated_at": "2026-07-23T15:34:42.945261+00:00"
     },
     "DIVGIITTS": {
       "symbol": "DIVGIITTS",
       "company_name": "Divgi TorqTransfer Systems Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 950.1,
+      "price": 931.65,
       "ratios": {
-        "pe": 61.775,
-        "pb": 4.5744,
+        "pe": 60.8922,
+        "pb": 4.4856,
         "roe_pct": 7.62,
         "debt_to_equity": 0.279,
         "profit_margin_pct": 13.3
@@ -66076,9 +66076,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 268.09,
-        "blended_fair_value": 268.09,
-        "estimated_upside_pct": -71.8,
+        "graham_number": 267.4,
+        "blended_fair_value": 267.4,
+        "estimated_upside_pct": -71.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66097,21 +66097,21 @@
           "Strong liquidity position",
           "Healthy revenue CAGR (9.7%)",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-72%)"
+          "Appears overvalued vs blended intrinsic estimate (~-71%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759548+00:00"
+      "updated_at": "2026-07-23T15:34:42.945364+00:00"
     },
     "DJML": {
       "symbol": "DJML",
       "company_name": "DJ Mediaprint & Logistics Limited",
       "sector": "Industrials",
       "industry": "Specialty Business Services",
-      "price": 108.38,
+      "price": 109.39,
       "ratios": {
-        "pe": 34.1893,
-        "pb": 4.1262,
+        "pe": 34.6171,
+        "pb": 4.1647,
         "roe_pct": 13.53,
         "debt_to_equity": 42.847,
         "profit_margin_pct": 7.91
@@ -66125,9 +66125,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 43.28,
-        "blended_fair_value": 43.28,
-        "estimated_upside_pct": -60.1,
+        "graham_number": 43.21,
+        "blended_fair_value": 43.21,
+        "estimated_upside_pct": -60.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66150,17 +66150,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.759873+00:00"
+      "updated_at": "2026-07-23T15:34:42.945679+00:00"
     },
     "DLINKINDIA": {
       "symbol": "DLINKINDIA",
       "company_name": "D-Link (India) Limited",
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "price": 447.9,
+      "price": 440.8,
       "ratios": {
-        "pe": 15.2711,
-        "pb": 3.1448,
+        "pe": 15.0495,
+        "pb": 3.0949,
         "roe_pct": 21.21,
         "debt_to_equity": 2.928,
         "profit_margin_pct": 6.65
@@ -66174,9 +66174,9 @@
       },
       "valuation": {
         "dcf_fair_value": 122.6,
-        "graham_number": 306.58,
-        "blended_fair_value": 214.59,
-        "estimated_upside_pct": -52.1,
+        "graham_number": 306.37,
+        "blended_fair_value": 214.49,
+        "estimated_upside_pct": -51.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -66195,21 +66195,21 @@
           "Strong liquidity position",
           "Healthy revenue CAGR (9.9%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-52%)"
+          "Appears overvalued vs blended intrinsic estimate (~-51%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760089+00:00"
+      "updated_at": "2026-07-23T15:34:42.945913+00:00"
     },
     "DMCC": {
       "symbol": "DMCC",
       "company_name": "DMCC Speciality Chemicals Limited",
       "sector": "Basic Materials",
       "industry": "Chemicals",
-      "price": 266.05,
+      "price": 262.85,
       "ratios": {
-        "pe": 24.2746,
-        "pb": 2.6727,
+        "pe": 23.9827,
+        "pb": 2.6406,
         "roe_pct": 11.49,
         "debt_to_equity": 28.623,
         "profit_margin_pct": 4.7
@@ -66225,7 +66225,7 @@
         "dcf_fair_value": null,
         "graham_number": 156.68,
         "blended_fair_value": 156.68,
-        "estimated_upside_pct": -41.1,
+        "estimated_upside_pct": -40.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66243,21 +66243,21 @@
           "Strong revenue CAGR (15.1%)",
           "Strong profit CAGR (58.0%)",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-41%)"
+          "Appears overvalued vs blended intrinsic estimate (~-40%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760296+00:00"
+      "updated_at": "2026-07-23T15:34:42.946136+00:00"
     },
     "DNAMEDIA": {
       "symbol": "DNAMEDIA",
       "company_name": "Diligent Media Corporation Limited",
       "sector": "Communication Services",
       "industry": "Publishing",
-      "price": 2.83,
+      "price": 2.78,
       "ratios": {
         "pe": null,
-        "pb": -0.1323,
+        "pb": -0.13,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": -136.36
@@ -66294,65 +66294,66 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760422+00:00"
+      "updated_at": "2026-07-23T15:34:42.946271+00:00"
     },
     "DODLA": {
       "symbol": "DODLA",
       "company_name": "Dodla Dairy Limited",
       "sector": "Consumer Defensive",
       "industry": "Food Distribution",
-      "price": 1063.4,
+      "price": 1037.3,
       "ratios": {
-        "pe": 24.0099,
-        "pb": 3.8321,
+        "pe": 23.4471,
+        "pb": 3.7381,
         "roe_pct": 17.34,
         "debt_to_equity": 3.405,
         "profit_margin_pct": 6.47
       },
       "growth": {
-        "revenue_cagr_pct": null,
-        "net_income_cagr_pct": null,
-        "margin_trend": "unknown",
-        "revenue_growth_consistency_pct": null,
-        "years_of_data": 0
+        "revenue_cagr_pct": 13.6,
+        "net_income_cagr_pct": 29.7,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
       },
       "valuation": {
-        "dcf_fair_value": 505.01,
-        "graham_number": 525.86,
-        "blended_fair_value": 515.43,
-        "estimated_upside_pct": -51.5,
+        "dcf_fair_value": 571.15,
+        "graham_number": 525.57,
+        "blended_fair_value": 548.36,
+        "estimated_upside_pct": -47.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 36,
+        "total": 44,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 9,
           "profitability": 7,
           "stability": 8,
-          "growth": 12,
+          "growth": 20,
           "valuation_upside": 0
         },
         "key_notes": [
           "Strong ROE (17.3%)",
           "High leverage",
           "Strong liquidity position",
-          "Positive YoY revenue growth (18.1%)",
-          "Appears overvalued vs blended intrinsic estimate (~-52%)"
+          "Healthy revenue CAGR (13.6%)",
+          "Strong profit CAGR (29.7%)",
+          "Consistent YoY growth"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760528+00:00"
+      "updated_at": "2026-07-23T15:34:42.946412+00:00"
     },
     "DOLATALGO": {
       "symbol": "DOLATALGO",
       "company_name": "Dolat Algotech Limited",
       "sector": "Financial Services",
       "industry": "Capital Markets",
-      "price": 68.71,
+      "price": 68.29,
       "ratios": {
-        "pe": 9.3866,
-        "pb": 1.0716,
+        "pe": 9.3292,
+        "pb": 1.065,
         "roe_pct": 12.11,
         "debt_to_equity": 25.082,
         "profit_margin_pct": 35.78
@@ -66368,7 +66369,7 @@
         "dcf_fair_value": 61.83,
         "graham_number": 102.76,
         "blended_fair_value": 82.3,
-        "estimated_upside_pct": 19.8,
+        "estimated_upside_pct": 20.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -66390,17 +66391,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760637+00:00"
+      "updated_at": "2026-07-23T15:34:42.946529+00:00"
     },
     "DOLLAR": {
       "symbol": "DOLLAR",
       "company_name": "Dollar Industries Limited",
       "sector": "Consumer Cyclical",
       "industry": "Apparel Manufacturing",
-      "price": 256.45,
+      "price": 252.35,
       "ratios": {
-        "pe": 13.5473,
-        "pb": 1.5332,
+        "pe": 13.3166,
+        "pb": 1.5087,
         "roe_pct": 11.81,
         "debt_to_equity": 30.541,
         "profit_margin_pct": 5.71
@@ -66414,9 +66415,9 @@
       },
       "valuation": {
         "dcf_fair_value": 285.51,
-        "graham_number": 266.91,
-        "blended_fair_value": 276.21,
-        "estimated_upside_pct": 7.7,
+        "graham_number": 267.05,
+        "blended_fair_value": 276.28,
+        "estimated_upside_pct": 9.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -66439,17 +66440,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760740+00:00"
+      "updated_at": "2026-07-23T15:34:42.946633+00:00"
     },
     "DOLPHIN": {
       "symbol": "DOLPHIN",
       "company_name": "Dolphin Offshore Enterprises (India) Limited",
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
-      "price": 378.7,
+      "price": 397.0,
       "ratios": {
-        "pe": 22.0945,
-        "pb": 4.2871,
+        "pe": 23.1893,
+        "pb": 4.4943,
         "roe_pct": 21.9,
         "debt_to_equity": 57.496,
         "profit_margin_pct": 58.87
@@ -66463,9 +66464,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 184.57,
-        "blended_fair_value": 184.57,
-        "estimated_upside_pct": -51.3,
+        "graham_number": 184.46,
+        "blended_fair_value": 184.46,
+        "estimated_upside_pct": -53.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66488,17 +66489,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760848+00:00"
+      "updated_at": "2026-07-23T15:34:42.946736+00:00"
     },
     "DOMS": {
       "symbol": "DOMS",
       "company_name": "DOMS Industries Limited",
       "sector": "Industrials",
       "industry": "Business Equipment & Supplies",
-      "price": 2266.8,
+      "price": 2230.1,
       "ratios": {
-        "pe": 59.889,
-        "pb": 11.277,
+        "pe": 58.9039,
+        "pb": 11.0944,
         "roe_pct": 20.09,
         "debt_to_equity": 10.849,
         "profit_margin_pct": 9.89
@@ -66512,9 +66513,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 413.75,
-        "blended_fair_value": 413.75,
-        "estimated_upside_pct": -81.7,
+        "graham_number": 413.8,
+        "blended_fair_value": 413.8,
+        "estimated_upside_pct": -81.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66537,17 +66538,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.760952+00:00"
+      "updated_at": "2026-07-23T15:34:42.946857+00:00"
     },
     "DONEAR": {
       "symbol": "DONEAR",
       "company_name": "Donear Industries Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 84.62,
+      "price": 84.37,
       "ratios": {
-        "pe": 10.1341,
-        "pb": 1.5864,
+        "pe": 10.1042,
+        "pb": 1.5817,
         "roe_pct": 16.98,
         "debt_to_equity": 154.25,
         "profit_margin_pct": 4.76
@@ -66563,7 +66564,7 @@
         "dcf_fair_value": -73.21,
         "graham_number": 100.11,
         "blended_fair_value": 100.11,
-        "estimated_upside_pct": 18.3,
+        "estimated_upside_pct": 18.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66579,21 +66580,21 @@
         "key_notes": [
           "Strong ROE (17.0%)",
           "High leverage",
-          "Modest estimated undervaluation (~18%)"
+          "Modest estimated undervaluation (~19%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761059+00:00"
+      "updated_at": "2026-07-23T15:34:42.946968+00:00"
     },
     "DPABHUSHAN": {
       "symbol": "DPABHUSHAN",
       "company_name": "D. P. Abhushan Limited",
       "sector": "Consumer Cyclical",
       "industry": "Luxury Goods",
-      "price": 1386.05,
+      "price": 1350.15,
       "ratios": {
-        "pe": 13.2068,
-        "pb": 4.9918,
+        "pe": 12.8684,
+        "pb": 4.8625,
         "roe_pct": 0.0,
         "debt_to_equity": 48.027,
         "profit_margin_pct": 5.48
@@ -66607,9 +66608,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 809.74,
-        "blended_fair_value": 809.74,
-        "estimated_upside_pct": -41.6,
+        "graham_number": 809.62,
+        "blended_fair_value": 809.62,
+        "estimated_upside_pct": -40.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66628,21 +66629,21 @@
           "Strong profit CAGR (67.2%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-42%)"
+          "Appears overvalued vs blended intrinsic estimate (~-40%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761165+00:00"
+      "updated_at": "2026-07-23T15:34:42.947071+00:00"
     },
     "DPWIRES": {
       "symbol": "DPWIRES",
       "company_name": "D.P. Wires Limited",
       "sector": "Industrials",
       "industry": "Metal Fabrication",
-      "price": 169.69,
+      "price": 165.21,
       "ratios": {
-        "pe": 14.9638,
-        "pb": 0.9885,
+        "pe": 14.5688,
+        "pb": 0.9624,
         "roe_pct": 6.83,
         "debt_to_equity": 0.929,
         "profit_margin_pct": 3.66
@@ -66658,38 +66659,39 @@
         "dcf_fair_value": 158.63,
         "graham_number": 209.29,
         "blended_fair_value": 183.96,
-        "estimated_upside_pct": 8.4,
+        "estimated_upside_pct": 11.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 34,
+        "total": 38,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 15,
           "profitability": 0,
           "stability": 11,
           "growth": 2,
-          "valuation_upside": 6
+          "valuation_upside": 10
         },
         "key_notes": [
           "Trading near/below book value",
           "Strong liquidity position",
           "Declining revenue trend (-26.6%)",
-          "Profit growth declining/negative"
+          "Profit growth declining/negative",
+          "Modest estimated undervaluation (~11%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761274+00:00"
+      "updated_at": "2026-07-23T15:34:42.947174+00:00"
     },
     "DRAGARWQ": {
       "symbol": "DRAGARWQ",
       "company_name": "Dr. Agarwal's Eye Hospital Limited",
       "sector": "",
       "industry": "",
-      "price": 5033.5,
+      "price": 5016.5,
       "ratios": {
         "pe": null,
-        "pb": 7.0253,
+        "pb": 7.0016,
         "roe_pct": 25.22,
         "debt_to_equity": 94.176,
         "profit_margin_pct": 14.89
@@ -66726,17 +66728,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761406+00:00"
+      "updated_at": "2026-07-23T15:34:42.947271+00:00"
     },
     "DRCSYSTEMS": {
       "symbol": "DRCSYSTEMS",
       "company_name": "DRC Systems India Limited",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 12.68,
+      "price": 13.42,
       "ratios": {
-        "pe": 9.0571,
-        "pb": 1.6234,
+        "pe": 9.5857,
+        "pb": 1.7181,
         "roe_pct": 21.82,
         "debt_to_equity": 0.371,
         "profit_margin_pct": 20.17
@@ -66752,7 +66754,7 @@
         "dcf_fair_value": 93.44,
         "graham_number": 15.69,
         "blended_fair_value": 54.56,
-        "estimated_upside_pct": 330.3,
+        "estimated_upside_pct": 306.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -66775,17 +66777,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761519+00:00"
+      "updated_at": "2026-07-23T15:34:42.947373+00:00"
     },
     "DREAMFOLKS": {
       "symbol": "DREAMFOLKS",
       "company_name": "Dreamfolks Services Limited",
       "sector": "Industrials",
       "industry": "Airports & Air Services",
-      "price": 67.26,
+      "price": 66.79,
       "ratios": {
-        "pe": 31.1389,
-        "pb": 1.1403,
+        "pe": 30.9213,
+        "pb": 1.1324,
         "roe_pct": 3.75,
         "debt_to_equity": 3.865,
         "profit_margin_pct": 1.75
@@ -66801,7 +66803,7 @@
         "dcf_fair_value": 36.18,
         "graham_number": 53.54,
         "blended_fair_value": 44.86,
-        "estimated_upside_pct": -33.3,
+        "estimated_upside_pct": -32.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -66824,17 +66826,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761640+00:00"
+      "updated_at": "2026-07-23T15:34:42.947478+00:00"
     },
     "DREDGECORP": {
       "symbol": "DREDGECORP",
       "company_name": "Dredging Corporation of India Limited",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "price": 996.7,
+      "price": 984.6,
       "ratios": {
-        "pe": 188.0566,
-        "pb": 2.0336,
+        "pe": 186.4773,
+        "pb": 2.0089,
         "roe_pct": 0.39,
         "debt_to_equity": 88.388,
         "profit_margin_pct": 0.39
@@ -66848,9 +66850,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 241.76,
-        "blended_fair_value": 241.76,
-        "estimated_upside_pct": -75.7,
+        "graham_number": 241.3,
+        "blended_fair_value": 241.3,
+        "estimated_upside_pct": -75.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66869,17 +66871,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761741+00:00"
+      "updated_at": "2026-07-23T15:34:42.947583+00:00"
     },
     "DSSL": {
       "symbol": "DSSL",
       "company_name": "Dynacons Systems & Solutions Limited",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 1183.4,
+      "price": 1181.6,
       "ratios": {
-        "pe": 17.7475,
-        "pb": 4.7627,
+        "pe": 17.7338,
+        "pb": 4.7555,
         "roe_pct": 31.04,
         "debt_to_equity": 75.024,
         "profit_margin_pct": 5.95
@@ -66893,9 +66895,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 610.56,
-        "blended_fair_value": 610.56,
-        "estimated_upside_pct": -48.4,
+        "graham_number": 610.33,
+        "blended_fair_value": 610.33,
+        "estimated_upside_pct": -48.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -66918,17 +66920,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.761993+00:00"
+      "updated_at": "2026-07-23T15:34:42.947792+00:00"
     },
     "DTIL": {
       "symbol": "DTIL",
       "company_name": "Dhunseri Tea & Industries Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 134.36,
+      "price": 133.17,
       "ratios": {
         "pe": null,
-        "pb": 0.2666,
+        "pb": 0.2642,
         "roe_pct": -0.48,
         "debt_to_equity": 47.787,
         "profit_margin_pct": -0.53
@@ -66966,17 +66968,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762092+00:00"
+      "updated_at": "2026-07-23T15:34:42.947910+00:00"
     },
     "DVL": {
       "symbol": "DVL",
       "company_name": "Dhunseri Ventures Limited",
       "sector": "Financial Services",
       "industry": "Capital Markets",
-      "price": 244.82,
+      "price": 242.86,
       "ratios": {
-        "pe": 9.7383,
-        "pb": 0.261,
+        "pe": 9.6603,
+        "pb": 0.2589,
         "roe_pct": 2.72,
         "debt_to_equity": 28.952,
         "profit_margin_pct": 20.03
@@ -66992,7 +66994,7 @@
         "dcf_fair_value": null,
         "graham_number": 728.47,
         "blended_fair_value": 728.47,
-        "estimated_upside_pct": 197.6,
+        "estimated_upside_pct": 200.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67011,21 +67013,21 @@
           "Leverage ratio not directly comparable (financial sector)",
           "Strong revenue CAGR (21.6%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~198%)"
+          "Significant estimated undervaluation (~200%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762194+00:00"
+      "updated_at": "2026-07-23T15:34:42.948020+00:00"
     },
     "DWARKESH": {
       "symbol": "DWARKESH",
       "company_name": "Dwarikesh Sugar Industries Limited",
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "price": 42.52,
+      "price": 42.43,
       "ratios": {
-        "pe": 25.6145,
-        "pb": 0.9508,
+        "pe": 25.5602,
+        "pb": 0.9488,
         "roe_pct": 3.77,
         "debt_to_equity": 40.6,
         "profit_margin_pct": 2.2
@@ -67041,7 +67043,7 @@
         "dcf_fair_value": 35.2,
         "graham_number": 40.87,
         "blended_fair_value": 38.03,
-        "estimated_upside_pct": -10.6,
+        "estimated_upside_pct": -10.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67060,21 +67062,21 @@
           "Strong liquidity position",
           "Declining revenue trend (-12.5%)",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-11%)"
+          "Appears overvalued vs blended intrinsic estimate (~-10%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762303+00:00"
+      "updated_at": "2026-07-23T15:34:42.948123+00:00"
     },
     "DYCL": {
       "symbol": "DYCL",
       "company_name": "Dynamic Cables Limited",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "price": 407.2,
+      "price": 406.0,
       "ratios": {
-        "pe": 21.6481,
-        "pb": 4.3155,
+        "pe": 21.5843,
+        "pb": 4.3028,
         "roe_pct": 0.0,
         "debt_to_equity": 9.424,
         "profit_margin_pct": 7.1
@@ -67090,7 +67092,7 @@
         "dcf_fair_value": 24.26,
         "graham_number": 199.84,
         "blended_fair_value": 199.84,
-        "estimated_upside_pct": -50.9,
+        "estimated_upside_pct": -50.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67113,17 +67115,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762478+00:00"
+      "updated_at": "2026-07-23T15:34:42.948224+00:00"
     },
     "DYNAMATECH": {
       "symbol": "DYNAMATECH",
       "company_name": "Dynamatic Technologies Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 10161.0,
+      "price": 10181.0,
       "ratios": {
-        "pe": 213.3767,
-        "pb": 8.6935,
+        "pe": 213.17,
+        "pb": 8.7107,
         "roe_pct": 4.29,
         "debt_to_equity": 80.387,
         "profit_margin_pct": 2.0
@@ -67137,8 +67139,8 @@
       },
       "valuation": {
         "dcf_fair_value": -91.54,
-        "graham_number": 1119.07,
-        "blended_fair_value": 1119.07,
+        "graham_number": 1120.71,
+        "blended_fair_value": 1120.71,
         "estimated_upside_pct": -89.0,
         "valuation_models_used": 1
       },
@@ -67158,17 +67160,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762594+00:00"
+      "updated_at": "2026-07-23T15:34:42.948327+00:00"
     },
     "DYNPRO": {
       "symbol": "DYNPRO",
       "company_name": "Dynemic Products Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 236.04,
+      "price": 234.08,
       "ratios": {
-        "pe": 14.7157,
-        "pb": 1.1987,
+        "pe": 14.5935,
+        "pb": 1.1888,
         "roe_pct": 8.49,
         "debt_to_equity": 29.637,
         "profit_margin_pct": 5.27
@@ -67184,7 +67186,7 @@
         "dcf_fair_value": 387.38,
         "graham_number": 266.58,
         "blended_fair_value": 326.98,
-        "estimated_upside_pct": 38.5,
+        "estimated_upside_pct": 39.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67202,24 +67204,24 @@
           "Very low debt",
           "Healthy revenue CAGR (8.8%)",
           "Margins expanding",
-          "Significant estimated undervaluation (~38%)"
+          "Significant estimated undervaluation (~40%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762700+00:00"
+      "updated_at": "2026-07-23T15:34:42.948428+00:00"
     },
     "E2E": {
       "symbol": "E2E",
       "company_name": "E2E Networks Limited",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "price": 468.7,
+      "price": 492.1,
       "ratios": {
-        "pe": 172.3162,
-        "pb": 5.5766,
-        "roe_pct": -0.95,
+        "pe": 177.6534,
+        "pb": 5.855,
+        "roe_pct": 0.0,
         "debt_to_equity": 9.441,
-        "profit_margin_pct": -6.34
+        "profit_margin_pct": 8.51
       },
       "growth": {
         "revenue_cagr_pct": 54.8,
@@ -67230,22 +67232,23 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 71.72,
-        "blended_fair_value": 71.72,
-        "estimated_upside_pct": -84.7,
+        "graham_number": 72.38,
+        "blended_fair_value": 72.38,
+        "estimated_upside_pct": -85.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 27,
-        "rating": "🔴 AVOID",
+        "total": 32,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 0,
-          "profitability": 0,
-          "stability": 15,
+          "profitability": 8,
+          "stability": 12,
           "growth": 12,
           "valuation_upside": 0
         },
         "key_notes": [
+          "Healthy net margin (8.5%)",
           "Very low debt",
           "Strong revenue CAGR (54.8%)",
           "Consistent YoY growth",
@@ -67253,17 +67256,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762802+00:00"
+      "updated_at": "2026-07-23T15:34:42.948529+00:00"
     },
     "EASEMYTRIP": {
       "symbol": "EASEMYTRIP",
       "company_name": "Easy Trip Planners Limited",
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "price": 6.81,
+      "price": 6.84,
       "ratios": {
         "pe": null,
-        "pb": 2.8856,
+        "pb": 2.8983,
         "roe_pct": -6.11,
         "debt_to_equity": 4.35,
         "profit_margin_pct": -7.36
@@ -67299,17 +67302,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.762903+00:00"
+      "updated_at": "2026-07-23T15:34:42.948628+00:00"
     },
     "EBGNG": {
       "symbol": "EBGNG",
       "company_name": "EBGNG",
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "price": 545.5,
+      "price": 545.1,
       "ratios": {
-        "pe": 358.8816,
-        "pb": 8.2002,
+        "pe": 356.2745,
+        "pb": 8.1942,
         "roe_pct": 26.77,
         "debt_to_equity": 58.541,
         "profit_margin_pct": 6.98
@@ -67323,9 +67326,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 47.7,
-        "blended_fair_value": 47.7,
-        "estimated_upside_pct": -91.3,
+        "graham_number": 47.85,
+        "blended_fair_value": 47.85,
+        "estimated_upside_pct": -91.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67348,17 +67351,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763004+00:00"
+      "updated_at": "2026-07-23T15:34:42.948730+00:00"
     },
     "ECLERX": {
       "symbol": "ECLERX",
       "company_name": "eClerx Services Limited",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 1946.9,
+      "price": 1889.4,
       "ratios": {
-        "pe": 26.1469,
-        "pb": 7.0314,
+        "pe": 25.4054,
+        "pb": 6.8238,
         "roe_pct": 29.0,
         "debt_to_equity": 15.012,
         "profit_margin_pct": 17.15
@@ -67372,9 +67375,9 @@
       },
       "valuation": {
         "dcf_fair_value": 2045.05,
-        "graham_number": 681.09,
-        "blended_fair_value": 1363.07,
-        "estimated_upside_pct": -30.0,
+        "graham_number": 680.68,
+        "blended_fair_value": 1362.87,
+        "estimated_upside_pct": -27.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67397,17 +67400,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763109+00:00"
+      "updated_at": "2026-07-23T15:34:42.948832+00:00"
     },
     "EDELWEISS": {
       "symbol": "EDELWEISS",
       "company_name": "Edelweiss Financial Services Limited",
       "sector": "Financial Services",
       "industry": "Financial Conglomerates",
-      "price": 117.56,
+      "price": 116.09,
       "ratios": {
-        "pe": 16.442,
-        "pb": 2.4069,
+        "pe": 16.2364,
+        "pb": 2.3768,
         "roe_pct": 11.47,
         "debt_to_equity": 319.986,
         "profit_margin_pct": 7.97
@@ -67423,7 +67426,7 @@
         "dcf_fair_value": 182.6,
         "graham_number": 88.64,
         "blended_fair_value": 135.62,
-        "estimated_upside_pct": 15.4,
+        "estimated_upside_pct": 16.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67441,21 +67444,21 @@
           "Strong revenue CAGR (18.4%)",
           "Strong profit CAGR (16.7%)",
           "Consistent YoY growth",
-          "Modest estimated undervaluation (~15%)"
+          "Modest estimated undervaluation (~17%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763215+00:00"
+      "updated_at": "2026-07-23T15:34:42.948960+00:00"
     },
     "EFCIL": {
       "symbol": "EFCIL",
       "company_name": "EFC (I) Limited",
       "sector": "Real Estate",
       "industry": "Real Estate Services",
-      "price": 192.11,
+      "price": 196.19,
       "ratios": {
-        "pe": 11.5659,
-        "pb": 3.264,
+        "pe": 11.8045,
+        "pb": 3.3333,
         "roe_pct": 33.65,
         "debt_to_equity": 172.783,
         "profit_margin_pct": 22.34
@@ -67469,9 +67472,9 @@
       },
       "valuation": {
         "dcf_fair_value": -14.13,
-        "graham_number": 148.31,
-        "blended_fair_value": 148.31,
-        "estimated_upside_pct": -22.8,
+        "graham_number": 148.36,
+        "blended_fair_value": 148.36,
+        "estimated_upside_pct": -24.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67494,17 +67497,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763316+00:00"
+      "updated_at": "2026-07-23T15:34:42.949064+00:00"
     },
     "EIDPARRY": {
       "symbol": "EIDPARRY",
       "company_name": "E.I.D.- Parry (India) Limited",
       "sector": "Basic Materials",
       "industry": "Agricultural Inputs",
-      "price": 765.45,
+      "price": 759.15,
       "ratios": {
-        "pe": 23.9652,
-        "pb": 1.553,
+        "pe": 23.7829,
+        "pb": 1.5359,
         "roe_pct": 9.91,
         "debt_to_equity": 23.647,
         "profit_margin_pct": 1.48
@@ -67518,9 +67521,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 595.15,
-        "blended_fair_value": 595.15,
-        "estimated_upside_pct": -22.2,
+        "graham_number": 595.81,
+        "blended_fair_value": 595.81,
+        "estimated_upside_pct": -21.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67542,17 +67545,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763558+00:00"
+      "updated_at": "2026-07-23T15:34:42.949269+00:00"
     },
     "EIEL": {
       "symbol": "EIEL",
       "company_name": "EIEL",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "price": 224.31,
+      "price": 217.62,
       "ratios": {
-        "pe": 21.5269,
-        "pb": 3.192,
+        "pe": 20.9049,
+        "pb": 3.0968,
         "roe_pct": 16.89,
         "debt_to_equity": 34.127,
         "profit_margin_pct": 15.97
@@ -67566,9 +67569,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 128.36,
-        "blended_fair_value": 128.36,
-        "estimated_upside_pct": -42.8,
+        "graham_number": 128.3,
+        "blended_fair_value": 128.3,
+        "estimated_upside_pct": -41.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67591,17 +67594,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763660+00:00"
+      "updated_at": "2026-07-23T15:34:42.949370+00:00"
     },
     "EIFFL": {
       "symbol": "EIFFL",
       "company_name": "Euro India Fresh Foods Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 319.9,
+      "price": 317.2,
       "ratios": {
-        "pe": 160.7538,
-        "pb": 10.3227,
+        "pe": 157.0297,
+        "pb": 10.2356,
         "roe_pct": 6.65,
         "debt_to_equity": 76.862,
         "profit_margin_pct": 3.27
@@ -67615,9 +67618,9 @@
       },
       "valuation": {
         "dcf_fair_value": -1.79,
-        "graham_number": 37.25,
-        "blended_fair_value": 37.25,
-        "estimated_upside_pct": -88.4,
+        "graham_number": 37.53,
+        "blended_fair_value": 37.53,
+        "estimated_upside_pct": -88.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67639,17 +67642,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763761+00:00"
+      "updated_at": "2026-07-23T15:34:42.949473+00:00"
     },
     "EIHAHOTELS": {
       "symbol": "EIHAHOTELS",
       "company_name": "EIH Associated Hotels Limited",
       "sector": "Consumer Cyclical",
       "industry": "Lodging",
-      "price": 316.3,
+      "price": 308.75,
       "ratios": {
-        "pe": 22.088,
-        "pb": 3.1995,
+        "pe": 21.5909,
+        "pb": 3.1231,
         "roe_pct": 15.31,
         "debt_to_equity": 0.712,
         "profit_margin_pct": 22.72
@@ -67663,9 +67666,9 @@
       },
       "valuation": {
         "dcf_fair_value": 133.54,
-        "graham_number": 178.47,
-        "blended_fair_value": 156.0,
-        "estimated_upside_pct": -50.7,
+        "graham_number": 178.35,
+        "blended_fair_value": 155.94,
+        "estimated_upside_pct": -49.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67684,21 +67687,21 @@
           "Manageable debt level",
           "Strong liquidity position",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-51%)"
+          "Appears overvalued vs blended intrinsic estimate (~-50%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763866+00:00"
+      "updated_at": "2026-07-23T15:34:42.949576+00:00"
     },
     "EIHOTEL": {
       "symbol": "EIHOTEL",
       "company_name": "EIH Limited",
       "sector": "Consumer Cyclical",
       "industry": "Lodging",
-      "price": 331.65,
+      "price": 321.35,
       "ratios": {
-        "pe": 32.9672,
-        "pb": 3.9413,
+        "pe": 31.9751,
+        "pb": 3.8189,
         "roe_pct": 12.95,
         "debt_to_equity": 4.666,
         "profit_margin_pct": 21.0
@@ -67712,9 +67715,9 @@
       },
       "valuation": {
         "dcf_fair_value": 116.25,
-        "graham_number": 138.01,
-        "blended_fair_value": 127.13,
-        "estimated_upside_pct": -61.7,
+        "graham_number": 137.94,
+        "blended_fair_value": 127.09,
+        "estimated_upside_pct": -60.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67737,17 +67740,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.763975+00:00"
+      "updated_at": "2026-07-23T15:34:42.949679+00:00"
     },
     "EIMCOELECO": {
       "symbol": "EIMCOELECO",
       "company_name": "Eimco Elecon (India) Limited",
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "price": 1810.2,
+      "price": 1792.2,
       "ratios": {
-        "pe": 26.3609,
-        "pb": 2.2335,
+        "pe": 26.0987,
+        "pb": 2.2113,
         "roe_pct": 0.0,
         "debt_to_equity": 0.93,
         "profit_margin_pct": 16.3
@@ -67763,7 +67766,7 @@
         "dcf_fair_value": null,
         "graham_number": 1119.03,
         "blended_fair_value": 1119.03,
-        "estimated_upside_pct": -38.2,
+        "estimated_upside_pct": -37.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67786,17 +67789,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764075+00:00"
+      "updated_at": "2026-07-23T15:34:42.949782+00:00"
     },
     "EKC": {
       "symbol": "EKC",
       "company_name": "Everest Kanto Cylinder Limited",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "price": 111.74,
+      "price": 108.89,
       "ratios": {
-        "pe": 8.5363,
-        "pb": 0.8958,
+        "pe": 8.3249,
+        "pb": 0.8729,
         "roe_pct": 11.26,
         "debt_to_equity": 19.067,
         "profit_margin_pct": 9.99
@@ -67810,9 +67813,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 191.68,
-        "blended_fair_value": 191.68,
-        "estimated_upside_pct": 71.5,
+        "graham_number": 191.6,
+        "blended_fair_value": 191.6,
+        "estimated_upside_pct": 76.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -67831,21 +67834,21 @@
           "Very low debt",
           "Strong liquidity position",
           "Strong profit CAGR (24.5%)",
-          "Significant estimated undervaluation (~72%)"
+          "Significant estimated undervaluation (~76%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764174+00:00"
+      "updated_at": "2026-07-23T15:34:42.949911+00:00"
     },
     "ELANTAS": {
       "symbol": "ELANTAS",
       "company_name": "ELANTAS Beck India Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 9349.0,
+      "price": 9250.0,
       "ratios": {
-        "pe": 50.7491,
-        "pb": 7.3513,
+        "pe": 50.2226,
+        "pb": 7.2734,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 16.76
@@ -67859,9 +67862,9 @@
       },
       "valuation": {
         "dcf_fair_value": 3107.42,
-        "graham_number": 2295.94,
-        "blended_fair_value": 2701.68,
-        "estimated_upside_pct": -71.1,
+        "graham_number": 2295.69,
+        "blended_fair_value": 2701.56,
+        "estimated_upside_pct": -70.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67883,17 +67886,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764275+00:00"
+      "updated_at": "2026-07-23T15:34:42.950034+00:00"
     },
     "ELCIDIN": {
       "symbol": "ELCIDIN",
       "company_name": "Elcid Investments Limited",
       "sector": "",
       "industry": "",
-      "price": 110000.0,
+      "price": 110100.0,
       "ratios": {
         "pe": null,
-        "pb": 0.2536,
+        "pb": 0.2539,
         "roe_pct": 1.22,
         "debt_to_equity": null,
         "profit_margin_pct": 81.0
@@ -67930,17 +67933,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764393+00:00"
+      "updated_at": "2026-07-23T15:34:42.950131+00:00"
     },
     "ELDEHSG": {
       "symbol": "ELDEHSG",
       "company_name": "Eldeco Housing and Industries Limited",
       "sector": "Real Estate",
       "industry": "Real Estate Services",
-      "price": 779.25,
+      "price": 783.15,
       "ratios": {
-        "pe": 31.5103,
-        "pb": 1.9171,
+        "pe": 31.7065,
+        "pb": 1.9267,
         "roe_pct": 6.2,
         "debt_to_equity": 38.581,
         "profit_margin_pct": 14.72
@@ -67954,9 +67957,9 @@
       },
       "valuation": {
         "dcf_fair_value": 2061.53,
-        "graham_number": 475.57,
-        "blended_fair_value": 1268.55,
-        "estimated_upside_pct": 62.8,
+        "graham_number": 475.29,
+        "blended_fair_value": 1268.41,
+        "estimated_upside_pct": 62.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -67975,21 +67978,21 @@
           "Strong liquidity position",
           "Healthy revenue CAGR (9.2%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~63%)"
+          "Significant estimated undervaluation (~62%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764501+00:00"
+      "updated_at": "2026-07-23T15:34:42.950235+00:00"
     },
     "ELECON": {
       "symbol": "ELECON",
       "company_name": "Elecon Engineering Company Limited",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "price": 437.1,
+      "price": 433.0,
       "ratios": {
-        "pe": 42.0693,
-        "pb": 4.2538,
+        "pe": 41.1206,
+        "pb": 4.2139,
         "roe_pct": 0.0,
         "debt_to_equity": 11.824,
         "profit_margin_pct": 9.85
@@ -68003,9 +68006,9 @@
       },
       "valuation": {
         "dcf_fair_value": 234.7,
-        "graham_number": 154.99,
-        "blended_fair_value": 194.84,
-        "estimated_upside_pct": -55.4,
+        "graham_number": 156.03,
+        "blended_fair_value": 195.37,
+        "estimated_upside_pct": -54.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -68027,17 +68030,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764608+00:00"
+      "updated_at": "2026-07-23T15:34:42.950344+00:00"
     },
     "ELECTCAST": {
       "symbol": "ELECTCAST",
       "company_name": "Electrosteel Castings Limited",
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
-      "price": 71.27,
+      "price": 70.43,
       "ratios": {
-        "pe": 27.3065,
-        "pb": 0.7427,
+        "pe": 26.9847,
+        "pb": 0.7339,
         "roe_pct": 2.76,
         "debt_to_equity": 26.35,
         "profit_margin_pct": 2.73
@@ -68053,7 +68056,7 @@
         "dcf_fair_value": 142.74,
         "graham_number": 75.07,
         "blended_fair_value": 108.91,
-        "estimated_upside_pct": 52.8,
+        "estimated_upside_pct": 54.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -68072,21 +68075,21 @@
           "Strong liquidity position",
           "Declining revenue trend (-6.5%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~53%)"
+          "Significant estimated undervaluation (~55%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764714+00:00"
+      "updated_at": "2026-07-23T15:34:42.950447+00:00"
     },
     "ELECTHERM": {
       "symbol": "ELECTHERM",
       "company_name": "Electrotherm (India) Limited",
       "sector": "Basic Materials",
       "industry": "Steel",
-      "price": 1030.0,
+      "price": 997.4,
       "ratios": {
         "pe": null,
-        "pb": -8.5264,
+        "pb": -8.2566,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": -0.42
@@ -68102,7 +68105,7 @@
         "dcf_fair_value": 2498.75,
         "graham_number": null,
         "blended_fair_value": 2498.75,
-        "estimated_upside_pct": 142.6,
+        "estimated_upside_pct": 150.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -68116,21 +68119,21 @@
           "valuation_upside": 15
         },
         "key_notes": [
-          "Significant estimated undervaluation (~143%)"
+          "Significant estimated undervaluation (~150%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764812+00:00"
+      "updated_at": "2026-07-23T15:34:42.950548+00:00"
     },
     "ELGIEQUIP": {
       "symbol": "ELGIEQUIP",
       "company_name": "Elgi Equipments Limited",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "price": 583.2,
+      "price": 586.05,
       "ratios": {
-        "pe": 42.9455,
-        "pb": 8.231,
+        "pe": 43.1236,
+        "pb": 8.2775,
         "roe_pct": 21.0,
         "debt_to_equity": 23.885,
         "profit_margin_pct": 10.89
@@ -68146,7 +68149,7 @@
         "dcf_fair_value": 185.92,
         "graham_number": 147.14,
         "blended_fair_value": 166.53,
-        "estimated_upside_pct": -71.4,
+        "estimated_upside_pct": -71.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -68169,17 +68172,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.764913+00:00"
+      "updated_at": "2026-07-23T15:34:42.950652+00:00"
     },
     "ELGIRUBCO": {
       "symbol": "ELGIRUBCO",
       "company_name": "Elgi Rubber Company Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 57.29,
+      "price": 56.16,
       "ratios": {
         "pe": null,
-        "pb": 3.788,
+        "pb": 3.7133,
         "roe_pct": -188.58,
         "debt_to_equity": 413.219,
         "profit_margin_pct": -65.55
@@ -68215,17 +68218,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765009+00:00"
+      "updated_at": "2026-07-23T15:34:42.950750+00:00"
     },
     "ELIN": {
       "symbol": "ELIN",
       "company_name": "Elin Electronics Limited",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "price": 101.0,
+      "price": 100.49,
       "ratios": {
-        "pe": 21.7672,
-        "pb": 0.8655,
+        "pe": 21.6573,
+        "pb": 0.8611,
         "roe_pct": 4.14,
         "debt_to_equity": 2.969,
         "profit_margin_pct": 1.75
@@ -68241,7 +68244,7 @@
         "dcf_fair_value": null,
         "graham_number": 110.38,
         "blended_fair_value": 110.38,
-        "estimated_upside_pct": 9.3,
+        "estimated_upside_pct": 9.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -68262,17 +68265,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765113+00:00"
+      "updated_at": "2026-07-23T15:34:42.950871+00:00"
     },
     "ELITECON": {
       "symbol": "ELITECON",
       "company_name": "Elitecon International Limited",
       "sector": "",
       "industry": "",
-      "price": 16.68,
+      "price": 16.07,
       "ratios": {
         "pe": null,
-        "pb": 6.734,
+        "pb": 6.4877,
         "roe_pct": 0.0,
         "debt_to_equity": 70.969,
         "profit_margin_pct": 6.12
@@ -68308,17 +68311,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765216+00:00"
+      "updated_at": "2026-07-23T15:34:42.950977+00:00"
     },
     "ELLEN": {
       "symbol": "ELLEN",
       "company_name": "ELLEN",
       "sector": "Basic Materials",
       "industry": "Chemicals",
-      "price": 287.85,
+      "price": 277.9,
       "ratios": {
-        "pe": 38.1258,
-        "pb": 4.1612,
+        "pe": 36.8568,
+        "pb": 4.0174,
         "roe_pct": 14.2,
         "debt_to_equity": 18.873,
         "profit_margin_pct": 30.56
@@ -68332,18 +68335,18 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 108.4,
-        "blended_fair_value": 108.4,
-        "estimated_upside_pct": -62.3,
+        "graham_number": 108.33,
+        "blended_fair_value": 108.33,
+        "estimated_upside_pct": -61.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 55,
+        "total": 52,
         "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 0,
           "profitability": 15,
-          "stability": 20,
+          "stability": 17,
           "growth": 20,
           "valuation_upside": 0
         },
@@ -68357,17 +68360,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765319+00:00"
+      "updated_at": "2026-07-23T15:34:42.951081+00:00"
     },
     "ELPROINTL": {
       "symbol": "ELPROINTL",
       "company_name": "Elpro International Limited",
       "sector": "Unknown",
       "industry": "Unknown",
-      "price": 174.55,
+      "price": 175.02,
       "ratios": {
-        "pe": 33.8275,
-        "pb": 1.456,
+        "pe": 33.853,
+        "pb": 1.4599,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -68405,17 +68408,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765449+00:00"
+      "updated_at": "2026-07-23T15:34:42.951180+00:00"
     },
     "EMAMIPAP": {
       "symbol": "EMAMIPAP",
       "company_name": "Emami Paper Mills Limited",
       "sector": "Basic Materials",
       "industry": "Paper & Paper Products",
-      "price": 118.63,
+      "price": 122.88,
       "ratios": {
-        "pe": 13.6513,
-        "pb": 1.4956,
+        "pe": 9.0553,
+        "pb": 1.5492,
         "roe_pct": 9.8,
         "debt_to_equity": 142.073,
         "profit_margin_pct": 3.22
@@ -68429,39 +68432,39 @@
       },
       "valuation": {
         "dcf_fair_value": 119.09,
-        "graham_number": 124.53,
-        "blended_fair_value": 121.81,
-        "estimated_upside_pct": 2.7,
+        "graham_number": 155.62,
+        "blended_fair_value": 137.36,
+        "estimated_upside_pct": 11.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 29,
-        "rating": "🔴 AVOID",
+        "total": 30,
+        "rating": "🟠 WEAK",
         "pillars": {
-          "valuation": 15,
+          "valuation": 12,
           "profitability": 0,
           "stability": 6,
           "growth": 2,
-          "valuation_upside": 6
+          "valuation_upside": 10
         },
         "key_notes": [
-          "Trading near/below book value",
           "Declining revenue trend (-7.0%)",
-          "Profit growth declining/negative"
+          "Profit growth declining/negative",
+          "Modest estimated undervaluation (~12%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765661+00:00"
+      "updated_at": "2026-07-23T15:34:42.951390+00:00"
     },
     "EMBDL": {
       "symbol": "EMBDL",
       "company_name": "Embassy Developments Limited",
       "sector": "Real Estate",
       "industry": "Real Estate - Diversified",
-      "price": 62.61,
+      "price": 61.43,
       "ratios": {
         "pe": null,
-        "pb": 0.8817,
+        "pb": 0.8651,
         "roe_pct": -9.05,
         "debt_to_equity": 53.414,
         "profit_margin_pct": -50.39
@@ -68500,17 +68503,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765760+00:00"
+      "updated_at": "2026-07-23T15:34:42.951490+00:00"
     },
     "EMCURE": {
       "symbol": "EMCURE",
       "company_name": "EMCURE",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
-      "price": 1889.2,
+      "price": 1869.5,
       "ratios": {
-        "pe": 38.7449,
-        "pb": 7.2349,
+        "pe": 38.3566,
+        "pb": 7.1594,
         "roe_pct": 19.57,
         "debt_to_equity": 30.567,
         "profit_margin_pct": 10.04
@@ -68524,9 +68527,9 @@
       },
       "valuation": {
         "dcf_fair_value": 428.9,
-        "graham_number": 535.24,
-        "blended_fair_value": 482.07,
-        "estimated_upside_pct": -74.5,
+        "graham_number": 535.13,
+        "blended_fair_value": 482.01,
+        "estimated_upside_pct": -74.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -68549,17 +68552,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765868+00:00"
+      "updated_at": "2026-07-23T15:34:42.951593+00:00"
     },
     "EMIL": {
       "symbol": "EMIL",
       "company_name": "Electronics Mart India Limited",
       "sector": "Consumer Cyclical",
       "industry": "Specialty Retail",
-      "price": 131.45,
+      "price": 127.86,
       "ratios": {
-        "pe": 47.4549,
-        "pb": 3.1184,
+        "pe": 46.1588,
+        "pb": 3.0332,
         "roe_pct": 6.79,
         "debt_to_equity": 122.806,
         "profit_margin_pct": 1.49
@@ -68575,7 +68578,7 @@
         "dcf_fair_value": 116.84,
         "graham_number": 51.26,
         "blended_fair_value": 84.05,
-        "estimated_upside_pct": -36.1,
+        "estimated_upside_pct": -34.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -68593,24 +68596,24 @@
           "Healthy revenue CAGR (12.2%)",
           "Profit growth declining/negative",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-36%)"
+          "Appears overvalued vs blended intrinsic estimate (~-34%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.765968+00:00"
+      "updated_at": "2026-07-23T15:34:42.951696+00:00"
     },
     "EMKAY": {
       "symbol": "EMKAY",
       "company_name": "Emkay Global Financial Services Limited",
       "sector": "Financial Services",
       "industry": "Capital Markets",
-      "price": 237.6,
+      "price": 235.65,
       "ratios": {
-        "pe": 43.2,
-        "pb": 1.6049,
+        "pe": 42.7677,
+        "pb": 1.6212,
         "roe_pct": 4.45,
         "debt_to_equity": 26.355,
-        "profit_margin_pct": 4.0
+        "profit_margin_pct": 3.97
       },
       "growth": {
         "revenue_cagr_pct": 21.4,
@@ -68621,8 +68624,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 135.35,
-        "blended_fair_value": 135.35,
+        "graham_number": 134.24,
+        "blended_fair_value": 134.24,
         "estimated_upside_pct": -43.0,
         "valuation_models_used": 1
       },
@@ -68644,17 +68647,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766074+00:00"
+      "updated_at": "2026-07-23T15:34:42.951798+00:00"
     },
     "EMMBI": {
       "symbol": "EMMBI",
       "company_name": "Emmbi Industries Limited",
       "sector": "Consumer Cyclical",
       "industry": "Packaging & Containers",
-      "price": 87.1,
+      "price": 90.78,
       "ratios": {
-        "pe": 21.2439,
-        "pb": 0.8425,
+        "pe": 22.1415,
+        "pb": 0.8781,
         "roe_pct": 4.09,
         "debt_to_equity": 88.654,
         "profit_margin_pct": 1.73
@@ -68670,38 +68673,37 @@
         "dcf_fair_value": null,
         "graham_number": 97.66,
         "blended_fair_value": 97.66,
-        "estimated_upside_pct": 12.1,
+        "estimated_upside_pct": 7.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 38,
+        "total": 34,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 12,
           "profitability": 0,
           "stability": 6,
           "growth": 10,
-          "valuation_upside": 10
+          "valuation_upside": 6
         },
         "key_notes": [
           "Trading near/below book value",
           "Profit growth declining/negative",
-          "Consistent YoY growth",
-          "Modest estimated undervaluation (~12%)"
+          "Consistent YoY growth"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766174+00:00"
+      "updated_at": "2026-07-23T15:34:42.951920+00:00"
     },
     "EMMVEE": {
       "symbol": "EMMVEE",
       "company_name": "EMMVEE",
       "sector": "Technology",
       "industry": "Solar",
-      "price": 322.0,
+      "price": 319.75,
       "ratios": {
-        "pe": 17.5,
-        "pb": 6.0308,
+        "pe": 17.3588,
+        "pb": 5.9886,
         "roe_pct": 0.0,
         "debt_to_equity": 9.745,
         "profit_margin_pct": 22.84
@@ -68715,9 +68717,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 148.68,
-        "blended_fair_value": 148.68,
-        "estimated_upside_pct": -53.8,
+        "graham_number": 148.76,
+        "blended_fair_value": 148.76,
+        "estimated_upside_pct": -53.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -68740,17 +68742,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766274+00:00"
+      "updated_at": "2026-07-23T15:34:42.952028+00:00"
     },
     "EMSLIMITED": {
       "symbol": "EMSLIMITED",
       "company_name": "EMS Limited",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "price": 416.85,
+      "price": 406.35,
       "ratios": {
-        "pe": 25.605,
-        "pb": 2.1933,
+        "pe": 24.9294,
+        "pb": 2.138,
         "roe_pct": 8.96,
         "debt_to_equity": 14.575,
         "profit_margin_pct": 12.35
@@ -68764,9 +68766,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 263.85,
-        "blended_fair_value": 263.85,
-        "estimated_upside_pct": -36.7,
+        "graham_number": 264.01,
+        "blended_fair_value": 264.01,
+        "estimated_upside_pct": -35.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -68785,21 +68787,21 @@
           "Strong liquidity position",
           "Healthy revenue CAGR (10.8%)",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-37%)"
+          "Appears overvalued vs blended intrinsic estimate (~-35%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766415+00:00"
+      "updated_at": "2026-07-23T15:34:42.952131+00:00"
     },
     "EMUDHRA": {
       "symbol": "EMUDHRA",
       "company_name": "eMudhra Limited",
       "sector": "Technology",
       "industry": "Software - Application",
-      "price": 459.6,
+      "price": 457.7,
       "ratios": {
-        "pe": 35.3538,
-        "pb": 4.1385,
+        "pe": 35.1806,
+        "pb": 4.1214,
         "roe_pct": 13.26,
         "debt_to_equity": 3.153,
         "profit_margin_pct": 15.36
@@ -68813,9 +68815,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 180.23,
-        "blended_fair_value": 180.23,
-        "estimated_upside_pct": -60.8,
+        "graham_number": 180.3,
+        "blended_fair_value": 180.3,
+        "estimated_upside_pct": -60.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -68838,66 +68840,66 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766539+00:00"
+      "updated_at": "2026-07-23T15:34:42.952232+00:00"
     },
     "ENDURANCE": {
       "symbol": "ENDURANCE",
       "company_name": "Endurance Technologies Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 2738.2,
+      "price": 2720.3,
       "ratios": {
-        "pe": 40.4461,
-        "pb": 5.6313,
+        "pe": 40.2233,
+        "pb": 5.5945,
         "roe_pct": 15.16,
         "debt_to_equity": 19.393,
         "profit_margin_pct": 6.52
       },
       "growth": {
-        "revenue_cagr_pct": 18.9,
+        "revenue_cagr_pct": 18.2,
         "net_income_cagr_pct": 25.7,
-        "margin_trend": "stable",
+        "margin_trend": "expanding",
         "revenue_growth_consistency_pct": 100.0,
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 1111.51,
-        "graham_number": 860.62,
-        "blended_fair_value": 986.07,
-        "estimated_upside_pct": -64.0,
+        "dcf_fair_value": 1082.99,
+        "graham_number": 860.18,
+        "blended_fair_value": 971.59,
+        "estimated_upside_pct": -64.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 49,
+        "total": 52,
         "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 0,
           "profitability": 7,
           "stability": 20,
-          "growth": 22,
+          "growth": 25,
           "valuation_upside": 0
         },
         "key_notes": [
           "Strong ROE (15.2%)",
           "Very low debt",
           "Strong liquidity position",
-          "Strong revenue CAGR (18.9%)",
+          "Strong revenue CAGR (18.2%)",
           "Strong profit CAGR (25.7%)",
           "Consistent YoY growth"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766641+00:00"
+      "updated_at": "2026-07-23T15:34:42.952335+00:00"
     },
     "ENERGYDEV": {
       "symbol": "ENERGYDEV",
       "company_name": "Energy Development Company Limited",
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
-      "price": 17.02,
+      "price": 16.83,
       "ratios": {
         "pe": null,
-        "pb": 20.6553,
+        "pb": 20.4248,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": -0.52
@@ -68913,7 +68915,7 @@
         "dcf_fair_value": 69.62,
         "graham_number": null,
         "blended_fair_value": 69.62,
-        "estimated_upside_pct": 309.0,
+        "estimated_upside_pct": 313.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -68927,21 +68929,21 @@
           "valuation_upside": 15
         },
         "key_notes": [
-          "Significant estimated undervaluation (~309%)"
+          "Significant estimated undervaluation (~314%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766743+00:00"
+      "updated_at": "2026-07-23T15:34:42.952442+00:00"
     },
     "ENGINERSIN": {
       "symbol": "ENGINERSIN",
       "company_name": "Engineers India Limited",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "price": 225.39,
+      "price": 224.25,
       "ratios": {
-        "pe": 18.3244,
-        "pb": 4.0374,
+        "pe": 18.2169,
+        "pb": 4.017,
         "roe_pct": 23.79,
         "debt_to_equity": 0.534,
         "profit_margin_pct": 17.61
@@ -68955,9 +68957,9 @@
       },
       "valuation": {
         "dcf_fair_value": 88.81,
-        "graham_number": 124.3,
-        "blended_fair_value": 106.56,
-        "estimated_upside_pct": -52.7,
+        "graham_number": 124.35,
+        "blended_fair_value": 106.58,
+        "estimated_upside_pct": -52.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -68976,21 +68978,21 @@
           "Manageable debt level",
           "Strong profit CAGR (25.9%)",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-53%)"
+          "Appears overvalued vs blended intrinsic estimate (~-52%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766845+00:00"
+      "updated_at": "2026-07-23T15:34:42.952543+00:00"
     },
     "ENIL": {
       "symbol": "ENIL",
       "company_name": "Entertainment Network (India) Limited",
       "sector": "Communication Services",
       "industry": "Broadcasting",
-      "price": 107.01,
+      "price": 106.55,
       "ratios": {
         "pe": null,
-        "pb": 0.6731,
+        "pb": 0.6702,
         "roe_pct": -0.96,
         "debt_to_equity": 22.502,
         "profit_margin_pct": -1.36
@@ -69006,7 +69008,7 @@
         "dcf_fair_value": 232.49,
         "graham_number": null,
         "blended_fair_value": 232.49,
-        "estimated_upside_pct": 117.3,
+        "estimated_upside_pct": 118.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69025,21 +69027,21 @@
           "Strong liquidity position",
           "Consistent YoY growth",
           "Margins expanding",
-          "Significant estimated undervaluation (~117%)"
+          "Significant estimated undervaluation (~118%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.766949+00:00"
+      "updated_at": "2026-07-23T15:34:42.952644+00:00"
     },
     "ENRIN": {
       "symbol": "ENRIN",
       "company_name": "Siemens Energy India Limited",
       "sector": "Utilities",
       "industry": "Utilities - Renewable",
-      "price": 3373.4,
+      "price": 3326.8,
       "ratios": {
-        "pe": 91.7433,
-        "pb": 24.9665,
+        "pe": 90.4759,
+        "pb": 24.6216,
         "roe_pct": 0.0,
         "debt_to_equity": 4.483,
         "profit_margin_pct": 14.99
@@ -69055,7 +69057,7 @@
         "dcf_fair_value": 2830.91,
         "graham_number": 334.34,
         "blended_fair_value": 1582.62,
-        "estimated_upside_pct": -53.1,
+        "estimated_upside_pct": -52.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -69078,17 +69080,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767051+00:00"
+      "updated_at": "2026-07-23T15:34:42.952745+00:00"
     },
     "ENTERO": {
       "symbol": "ENTERO",
       "company_name": "Entero Healthcare Solutions Limited",
       "sector": "Healthcare",
       "industry": "Medical Distribution",
-      "price": 1239.3,
+      "price": 1206.7,
       "ratios": {
-        "pe": 46.9076,
-        "pb": 3.192,
+        "pe": 45.7083,
+        "pb": 3.108,
         "roe_pct": 8.28,
         "debt_to_equity": 38.638,
         "profit_margin_pct": 1.75
@@ -69102,9 +69104,9 @@
       },
       "valuation": {
         "dcf_fair_value": 97.76,
-        "graham_number": 480.42,
-        "blended_fair_value": 480.42,
-        "estimated_upside_pct": -61.2,
+        "graham_number": 480.23,
+        "blended_fair_value": 480.23,
+        "estimated_upside_pct": -60.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69123,21 +69125,21 @@
           "Strong revenue CAGR (26.0%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-61%)"
+          "Appears overvalued vs blended intrinsic estimate (~-60%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767165+00:00"
+      "updated_at": "2026-07-23T15:34:42.952865+00:00"
     },
     "EPACK": {
       "symbol": "EPACK",
       "company_name": "EPACK Durable Limited",
       "sector": "Consumer Cyclical",
       "industry": "Furnishings, Fixtures & Appliances",
-      "price": 234.71,
+      "price": 231.0,
       "ratios": {
-        "pe": 711.2424,
-        "pb": 1.9715,
+        "pe": 700.0,
+        "pb": 1.9404,
         "roe_pct": 0.34,
         "debt_to_equity": 76.95,
         "profit_margin_pct": 0.17
@@ -69153,7 +69155,7 @@
         "dcf_fair_value": null,
         "graham_number": 29.73,
         "blended_fair_value": 29.73,
-        "estimated_upside_pct": -87.3,
+        "estimated_upside_pct": -87.1,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69174,17 +69176,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767269+00:00"
+      "updated_at": "2026-07-23T15:34:42.952984+00:00"
     },
     "EPACKPEB": {
       "symbol": "EPACKPEB",
       "company_name": "EPACKPEB",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "price": 241.09,
+      "price": 243.08,
       "ratios": {
-        "pe": 24.2058,
-        "pb": 3.2971,
+        "pe": 24.4056,
+        "pb": 3.3243,
         "roe_pct": 17.02,
         "debt_to_equity": 15.606,
         "profit_margin_pct": 6.07
@@ -69200,7 +69202,7 @@
         "dcf_fair_value": null,
         "graham_number": 128.01,
         "blended_fair_value": 128.01,
-        "estimated_upside_pct": -46.9,
+        "estimated_upside_pct": -47.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69223,17 +69225,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767402+00:00"
+      "updated_at": "2026-07-23T15:34:42.953093+00:00"
     },
     "EPIGRAL": {
       "symbol": "EPIGRAL",
       "company_name": "Epigral Limited",
       "sector": "Basic Materials",
       "industry": "Chemicals",
-      "price": 1138.8,
+      "price": 1152.0,
       "ratios": {
-        "pe": 14.7992,
-        "pb": 2.2116,
+        "pe": 14.9649,
+        "pb": 2.2372,
         "roe_pct": 16.09,
         "debt_to_equity": 25.751,
         "profit_margin_pct": 13.14
@@ -69247,9 +69249,9 @@
       },
       "valuation": {
         "dcf_fair_value": 15.84,
-        "graham_number": 944.2,
-        "blended_fair_value": 944.2,
-        "estimated_upside_pct": -17.1,
+        "graham_number": 944.39,
+        "blended_fair_value": 944.39,
+        "estimated_upside_pct": -18.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69267,21 +69269,21 @@
           "Healthy net margin (13.1%)",
           "Very low debt",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-17%)"
+          "Appears overvalued vs blended intrinsic estimate (~-18%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767515+00:00"
+      "updated_at": "2026-07-23T15:34:42.953197+00:00"
     },
     "EPL": {
       "symbol": "EPL",
       "company_name": "EPL Limited",
       "sector": "Consumer Cyclical",
       "industry": "Packaging & Containers",
-      "price": 233.88,
+      "price": 233.04,
       "ratios": {
-        "pe": 19.2811,
-        "pb": 2.6154,
+        "pe": 19.196,
+        "pb": 2.606,
         "roe_pct": 15.08,
         "debt_to_equity": 33.579,
         "profit_margin_pct": 8.16
@@ -69295,9 +69297,9 @@
       },
       "valuation": {
         "dcf_fair_value": 115.29,
-        "graham_number": 156.23,
-        "blended_fair_value": 135.76,
-        "estimated_upside_pct": -42.0,
+        "graham_number": 156.29,
+        "blended_fair_value": 135.79,
+        "estimated_upside_pct": -41.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -69320,65 +69322,66 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767618+00:00"
+      "updated_at": "2026-07-23T15:34:42.953299+00:00"
     },
     "EQUITASBNK": {
       "symbol": "EQUITASBNK",
       "company_name": "Equitas Small Finance Bank Limited",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
-      "price": 79.02,
+      "price": 78.42,
       "ratios": {
-        "pe": 87.8,
-        "pb": 1.4752,
+        "pe": 87.1333,
+        "pb": 1.464,
         "roe_pct": 1.69,
         "debt_to_equity": 94.248,
         "profit_margin_pct": 2.31
       },
       "growth": {
-        "revenue_cagr_pct": null,
-        "net_income_cagr_pct": null,
+        "revenue_cagr_pct": 13.6,
+        "net_income_cagr_pct": -43.6,
         "margin_trend": "unknown",
-        "revenue_growth_consistency_pct": null,
-        "years_of_data": 0
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
       },
       "valuation": {
         "dcf_fair_value": null,
         "graham_number": 32.93,
         "blended_fair_value": 32.93,
-        "estimated_upside_pct": -58.3,
+        "estimated_upside_pct": -58.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 46,
-        "rating": "🟡 HOLD",
+        "total": 31,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 7,
           "profitability": 4,
           "stability": 10,
-          "growth": 25,
+          "growth": 10,
           "valuation_upside": 0
         },
         "key_notes": [
           "Trading near/below book value",
           "Leverage ratio not directly comparable (financial sector)",
-          "Positive YoY revenue growth (17.9%)",
-          "Positive YoY earnings growth (402.7%)",
+          "Healthy revenue CAGR (13.6%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
           "Appears overvalued vs blended intrinsic estimate (~-58%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767717+00:00"
+      "updated_at": "2026-07-23T15:34:42.953400+00:00"
     },
     "ERIS": {
       "symbol": "ERIS",
       "company_name": "Eris Lifesciences Limited",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
-      "price": 1440.6,
+      "price": 1395.6,
       "ratios": {
-        "pe": 31.8154,
-        "pb": 5.0462,
+        "pe": 30.8556,
+        "pb": 4.8886,
         "roe_pct": 18.07,
         "debt_to_equity": 60.545,
         "profit_margin_pct": 19.89
@@ -69392,9 +69395,9 @@
       },
       "valuation": {
         "dcf_fair_value": 327.0,
-        "graham_number": 539.31,
-        "blended_fair_value": 433.15,
-        "estimated_upside_pct": -69.9,
+        "graham_number": 539.01,
+        "blended_fair_value": 433.0,
+        "estimated_upside_pct": -69.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -69417,17 +69420,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767816+00:00"
+      "updated_at": "2026-07-23T15:34:42.953502+00:00"
     },
     "ESABINDIA": {
       "symbol": "ESABINDIA",
       "company_name": "ESAB India Limited",
       "sector": "Industrials",
       "industry": "Tools & Accessories",
-      "price": 5787.0,
+      "price": 5725.5,
       "ratios": {
-        "pe": 43.0548,
-        "pb": 20.746,
+        "pe": 42.6449,
+        "pb": 20.5255,
         "roe_pct": 52.29,
         "debt_to_equity": 0.78,
         "profit_margin_pct": 13.71
@@ -69441,9 +69444,9 @@
       },
       "valuation": {
         "dcf_fair_value": 2023.46,
-        "graham_number": 918.47,
-        "blended_fair_value": 1470.97,
-        "estimated_upside_pct": -74.6,
+        "graham_number": 917.96,
+        "blended_fair_value": 1470.71,
+        "estimated_upside_pct": -74.3,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -69466,17 +69469,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.767917+00:00"
+      "updated_at": "2026-07-23T15:34:42.953605+00:00"
     },
     "ESAFSFB": {
       "symbol": "ESAFSFB",
       "company_name": "ESAF Small Finance Bank",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
-      "price": 35.71,
+      "price": 35.55,
       "ratios": {
         "pe": null,
-        "pb": 1.0216,
+        "pb": 1.0261,
         "roe_pct": -8.91,
         "debt_to_equity": null,
         "profit_margin_pct": -10.6
@@ -69511,17 +69514,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768019+00:00"
+      "updated_at": "2026-07-23T15:34:42.953702+00:00"
     },
     "ESSARSHPNG": {
       "symbol": "ESSARSHPNG",
       "company_name": "Essar Shipping Limited",
       "sector": "Industrials",
       "industry": "Marine Shipping",
-      "price": 20.24,
+      "price": 20.03,
       "ratios": {
         "pe": null,
-        "pb": -0.2019,
+        "pb": -0.1998,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -69556,17 +69559,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768228+00:00"
+      "updated_at": "2026-07-23T15:34:42.953926+00:00"
     },
     "ESTER": {
       "symbol": "ESTER",
       "company_name": "Ester Industries Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 86.99,
+      "price": 89.01,
       "ratios": {
         "pe": null,
-        "pb": 1.0804,
+        "pb": 1.1054,
         "roe_pct": -3.53,
         "debt_to_equity": 93.137,
         "profit_margin_pct": -2.0
@@ -69601,20 +69604,20 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768345+00:00"
+      "updated_at": "2026-07-23T15:34:42.954034+00:00"
     },
     "ETERNAL": {
       "symbol": "ETERNAL",
       "company_name": "Eternal Limited",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "price": 284.4,
+      "price": 287.1,
       "ratios": {
-        "pe": 711.0,
-        "pb": 8.407,
-        "roe_pct": 1.19,
+        "pe": 624.1304,
+        "pb": 8.4868,
+        "roe_pct": 0.0,
         "debt_to_equity": 14.826,
-        "profit_margin_pct": 0.67
+        "profit_margin_pct": 0.64
       },
       "growth": {
         "revenue_cagr_pct": 97.7,
@@ -69625,24 +69628,23 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 17.45,
-        "blended_fair_value": 17.45,
-        "estimated_upside_pct": -93.9,
+        "graham_number": 18.71,
+        "blended_fair_value": 18.71,
+        "estimated_upside_pct": -93.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 38,
+        "total": 30,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 0,
           "profitability": 0,
-          "stability": 20,
+          "stability": 12,
           "growth": 18,
           "valuation_upside": 0
         },
         "key_notes": [
           "Very low debt",
-          "Strong liquidity position",
           "Strong revenue CAGR (97.7%)",
           "Consistent YoY growth",
           "Margins expanding",
@@ -69650,17 +69652,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768458+00:00"
+      "updated_at": "2026-07-23T15:34:42.954137+00:00"
     },
     "ETHOSLTD": {
       "symbol": "ETHOSLTD",
       "company_name": "Ethos Limited",
       "sector": "Consumer Cyclical",
       "industry": "Luxury Goods",
-      "price": 2621.3,
+      "price": 2574.4,
       "ratios": {
-        "pe": 72.1525,
-        "pb": 4.714,
+        "pe": 71.175,
+        "pb": 4.6296,
         "roe_pct": 7.27,
         "debt_to_equity": 19.366,
         "profit_margin_pct": 5.88
@@ -69674,9 +69676,9 @@
       },
       "valuation": {
         "dcf_fair_value": 320.65,
-        "graham_number": 674.2,
-        "blended_fair_value": 497.43,
-        "estimated_upside_pct": -81.0,
+        "graham_number": 672.71,
+        "blended_fair_value": 496.68,
+        "estimated_upside_pct": -80.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -69699,17 +69701,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768560+00:00"
+      "updated_at": "2026-07-23T15:34:42.954239+00:00"
     },
     "EUREKAFORB": {
       "symbol": "EUREKAFORB",
       "company_name": "Eureka Forbes Limited",
       "sector": "Consumer Cyclical",
       "industry": "Furnishings, Fixtures & Appliances",
-      "price": 447.7,
+      "price": 433.65,
       "ratios": {
-        "pe": 53.6168,
-        "pb": 1.8961,
+        "pe": 51.81,
+        "pb": 1.8366,
         "roe_pct": 3.61,
         "debt_to_equity": 0.629,
         "profit_margin_pct": 6.0
@@ -69723,9 +69725,9 @@
       },
       "valuation": {
         "dcf_fair_value": 177.93,
-        "graham_number": 210.62,
-        "blended_fair_value": 194.28,
-        "estimated_upside_pct": -56.6,
+        "graham_number": 210.87,
+        "blended_fair_value": 194.4,
+        "estimated_upside_pct": -55.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -69744,21 +69746,21 @@
           "Strong profit CAGR (83.1%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-57%)"
+          "Appears overvalued vs blended intrinsic estimate (~-55%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768660+00:00"
+      "updated_at": "2026-07-23T15:34:42.954341+00:00"
     },
     "EUROBOND": {
       "symbol": "EUROBOND",
       "company_name": "EUROBOND",
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
-      "price": 164.69,
+      "price": 160.77,
       "ratios": {
-        "pe": 15.1928,
-        "pb": 2.5194,
+        "pe": 14.8312,
+        "pb": 2.4595,
         "roe_pct": 18.11,
         "debt_to_equity": 100.859,
         "profit_margin_pct": 5.28
@@ -69774,14 +69776,14 @@
         "dcf_fair_value": null,
         "graham_number": 126.27,
         "blended_fair_value": 126.27,
-        "estimated_upside_pct": -23.3,
+        "estimated_upside_pct": -21.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 47,
+        "total": 50,
         "rating": "🟡 HOLD",
         "pillars": {
-          "valuation": 9,
+          "valuation": 12,
           "profitability": 7,
           "stability": 6,
           "growth": 25,
@@ -69793,21 +69795,21 @@
           "Strong profit CAGR (38.1%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-23%)"
+          "Appears overvalued vs blended intrinsic estimate (~-22%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768761+00:00"
+      "updated_at": "2026-07-23T15:34:42.954443+00:00"
     },
     "EUROPRATIK": {
       "symbol": "EUROPRATIK",
       "company_name": "EUROPRATIK",
       "sector": "Basic Materials",
       "industry": "Building Materials",
-      "price": 305.9,
+      "price": 296.75,
       "ratios": {
-        "pe": 40.5166,
-        "pb": 10.1084,
+        "pe": 39.409,
+        "pb": 9.806,
         "roe_pct": 27.8,
         "debt_to_equity": 7.636,
         "profit_margin_pct": 23.02
@@ -69821,9 +69823,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 71.7,
-        "blended_fair_value": 71.7,
-        "estimated_upside_pct": -76.6,
+        "graham_number": 71.6,
+        "blended_fair_value": 71.6,
+        "estimated_upside_pct": -75.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69846,17 +69848,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768866+00:00"
+      "updated_at": "2026-07-23T15:34:42.954544+00:00"
     },
     "EVEREADY": {
       "symbol": "EVEREADY",
       "company_name": "Eveready Industries India Limited",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "price": 363.3,
+      "price": 352.35,
       "ratios": {
-        "pe": 15.3941,
-        "pb": 4.2391,
+        "pe": 14.9238,
+        "pb": 4.1113,
         "roe_pct": 31.64,
         "debt_to_equity": 32.395,
         "profit_margin_pct": 11.79
@@ -69870,16 +69872,16 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 213.33,
-        "blended_fair_value": 213.33,
-        "estimated_upside_pct": -41.3,
+        "graham_number": 213.37,
+        "blended_fair_value": 213.37,
+        "estimated_upside_pct": -39.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 47,
+        "total": 50,
         "rating": "🟡 HOLD",
         "pillars": {
-          "valuation": 5,
+          "valuation": 8,
           "profitability": 13,
           "stability": 11,
           "growth": 18,
@@ -69891,21 +69893,21 @@
           "Manageable debt level",
           "Strong profit CAGR (83.8%)",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-41%)"
+          "Appears overvalued vs blended intrinsic estimate (~-39%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.768969+00:00"
+      "updated_at": "2026-07-23T15:34:42.954645+00:00"
     },
     "EVERESTIND": {
       "symbol": "EVERESTIND",
       "company_name": "Everest Industries Limited",
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
-      "price": 482.95,
+      "price": 500.95,
       "ratios": {
         "pe": null,
-        "pb": 1.5485,
+        "pb": 1.6062,
         "roe_pct": -18.64,
         "debt_to_equity": 45.885,
         "profit_margin_pct": -7.18
@@ -69921,7 +69923,7 @@
         "dcf_fair_value": 375.5,
         "graham_number": null,
         "blended_fair_value": 375.5,
-        "estimated_upside_pct": -22.2,
+        "estimated_upside_pct": -25.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69937,21 +69939,21 @@
         "key_notes": [
           "Manageable debt level",
           "Declining revenue trend (-5.1%)",
-          "Appears overvalued vs blended intrinsic estimate (~-22%)"
+          "Appears overvalued vs blended intrinsic estimate (~-25%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769070+00:00"
+      "updated_at": "2026-07-23T15:34:42.954744+00:00"
     },
     "EXCELINDUS": {
       "symbol": "EXCELINDUS",
       "company_name": "Excel Industries Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 948.2,
+      "price": 914.35,
       "ratios": {
-        "pe": 15.743,
-        "pb": 0.6998,
+        "pe": 15.186,
+        "pb": 0.6748,
         "roe_pct": 4.6,
         "debt_to_equity": 0.463,
         "profit_margin_pct": 6.91
@@ -69965,9 +69967,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 1355.03,
-        "blended_fair_value": 1355.03,
-        "estimated_upside_pct": 42.9,
+        "graham_number": 1354.81,
+        "blended_fair_value": 1354.81,
+        "estimated_upside_pct": 48.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -69985,21 +69987,21 @@
           "Manageable debt level",
           "Strong liquidity position",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~43%)"
+          "Significant estimated undervaluation (~48%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769175+00:00"
+      "updated_at": "2026-07-23T15:34:42.954861+00:00"
     },
     "EXCELSOFT": {
       "symbol": "EXCELSOFT",
       "company_name": "EXCELSOFT",
       "sector": "Technology",
       "industry": "Software - Application",
-      "price": 75.09,
+      "price": 74.54,
       "ratios": {
-        "pe": 18.2257,
-        "pb": 1.4942,
+        "pe": 18.0922,
+        "pb": 1.4833,
         "roe_pct": 9.14,
         "debt_to_equity": 1.137,
         "profit_margin_pct": 15.92
@@ -70015,7 +70017,7 @@
         "dcf_fair_value": null,
         "graham_number": 68.25,
         "blended_fair_value": 68.25,
-        "estimated_upside_pct": -9.1,
+        "estimated_upside_pct": -8.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70038,17 +70040,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769276+00:00"
+      "updated_at": "2026-07-23T15:34:42.954970+00:00"
     },
     "EXICOM": {
       "symbol": "EXICOM",
       "company_name": "Exicom Tele-Systems Limited",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "price": 169.29,
+      "price": 161.48,
       "ratios": {
         "pe": null,
-        "pb": 3.5031,
+        "pb": 3.3415,
         "roe_pct": -43.34,
         "debt_to_equity": 109.474,
         "profit_margin_pct": -23.8
@@ -70083,17 +70085,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769400+00:00"
+      "updated_at": "2026-07-23T15:34:42.955069+00:00"
     },
     "EXPLEOSOL": {
       "symbol": "EXPLEOSOL",
       "company_name": "Expleo Solutions Limited",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 801.15,
+      "price": 814.1,
       "ratios": {
-        "pe": 10.0257,
-        "pb": 1.6017,
+        "pe": 10.1928,
+        "pb": 1.6275,
         "roe_pct": 17.56,
         "debt_to_equity": 1.011,
         "profit_margin_pct": 11.19
@@ -70107,9 +70109,9 @@
       },
       "valuation": {
         "dcf_fair_value": 1504.36,
-        "graham_number": 948.34,
-        "blended_fair_value": 1226.35,
-        "estimated_upside_pct": 53.1,
+        "graham_number": 948.1,
+        "blended_fair_value": 1226.23,
+        "estimated_upside_pct": 50.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -70128,68 +70130,70 @@
           "Strong liquidity position",
           "Profit growth declining/negative",
           "Consistent YoY growth",
-          "Significant estimated undervaluation (~53%)"
+          "Significant estimated undervaluation (~51%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769629+00:00"
+      "updated_at": "2026-07-23T15:34:42.955271+00:00"
     },
     "EXXARO": {
       "symbol": "EXXARO",
       "company_name": "Exxaro Tiles Limited",
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
-      "price": 6.34,
+      "price": 6.26,
       "ratios": {
-        "pe": 105.6667,
-        "pb": 1.0695,
+        "pe": 104.3333,
+        "pb": 1.056,
         "roe_pct": 1.02,
         "debt_to_equity": 33.349,
         "profit_margin_pct": 0.93
       },
       "growth": {
-        "revenue_cagr_pct": null,
-        "net_income_cagr_pct": null,
-        "margin_trend": "unknown",
-        "revenue_growth_consistency_pct": null,
-        "years_of_data": 0
+        "revenue_cagr_pct": -1.1,
+        "net_income_cagr_pct": -27.0,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 8.14,
+        "dcf_fair_value": 4.37,
         "graham_number": 2.83,
-        "blended_fair_value": 5.49,
-        "estimated_upside_pct": -13.4,
+        "blended_fair_value": 3.6,
+        "estimated_upside_pct": -42.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 20,
+        "total": 25,
         "rating": "🔴 AVOID",
         "pillars": {
           "valuation": 7,
           "profitability": 0,
           "stability": 13,
-          "growth": 0,
+          "growth": 5,
           "valuation_upside": 0
         },
         "key_notes": [
           "Trading near/below book value",
           "Manageable debt level",
           "Strong liquidity position",
-          "Appears overvalued vs blended intrinsic estimate (~-13%)"
+          "Declining revenue trend (-1.1%)",
+          "Profit growth declining/negative",
+          "Appears overvalued vs blended intrinsic estimate (~-42%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769730+00:00"
+      "updated_at": "2026-07-23T15:34:42.955372+00:00"
     },
     "FABTECH": {
       "symbol": "FABTECH",
       "company_name": "FABTECH",
       "sector": "Healthcare",
       "industry": "Health Information Services",
-      "price": 147.23,
+      "price": 148.6,
       "ratios": {
-        "pe": 14.723,
-        "pb": 1.3454,
+        "pe": 14.86,
+        "pb": 1.3579,
         "roe_pct": 12.94,
         "debt_to_equity": 16.589,
         "profit_margin_pct": 9.34
@@ -70205,7 +70209,7 @@
         "dcf_fair_value": null,
         "graham_number": 156.92,
         "blended_fair_value": 156.92,
-        "estimated_upside_pct": 6.6,
+        "estimated_upside_pct": 5.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70228,17 +70232,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769833+00:00"
+      "updated_at": "2026-07-23T15:34:42.955473+00:00"
     },
     "FACT": {
       "symbol": "FACT",
       "company_name": "The Fertilisers and Chemicals Travancore Limited",
       "sector": "Basic Materials",
       "industry": "Agricultural Inputs",
-      "price": 814.05,
+      "price": 805.75,
       "ratios": {
         "pe": null,
-        "pb": 38.3046,
+        "pb": 37.9141,
         "roe_pct": 0.0,
         "debt_to_equity": 295.147,
         "profit_margin_pct": 7.69
@@ -70274,17 +70278,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.769931+00:00"
+      "updated_at": "2026-07-23T15:34:42.955571+00:00"
     },
     "FAIRCHEMOR": {
       "symbol": "FAIRCHEMOR",
       "company_name": "Fairchem Organics Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 736.8,
+      "price": 772.9,
       "ratios": {
-        "pe": 172.1495,
-        "pb": 3.5282,
+        "pe": 181.007,
+        "pb": 3.7011,
         "roe_pct": 1.96,
         "debt_to_equity": 31.852,
         "profit_margin_pct": 1.21
@@ -70298,9 +70302,9 @@
       },
       "valuation": {
         "dcf_fair_value": 100.07,
-        "graham_number": 141.81,
-        "blended_fair_value": 120.94,
-        "estimated_upside_pct": -83.6,
+        "graham_number": 141.65,
+        "blended_fair_value": 120.86,
+        "estimated_upside_pct": -84.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -70322,17 +70326,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770032+00:00"
+      "updated_at": "2026-07-23T15:34:42.955672+00:00"
     },
     "FAZE3Q": {
       "symbol": "FAZE3Q",
       "company_name": "Faze Three Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 555.5,
+      "price": 545.0,
       "ratios": {
-        "pe": 40.2536,
-        "pb": 2.9866,
+        "pe": 39.5501,
+        "pb": 2.9302,
         "roe_pct": 7.7,
         "debt_to_equity": 60.909,
         "profit_margin_pct": 3.64
@@ -70346,9 +70350,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 240.32,
-        "blended_fair_value": 240.32,
-        "estimated_upside_pct": -56.7,
+        "graham_number": 240.14,
+        "blended_fair_value": 240.14,
+        "estimated_upside_pct": -55.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70367,21 +70371,21 @@
           "Profit growth declining/negative",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-57%)"
+          "Appears overvalued vs blended intrinsic estimate (~-56%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770133+00:00"
+      "updated_at": "2026-07-23T15:34:42.955772+00:00"
     },
     "FCL": {
       "symbol": "FCL",
       "company_name": "Fineotex Chemical Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 39.88,
+      "price": 41.91,
       "ratios": {
-        "pe": 36.5872,
-        "pb": 3.7591,
+        "pe": 38.4495,
+        "pb": 3.9504,
         "roe_pct": 14.9,
         "debt_to_equity": 0.872,
         "profit_margin_pct": 14.08
@@ -70397,7 +70401,7 @@
         "dcf_fair_value": null,
         "graham_number": 16.13,
         "blended_fair_value": 16.13,
-        "estimated_upside_pct": -59.6,
+        "estimated_upside_pct": -61.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70414,21 +70418,21 @@
           "Healthy net margin (14.1%)",
           "Strong liquidity position",
           "Healthy revenue CAGR (14.4%)",
-          "Appears overvalued vs blended intrinsic estimate (~-60%)"
+          "Appears overvalued vs blended intrinsic estimate (~-62%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770239+00:00"
+      "updated_at": "2026-07-23T15:34:42.955891+00:00"
     },
     "FDC": {
       "symbol": "FDC",
       "company_name": "FDC Limited",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
-      "price": 410.3,
+      "price": 401.25,
       "ratios": {
-        "pe": 23.758,
-        "pb": 2.6884,
+        "pe": 23.2339,
+        "pb": 2.6291,
         "roe_pct": 11.81,
         "debt_to_equity": 0.622,
         "profit_margin_pct": 12.96
@@ -70444,7 +70448,7 @@
         "dcf_fair_value": 45.46,
         "graham_number": 243.53,
         "blended_fair_value": 144.5,
-        "estimated_upside_pct": -64.8,
+        "estimated_upside_pct": -64.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -70462,21 +70466,21 @@
           "Manageable debt level",
           "Strong liquidity position",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-65%)"
+          "Appears overvalued vs blended intrinsic estimate (~-64%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770366+00:00"
+      "updated_at": "2026-07-23T15:34:42.956000+00:00"
     },
     "FEDDERSHOL": {
       "symbol": "FEDDERSHOL",
       "company_name": "Fedders Holding Limited",
       "sector": "",
       "industry": "",
-      "price": 51.52,
+      "price": 47.87,
       "ratios": {
         "pe": null,
-        "pb": 1.4396,
+        "pb": 1.3376,
         "roe_pct": 13.53,
         "debt_to_equity": 9.218,
         "profit_margin_pct": 26.49
@@ -70515,17 +70519,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770472+00:00"
+      "updated_at": "2026-07-23T15:34:42.956098+00:00"
     },
     "FEDFINA": {
       "symbol": "FEDFINA",
       "company_name": "Fedbank Financial Services Limited",
       "sector": "Financial Services",
       "industry": "Credit Services",
-      "price": 154.61,
+      "price": 150.26,
       "ratios": {
-        "pe": 15.2475,
-        "pb": 1.9772,
+        "pe": 14.8185,
+        "pb": 1.9216,
         "roe_pct": 0.0,
         "debt_to_equity": 467.341,
         "profit_margin_pct": 28.99
@@ -70541,14 +70545,14 @@
         "dcf_fair_value": null,
         "graham_number": 133.57,
         "blended_fair_value": 133.57,
-        "estimated_upside_pct": -13.6,
+        "estimated_upside_pct": -11.1,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 55,
+        "total": 58,
         "rating": "🟡 HOLD",
         "pillars": {
-          "valuation": 9,
+          "valuation": 12,
           "profitability": 11,
           "stability": 10,
           "growth": 25,
@@ -70564,17 +70568,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770680+00:00"
+      "updated_at": "2026-07-23T15:34:42.956300+00:00"
     },
     "FERMENTA": {
       "symbol": "FERMENTA",
       "company_name": "Fermenta Biotech Limited",
       "sector": "",
       "industry": "",
-      "price": 420.85,
+      "price": 401.0,
       "ratios": {
         "pe": null,
-        "pb": 2.9852,
+        "pb": 2.8444,
         "roe_pct": 18.51,
         "debt_to_equity": 28.294,
         "profit_margin_pct": 13.66
@@ -70612,17 +70616,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770776+00:00"
+      "updated_at": "2026-07-23T15:34:42.956397+00:00"
     },
     "FIBERWEB": {
       "symbol": "FIBERWEB",
       "company_name": "Fiberweb (India) Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 30.87,
+      "price": 30.15,
       "ratios": {
-        "pe": 8.8707,
-        "pb": 0.4755,
+        "pe": 8.6638,
+        "pb": 0.4644,
         "roe_pct": 5.52,
         "debt_to_equity": 6.45,
         "profit_margin_pct": 11.84
@@ -70638,7 +70642,7 @@
         "dcf_fair_value": null,
         "graham_number": 71.3,
         "blended_fair_value": 71.3,
-        "estimated_upside_pct": 131.0,
+        "estimated_upside_pct": 136.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70661,17 +70665,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770877+00:00"
+      "updated_at": "2026-07-23T15:34:42.956497+00:00"
     },
     "FIEMIND": {
       "symbol": "FIEMIND",
       "company_name": "Fiem Industries Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 2343.6,
+      "price": 2354.1,
       "ratios": {
-        "pe": 24.1062,
-        "pb": 5.0767,
+        "pe": 24.2616,
+        "pb": 5.0995,
         "roe_pct": 22.69,
         "debt_to_equity": 5.395,
         "profit_margin_pct": 9.15
@@ -70685,9 +70689,9 @@
       },
       "valuation": {
         "dcf_fair_value": 362.36,
-        "graham_number": 1004.89,
-        "blended_fair_value": 683.62,
-        "estimated_upside_pct": -70.8,
+        "graham_number": 1003.91,
+        "blended_fair_value": 683.13,
+        "estimated_upside_pct": -71.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -70710,17 +70714,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.770978+00:00"
+      "updated_at": "2026-07-23T15:34:42.956599+00:00"
     },
     "FILATEX": {
       "symbol": "FILATEX",
       "company_name": "Filatex India Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 71.73,
+      "price": 72.0,
       "ratios": {
-        "pe": 17.6675,
-        "pb": 3.3109,
+        "pe": 17.4334,
+        "pb": 3.3233,
         "roe_pct": 0.0,
         "debt_to_equity": 9.979,
         "profit_margin_pct": 4.33
@@ -70734,9 +70738,9 @@
       },
       "valuation": {
         "dcf_fair_value": 19.15,
-        "graham_number": 44.49,
-        "blended_fair_value": 31.82,
-        "estimated_upside_pct": -55.6,
+        "graham_number": 44.87,
+        "blended_fair_value": 32.01,
+        "estimated_upside_pct": -55.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -70758,17 +70762,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771082+00:00"
+      "updated_at": "2026-07-23T15:34:42.956700+00:00"
     },
     "FINCABLES": {
       "symbol": "FINCABLES",
       "company_name": "Finolex Cables Limited",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "price": 1014.9,
+      "price": 977.8,
       "ratios": {
-        "pe": 21.737,
-        "pb": 2.5512,
+        "pe": 20.9424,
+        "pb": 2.458,
         "roe_pct": 12.33,
         "debt_to_equity": 0.314,
         "profit_margin_pct": 11.29
@@ -70784,7 +70788,7 @@
         "dcf_fair_value": null,
         "graham_number": 646.46,
         "blended_fair_value": 646.46,
-        "estimated_upside_pct": -36.3,
+        "estimated_upside_pct": -33.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70803,21 +70807,21 @@
           "Strong liquidity position",
           "Healthy revenue CAGR (12.7%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-36%)"
+          "Appears overvalued vs blended intrinsic estimate (~-34%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771184+00:00"
+      "updated_at": "2026-07-23T15:34:42.956801+00:00"
     },
     "FINEORG": {
       "symbol": "FINEORG",
       "company_name": "Fine Organic Industries Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 4928.5,
+      "price": 4745.5,
       "ratios": {
-        "pe": 36.199,
-        "pb": 5.6711,
+        "pe": 34.8857,
+        "pb": 5.4605,
         "roe_pct": 16.82,
         "debt_to_equity": 2.56,
         "profit_margin_pct": 17.63
@@ -70831,9 +70835,9 @@
       },
       "valuation": {
         "dcf_fair_value": 1275.48,
-        "graham_number": 1631.64,
-        "blended_fair_value": 1453.56,
-        "estimated_upside_pct": -70.5,
+        "graham_number": 1630.92,
+        "blended_fair_value": 1453.2,
+        "estimated_upside_pct": -69.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -70856,17 +70860,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771285+00:00"
+      "updated_at": "2026-07-23T15:34:42.956924+00:00"
     },
     "FINKURVE": {
       "symbol": "FINKURVE",
       "company_name": "Finkurve Financial Services Limited",
       "sector": "Financial Services",
       "industry": "Credit Services",
-      "price": 61.93,
+      "price": 62.83,
       "ratios": {
-        "pe": 33.2957,
-        "pb": 2.4893,
+        "pe": 33.7796,
+        "pb": 2.5255,
         "roe_pct": 9.41,
         "debt_to_equity": 244.293,
         "profit_margin_pct": 18.76
@@ -70882,7 +70886,7 @@
         "dcf_fair_value": null,
         "graham_number": 32.27,
         "blended_fair_value": 32.27,
-        "estimated_upside_pct": -47.9,
+        "estimated_upside_pct": -48.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70901,21 +70905,21 @@
           "Strong revenue CAGR (59.8%)",
           "Strong profit CAGR (22.0%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-48%)"
+          "Appears overvalued vs blended intrinsic estimate (~-49%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771407+00:00"
+      "updated_at": "2026-07-23T15:34:42.957031+00:00"
     },
     "FINOPB": {
       "symbol": "FINOPB",
       "company_name": "Fino Payments Bank Limited",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
-      "price": 171.04,
+      "price": 170.04,
       "ratios": {
-        "pe": 27.1924,
-        "pb": 1.7743,
+        "pe": 27.0334,
+        "pb": 1.7639,
         "roe_pct": 6.76,
         "debt_to_equity": null,
         "profit_margin_pct": 3.56
@@ -70931,7 +70935,7 @@
         "dcf_fair_value": null,
         "graham_number": 116.8,
         "blended_fair_value": 116.8,
-        "estimated_upside_pct": -31.7,
+        "estimated_upside_pct": -31.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -70947,21 +70951,21 @@
         "key_notes": [
           "Strong revenue CAGR (48.8%)",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-32%)"
+          "Appears overvalued vs blended intrinsic estimate (~-31%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771535+00:00"
+      "updated_at": "2026-07-23T15:34:42.957133+00:00"
     },
     "FIRSTCRY": {
       "symbol": "FIRSTCRY",
       "company_name": "FIRSTCRY",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "price": 207.03,
+      "price": 209.34,
       "ratios": {
         "pe": null,
-        "pb": 2.0635,
+        "pb": 2.0865,
         "roe_pct": -3.83,
         "debt_to_equity": 29.762,
         "profit_margin_pct": -1.64
@@ -70977,7 +70981,7 @@
         "dcf_fair_value": 89.43,
         "graham_number": null,
         "blended_fair_value": 89.43,
-        "estimated_upside_pct": -56.8,
+        "estimated_upside_pct": -57.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -71000,17 +71004,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771749+00:00"
+      "updated_at": "2026-07-23T15:34:42.957341+00:00"
     },
     "FISCHER": {
       "symbol": "FISCHER",
       "company_name": "Fischer Medical Ventures Limited",
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "price": 38.95,
+      "price": 39.03,
       "ratios": {
-        "pe": 86.5556,
-        "pb": 6.5407,
+        "pe": 86.7333,
+        "pb": 6.5542,
         "roe_pct": 8.62,
         "debt_to_equity": 27.698,
         "profit_margin_pct": 10.12
@@ -71049,17 +71053,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771849+00:00"
+      "updated_at": "2026-07-23T15:34:42.957443+00:00"
     },
     "FIVESTAR": {
       "symbol": "FIVESTAR",
       "company_name": "Five-Star Business Finance Limited",
       "sector": "Financial Services",
       "industry": "Credit Services",
-      "price": 545.3,
+      "price": 534.3,
       "ratios": {
-        "pe": 14.6389,
-        "pb": 2.181,
+        "pe": 14.3475,
+        "pb": 2.137,
         "roe_pct": 16.06,
         "debt_to_equity": 111.929,
         "profit_margin_pct": 48.5
@@ -71073,9 +71077,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 457.77,
-        "blended_fair_value": 457.77,
-        "estimated_upside_pct": -16.1,
+        "graham_number": 457.71,
+        "blended_fair_value": 457.71,
+        "estimated_upside_pct": -14.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -71098,65 +71102,64 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.771955+00:00"
+      "updated_at": "2026-07-23T15:34:42.957545+00:00"
     },
     "FLAIR": {
       "symbol": "FLAIR",
       "company_name": "FLAIR",
       "sector": "Industrials",
       "industry": "Business Equipment & Supplies",
-      "price": 249.65,
+      "price": 245.55,
       "ratios": {
-        "pe": 22.7161,
-        "pb": 2.3035,
+        "pe": 21.9633,
+        "pb": 2.2657,
         "roe_pct": 13.08,
         "debt_to_equity": 5.802,
         "profit_margin_pct": 11.18
       },
       "growth": {
-        "revenue_cagr_pct": null,
-        "net_income_cagr_pct": null,
-        "margin_trend": "unknown",
-        "revenue_growth_consistency_pct": null,
-        "years_of_data": 0
+        "revenue_cagr_pct": 2.8,
+        "net_income_cagr_pct": 0.2,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 163.7,
-        "blended_fair_value": 163.7,
-        "estimated_upside_pct": -34.4,
+        "graham_number": 165.11,
+        "blended_fair_value": 165.11,
+        "estimated_upside_pct": -32.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 52,
+        "total": 47,
         "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 9,
           "profitability": 10,
           "stability": 20,
-          "growth": 13,
+          "growth": 8,
           "valuation_upside": 0
         },
         "key_notes": [
           "Healthy net margin (11.2%)",
           "Very low debt",
           "Strong liquidity position",
-          "Positive YoY earnings growth (16.0%)",
-          "Appears overvalued vs blended intrinsic estimate (~-34%)"
+          "Appears overvalued vs blended intrinsic estimate (~-33%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772053+00:00"
+      "updated_at": "2026-07-23T15:34:42.957651+00:00"
     },
     "FLUOROCHEM": {
       "symbol": "FLUOROCHEM",
       "company_name": "Gujarat Fluorochemicals Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 4590.4,
+      "price": 4577.2,
       "ratios": {
-        "pe": 88.1752,
-        "pb": 6.5887,
+        "pe": 87.468,
+        "pb": 6.5698,
         "roe_pct": 7.55,
         "debt_to_equity": 28.94,
         "profit_margin_pct": 11.57
@@ -71170,9 +71173,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 903.37,
-        "blended_fair_value": 903.37,
-        "estimated_upside_pct": -80.3,
+        "graham_number": 905.71,
+        "blended_fair_value": 905.71,
+        "estimated_upside_pct": -80.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -71195,17 +71198,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772155+00:00"
+      "updated_at": "2026-07-23T15:34:42.957753+00:00"
     },
     "FMGOETZE": {
       "symbol": "FMGOETZE",
       "company_name": "Federal-Mogul Goetze (India) Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 479.0,
+      "price": 479.05,
       "ratios": {
-        "pe": 15.6026,
-        "pb": 1.8551,
+        "pe": 15.6042,
+        "pb": 1.8552,
         "roe_pct": 12.44,
         "debt_to_equity": 0.068,
         "profit_margin_pct": 8.71
@@ -71244,17 +71247,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772262+00:00"
+      "updated_at": "2026-07-23T15:34:42.957883+00:00"
     },
     "FOCUS": {
       "symbol": "FOCUS",
       "company_name": "Focus Lighting and Fixtures Limited",
       "sector": "Consumer Cyclical",
       "industry": "Furnishings, Fixtures & Appliances",
-      "price": 73.48,
+      "price": 72.52,
       "ratios": {
-        "pe": 32.8036,
-        "pb": 3.3758,
+        "pe": 32.375,
+        "pb": 3.3316,
         "roe_pct": 3.54,
         "debt_to_equity": 14.285,
         "profit_margin_pct": 2.7
@@ -71270,7 +71273,7 @@
         "dcf_fair_value": 11.77,
         "graham_number": 33.12,
         "blended_fair_value": 22.45,
-        "estimated_upside_pct": -69.4,
+        "estimated_upside_pct": -69.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71292,17 +71295,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772381+00:00"
+      "updated_at": "2026-07-23T15:34:42.957997+00:00"
     },
     "FOODSIN": {
       "symbol": "FOODSIN",
       "company_name": "Foods and Inns Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 56.97,
+      "price": 55.24,
       "ratios": {
-        "pe": 15.0317,
-        "pb": 0.7241,
+        "pe": 14.5752,
+        "pb": 0.7021,
         "roe_pct": 5.01,
         "debt_to_equity": 76.257,
         "profit_margin_pct": 3.19
@@ -71318,14 +71321,14 @@
         "dcf_fair_value": 74.63,
         "graham_number": 81.91,
         "blended_fair_value": 78.27,
-        "estimated_upside_pct": 37.4,
+        "estimated_upside_pct": 41.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 42,
-        "rating": "🟠 WEAK",
+        "total": 45,
+        "rating": "🟡 HOLD",
         "pillars": {
-          "valuation": 12,
+          "valuation": 15,
           "profitability": 2,
           "stability": 11,
           "growth": 2,
@@ -71336,21 +71339,21 @@
           "Manageable debt level",
           "Declining revenue trend (-4.4%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~37%)"
+          "Significant estimated undervaluation (~42%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772487+00:00"
+      "updated_at": "2026-07-23T15:34:42.958100+00:00"
     },
     "FORCEMOT": {
       "symbol": "FORCEMOT",
       "company_name": "Force Motors Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
-      "price": 17418.0,
+      "price": 17410.0,
       "ratios": {
-        "pe": 18.9501,
-        "pb": 5.5691,
+        "pe": 18.9307,
+        "pb": 5.5665,
         "roe_pct": 33.51,
         "debt_to_equity": null,
         "profit_margin_pct": 13.38
@@ -71364,8 +71367,8 @@
       },
       "valuation": {
         "dcf_fair_value": 16897.47,
-        "graham_number": 8042.5,
-        "blended_fair_value": 12469.99,
+        "graham_number": 8044.78,
+        "blended_fair_value": 12471.12,
         "estimated_upside_pct": -28.4,
         "valuation_models_used": 2
       },
@@ -71389,17 +71392,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772595+00:00"
+      "updated_at": "2026-07-23T15:34:42.958204+00:00"
     },
     "FOSECOIND": {
       "symbol": "FOSECOIND",
       "company_name": "Foseco India Limited",
       "sector": "Basic Materials",
       "industry": "Chemicals",
-      "price": 5103.0,
+      "price": 5032.0,
       "ratios": {
-        "pe": 42.097,
-        "pb": 3.7117,
+        "pe": 41.4327,
+        "pb": 3.6601,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 12.12
@@ -71413,9 +71416,9 @@
       },
       "valuation": {
         "dcf_fair_value": 2910.53,
-        "graham_number": 1936.44,
-        "blended_fair_value": 2423.49,
-        "estimated_upside_pct": -52.5,
+        "graham_number": 1938.28,
+        "blended_fair_value": 2424.41,
+        "estimated_upside_pct": -51.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71438,17 +71441,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772812+00:00"
+      "updated_at": "2026-07-23T15:34:42.958410+00:00"
     },
     "FRACTAL": {
       "symbol": "FRACTAL",
       "company_name": "FRACTAL",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "price": 895.3,
+      "price": 861.45,
       "ratios": {
-        "pe": 52.1129,
-        "pb": 4.6838,
+        "pe": 50.1134,
+        "pb": 4.5067,
         "roe_pct": 11.58,
         "debt_to_equity": 13.131,
         "profit_margin_pct": 8.85
@@ -71462,9 +71465,9 @@
       },
       "valuation": {
         "dcf_fair_value": 389.99,
-        "graham_number": 271.82,
-        "blended_fair_value": 330.9,
-        "estimated_upside_pct": -63.0,
+        "graham_number": 271.9,
+        "blended_fair_value": 330.94,
+        "estimated_upside_pct": -61.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71487,17 +71490,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.772921+00:00"
+      "updated_at": "2026-07-23T15:34:42.958513+00:00"
     },
     "FRONTSP": {
       "symbol": "FRONTSP",
       "company_name": "Frontier Springs Limited",
       "sector": "",
       "industry": "",
-      "price": 1389.9,
+      "price": 1350.1,
       "ratios": {
         "pe": null,
-        "pb": 8.9507,
+        "pb": 8.6944,
         "roe_pct": 39.89,
         "debt_to_equity": 5.888,
         "profit_margin_pct": 19.04
@@ -71536,17 +71539,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773021+00:00"
+      "updated_at": "2026-07-23T15:34:42.958609+00:00"
     },
     "FSL": {
       "symbol": "FSL",
       "company_name": "Firstsource Solutions Limited",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 264.06,
+      "price": 255.94,
       "ratios": {
-        "pe": 27.6503,
-        "pb": 4.1577,
+        "pe": 26.772,
+        "pb": 4.0299,
         "roe_pct": 15.9,
         "debt_to_equity": 67.135,
         "profit_margin_pct": 7.06
@@ -71560,9 +71563,9 @@
       },
       "valuation": {
         "dcf_fair_value": 335.18,
-        "graham_number": 116.82,
-        "blended_fair_value": 226.0,
-        "estimated_upside_pct": -14.4,
+        "graham_number": 116.88,
+        "blended_fair_value": 226.03,
+        "estimated_upside_pct": -11.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71581,21 +71584,21 @@
           "Strong revenue CAGR (17.1%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-14%)"
+          "Appears overvalued vs blended intrinsic estimate (~-12%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773124+00:00"
+      "updated_at": "2026-07-23T15:34:42.958710+00:00"
     },
     "FUSION": {
       "symbol": "FUSION",
       "company_name": "Fusion Finance Limited",
       "sector": "Financial Services",
       "industry": "Credit Services",
-      "price": 219.81,
+      "price": 221.27,
       "ratios": {
-        "pe": 219.81,
-        "pb": 1.4474,
+        "pe": 219.0792,
+        "pb": 1.457,
         "roe_pct": 0.68,
         "debt_to_equity": 227.507,
         "profit_margin_pct": 1.96
@@ -71609,9 +71612,9 @@
       },
       "valuation": {
         "dcf_fair_value": 587.8,
-        "graham_number": 58.46,
-        "blended_fair_value": 323.13,
-        "estimated_upside_pct": 47.0,
+        "graham_number": 58.75,
+        "blended_fair_value": 323.27,
+        "estimated_upside_pct": 46.1,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71629,24 +71632,24 @@
           "Leverage ratio not directly comparable (financial sector)",
           "Declining revenue trend (-1.6%)",
           "Profit growth declining/negative",
-          "Significant estimated undervaluation (~47%)"
+          "Significant estimated undervaluation (~46%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773279+00:00"
+      "updated_at": "2026-07-23T15:34:42.958813+00:00"
     },
     "GABRIEL": {
       "symbol": "GABRIEL",
       "company_name": "Gabriel India Limited",
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
-      "price": 1424.6,
+      "price": 1377.7,
       "ratios": {
-        "pe": 75.9382,
-        "pb": 14.9737,
-        "roe_pct": 19.58,
+        "pe": 77.9683,
+        "pb": 14.4808,
+        "roe_pct": 0.0,
         "debt_to_equity": 10.642,
-        "profit_margin_pct": 5.41
+        "profit_margin_pct": 5.24
       },
       "growth": {
         "revenue_cagr_pct": 16.5,
@@ -71657,42 +71660,42 @@
       },
       "valuation": {
         "dcf_fair_value": 158.66,
-        "graham_number": 200.4,
-        "blended_fair_value": 179.53,
-        "estimated_upside_pct": -87.4,
+        "graham_number": 194.49,
+        "blended_fair_value": 176.57,
+        "estimated_upside_pct": -87.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 52,
-        "rating": "🟡 HOLD",
+        "total": 37,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 0,
-          "profitability": 7,
-          "stability": 20,
+          "profitability": 0,
+          "stability": 12,
           "growth": 25,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Strong ROE (19.6%)",
           "Very low debt",
-          "Strong liquidity position",
           "Strong revenue CAGR (16.5%)",
           "Strong profit CAGR (24.0%)",
-          "Consistent YoY growth"
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-87%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773408+00:00"
+      "updated_at": "2026-07-23T15:34:42.958937+00:00"
     },
     "GAEL": {
       "symbol": "GAEL",
       "company_name": "Gujarat Ambuja Exports Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 144.73,
+      "price": 139.14,
       "ratios": {
-        "pe": 21.8296,
-        "pb": 2.0149,
+        "pe": 20.9864,
+        "pb": 1.937,
         "roe_pct": 9.66,
         "debt_to_equity": 13.384,
         "profit_margin_pct": 5.31
@@ -71708,7 +71711,7 @@
         "dcf_fair_value": null,
         "graham_number": 103.52,
         "blended_fair_value": 103.52,
-        "estimated_upside_pct": -28.5,
+        "estimated_upside_pct": -25.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -71725,21 +71728,21 @@
           "Very low debt",
           "Strong liquidity position",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-28%)"
+          "Appears overvalued vs blended intrinsic estimate (~-26%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773519+00:00"
+      "updated_at": "2026-07-23T15:34:42.959044+00:00"
     },
     "GALAPREC": {
       "symbol": "GALAPREC",
       "company_name": "GALAPREC",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "price": 1165.2,
+      "price": 1158.2,
       "ratios": {
-        "pe": 43.0122,
-        "pb": 5.0723,
+        "pe": 42.8487,
+        "pb": 5.0418,
         "roe_pct": 12.92,
         "debt_to_equity": 13.04,
         "profit_margin_pct": 11.29
@@ -71753,9 +71756,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 374.19,
-        "blended_fair_value": 374.19,
-        "estimated_upside_pct": -67.9,
+        "graham_number": 373.78,
+        "blended_fair_value": 373.78,
+        "estimated_upside_pct": -67.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -71778,17 +71781,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773725+00:00"
+      "updated_at": "2026-07-23T15:34:42.959248+00:00"
     },
     "GALAXYSURF": {
       "symbol": "GALAXYSURF",
       "company_name": "Galaxy Surfactants Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 1932.8,
+      "price": 1928.3,
       "ratios": {
-        "pe": 25.6714,
-        "pb": 2.4966,
+        "pe": 25.5811,
+        "pb": 2.4908,
         "roe_pct": 10.47,
         "debt_to_equity": 8.579,
         "profit_margin_pct": 5.1
@@ -71801,11 +71804,11 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": null,
-        "graham_number": 1145.2,
-        "blended_fair_value": 1145.2,
-        "estimated_upside_pct": -40.7,
-        "valuation_models_used": 1
+        "dcf_fair_value": 1024.34,
+        "graham_number": 1145.88,
+        "blended_fair_value": 1085.11,
+        "estimated_upside_pct": -43.7,
+        "valuation_models_used": 2
       },
       "fundamental_score": {
         "total": 38,
@@ -71821,21 +71824,21 @@
           "Very low debt",
           "Strong liquidity position",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-41%)"
+          "Appears overvalued vs blended intrinsic estimate (~-44%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773827+00:00"
+      "updated_at": "2026-07-23T15:34:42.959350+00:00"
     },
     "GALLANTT": {
       "symbol": "GALLANTT",
       "company_name": "Gallantt Ispat Limited",
       "sector": "Basic Materials",
       "industry": "Steel",
-      "price": 562.3,
+      "price": 537.75,
       "ratios": {
-        "pe": 27.989,
-        "pb": 4.0918,
+        "pe": 26.7937,
+        "pb": 3.9131,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 11.15
@@ -71849,16 +71852,16 @@
       },
       "valuation": {
         "dcf_fair_value": 150.47,
-        "graham_number": 249.24,
-        "blended_fair_value": 199.86,
-        "estimated_upside_pct": -64.5,
+        "graham_number": 249.11,
+        "blended_fair_value": 199.79,
+        "estimated_upside_pct": -62.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 31,
+        "total": 35,
         "rating": "🟠 WEAK",
         "pillars": {
-          "valuation": 5,
+          "valuation": 9,
           "profitability": 6,
           "stability": 0,
           "growth": 20,
@@ -71869,21 +71872,21 @@
           "Strong profit CAGR (50.9%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-64%)"
+          "Appears overvalued vs blended intrinsic estimate (~-63%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.773929+00:00"
+      "updated_at": "2026-07-23T15:34:42.959452+00:00"
     },
     "GANDHAR": {
       "symbol": "GANDHAR",
       "company_name": "Gandhar Oil Refinery (India) Limited",
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
-      "price": 236.19,
+      "price": 281.95,
       "ratios": {
-        "pe": 17.0781,
-        "pb": 1.7079,
+        "pe": 20.3721,
+        "pb": 2.0387,
         "roe_pct": 10.21,
         "debt_to_equity": 22.511,
         "profit_margin_pct": 3.19
@@ -71897,9 +71900,9 @@
       },
       "valuation": {
         "dcf_fair_value": 46.29,
-        "graham_number": 207.45,
-        "blended_fair_value": 126.87,
-        "estimated_upside_pct": -46.3,
+        "graham_number": 207.52,
+        "blended_fair_value": 126.91,
+        "estimated_upside_pct": -55.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71916,21 +71919,21 @@
           "Very low debt",
           "Strong liquidity position",
           "Profit growth declining/negative",
-          "Appears overvalued vs blended intrinsic estimate (~-46%)"
+          "Appears overvalued vs blended intrinsic estimate (~-55%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774042+00:00"
+      "updated_at": "2026-07-23T15:34:42.959553+00:00"
     },
     "GANDHITUBE": {
       "symbol": "GANDHITUBE",
       "company_name": "Gandhi Special Tubes Limited",
       "sector": "Industrials",
       "industry": "Metal Fabrication",
-      "price": 872.05,
+      "price": 870.75,
       "ratios": {
-        "pe": 15.5086,
-        "pb": 3.3541,
+        "pe": 15.48,
+        "pb": 3.3491,
         "roe_pct": 23.51,
         "debt_to_equity": 0.032,
         "profit_margin_pct": 35.65
@@ -71944,9 +71947,9 @@
       },
       "valuation": {
         "dcf_fair_value": 685.17,
-        "graham_number": 573.53,
-        "blended_fair_value": 629.35,
-        "estimated_upside_pct": -27.8,
+        "graham_number": 573.64,
+        "blended_fair_value": 629.4,
+        "estimated_upside_pct": -27.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -71969,17 +71972,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774151+00:00"
+      "updated_at": "2026-07-23T15:34:42.959655+00:00"
     },
     "GANECOS": {
       "symbol": "GANECOS",
       "company_name": "Ganesha Ecosphere Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 1199.35,
+      "price": 1194.75,
       "ratios": {
-        "pe": 82.828,
-        "pb": 2.5141,
+        "pe": 82.3398,
+        "pb": 2.5045,
         "roe_pct": 3.15,
         "debt_to_equity": 38.851,
         "profit_margin_pct": 2.58
@@ -71993,9 +71996,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 394.23,
-        "blended_fair_value": 394.23,
-        "estimated_upside_pct": -67.1,
+        "graham_number": 394.64,
+        "blended_fair_value": 394.64,
+        "estimated_upside_pct": -67.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -72017,17 +72020,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774257+00:00"
+      "updated_at": "2026-07-23T15:34:42.959755+00:00"
     },
     "GANESHBE": {
       "symbol": "GANESHBE",
       "company_name": "Ganesh Benzoplast Limited",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "price": 109.32,
+      "price": 113.61,
       "ratios": {
-        "pe": 10.8993,
-        "pb": 1.2909,
+        "pe": 11.1492,
+        "pb": 1.3415,
         "roe_pct": 12.62,
         "debt_to_equity": 12.271,
         "profit_margin_pct": 17.83
@@ -72041,9 +72044,9 @@
       },
       "valuation": {
         "dcf_fair_value": 26.81,
-        "graham_number": 138.25,
-        "blended_fair_value": 82.53,
-        "estimated_upside_pct": -24.5,
+        "graham_number": 139.34,
+        "blended_fair_value": 83.08,
+        "estimated_upside_pct": -26.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -72062,21 +72065,21 @@
           "Very low debt",
           "Strong liquidity position",
           "Declining revenue trend (-0.8%)",
-          "Appears overvalued vs blended intrinsic estimate (~-24%)"
+          "Appears overvalued vs blended intrinsic estimate (~-27%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774378+00:00"
+      "updated_at": "2026-07-23T15:34:42.959874+00:00"
     },
     "GANESHCP": {
       "symbol": "GANESHCP",
       "company_name": "GANESHCP",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 175.13,
+      "price": 170.57,
       "ratios": {
-        "pe": 15.8489,
-        "pb": 1.9022,
+        "pe": 15.4642,
+        "pb": 1.8526,
         "roe_pct": 14.19,
         "debt_to_equity": 7.166,
         "profit_margin_pct": 4.86
@@ -72090,9 +72093,9 @@
       },
       "valuation": {
         "dcf_fair_value": 214.6,
-        "graham_number": 151.3,
-        "blended_fair_value": 182.95,
-        "estimated_upside_pct": 4.5,
+        "graham_number": 151.16,
+        "blended_fair_value": 182.88,
+        "estimated_upside_pct": 7.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -72114,17 +72117,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774489+00:00"
+      "updated_at": "2026-07-23T15:34:42.959983+00:00"
     },
     "GANESHHOU": {
       "symbol": "GANESHHOU",
       "company_name": "Ganesh Housing Limited",
       "sector": "Real Estate",
       "industry": "Real Estate - Development",
-      "price": 814.35,
+      "price": 808.4,
       "ratios": {
-        "pe": 21.4642,
-        "pb": 2.9125,
+        "pe": 21.3017,
+        "pb": 2.8912,
         "roe_pct": 14.41,
         "debt_to_equity": 13.079,
         "profit_margin_pct": 61.85
@@ -72138,9 +72141,9 @@
       },
       "valuation": {
         "dcf_fair_value": 5.24,
-        "graham_number": 488.56,
-        "blended_fair_value": 488.56,
-        "estimated_upside_pct": -40.0,
+        "graham_number": 488.62,
+        "blended_fair_value": 488.62,
+        "estimated_upside_pct": -39.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -72163,17 +72166,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774591+00:00"
+      "updated_at": "2026-07-23T15:34:42.960085+00:00"
     },
     "GANGAFORGE": {
       "symbol": "GANGAFORGE",
       "company_name": "Ganga Forging Limited",
       "sector": "Industrials",
       "industry": "Metal Fabrication",
-      "price": 1.84,
+      "price": 1.75,
       "ratios": {
         "pe": null,
-        "pb": 0.9957,
+        "pb": 0.947,
         "roe_pct": 0.0,
         "debt_to_equity": 78.9,
         "profit_margin_pct": -6.58
@@ -72209,17 +72212,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774687+00:00"
+      "updated_at": "2026-07-23T15:34:42.960183+00:00"
     },
     "GANGESSECU": {
       "symbol": "GANGESSECU",
       "company_name": "Ganges Securities Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 115.98,
+      "price": 116.19,
       "ratios": {
-        "pe": 43.1152,
-        "pb": 0.2153,
+        "pe": 43.1933,
+        "pb": 0.2157,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 4.61
@@ -72235,7 +72238,7 @@
         "dcf_fair_value": 224.15,
         "graham_number": 180.58,
         "blended_fair_value": 202.37,
-        "estimated_upside_pct": 74.5,
+        "estimated_upside_pct": 74.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -72256,7 +72259,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-22T12:24:50.774787+00:00"
+      "updated_at": "2026-07-23T15:34:42.960285+00:00"
     },
     "GARFIBRES": {
       "symbol": "GARFIBRES",
