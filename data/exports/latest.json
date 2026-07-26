@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-26T04:55:52.968967+00:00",
+  "generated_at": "2026-07-26T08:41:08.583312+00:00",
   "universe": "NSE_ALL_CHUNKED",
   "stock_count": 2396,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
@@ -62,7 +62,7 @@
       "industry": "Steel",
       "price": 83.56,
       "ratios": {
-        "pe": 9.7617,
+        "pe": 9.8654,
         "pb": 2.1528,
         "roe_pct": 23.36,
         "debt_to_equity": 18.802,
@@ -77,20 +77,20 @@
       },
       "valuation": {
         "dcf_fair_value": 64.43,
-        "graham_number": 86.46,
-        "blended_fair_value": 75.44,
-        "estimated_upside_pct": -9.7,
+        "graham_number": 86.01,
+        "blended_fair_value": 75.22,
+        "estimated_upside_pct": -10.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 76,
-        "rating": "🟢 STRONG BUY",
+        "total": 70,
+        "rating": "🟢 BUY",
         "pillars": {
           "valuation": 12,
           "profitability": 20,
           "stability": 20,
           "growth": 18,
-          "valuation_upside": 6
+          "valuation_upside": 0
         },
         "key_notes": [
           "Excellent ROE (23.4%)",
@@ -102,7 +102,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848603+00:00"
+      "updated_at": "2026-07-26T08:41:08.571008+00:00"
     },
     "NATIONALUM": {
       "symbol": "NATIONALUM",
@@ -160,7 +160,7 @@
       "industry": "Credit Services",
       "price": 411.9,
       "ratios": {
-        "pe": 5.2485,
+        "pe": 5.2465,
         "pb": 1.023,
         "roe_pct": 20.47,
         "debt_to_equity": 586.017,
@@ -175,8 +175,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 843.18,
-        "blended_fair_value": 843.18,
+        "graham_number": 843.34,
+        "blended_fair_value": 843.34,
         "estimated_upside_pct": 104.7,
         "valuation_models_used": 1
       },
@@ -200,7 +200,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857804+00:00"
+      "updated_at": "2026-07-26T08:41:08.578088+00:00"
     },
     "M&M": {
       "symbol": "M&M",
@@ -1041,7 +1041,7 @@
       "industry": "Engineering & Construction",
       "price": 238.21,
       "ratios": {
-        "pe": 7.2207,
+        "pe": 7.3476,
         "pb": 0.8978,
         "roe_pct": 12.99,
         "debt_to_equity": 75.883,
@@ -1056,9 +1056,9 @@
       },
       "valuation": {
         "dcf_fair_value": 1245.39,
-        "graham_number": 443.79,
-        "blended_fair_value": 844.59,
-        "estimated_upside_pct": 254.6,
+        "graham_number": 439.94,
+        "blended_fair_value": 842.67,
+        "estimated_upside_pct": 253.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -1081,7 +1081,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860720+00:00"
+      "updated_at": "2026-07-26T08:41:08.580322+00:00"
     },
     "HEROMOTOCO": {
       "symbol": "HEROMOTOCO",
@@ -1482,9 +1482,9 @@
       "industry": "Banks - Regional",
       "price": 110.38,
       "ratios": {
-        "pe": 5.731,
+        "pe": 5.743,
         "pb": 0.8459,
-        "roe_pct": 15.22,
+        "roe_pct": 14.97,
         "debt_to_equity": null,
         "profit_margin_pct": 38.15
       },
@@ -1497,32 +1497,32 @@
       },
       "valuation": {
         "dcf_fair_value": 394.36,
-        "graham_number": 237.8,
-        "blended_fair_value": 316.08,
-        "estimated_upside_pct": 186.4,
+        "graham_number": 237.55,
+        "blended_fair_value": 315.96,
+        "estimated_upside_pct": 186.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 66,
+        "total": 63,
         "rating": "🟢 BUY",
         "pillars": {
           "valuation": 15,
-          "profitability": 18,
+          "profitability": 15,
           "stability": 0,
           "growth": 18,
           "valuation_upside": 15
         },
         "key_notes": [
           "Trading near/below book value",
-          "Strong ROE (15.2%)",
           "High net margin (38.1%)",
           "Healthy revenue CAGR (10.0%)",
           "Strong profit CAGR (76.4%)",
-          "Consistent YoY growth"
+          "Consistent YoY growth",
+          "Significant estimated undervaluation (~186%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860275+00:00"
+      "updated_at": "2026-07-26T08:41:08.579999+00:00"
     },
     "KNRCON": {
       "symbol": "KNRCON",
@@ -2356,7 +2356,7 @@
       "industry": "Utilities - Regulated Electric",
       "price": 292.8,
       "ratios": {
-        "pe": 11.442,
+        "pe": 11.5321,
         "pb": 1.8861,
         "roe_pct": 15.97,
         "debt_to_equity": 82.0,
@@ -2371,9 +2371,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 298.97,
-        "blended_fair_value": 298.97,
-        "estimated_upside_pct": 2.1,
+        "graham_number": 297.8,
+        "blended_fair_value": 297.8,
+        "estimated_upside_pct": 1.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -2393,7 +2393,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848495+00:00"
+      "updated_at": "2026-07-26T08:41:08.570919+00:00"
     },
     "APOLLOTYRE": {
       "symbol": "APOLLOTYRE",
@@ -3074,7 +3074,7 @@
       "industry": "Information Technology Services",
       "price": 5200.5,
       "ratios": {
-        "pe": 42.0175,
+        "pe": 43.6687,
         "pb": 10.3804,
         "roe_pct": 26.35,
         "debt_to_equity": 6.092,
@@ -3089,9 +3089,9 @@
       },
       "valuation": {
         "dcf_fair_value": 2921.98,
-        "graham_number": 1181.17,
-        "blended_fair_value": 2051.57,
-        "estimated_upside_pct": -60.6,
+        "graham_number": 1158.63,
+        "blended_fair_value": 2040.31,
+        "estimated_upside_pct": -60.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -3114,7 +3114,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857593+00:00"
+      "updated_at": "2026-07-26T08:41:08.577920+00:00"
     },
     "HINDZINC": {
       "symbol": "HINDZINC",
@@ -3656,7 +3656,7 @@
       "industry": "Utilities - Regulated Electric",
       "price": 288.2,
       "ratios": {
-        "pe": 14.41,
+        "pe": 14.3241,
         "pb": 2.6663,
         "roe_pct": 16.49,
         "debt_to_equity": 150.993,
@@ -3671,9 +3671,9 @@
       },
       "valuation": {
         "dcf_fair_value": -99.67,
-        "graham_number": 220.55,
-        "blended_fair_value": 220.55,
-        "estimated_upside_pct": -23.5,
+        "graham_number": 221.21,
+        "blended_fair_value": 221.21,
+        "estimated_upside_pct": -23.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -3691,11 +3691,11 @@
           "High net margin (34.1%)",
           "High leverage",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-24%)"
+          "Appears overvalued vs blended intrinsic estimate (~-23%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862027+00:00"
+      "updated_at": "2026-07-26T08:41:08.581319+00:00"
     },
     "SHRIRAMFIN": {
       "symbol": "SHRIRAMFIN",
@@ -4047,11 +4047,11 @@
       "industry": "Utilities - Regulated Electric",
       "price": 347.2,
       "ratios": {
-        "pe": 11.455,
+        "pe": 10.6145,
         "pb": 2.7638,
-        "roe_pct": 13.69,
+        "roe_pct": 0.0,
         "debt_to_equity": 118.127,
-        "profit_margin_pct": 14.44
+        "profit_margin_pct": 14.56
       },
       "growth": {
         "revenue_cagr_pct": 2.5,
@@ -4062,29 +4062,29 @@
       },
       "valuation": {
         "dcf_fair_value": -15.68,
-        "graham_number": 292.7,
-        "blended_fair_value": 292.7,
-        "estimated_upside_pct": -15.7,
+        "graham_number": 304.07,
+        "blended_fair_value": 304.07,
+        "estimated_upside_pct": -12.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 40,
+        "total": 36,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 12,
-          "profitability": 10,
+          "profitability": 6,
           "stability": 3,
           "growth": 15,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Healthy net margin (14.4%)",
+          "Healthy net margin (14.6%)",
           "Strong profit CAGR (16.9%)",
-          "Appears overvalued vs blended intrinsic estimate (~-16%)"
+          "Appears overvalued vs blended intrinsic estimate (~-12%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849665+00:00"
+      "updated_at": "2026-07-26T08:41:08.571875+00:00"
     },
     "SCHAEFFLER": {
       "symbol": "SCHAEFFLER",
@@ -4527,7 +4527,7 @@
       "industry": "Drug Manufacturers - General",
       "price": 4623.6,
       "ratios": {
-        "pe": 29.3152,
+        "pe": 29.2392,
         "pb": 5.0325,
         "roe_pct": 17.16,
         "debt_to_equity": 1.671,
@@ -4542,8 +4542,8 @@
       },
       "valuation": {
         "dcf_fair_value": 3388.44,
-        "graham_number": 1805.64,
-        "blended_fair_value": 2597.04,
+        "graham_number": 1807.98,
+        "blended_fair_value": 2598.21,
         "estimated_upside_pct": -43.8,
         "valuation_models_used": 2
       },
@@ -4567,7 +4567,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857911+00:00"
+      "updated_at": "2026-07-26T08:41:08.578175+00:00"
     },
     "KOTAKBANK": {
       "symbol": "KOTAKBANK",
@@ -5298,7 +5298,7 @@
       "industry": "Oil & Gas Integrated",
       "price": 248.76,
       "ratios": {
-        "pe": 7.6636,
+        "pe": 7.5519,
         "pb": 0.8418,
         "roe_pct": 12.7,
         "debt_to_equity": 42.548,
@@ -5313,9 +5313,9 @@
       },
       "valuation": {
         "dcf_fair_value": 518.31,
-        "graham_number": 464.56,
-        "blended_fair_value": 491.43,
-        "estimated_upside_pct": 97.6,
+        "graham_number": 467.98,
+        "blended_fair_value": 493.14,
+        "estimated_upside_pct": 98.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -5336,7 +5336,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852047+00:00"
+      "updated_at": "2026-07-26T08:41:08.573713+00:00"
     },
     "PIDILITIND": {
       "symbol": "PIDILITIND",
@@ -5345,7 +5345,7 @@
       "industry": "Specialty Chemicals",
       "price": 1570.9,
       "ratios": {
-        "pe": 65.6456,
+        "pe": 65.3725,
         "pb": 14.7598,
         "roe_pct": 23.52,
         "debt_to_equity": 3.776,
@@ -5360,8 +5360,8 @@
       },
       "valuation": {
         "dcf_fair_value": 413.4,
-        "graham_number": 239.38,
-        "blended_fair_value": 326.39,
+        "graham_number": 239.88,
+        "blended_fair_value": 326.64,
         "estimated_upside_pct": -79.2,
         "valuation_models_used": 2
       },
@@ -5385,7 +5385,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858788+00:00"
+      "updated_at": "2026-07-26T08:41:08.578851+00:00"
     },
     "BERGEPAINT": {
       "symbol": "BERGEPAINT",
@@ -5639,7 +5639,7 @@
       "industry": "Apparel Manufacturing",
       "price": 40275.0,
       "ratios": {
-        "pe": 58.8308,
+        "pe": 58.8231,
         "pb": 29.8965,
         "roe_pct": 52.5,
         "debt_to_equity": 18.422,
@@ -5654,8 +5654,8 @@
       },
       "valuation": {
         "dcf_fair_value": 9188.95,
-        "graham_number": 4555.27,
-        "blended_fair_value": 6872.11,
+        "graham_number": 4555.57,
+        "blended_fair_value": 6872.26,
         "estimated_upside_pct": -82.9,
         "valuation_models_used": 2
       },
@@ -5679,7 +5679,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854563+00:00"
+      "updated_at": "2026-07-26T08:41:08.575603+00:00"
     },
     "BRITANNIA": {
       "symbol": "BRITANNIA",
@@ -6562,7 +6562,7 @@
       "industry": "Software - Infrastructure",
       "price": 10652.0,
       "ratios": {
-        "pe": 27.7006,
+        "pe": 27.2478,
         "pb": 11.8456,
         "roe_pct": 0.0,
         "debt_to_equity": 0.415,
@@ -6577,9 +6577,9 @@
       },
       "valuation": {
         "dcf_fair_value": 6382.82,
-        "graham_number": 2789.32,
-        "blended_fair_value": 4586.07,
-        "estimated_upside_pct": -56.9,
+        "graham_number": 2812.4,
+        "blended_fair_value": 4597.61,
+        "estimated_upside_pct": -56.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -6602,7 +6602,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850879+00:00"
+      "updated_at": "2026-07-26T08:41:08.572793+00:00"
     },
     "BAJAJFINSV": {
       "symbol": "BAJAJFINSV",
@@ -7188,8 +7188,8 @@
       "industry": "Electrical Equipment & Parts",
       "price": 8907.5,
       "ratios": {
-        "pe": 47.0251,
-        "pb": 11.1673,
+        "pe": 46.9483,
+        "pb": 11.0882,
         "roe_pct": 25.55,
         "debt_to_equity": 1.738,
         "profit_margin_pct": 9.18
@@ -7203,9 +7203,9 @@
       },
       "valuation": {
         "dcf_fair_value": 4630.25,
-        "graham_number": 1843.78,
-        "blended_fair_value": 3237.01,
-        "estimated_upside_pct": -63.7,
+        "graham_number": 1851.86,
+        "blended_fair_value": 3241.05,
+        "estimated_upside_pct": -63.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -7228,7 +7228,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861488+00:00"
+      "updated_at": "2026-07-26T08:41:08.580912+00:00"
     },
     "UTIAMC": {
       "symbol": "UTIAMC",
@@ -7479,7 +7479,7 @@
       "industry": "Agricultural Inputs",
       "price": 2731.2,
       "ratios": {
-        "pe": 31.4148,
+        "pe": 31.3463,
         "pb": 3.6885,
         "roe_pct": 12.35,
         "debt_to_equity": 3.048,
@@ -7494,8 +7494,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 1203.53,
-        "blended_fair_value": 1203.53,
+        "graham_number": 1204.84,
+        "blended_fair_value": 1204.84,
         "estimated_upside_pct": -55.9,
         "valuation_models_used": 1
       },
@@ -7517,7 +7517,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858999+00:00"
+      "updated_at": "2026-07-26T08:41:08.579016+00:00"
     },
     "GODREJCP": {
       "symbol": "GODREJCP",
@@ -8467,7 +8467,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850300+00:00"
+      "updated_at": "2026-07-26T08:41:08.572365+00:00"
     },
     "RATNAMANI": {
       "symbol": "RATNAMANI",
@@ -9191,7 +9191,7 @@
       "industry": "Insurance Brokers",
       "price": 1537.2,
       "ratios": {
-        "pe": 106.0138,
+        "pe": 106.3806,
         "pb": 9.7159,
         "roe_pct": 9.74,
         "debt_to_equity": 4.922,
@@ -9206,8 +9206,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 227.2,
-        "blended_fair_value": 227.2,
+        "graham_number": 226.8,
+        "blended_fair_value": 226.8,
         "estimated_upside_pct": -85.2,
         "valuation_models_used": 1
       },
@@ -9231,7 +9231,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861373+00:00"
+      "updated_at": "2026-07-26T08:41:08.580829+00:00"
     },
     "TECHM": {
       "symbol": "TECHM",
@@ -10707,7 +10707,7 @@
       "industry": "Software - Infrastructure",
       "price": 1283.2,
       "ratios": {
-        "pe": 124.9464,
+        "pe": 128.1918,
         "pb": 5.1334,
         "roe_pct": 0.0,
         "debt_to_equity": 1.073,
@@ -10722,9 +10722,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 240.34,
-        "blended_fair_value": 240.34,
-        "estimated_upside_pct": -81.3,
+        "graham_number": 237.28,
+        "blended_fair_value": 237.28,
+        "estimated_upside_pct": -81.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -10739,11 +10739,11 @@
         },
         "key_notes": [
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-81%)"
+          "Appears overvalued vs blended intrinsic estimate (~-82%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856920+00:00"
+      "updated_at": "2026-07-26T08:41:08.577403+00:00"
     },
     "DEVYANI": {
       "symbol": "DEVYANI",
@@ -24955,7 +24955,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-24T23:34:40.397135+00:00"
+      "updated_at": "2026-07-26T08:41:08.569549+00:00"
     },
     "NIITMTS": {
       "symbol": "NIITMTS",
@@ -24964,7 +24964,7 @@
       "industry": "Education & Training Services",
       "price": 230.18,
       "ratios": {
-        "pe": 12.6195,
+        "pe": 12.6126,
         "pb": 2.0507,
         "roe_pct": 18.0,
         "debt_to_equity": 20.621,
@@ -24979,8 +24979,8 @@
       },
       "valuation": {
         "dcf_fair_value": 419.12,
-        "graham_number": 214.63,
-        "blended_fair_value": 316.88,
+        "graham_number": 214.69,
+        "blended_fair_value": 316.9,
         "estimated_upside_pct": 37.7,
         "valuation_models_used": 2
       },
@@ -25004,7 +25004,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.846859+00:00"
+      "updated_at": "2026-07-26T08:41:08.569685+00:00"
     },
     "NILAINFRA": {
       "symbol": "NILAINFRA",
@@ -25051,7 +25051,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847004+00:00"
+      "updated_at": "2026-07-26T08:41:08.569786+00:00"
     },
     "NILASPACES": {
       "symbol": "NILASPACES",
@@ -25100,7 +25100,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847122+00:00"
+      "updated_at": "2026-07-26T08:41:08.569877+00:00"
     },
     "NILE": {
       "symbol": "NILE",
@@ -25149,7 +25149,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847231+00:00"
+      "updated_at": "2026-07-26T08:41:08.569962+00:00"
     },
     "NILKAMAL": {
       "symbol": "NILKAMAL",
@@ -25158,7 +25158,7 @@
       "industry": "Furnishings, Fixtures & Appliances",
       "price": 1676.1,
       "ratios": {
-        "pe": 21.6578,
+        "pe": 21.6439,
         "pb": 1.5856,
         "roe_pct": 7.57,
         "debt_to_equity": 26.499,
@@ -25173,8 +25173,8 @@
       },
       "valuation": {
         "dcf_fair_value": 1480.09,
-        "graham_number": 1356.69,
-        "blended_fair_value": 1418.39,
+        "graham_number": 1357.13,
+        "blended_fair_value": 1418.61,
         "estimated_upside_pct": -15.4,
         "valuation_models_used": 2
       },
@@ -25197,7 +25197,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847377+00:00"
+      "updated_at": "2026-07-26T08:41:08.570050+00:00"
     },
     "NIPPOBATRY": {
       "symbol": "NIPPOBATRY",
@@ -25244,7 +25244,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847501+00:00"
+      "updated_at": "2026-07-26T08:41:08.570135+00:00"
     },
     "NIRAJISPAT": {
       "symbol": "NIRAJISPAT",
@@ -25289,7 +25289,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847615+00:00"
+      "updated_at": "2026-07-26T08:41:08.570223+00:00"
     },
     "NIRLON": {
       "symbol": "NIRLON",
@@ -25298,7 +25298,7 @@
       "industry": "Real Estate Services",
       "price": 620.6,
       "ratios": {
-        "pe": 16.1657,
+        "pe": 16.153,
         "pb": 11.9392,
         "roe_pct": 83.82,
         "debt_to_equity": 244.748,
@@ -25313,8 +25313,8 @@
       },
       "valuation": {
         "dcf_fair_value": 672.8,
-        "graham_number": 211.89,
-        "blended_fair_value": 442.34,
+        "graham_number": 211.98,
+        "blended_fair_value": 442.39,
         "estimated_upside_pct": -28.7,
         "valuation_models_used": 2
       },
@@ -25338,7 +25338,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847740+00:00"
+      "updated_at": "2026-07-26T08:41:08.570308+00:00"
     },
     "NITCO": {
       "symbol": "NITCO",
@@ -25385,7 +25385,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847846+00:00"
+      "updated_at": "2026-07-26T08:41:08.570392+00:00"
     },
     "NITINSPIN": {
       "symbol": "NITINSPIN",
@@ -25394,7 +25394,7 @@
       "industry": "Textile Manufacturing",
       "price": 535.2,
       "ratios": {
-        "pe": 16.9528,
+        "pe": 16.9474,
         "pb": 2.0465,
         "roe_pct": 12.76,
         "debt_to_equity": 76.458,
@@ -25409,8 +25409,8 @@
       },
       "valuation": {
         "dcf_fair_value": 212.45,
-        "graham_number": 431.0,
-        "blended_fair_value": 321.73,
+        "graham_number": 431.07,
+        "blended_fair_value": 321.76,
         "estimated_upside_pct": -39.9,
         "valuation_models_used": 2
       },
@@ -25433,7 +25433,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.847951+00:00"
+      "updated_at": "2026-07-26T08:41:08.570491+00:00"
     },
     "NITIRAJ": {
       "symbol": "NITIRAJ",
@@ -25479,7 +25479,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848055+00:00"
+      "updated_at": "2026-07-26T08:41:08.570581+00:00"
     },
     "NITTAGELA": {
       "symbol": "NITTAGELA",
@@ -25488,7 +25488,7 @@
       "industry": "Specialty Chemicals",
       "price": 1909.0,
       "ratios": {
-        "pe": 17.653,
+        "pe": 17.6367,
         "pb": 3.3901,
         "roe_pct": 20.8,
         "debt_to_equity": 0.82,
@@ -25503,8 +25503,8 @@
       },
       "valuation": {
         "dcf_fair_value": 994.71,
-        "graham_number": 1170.52,
-        "blended_fair_value": 1082.62,
+        "graham_number": 1171.06,
+        "blended_fair_value": 1082.88,
         "estimated_upside_pct": -43.3,
         "valuation_models_used": 2
       },
@@ -25527,7 +25527,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848160+00:00"
+      "updated_at": "2026-07-26T08:41:08.570666+00:00"
     },
     "NIVABUPA": {
       "symbol": "NIVABUPA",
@@ -25536,7 +25536,7 @@
       "industry": "Insurance - Life",
       "price": 86.64,
       "ratios": {
-        "pe": 118.6849,
+        "pe": 122.0282,
         "pb": 4.4681,
         "roe_pct": 10.65,
         "debt_to_equity": 9.883,
@@ -25551,9 +25551,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 17.85,
-        "blended_fair_value": 17.85,
-        "estimated_upside_pct": -79.4,
+        "graham_number": 17.6,
+        "blended_fair_value": 17.6,
+        "estimated_upside_pct": -79.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -25571,11 +25571,11 @@
           "Strong revenue CAGR (36.4%)",
           "Strong profit CAGR (118.5%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-79%)"
+          "Appears overvalued vs blended intrinsic estimate (~-80%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848263+00:00"
+      "updated_at": "2026-07-26T08:41:08.570754+00:00"
     },
     "NKIND": {
       "symbol": "NKIND",
@@ -25622,7 +25622,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848383+00:00"
+      "updated_at": "2026-07-26T08:41:08.570835+00:00"
     },
     "NOCIL": {
       "symbol": "NOCIL",
@@ -25631,7 +25631,7 @@
       "industry": "Specialty Chemicals",
       "price": 160.11,
       "ratios": {
-        "pe": 48.2259,
+        "pe": 48.3716,
         "pb": 1.508,
         "roe_pct": 3.15,
         "debt_to_equity": 0.453,
@@ -25646,8 +25646,8 @@
       },
       "valuation": {
         "dcf_fair_value": 61.46,
-        "graham_number": 89.06,
-        "blended_fair_value": 75.26,
+        "graham_number": 88.92,
+        "blended_fair_value": 75.19,
         "estimated_upside_pct": -53.0,
         "valuation_models_used": 2
       },
@@ -25670,7 +25670,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848710+00:00"
+      "updated_at": "2026-07-26T08:41:08.571095+00:00"
     },
     "NORBTEAEXP": {
       "symbol": "NORBTEAEXP",
@@ -25715,7 +25715,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848812+00:00"
+      "updated_at": "2026-07-26T08:41:08.571177+00:00"
     },
     "NORTHARC": {
       "symbol": "NORTHARC",
@@ -25724,7 +25724,7 @@
       "industry": "Credit Services",
       "price": 299.4,
       "ratios": {
-        "pe": 12.058,
+        "pe": 12.0629,
         "pb": 1.2404,
         "roe_pct": 11.0,
         "debt_to_equity": 314.235,
@@ -25739,9 +25739,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 367.22,
-        "blended_fair_value": 367.22,
-        "estimated_upside_pct": 22.7,
+        "graham_number": 367.14,
+        "blended_fair_value": 367.14,
+        "estimated_upside_pct": 22.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -25764,7 +25764,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.848915+00:00"
+      "updated_at": "2026-07-26T08:41:08.571262+00:00"
     },
     "NOVARTIND": {
       "symbol": "NOVARTIND",
@@ -25773,7 +25773,7 @@
       "industry": "Drug Manufacturers - Specialty & Generic",
       "price": 1641.2,
       "ratios": {
-        "pe": 41.3922,
+        "pe": 41.4968,
         "pb": 4.9532,
         "roe_pct": 0.0,
         "debt_to_equity": 0.393,
@@ -25788,8 +25788,8 @@
       },
       "valuation": {
         "dcf_fair_value": 221.61,
-        "graham_number": 543.69,
-        "blended_fair_value": 382.65,
+        "graham_number": 543.0,
+        "blended_fair_value": 382.31,
         "estimated_upside_pct": -76.7,
         "valuation_models_used": 2
       },
@@ -25813,7 +25813,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849019+00:00"
+      "updated_at": "2026-07-26T08:41:08.571356+00:00"
     },
     "NPST": {
       "symbol": "NPST",
@@ -25862,7 +25862,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849122+00:00"
+      "updated_at": "2026-07-26T08:41:08.571453+00:00"
     },
     "NRAIL": {
       "symbol": "NRAIL",
@@ -25907,7 +25907,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849225+00:00"
+      "updated_at": "2026-07-26T08:41:08.571538+00:00"
     },
     "NRBBEARING": {
       "symbol": "NRBBEARING",
@@ -25916,7 +25916,7 @@
       "industry": "Auto Parts",
       "price": 397.65,
       "ratios": {
-        "pe": 26.9776,
+        "pe": 27.0326,
         "pb": 4.0038,
         "roe_pct": 15.17,
         "debt_to_equity": 15.653,
@@ -25931,8 +25931,8 @@
       },
       "valuation": {
         "dcf_fair_value": 240.01,
-        "graham_number": 181.49,
-        "blended_fair_value": 210.75,
+        "graham_number": 181.31,
+        "blended_fair_value": 210.66,
         "estimated_upside_pct": -47.0,
         "valuation_models_used": 2
       },
@@ -25956,7 +25956,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849347+00:00"
+      "updated_at": "2026-07-26T08:41:08.571630+00:00"
     },
     "NSIL": {
       "symbol": "NSIL",
@@ -25965,7 +25965,7 @@
       "industry": "Asset Management",
       "price": 5452.5,
       "ratios": {
-        "pe": 51.5018,
+        "pe": 51.2839,
         "pb": 0.1844,
         "roe_pct": 0.35,
         "debt_to_equity": 0.019,
@@ -25980,9 +25980,9 @@
       },
       "valuation": {
         "dcf_fair_value": 33403.53,
-        "graham_number": 8391.88,
-        "blended_fair_value": 20897.7,
-        "estimated_upside_pct": 283.3,
+        "graham_number": 8409.69,
+        "blended_fair_value": 20906.61,
+        "estimated_upside_pct": 283.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -26005,7 +26005,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849460+00:00"
+      "updated_at": "2026-07-26T08:41:08.571713+00:00"
     },
     "NSLNISP": {
       "symbol": "NSLNISP",
@@ -26053,7 +26053,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849564+00:00"
+      "updated_at": "2026-07-26T08:41:08.571794+00:00"
     },
     "NTPCGREEN": {
       "symbol": "NTPCGREEN",
@@ -26102,7 +26102,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849770+00:00"
+      "updated_at": "2026-07-26T08:41:08.571959+00:00"
     },
     "NUCLEUS": {
       "symbol": "NUCLEUS",
@@ -26111,7 +26111,7 @@
       "industry": "Software - Application",
       "price": 724.55,
       "ratios": {
-        "pe": 16.3445,
+        "pe": 16.3408,
         "pb": 2.1026,
         "roe_pct": 13.56,
         "debt_to_equity": 0.942,
@@ -26126,8 +26126,8 @@
       },
       "valuation": {
         "dcf_fair_value": 835.76,
-        "graham_number": 586.27,
-        "blended_fair_value": 711.01,
+        "graham_number": 586.33,
+        "blended_fair_value": 711.05,
         "estimated_upside_pct": -1.9,
         "valuation_models_used": 2
       },
@@ -26150,7 +26150,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849874+00:00"
+      "updated_at": "2026-07-26T08:41:08.572040+00:00"
     },
     "NURECA": {
       "symbol": "NURECA",
@@ -26159,7 +26159,7 @@
       "industry": "Medical Devices",
       "price": 301.64,
       "ratios": {
-        "pe": 66.8825,
+        "pe": 66.7345,
         "pb": 1.5923,
         "roe_pct": 0.0,
         "debt_to_equity": 1.25,
@@ -26174,8 +26174,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 138.65,
-        "blended_fair_value": 138.65,
+        "graham_number": 138.8,
+        "blended_fair_value": 138.8,
         "estimated_upside_pct": -54.0,
         "valuation_models_used": 1
       },
@@ -26196,7 +26196,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.849980+00:00"
+      "updated_at": "2026-07-26T08:41:08.572121+00:00"
     },
     "NUVAMA": {
       "symbol": "NUVAMA",
@@ -26205,7 +26205,7 @@
       "industry": "Asset Management",
       "price": 1980.1,
       "ratios": {
-        "pe": 35.3085,
+        "pe": 35.3337,
         "pb": 8.7441,
         "roe_pct": 27.32,
         "debt_to_equity": 282.325,
@@ -26220,8 +26220,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 534.54,
-        "blended_fair_value": 534.54,
+        "graham_number": 534.35,
+        "blended_fair_value": 534.35,
         "estimated_upside_pct": -73.0,
         "valuation_models_used": 1
       },
@@ -26245,7 +26245,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850092+00:00"
+      "updated_at": "2026-07-26T08:41:08.572202+00:00"
     },
     "NUVOCO": {
       "symbol": "NUVOCO",
@@ -26293,7 +26293,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850196+00:00"
+      "updated_at": "2026-07-26T08:41:08.572283+00:00"
     },
     "OAL": {
       "symbol": "OAL",
@@ -26302,7 +26302,7 @@
       "industry": "Specialty Chemicals",
       "price": 373.0,
       "ratios": {
-        "pe": 376.7677,
+        "pe": 384.5361,
         "pb": 1.896,
         "roe_pct": 0.5,
         "debt_to_equity": 60.585,
@@ -26317,9 +26317,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 66.2,
-        "blended_fair_value": 66.2,
-        "estimated_upside_pct": -82.3,
+        "graham_number": 65.53,
+        "blended_fair_value": 65.53,
+        "estimated_upside_pct": -82.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -26340,7 +26340,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850454+00:00"
+      "updated_at": "2026-07-26T08:41:08.572468+00:00"
     },
     "OBCL": {
       "symbol": "OBCL",
@@ -26387,7 +26387,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850568+00:00"
+      "updated_at": "2026-07-26T08:41:08.572552+00:00"
     },
     "OBEROIRLTY": {
       "symbol": "OBEROIRLTY",
@@ -26396,7 +26396,7 @@
       "industry": "Real Estate - Development",
       "price": 1821.2,
       "ratios": {
-        "pe": 25.1269,
+        "pe": 25.1895,
         "pb": 3.6949,
         "roe_pct": 0.0,
         "debt_to_equity": 15.765,
@@ -26411,8 +26411,8 @@
       },
       "valuation": {
         "dcf_fair_value": 451.21,
-        "graham_number": 896.55,
-        "blended_fair_value": 673.88,
+        "graham_number": 895.44,
+        "blended_fair_value": 673.33,
         "estimated_upside_pct": -63.0,
         "valuation_models_used": 2
       },
@@ -26436,7 +26436,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850674+00:00"
+      "updated_at": "2026-07-26T08:41:08.572635+00:00"
     },
     "ODIGMA": {
       "symbol": "ODIGMA",
@@ -26483,7 +26483,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850774+00:00"
+      "updated_at": "2026-07-26T08:41:08.572711+00:00"
     },
     "OIL": {
       "symbol": "OIL",
@@ -26532,7 +26532,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.850983+00:00"
+      "updated_at": "2026-07-26T08:41:08.572876+00:00"
     },
     "OLAELEC": {
       "symbol": "OLAELEC",
@@ -26577,7 +26577,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851084+00:00"
+      "updated_at": "2026-07-26T08:41:08.572953+00:00"
     },
     "OLECTRA": {
       "symbol": "OLECTRA",
@@ -26586,7 +26586,7 @@
       "industry": "Farm & Heavy Construction Machinery",
       "price": 1336.3,
       "ratios": {
-        "pe": 61.8085,
+        "pe": 61.7229,
         "pb": 8.9406,
         "roe_pct": 0.0,
         "debt_to_equity": 30.841,
@@ -26601,8 +26601,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 269.64,
-        "blended_fair_value": 269.64,
+        "graham_number": 269.83,
+        "blended_fair_value": 269.83,
         "estimated_upside_pct": -79.8,
         "valuation_models_used": 1
       },
@@ -26625,7 +26625,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851188+00:00"
+      "updated_at": "2026-07-26T08:41:08.573033+00:00"
     },
     "OMAXE": {
       "symbol": "OMAXE",
@@ -26670,7 +26670,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851291+00:00"
+      "updated_at": "2026-07-26T08:41:08.573114+00:00"
     },
     "OMFREIGHT": {
       "symbol": "OMFREIGHT",
@@ -26717,7 +26717,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851418+00:00"
+      "updated_at": "2026-07-26T08:41:08.573199+00:00"
     },
     "OMINFRAL": {
       "symbol": "OMINFRAL",
@@ -26766,7 +26766,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851528+00:00"
+      "updated_at": "2026-07-26T08:41:08.573284+00:00"
     },
     "OMNI": {
       "symbol": "OMNI",
@@ -26775,7 +26775,7 @@
       "industry": "Specialty Industrial Machinery",
       "price": 612.0,
       "ratios": {
-        "pe": 82.0375,
+        "pe": 81.9277,
         "pb": 9.9567,
         "roe_pct": 17.96,
         "debt_to_equity": 63.958,
@@ -26790,8 +26790,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 101.57,
-        "blended_fair_value": 101.57,
+        "graham_number": 101.64,
+        "blended_fair_value": 101.64,
         "estimated_upside_pct": -83.4,
         "valuation_models_used": 1
       },
@@ -26815,7 +26815,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851632+00:00"
+      "updated_at": "2026-07-26T08:41:08.573366+00:00"
     },
     "OMPOWER": {
       "symbol": "OMPOWER",
@@ -26824,7 +26824,7 @@
       "industry": "Engineering & Construction",
       "price": 169.2,
       "ratios": {
-        "pe": 25.7143,
+        "pe": 26.2326,
         "pb": 3.1851,
         "roe_pct": 38.19,
         "debt_to_equity": 34.809,
@@ -26839,9 +26839,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 88.68,
-        "blended_fair_value": 88.68,
-        "estimated_upside_pct": -47.6,
+        "graham_number": 87.8,
+        "blended_fair_value": 87.8,
+        "estimated_upside_pct": -48.1,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -26864,7 +26864,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851736+00:00"
+      "updated_at": "2026-07-26T08:41:08.573459+00:00"
     },
     "ONEPOINT": {
       "symbol": "ONEPOINT",
@@ -26913,7 +26913,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851840+00:00"
+      "updated_at": "2026-07-26T08:41:08.573546+00:00"
     },
     "ONESOURCE": {
       "symbol": "ONESOURCE",
@@ -26924,9 +26924,9 @@
       "ratios": {
         "pe": null,
         "pb": 3.2596,
-        "roe_pct": -1.26,
+        "roe_pct": 0.0,
         "debt_to_equity": 25.791,
-        "profit_margin_pct": -5.19
+        "profit_margin_pct": -3.15
       },
       "growth": {
         "revenue_cagr_pct": 232.4,
@@ -26943,11 +26943,11 @@
         "valuation_models_used": 0
       },
       "fundamental_score": {
-        "total": 31,
+        "total": 33,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 4,
-          "profitability": 0,
+          "profitability": 2,
           "stability": 12,
           "growth": 15,
           "valuation_upside": 0
@@ -26960,7 +26960,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.851944+00:00"
+      "updated_at": "2026-07-26T08:41:08.573629+00:00"
     },
     "ONMOBILE": {
       "symbol": "ONMOBILE",
@@ -27006,7 +27006,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852150+00:00"
+      "updated_at": "2026-07-26T08:41:08.573796+00:00"
     },
     "ONWARDTEC": {
       "symbol": "ONWARDTEC",
@@ -27015,7 +27015,7 @@
       "industry": "Information Technology Services",
       "price": 290.65,
       "ratios": {
-        "pe": 15.3458,
+        "pe": 15.362,
         "pb": 2.6088,
         "roe_pct": 0.0,
         "debt_to_equity": 15.717,
@@ -27030,9 +27030,9 @@
       },
       "valuation": {
         "dcf_fair_value": 396.92,
-        "graham_number": 217.9,
-        "blended_fair_value": 307.41,
-        "estimated_upside_pct": 5.8,
+        "graham_number": 217.78,
+        "blended_fair_value": 307.35,
+        "estimated_upside_pct": 5.7,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -27053,7 +27053,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852255+00:00"
+      "updated_at": "2026-07-26T08:41:08.573880+00:00"
     },
     "OPTIEMUS": {
       "symbol": "OPTIEMUS",
@@ -27062,7 +27062,7 @@
       "industry": "Electronics & Computer Distribution",
       "price": 599.95,
       "ratios": {
-        "pe": 81.184,
+        "pe": 81.294,
         "pb": 6.8512,
         "roe_pct": 8.71,
         "debt_to_equity": 45.355,
@@ -27077,8 +27077,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 120.67,
-        "blended_fair_value": 120.67,
+        "graham_number": 120.59,
+        "blended_fair_value": 120.59,
         "estimated_upside_pct": -79.9,
         "valuation_models_used": 1
       },
@@ -27100,7 +27100,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852385+00:00"
+      "updated_at": "2026-07-26T08:41:08.573962+00:00"
     },
     "ORBTEXP": {
       "symbol": "ORBTEXP",
@@ -27149,7 +27149,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852505+00:00"
+      "updated_at": "2026-07-26T08:41:08.574043+00:00"
     },
     "ORCHASP": {
       "symbol": "ORCHASP",
@@ -27197,7 +27197,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852609+00:00"
+      "updated_at": "2026-07-26T08:41:08.574124+00:00"
     },
     "ORCHPHARMA": {
       "symbol": "ORCHPHARMA",
@@ -27206,7 +27206,7 @@
       "industry": "Drug Manufacturers - Specialty & Generic",
       "price": 988.6,
       "ratios": {
-        "pe": 244.703,
+        "pe": 244.0987,
         "pb": 3.8924,
         "roe_pct": 0.0,
         "debt_to_equity": null,
@@ -27221,8 +27221,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 151.94,
-        "blended_fair_value": 151.94,
+        "graham_number": 152.13,
+        "blended_fair_value": 152.13,
         "estimated_upside_pct": -84.6,
         "valuation_models_used": 1
       },
@@ -27243,7 +27243,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852712+00:00"
+      "updated_at": "2026-07-26T08:41:08.574207+00:00"
     },
     "ORICONENT": {
       "symbol": "ORICONENT",
@@ -27292,7 +27292,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852816+00:00"
+      "updated_at": "2026-07-26T08:41:08.574287+00:00"
     },
     "ORIENTALTL": {
       "symbol": "ORIENTALTL",
@@ -27341,7 +27341,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.852918+00:00"
+      "updated_at": "2026-07-26T08:41:08.574370+00:00"
     },
     "ORIENTBELL": {
       "symbol": "ORIENTBELL",
@@ -27350,7 +27350,7 @@
       "industry": "Building Products & Equipment",
       "price": 319.5,
       "ratios": {
-        "pe": 37.8555,
+        "pe": 37.9004,
         "pb": 1.4257,
         "roe_pct": 3.85,
         "debt_to_equity": 9.489,
@@ -27365,8 +27365,8 @@
       },
       "valuation": {
         "dcf_fair_value": 368.4,
-        "graham_number": 206.29,
-        "blended_fair_value": 287.34,
+        "graham_number": 206.17,
+        "blended_fair_value": 287.28,
         "estimated_upside_pct": -10.1,
         "valuation_models_used": 2
       },
@@ -27390,7 +27390,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853020+00:00"
+      "updated_at": "2026-07-26T08:41:08.574462+00:00"
     },
     "ORIENTCEM": {
       "symbol": "ORIENTCEM",
@@ -27399,7 +27399,7 @@
       "industry": "Building Materials",
       "price": 133.8,
       "ratios": {
-        "pe": 8.1387,
+        "pe": 13.1176,
         "pb": 1.2811,
         "roe_pct": 0.0,
         "debt_to_equity": 3.377,
@@ -27414,20 +27414,20 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 196.55,
-        "blended_fair_value": 196.55,
-        "estimated_upside_pct": 46.9,
+        "graham_number": 154.82,
+        "blended_fair_value": 154.82,
+        "estimated_upside_pct": 15.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 51,
+        "total": 46,
         "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 15,
           "profitability": 6,
           "stability": 0,
           "growth": 15,
-          "valuation_upside": 15
+          "valuation_upside": 10
         },
         "key_notes": [
           "Trading near/below book value",
@@ -27439,7 +27439,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853123+00:00"
+      "updated_at": "2026-07-26T08:41:08.574545+00:00"
     },
     "ORIENTCER": {
       "symbol": "ORIENTCER",
@@ -27448,7 +27448,7 @@
       "industry": "Specialty Chemicals",
       "price": 40.77,
       "ratios": {
-        "pe": 22.1576,
+        "pe": 22.2787,
         "pb": 1.6256,
         "roe_pct": 7.47,
         "debt_to_equity": 13.113,
@@ -27463,9 +27463,9 @@
       },
       "valuation": {
         "dcf_fair_value": 61.62,
-        "graham_number": 32.22,
-        "blended_fair_value": 46.92,
-        "estimated_upside_pct": 15.1,
+        "graham_number": 32.14,
+        "blended_fair_value": 46.88,
+        "estimated_upside_pct": 15.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -27488,7 +27488,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853226+00:00"
+      "updated_at": "2026-07-26T08:41:08.574627+00:00"
     },
     "ORIENTELEC": {
       "symbol": "ORIENTELEC",
@@ -27497,7 +27497,7 @@
       "industry": "Furnishings, Fixtures & Appliances",
       "price": 170.74,
       "ratios": {
-        "pe": 33.2179,
+        "pe": 33.0891,
         "pb": 4.7928,
         "roe_pct": 0.0,
         "debt_to_equity": 12.281,
@@ -27512,9 +27512,9 @@
       },
       "valuation": {
         "dcf_fair_value": 66.68,
-        "graham_number": 64.19,
-        "blended_fair_value": 65.44,
-        "estimated_upside_pct": -61.7,
+        "graham_number": 64.31,
+        "blended_fair_value": 65.5,
+        "estimated_upside_pct": -61.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -27535,7 +27535,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853348+00:00"
+      "updated_at": "2026-07-26T08:41:08.574708+00:00"
     },
     "ORIENTHOT": {
       "symbol": "ORIENTHOT",
@@ -27544,7 +27544,7 @@
       "industry": "Lodging",
       "price": 134.84,
       "ratios": {
-        "pe": 34.1367,
+        "pe": 36.0535,
         "pb": 3.1601,
         "roe_pct": 0.0,
         "debt_to_equity": 17.136,
@@ -27559,9 +27559,9 @@
       },
       "valuation": {
         "dcf_fair_value": 83.67,
-        "graham_number": 61.58,
-        "blended_fair_value": 72.62,
-        "estimated_upside_pct": -46.1,
+        "graham_number": 59.92,
+        "blended_fair_value": 71.8,
+        "estimated_upside_pct": -46.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -27577,11 +27577,11 @@
         "key_notes": [
           "Healthy net margin (13.4%)",
           "Very low debt",
-          "Appears overvalued vs blended intrinsic estimate (~-46%)"
+          "Appears overvalued vs blended intrinsic estimate (~-47%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853459+00:00"
+      "updated_at": "2026-07-26T08:41:08.574790+00:00"
     },
     "ORIENTLTD": {
       "symbol": "ORIENTLTD",
@@ -27627,7 +27627,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853564+00:00"
+      "updated_at": "2026-07-26T08:41:08.574869+00:00"
     },
     "ORIENTPPR": {
       "symbol": "ORIENTPPR",
@@ -27674,7 +27674,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853666+00:00"
+      "updated_at": "2026-07-26T08:41:08.574947+00:00"
     },
     "ORIENTTECH": {
       "symbol": "ORIENTTECH",
@@ -27723,7 +27723,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853769+00:00"
+      "updated_at": "2026-07-26T08:41:08.575029+00:00"
     },
     "ORISSAMINE": {
       "symbol": "ORISSAMINE",
@@ -27768,7 +27768,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853871+00:00"
+      "updated_at": "2026-07-26T08:41:08.575108+00:00"
     },
     "ORKLAINDIA": {
       "symbol": "ORKLAINDIA",
@@ -27777,7 +27777,7 @@
       "industry": "Packaged Foods",
       "price": 556.75,
       "ratios": {
-        "pe": 26.754,
+        "pe": 26.7411,
         "pb": 2.753,
         "roe_pct": 10.97,
         "debt_to_equity": 2.284,
@@ -27792,8 +27792,8 @@
       },
       "valuation": {
         "dcf_fair_value": 304.77,
-        "graham_number": 307.72,
-        "blended_fair_value": 306.25,
+        "graham_number": 307.79,
+        "blended_fair_value": 306.28,
         "estimated_upside_pct": -45.0,
         "valuation_models_used": 2
       },
@@ -27816,7 +27816,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.853975+00:00"
+      "updated_at": "2026-07-26T08:41:08.575189+00:00"
     },
     "OSWALGREEN": {
       "symbol": "OSWALGREEN",
@@ -27864,7 +27864,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854083+00:00"
+      "updated_at": "2026-07-26T08:41:08.575267+00:00"
     },
     "OSWALPUMPS": {
       "symbol": "OSWALPUMPS",
@@ -27913,7 +27913,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854189+00:00"
+      "updated_at": "2026-07-26T08:41:08.575347+00:00"
     },
     "OSWALSEEDS": {
       "symbol": "OSWALSEEDS",
@@ -27958,7 +27958,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854295+00:00"
+      "updated_at": "2026-07-26T08:41:08.575439+00:00"
     },
     "PACEDIGITK": {
       "symbol": "PACEDIGITK",
@@ -27967,7 +27967,7 @@
       "industry": "Communication Equipment",
       "price": 195.25,
       "ratios": {
-        "pe": 13.0515,
+        "pe": 12.9219,
         "pb": 1.7404,
         "roe_pct": 17.75,
         "debt_to_equity": 43.556,
@@ -27982,9 +27982,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 194.33,
-        "blended_fair_value": 194.33,
-        "estimated_upside_pct": -0.5,
+        "graham_number": 195.3,
+        "blended_fair_value": 195.3,
+        "estimated_upside_pct": 0.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -28007,7 +28007,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854444+00:00"
+      "updated_at": "2026-07-26T08:41:08.575521+00:00"
     },
     "PAISALO": {
       "symbol": "PAISALO",
@@ -28016,7 +28016,7 @@
       "industry": "Credit Services",
       "price": 70.17,
       "ratios": {
-        "pe": 27.7352,
+        "pe": 26.7824,
         "pb": 3.5334,
         "roe_pct": 14.26,
         "debt_to_equity": 243.153,
@@ -28031,9 +28031,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 33.62,
-        "blended_fair_value": 33.62,
-        "estimated_upside_pct": -52.1,
+        "graham_number": 34.22,
+        "blended_fair_value": 34.22,
+        "estimated_upside_pct": -51.2,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -28052,11 +28052,11 @@
           "Strong revenue CAGR (52.9%)",
           "Strong profit CAGR (36.3%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-52%)"
+          "Appears overvalued vs blended intrinsic estimate (~-51%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854674+00:00"
+      "updated_at": "2026-07-26T08:41:08.575684+00:00"
     },
     "PAKKA": {
       "symbol": "PAKKA",
@@ -28103,7 +28103,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854781+00:00"
+      "updated_at": "2026-07-26T08:41:08.575764+00:00"
     },
     "PALASHSECU": {
       "symbol": "PALASHSECU",
@@ -28152,7 +28152,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854888+00:00"
+      "updated_at": "2026-07-26T08:41:08.575844+00:00"
     },
     "PANACEABIO": {
       "symbol": "PANACEABIO",
@@ -28200,7 +28200,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.854988+00:00"
+      "updated_at": "2026-07-26T08:41:08.575921+00:00"
     },
     "PANACHE": {
       "symbol": "PANACHE",
@@ -28209,7 +28209,7 @@
       "industry": "Communication Equipment",
       "price": 418.4,
       "ratios": {
-        "pe": 46.9058,
+        "pe": 46.9585,
         "pb": 5.8342,
         "roe_pct": 19.0,
         "debt_to_equity": 26.17,
@@ -28224,8 +28224,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 119.97,
-        "blended_fair_value": 119.97,
+        "graham_number": 119.9,
+        "blended_fair_value": 119.9,
         "estimated_upside_pct": -71.3,
         "valuation_models_used": 1
       },
@@ -28249,7 +28249,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855092+00:00"
+      "updated_at": "2026-07-26T08:41:08.576000+00:00"
     },
     "PANAMAPET": {
       "symbol": "PANAMAPET",
@@ -28258,7 +28258,7 @@
       "industry": "Oil & Gas Refining & Marketing",
       "price": 498.25,
       "ratios": {
-        "pe": 14.175,
+        "pe": 14.183,
         "pb": 2.0522,
         "roe_pct": 15.6,
         "debt_to_equity": 7.548,
@@ -28273,8 +28273,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 438.19,
-        "blended_fair_value": 438.19,
+        "graham_number": 438.07,
+        "blended_fair_value": 438.07,
         "estimated_upside_pct": -12.1,
         "valuation_models_used": 1
       },
@@ -28298,7 +28298,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855194+00:00"
+      "updated_at": "2026-07-26T08:41:08.576080+00:00"
     },
     "PANSARI": {
       "symbol": "PANSARI",
@@ -28307,7 +28307,7 @@
       "industry": "Real Estate - Development",
       "price": 355.2,
       "ratios": {
-        "pe": 31.1306,
+        "pe": 31.1579,
         "pb": 4.0197,
         "roe_pct": 13.79,
         "debt_to_equity": 65.043,
@@ -28322,8 +28322,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 150.62,
-        "blended_fair_value": 150.62,
+        "graham_number": 150.55,
+        "blended_fair_value": 150.55,
         "estimated_upside_pct": -57.6,
         "valuation_models_used": 1
       },
@@ -28346,7 +28346,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855298+00:00"
+      "updated_at": "2026-07-26T08:41:08.576160+00:00"
     },
     "PAR": {
       "symbol": "PAR",
@@ -28394,7 +28394,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855432+00:00"
+      "updated_at": "2026-07-26T08:41:08.576240+00:00"
     },
     "PARACABLES": {
       "symbol": "PARACABLES",
@@ -28442,7 +28442,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855542+00:00"
+      "updated_at": "2026-07-26T08:41:08.576322+00:00"
     },
     "PARADEEP": {
       "symbol": "PARADEEP",
@@ -28451,7 +28451,7 @@
       "industry": "Agricultural Inputs",
       "price": 136.07,
       "ratios": {
-        "pe": 14.174,
+        "pe": 14.1887,
         "pb": 2.081,
         "roe_pct": 18.36,
         "debt_to_equity": 101.822,
@@ -28466,8 +28466,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 118.84,
-        "blended_fair_value": 118.84,
+        "graham_number": 118.78,
+        "blended_fair_value": 118.78,
         "estimated_upside_pct": -12.7,
         "valuation_models_used": 1
       },
@@ -28490,7 +28490,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855645+00:00"
+      "updated_at": "2026-07-26T08:41:08.576403+00:00"
     },
     "PARAGMILK": {
       "symbol": "PARAGMILK",
@@ -28539,7 +28539,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855749+00:00"
+      "updated_at": "2026-07-26T08:41:08.576507+00:00"
     },
     "PARAS": {
       "symbol": "PARAS",
@@ -28548,7 +28548,7 @@
       "industry": "Aerospace & Defense",
       "price": 1195.2,
       "ratios": {
-        "pe": 109.6514,
+        "pe": 109.8529,
         "pb": 13.2653,
         "roe_pct": 13.14,
         "debt_to_equity": 3.731,
@@ -28563,8 +28563,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 148.65,
-        "blended_fair_value": 148.65,
+        "graham_number": 148.51,
+        "blended_fair_value": 148.51,
         "estimated_upside_pct": -87.6,
         "valuation_models_used": 1
       },
@@ -28588,7 +28588,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855852+00:00"
+      "updated_at": "2026-07-26T08:41:08.576592+00:00"
     },
     "PARASPETRO": {
       "symbol": "PARASPETRO",
@@ -28633,7 +28633,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.855950+00:00"
+      "updated_at": "2026-07-26T08:41:08.576669+00:00"
     },
     "PARKHOSPS": {
       "symbol": "PARKHOSPS",
@@ -28682,7 +28682,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856054+00:00"
+      "updated_at": "2026-07-26T08:41:08.576750+00:00"
     },
     "PARKHOTELS": {
       "symbol": "PARKHOTELS",
@@ -28730,7 +28730,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856162+00:00"
+      "updated_at": "2026-07-26T08:41:08.576830+00:00"
     },
     "PASHUPATI": {
       "symbol": "PASHUPATI",
@@ -28778,7 +28778,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856265+00:00"
+      "updated_at": "2026-07-26T08:41:08.576913+00:00"
     },
     "PATANJALI": {
       "symbol": "PATANJALI",
@@ -28787,7 +28787,7 @@
       "industry": "Packaged Foods",
       "price": 340.95,
       "ratios": {
-        "pe": 20.2464,
+        "pe": 20.4529,
         "pb": 2.8302,
         "roe_pct": 14.83,
         "debt_to_equity": 21.295,
@@ -28802,9 +28802,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 213.65,
-        "blended_fair_value": 213.65,
-        "estimated_upside_pct": -37.3,
+        "graham_number": 212.57,
+        "blended_fair_value": 212.57,
+        "estimated_upside_pct": -37.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -28823,11 +28823,11 @@
           "Healthy revenue CAGR (8.7%)",
           "Strong profit CAGR (27.0%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-37%)"
+          "Appears overvalued vs blended intrinsic estimate (~-38%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856388+00:00"
+      "updated_at": "2026-07-26T08:41:08.576995+00:00"
     },
     "PATELENG": {
       "symbol": "PATELENG",
@@ -28876,7 +28876,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856500+00:00"
+      "updated_at": "2026-07-26T08:41:08.577077+00:00"
     },
     "PATELRMART": {
       "symbol": "PATELRMART",
@@ -28924,7 +28924,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856605+00:00"
+      "updated_at": "2026-07-26T08:41:08.577158+00:00"
     },
     "PATINTLOG": {
       "symbol": "PATINTLOG",
@@ -28973,7 +28973,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856711+00:00"
+      "updated_at": "2026-07-26T08:41:08.577243+00:00"
     },
     "PAUSHAKLTD": {
       "symbol": "PAUSHAKLTD",
@@ -28982,7 +28982,7 @@
       "industry": "Specialty Chemicals",
       "price": 562.45,
       "ratios": {
-        "pe": 35.2854,
+        "pe": 35.2192,
         "pb": 2.8238,
         "roe_pct": 8.22,
         "debt_to_equity": 15.666,
@@ -28997,9 +28997,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 267.28,
-        "blended_fair_value": 267.28,
-        "estimated_upside_pct": -52.5,
+        "graham_number": 267.53,
+        "blended_fair_value": 267.53,
+        "estimated_upside_pct": -52.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -29021,7 +29021,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.856815+00:00"
+      "updated_at": "2026-07-26T08:41:08.577323+00:00"
     },
     "PCBL": {
       "symbol": "PCBL",
@@ -29067,7 +29067,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857026+00:00"
+      "updated_at": "2026-07-26T08:41:08.577505+00:00"
     },
     "PCJEWELLER": {
       "symbol": "PCJEWELLER",
@@ -29076,7 +29076,7 @@
       "industry": "Luxury Goods",
       "price": 9.28,
       "ratios": {
-        "pe": 11.3171,
+        "pe": 11.1807,
         "pb": 0.8679,
         "roe_pct": 9.95,
         "debt_to_equity": 14.271,
@@ -29091,9 +29091,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 14.05,
-        "blended_fair_value": 14.05,
-        "estimated_upside_pct": 51.4,
+        "graham_number": 14.13,
+        "blended_fair_value": 14.13,
+        "estimated_upside_pct": 52.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -29116,7 +29116,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857149+00:00"
+      "updated_at": "2026-07-26T08:41:08.577590+00:00"
     },
     "PDMJEPAPER": {
       "symbol": "PDMJEPAPER",
@@ -29125,7 +29125,7 @@
       "industry": "Paper & Paper Products",
       "price": 91.72,
       "ratios": {
-        "pe": 9.4654,
+        "pe": 9.3022,
         "pb": 1.2989,
         "roe_pct": 14.95,
         "debt_to_equity": 6.351,
@@ -29140,9 +29140,9 @@
       },
       "valuation": {
         "dcf_fair_value": 21.52,
-        "graham_number": 124.08,
-        "blended_fair_value": 72.8,
-        "estimated_upside_pct": -20.6,
+        "graham_number": 125.16,
+        "blended_fair_value": 73.34,
+        "estimated_upside_pct": -20.0,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -29165,7 +29165,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857254+00:00"
+      "updated_at": "2026-07-26T08:41:08.577674+00:00"
     },
     "PDSL": {
       "symbol": "PDSL",
@@ -29211,7 +29211,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857378+00:00"
+      "updated_at": "2026-07-26T08:41:08.577756+00:00"
     },
     "PENIND": {
       "symbol": "PENIND",
@@ -29258,7 +29258,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857488+00:00"
+      "updated_at": "2026-07-26T08:41:08.577837+00:00"
     },
     "PETRONET": {
       "symbol": "PETRONET",
@@ -29267,7 +29267,7 @@
       "industry": "Oil & Gas Refining & Marketing",
       "price": 274.7,
       "ratios": {
-        "pe": 10.533,
+        "pe": 10.537,
         "pb": 1.8487,
         "roe_pct": 18.56,
         "debt_to_equity": 10.507,
@@ -29282,8 +29282,8 @@
       },
       "valuation": {
         "dcf_fair_value": 172.72,
-        "graham_number": 295.29,
-        "blended_fair_value": 234.0,
+        "graham_number": 295.23,
+        "blended_fair_value": 233.98,
         "estimated_upside_pct": -14.8,
         "valuation_models_used": 2
       },
@@ -29307,7 +29307,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.857700+00:00"
+      "updated_at": "2026-07-26T08:41:08.578006+00:00"
     },
     "PFS": {
       "symbol": "PFS",
@@ -29356,7 +29356,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858017+00:00"
+      "updated_at": "2026-07-26T08:41:08.578261+00:00"
     },
     "PGEL": {
       "symbol": "PGEL",
@@ -29365,7 +29365,7 @@
       "industry": "Electronic Components",
       "price": 572.45,
       "ratios": {
-        "pe": 83.3261,
+        "pe": 82.6046,
         "pb": 5.3655,
         "roe_pct": 6.69,
         "debt_to_equity": 19.567,
@@ -29380,9 +29380,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 128.42,
-        "blended_fair_value": 128.42,
-        "estimated_upside_pct": -77.6,
+        "graham_number": 128.98,
+        "blended_fair_value": 128.98,
+        "estimated_upside_pct": -77.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -29404,7 +29404,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858120+00:00"
+      "updated_at": "2026-07-26T08:41:08.578343+00:00"
     },
     "PGHH": {
       "symbol": "PGHH",
@@ -29413,7 +29413,7 @@
       "industry": "Household & Personal Products",
       "price": 8974.5,
       "ratios": {
-        "pe": 33.9776,
+        "pe": 34.0136,
         "pb": 38.6669,
         "roe_pct": 114.93,
         "debt_to_equity": 0.115,
@@ -29428,8 +29428,8 @@
       },
       "valuation": {
         "dcf_fair_value": 4198.96,
-        "graham_number": 1174.45,
-        "blended_fair_value": 2686.7,
+        "graham_number": 1173.83,
+        "blended_fair_value": 2686.39,
         "estimated_upside_pct": -70.1,
         "valuation_models_used": 2
       },
@@ -29453,7 +29453,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858225+00:00"
+      "updated_at": "2026-07-26T08:41:08.578436+00:00"
     },
     "PGHL": {
       "symbol": "PGHL",
@@ -29462,7 +29462,7 @@
       "industry": "Drug Manufacturers - Specialty & Generic",
       "price": 6714.0,
       "ratios": {
-        "pe": 34.0674,
+        "pe": 34.1297,
         "pb": 21.2465,
         "roe_pct": 61.59,
         "debt_to_equity": 1.771,
@@ -29477,8 +29477,8 @@
       },
       "valuation": {
         "dcf_fair_value": 3636.03,
-        "graham_number": 1183.75,
-        "blended_fair_value": 2409.89,
+        "graham_number": 1182.67,
+        "blended_fair_value": 2409.35,
         "estimated_upside_pct": -64.1,
         "valuation_models_used": 2
       },
@@ -29502,7 +29502,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858347+00:00"
+      "updated_at": "2026-07-26T08:41:08.578521+00:00"
     },
     "PGIL": {
       "symbol": "PGIL",
@@ -29511,7 +29511,7 @@
       "industry": "Apparel Manufacturing",
       "price": 1974.5,
       "ratios": {
-        "pe": 32.7718,
+        "pe": 32.7881,
         "pb": 6.2416,
         "roe_pct": 20.9,
         "debt_to_equity": 65.567,
@@ -29526,8 +29526,8 @@
       },
       "valuation": {
         "dcf_fair_value": 1107.84,
-        "graham_number": 654.86,
-        "blended_fair_value": 881.35,
+        "graham_number": 654.7,
+        "blended_fair_value": 881.27,
         "estimated_upside_pct": -55.4,
         "valuation_models_used": 2
       },
@@ -29551,7 +29551,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858458+00:00"
+      "updated_at": "2026-07-26T08:41:08.578602+00:00"
     },
     "PHOENIXLTD": {
       "symbol": "PHOENIXLTD",
@@ -29560,7 +29560,7 @@
       "industry": "Real Estate - Diversified",
       "price": 2010.7,
       "ratios": {
-        "pe": 57.4322,
+        "pe": 57.465,
         "pb": 6.543,
         "roe_pct": 11.06,
         "debt_to_equity": 37.211,
@@ -29575,8 +29575,8 @@
       },
       "valuation": {
         "dcf_fair_value": 668.33,
-        "graham_number": 492.01,
-        "blended_fair_value": 580.17,
+        "graham_number": 491.87,
+        "blended_fair_value": 580.1,
         "estimated_upside_pct": -71.1,
         "valuation_models_used": 2
       },
@@ -29599,7 +29599,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858575+00:00"
+      "updated_at": "2026-07-26T08:41:08.578683+00:00"
     },
     "PICCADIL": {
       "symbol": "PICCADIL",
@@ -29608,7 +29608,7 @@
       "industry": "Beverages - Wineries & Distilleries",
       "price": 737.2,
       "ratios": {
-        "pe": 51.8425,
+        "pe": 51.806,
         "pb": 7.9156,
         "roe_pct": 17.37,
         "debt_to_equity": 58.89,
@@ -29623,8 +29623,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 172.62,
-        "blended_fair_value": 172.62,
+        "graham_number": 172.68,
+        "blended_fair_value": 172.68,
         "estimated_upside_pct": -76.6,
         "valuation_models_used": 1
       },
@@ -29648,7 +29648,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858683+00:00"
+      "updated_at": "2026-07-26T08:41:08.578765+00:00"
     },
     "PIGL": {
       "symbol": "PIGL",
@@ -29697,7 +29697,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.858895+00:00"
+      "updated_at": "2026-07-26T08:41:08.578934+00:00"
     },
     "PILANIINVS": {
       "symbol": "PILANIINVS",
@@ -29706,7 +29706,7 @@
       "industry": "Asset Management",
       "price": 4311.4,
       "ratios": {
-        "pe": 154.1437,
+        "pe": 153.8687,
         "pb": 0.3008,
         "roe_pct": 0.19,
         "debt_to_equity": 15.067,
@@ -29721,8 +29721,8 @@
       },
       "valuation": {
         "dcf_fair_value": 12137.82,
-        "graham_number": 3003.51,
-        "blended_fair_value": 7570.66,
+        "graham_number": 3006.19,
+        "blended_fair_value": 7572.01,
         "estimated_upside_pct": 75.6,
         "valuation_models_used": 2
       },
@@ -29746,7 +29746,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859108+00:00"
+      "updated_at": "2026-07-26T08:41:08.579101+00:00"
     },
     "PINELABS": {
       "symbol": "PINELABS",
@@ -29795,7 +29795,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859216+00:00"
+      "updated_at": "2026-07-26T08:41:08.579184+00:00"
     },
     "PIONEEREMB": {
       "symbol": "PIONEEREMB",
@@ -29804,7 +29804,7 @@
       "industry": "Textile Manufacturing",
       "price": 22.05,
       "ratios": {
-        "pe": 105.0,
+        "pe": 110.25,
         "pb": 0.4346,
         "roe_pct": 0.39,
         "debt_to_equity": 58.416,
@@ -29819,9 +29819,9 @@
       },
       "valuation": {
         "dcf_fair_value": 5.84,
-        "graham_number": 15.48,
-        "blended_fair_value": 10.66,
-        "estimated_upside_pct": -51.7,
+        "graham_number": 15.11,
+        "blended_fair_value": 10.47,
+        "estimated_upside_pct": -52.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -29842,7 +29842,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859338+00:00"
+      "updated_at": "2026-07-26T08:41:08.579267+00:00"
     },
     "PIONRINV": {
       "symbol": "PIONRINV",
@@ -29890,7 +29890,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859449+00:00"
+      "updated_at": "2026-07-26T08:41:08.579344+00:00"
     },
     "PIRAMALFIN": {
       "symbol": "PIRAMALFIN",
@@ -29899,7 +29899,7 @@
       "industry": "Credit Services",
       "price": 2085.4,
       "ratios": {
-        "pe": 27.9694,
+        "pe": 27.932,
         "pb": 1.6748,
         "roe_pct": 0.0,
         "debt_to_equity": 285.784,
@@ -29914,9 +29914,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 1445.29,
-        "blended_fair_value": 1445.29,
-        "estimated_upside_pct": -30.7,
+        "graham_number": 1446.26,
+        "blended_fair_value": 1446.26,
+        "estimated_upside_pct": -30.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -29938,7 +29938,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859561+00:00"
+      "updated_at": "2026-07-26T08:41:08.579436+00:00"
     },
     "PITTIENG": {
       "symbol": "PITTIENG",
@@ -29947,7 +29947,7 @@
       "industry": "Metal Fabrication",
       "price": 920.65,
       "ratios": {
-        "pe": 28.9513,
+        "pe": 28.9877,
         "pb": 3.4434,
         "roe_pct": 12.5,
         "debt_to_equity": 82.134,
@@ -29962,8 +29962,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 437.38,
-        "blended_fair_value": 437.38,
+        "graham_number": 437.1,
+        "blended_fair_value": 437.1,
         "estimated_upside_pct": -52.5,
         "valuation_models_used": 1
       },
@@ -29985,7 +29985,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859665+00:00"
+      "updated_at": "2026-07-26T08:41:08.579521+00:00"
     },
     "PIXTRANS": {
       "symbol": "PIXTRANS",
@@ -29994,7 +29994,7 @@
       "industry": "Specialty Industrial Machinery",
       "price": 1766.1,
       "ratios": {
-        "pe": 22.5268,
+        "pe": 22.5239,
         "pb": 3.454,
         "roe_pct": 16.54,
         "debt_to_equity": 3.477,
@@ -30009,8 +30009,8 @@
       },
       "valuation": {
         "dcf_fair_value": 1936.44,
-        "graham_number": 949.72,
-        "blended_fair_value": 1443.08,
+        "graham_number": 949.78,
+        "blended_fair_value": 1443.11,
         "estimated_upside_pct": -18.3,
         "valuation_models_used": 2
       },
@@ -30034,7 +30034,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859770+00:00"
+      "updated_at": "2026-07-26T08:41:08.579605+00:00"
     },
     "PKTEA": {
       "symbol": "PKTEA",
@@ -30082,7 +30082,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859870+00:00"
+      "updated_at": "2026-07-26T08:41:08.579684+00:00"
     },
     "PLASTIBLEN": {
       "symbol": "PLASTIBLEN",
@@ -30091,7 +30091,7 @@
       "industry": "Specialty Chemicals",
       "price": 188.85,
       "ratios": {
-        "pe": 11.4942,
+        "pe": 11.4802,
         "pb": 1.0938,
         "roe_pct": 0.0,
         "debt_to_equity": 4.968,
@@ -30106,9 +30106,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 252.63,
-        "blended_fair_value": 252.63,
-        "estimated_upside_pct": 33.8,
+        "graham_number": 252.79,
+        "blended_fair_value": 252.79,
+        "estimated_upside_pct": 33.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -30128,7 +30128,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.859973+00:00"
+      "updated_at": "2026-07-26T08:41:08.579766+00:00"
     },
     "PLATIND": {
       "symbol": "PLATIND",
@@ -30177,7 +30177,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860072+00:00"
+      "updated_at": "2026-07-26T08:41:08.579842+00:00"
     },
     "PML": {
       "symbol": "PML",
@@ -30224,7 +30224,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860171+00:00"
+      "updated_at": "2026-07-26T08:41:08.579918+00:00"
     },
     "PNBGILTS": {
       "symbol": "PNBGILTS",
@@ -30273,7 +30273,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860401+00:00"
+      "updated_at": "2026-07-26T08:41:08.580082+00:00"
     },
     "PNBHOUSING": {
       "symbol": "PNBHOUSING",
@@ -30282,7 +30282,7 @@
       "industry": "Mortgage Finance",
       "price": 1058.0,
       "ratios": {
-        "pe": 12.0501,
+        "pe": 12.0487,
         "pb": 1.4343,
         "roe_pct": 12.7,
         "debt_to_equity": 277.418,
@@ -30297,8 +30297,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 1207.15,
-        "blended_fair_value": 1207.15,
+        "graham_number": 1207.22,
+        "blended_fair_value": 1207.22,
         "estimated_upside_pct": 14.1,
         "valuation_models_used": 1
       },
@@ -30322,7 +30322,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860513+00:00"
+      "updated_at": "2026-07-26T08:41:08.580162+00:00"
     },
     "PNC": {
       "symbol": "PNC",
@@ -30371,7 +30371,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860614+00:00"
+      "updated_at": "2026-07-26T08:41:08.580241+00:00"
     },
     "PNGJL": {
       "symbol": "PNGJL",
@@ -30380,7 +30380,7 @@
       "industry": "Luxury Goods",
       "price": 647.0,
       "ratios": {
-        "pe": 21.4309,
+        "pe": 21.4168,
         "pb": 4.474,
         "roe_pct": 23.31,
         "debt_to_equity": 88.504,
@@ -30395,9 +30395,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 313.42,
-        "blended_fair_value": 313.42,
-        "estimated_upside_pct": -51.6,
+        "graham_number": 313.52,
+        "blended_fair_value": 313.52,
+        "estimated_upside_pct": -51.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -30420,7 +30420,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860827+00:00"
+      "updated_at": "2026-07-26T08:41:08.580407+00:00"
     },
     "PNGSREVA": {
       "symbol": "PNGSREVA",
@@ -30429,7 +30429,7 @@
       "industry": "Luxury Goods",
       "price": 405.95,
       "ratios": {
-        "pe": 14.299,
+        "pe": 14.284,
         "pb": 2.4977,
         "roe_pct": 21.01,
         "debt_to_equity": 32.942,
@@ -30444,8 +30444,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 322.21,
-        "blended_fair_value": 322.21,
+        "graham_number": 322.38,
+        "blended_fair_value": 322.38,
         "estimated_upside_pct": -20.6,
         "valuation_models_used": 1
       },
@@ -30469,7 +30469,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.860931+00:00"
+      "updated_at": "2026-07-26T08:41:08.580500+00:00"
     },
     "POCL": {
       "symbol": "POCL",
@@ -30478,7 +30478,7 @@
       "industry": "Specialty Chemicals",
       "price": 526.2,
       "ratios": {
-        "pe": 29.9147,
+        "pe": 29.9317,
         "pb": 2.0364,
         "roe_pct": 19.09,
         "debt_to_equity": 19.293,
@@ -30493,8 +30493,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 319.8,
-        "blended_fair_value": 319.8,
+        "graham_number": 319.71,
+        "blended_fair_value": 319.71,
         "estimated_upside_pct": -39.2,
         "valuation_models_used": 1
       },
@@ -30518,7 +30518,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861041+00:00"
+      "updated_at": "2026-07-26T08:41:08.580582+00:00"
     },
     "PODDARMENT": {
       "symbol": "PODDARMENT",
@@ -30527,7 +30527,7 @@
       "industry": "Specialty Chemicals",
       "price": 263.98,
       "ratios": {
-        "pe": 18.9641,
+        "pe": 18.9777,
         "pb": 0.799,
         "roe_pct": 4.13,
         "debt_to_equity": 1.743,
@@ -30542,8 +30542,8 @@
       },
       "valuation": {
         "dcf_fair_value": 326.74,
-        "graham_number": 321.68,
-        "blended_fair_value": 324.21,
+        "graham_number": 321.57,
+        "blended_fair_value": 324.15,
         "estimated_upside_pct": 22.8,
         "valuation_models_used": 2
       },
@@ -30566,7 +30566,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861145+00:00"
+      "updated_at": "2026-07-26T08:41:08.580664+00:00"
     },
     "POKARNA": {
       "symbol": "POKARNA",
@@ -30575,7 +30575,7 @@
       "industry": "Building Products & Equipment",
       "price": 926.5,
       "ratios": {
-        "pe": 35.5799,
+        "pe": 35.5935,
         "pb": 3.352,
         "roe_pct": 9.86,
         "debt_to_equity": 53.459,
@@ -30590,8 +30590,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 402.43,
-        "blended_fair_value": 402.43,
+        "graham_number": 402.35,
+        "blended_fair_value": 402.35,
         "estimated_upside_pct": -56.6,
         "valuation_models_used": 1
       },
@@ -30614,7 +30614,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861249+00:00"
+      "updated_at": "2026-07-26T08:41:08.580748+00:00"
     },
     "POLYMED": {
       "symbol": "POLYMED",
@@ -30623,7 +30623,7 @@
       "industry": "Medical Instruments & Supplies",
       "price": 1664.0,
       "ratios": {
-        "pe": 52.3435,
+        "pe": 52.36,
         "pb": 5.4301,
         "roe_pct": 10.85,
         "debt_to_equity": 11.227,
@@ -30638,8 +30638,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 468.17,
-        "blended_fair_value": 468.17,
+        "graham_number": 468.1,
+        "blended_fair_value": 468.1,
         "estimated_upside_pct": -71.9,
         "valuation_models_used": 1
       },
@@ -30663,7 +30663,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861604+00:00"
+      "updated_at": "2026-07-26T08:41:08.580994+00:00"
     },
     "POLYPLEX": {
       "symbol": "POLYPLEX",
@@ -30672,7 +30672,7 @@
       "industry": "Specialty Chemicals",
       "price": 1128.95,
       "ratios": {
-        "pe": 80.0106,
+        "pe": 78.7273,
         "pb": 0.8359,
         "roe_pct": 0.62,
         "debt_to_equity": 13.292,
@@ -30687,9 +30687,9 @@
       },
       "valuation": {
         "dcf_fair_value": 509.94,
-        "graham_number": 654.82,
-        "blended_fair_value": 582.38,
-        "estimated_upside_pct": -48.4,
+        "graham_number": 660.13,
+        "blended_fair_value": 585.03,
+        "estimated_upside_pct": -48.2,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -30712,7 +30712,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861708+00:00"
+      "updated_at": "2026-07-26T08:41:08.581075+00:00"
     },
     "PONNIERODE": {
       "symbol": "PONNIERODE",
@@ -30721,11 +30721,11 @@
       "industry": "Confectioners",
       "price": 316.0,
       "ratios": {
-        "pe": 5.657,
+        "pe": 5.4918,
         "pb": 0.4783,
-        "roe_pct": 8.73,
+        "roe_pct": 0.0,
         "debt_to_equity": null,
-        "profit_margin_pct": 11.57
+        "profit_margin_pct": 11.09
       },
       "growth": {
         "revenue_cagr_pct": -1.6,
@@ -30735,32 +30735,31 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 258.5,
-        "graham_number": 911.29,
-        "blended_fair_value": 584.89,
-        "estimated_upside_pct": 85.1,
+        "dcf_fair_value": 203.64,
+        "graham_number": 924.89,
+        "blended_fair_value": 564.26,
+        "estimated_upside_pct": 78.6,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 46,
-        "rating": "🟡 HOLD",
+        "total": 36,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 15,
-          "profitability": 6,
-          "stability": 8,
+          "profitability": 4,
+          "stability": 0,
           "growth": 2,
           "valuation_upside": 15
         },
         "key_notes": [
           "Trading near/below book value",
-          "Healthy net margin (11.6%)",
-          "Strong liquidity position",
+          "Healthy net margin (11.1%)",
           "Declining revenue trend (-1.6%)",
-          "Significant estimated undervaluation (~85%)"
+          "Significant estimated undervaluation (~79%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861814+00:00"
+      "updated_at": "2026-07-26T08:41:08.581156+00:00"
     },
     "POONAWALLA": {
       "symbol": "POONAWALLA",
@@ -30769,7 +30768,7 @@
       "industry": "Credit Services",
       "price": 459.7,
       "ratios": {
-        "pe": 48.2371,
+        "pe": 48.0858,
         "pb": 3.5893,
         "roe_pct": 0.0,
         "debt_to_equity": 468.058,
@@ -30784,9 +30783,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 165.72,
-        "blended_fair_value": 165.72,
-        "estimated_upside_pct": -64.0,
+        "graham_number": 165.98,
+        "blended_fair_value": 165.98,
+        "estimated_upside_pct": -63.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -30809,7 +30808,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.861922+00:00"
+      "updated_at": "2026-07-26T08:41:08.581236+00:00"
     },
     "POWERICA": {
       "symbol": "POWERICA",
@@ -30818,7 +30817,7 @@
       "industry": "Specialty Industrial Machinery",
       "price": 568.25,
       "ratios": {
-        "pe": 42.0303,
+        "pe": 43.1146,
         "pb": 3.1759,
         "roe_pct": 17.89,
         "debt_to_equity": 28.506,
@@ -30833,9 +30832,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 233.3,
-        "blended_fair_value": 233.3,
-        "estimated_upside_pct": -58.9,
+        "graham_number": 230.35,
+        "blended_fair_value": 230.35,
+        "estimated_upside_pct": -59.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -30854,11 +30853,11 @@
           "Very low debt",
           "Strong liquidity position",
           "Strong profit CAGR (25.2%)",
-          "Appears overvalued vs blended intrinsic estimate (~-59%)"
+          "Appears overvalued vs blended intrinsic estimate (~-60%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862136+00:00"
+      "updated_at": "2026-07-26T08:41:08.581403+00:00"
     },
     "POWERINDIA": {
       "symbol": "POWERINDIA",
@@ -30867,7 +30866,7 @@
       "industry": "Electrical Equipment & Parts",
       "price": 31070.0,
       "ratios": {
-        "pe": 140.4294,
+        "pe": 140.8432,
         "pb": 26.7557,
         "roe_pct": 21.04,
         "debt_to_equity": 1.663,
@@ -30882,8 +30881,8 @@
       },
       "valuation": {
         "dcf_fair_value": 5698.72,
-        "graham_number": 2404.34,
-        "blended_fair_value": 4051.53,
+        "graham_number": 2400.8,
+        "blended_fair_value": 4049.76,
         "estimated_upside_pct": -87.0,
         "valuation_models_used": 2
       },
@@ -30907,7 +30906,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862241+00:00"
+      "updated_at": "2026-07-26T08:41:08.581498+00:00"
     },
     "POWERMECH": {
       "symbol": "POWERMECH",
@@ -30916,7 +30915,7 @@
       "industry": "Engineering & Construction",
       "price": 2593.6,
       "ratios": {
-        "pe": 22.553,
+        "pe": 22.5217,
         "pb": 3.2559,
         "roe_pct": 17.26,
         "debt_to_equity": 25.632,
@@ -30931,8 +30930,8 @@
       },
       "valuation": {
         "dcf_fair_value": 757.55,
-        "graham_number": 1435.68,
-        "blended_fair_value": 1096.62,
+        "graham_number": 1436.68,
+        "blended_fair_value": 1097.12,
         "estimated_upside_pct": -57.7,
         "valuation_models_used": 2
       },
@@ -30956,7 +30955,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862365+00:00"
+      "updated_at": "2026-07-26T08:41:08.581581+00:00"
     },
     "PPAP": {
       "symbol": "PPAP",
@@ -30965,7 +30964,7 @@
       "industry": "Auto Parts",
       "price": 290.38,
       "ratios": {
-        "pe": 9.5269,
+        "pe": 9.5238,
         "pb": 1.2016,
         "roe_pct": 13.73,
         "debt_to_equity": 60.801,
@@ -30980,8 +30979,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 407.11,
-        "blended_fair_value": 407.11,
+        "graham_number": 407.17,
+        "blended_fair_value": 407.17,
         "estimated_upside_pct": 40.2,
         "valuation_models_used": 1
       },
@@ -31004,7 +31003,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862474+00:00"
+      "updated_at": "2026-07-26T08:41:08.581662+00:00"
     },
     "PPL": {
       "symbol": "PPL",
@@ -31051,7 +31050,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862577+00:00"
+      "updated_at": "2026-07-26T08:41:08.581743+00:00"
     },
     "PPLPHARMA": {
       "symbol": "PPLPHARMA",
@@ -31098,7 +31097,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862679+00:00"
+      "updated_at": "2026-07-26T08:41:08.581823+00:00"
     },
     "PRABHA": {
       "symbol": "PRABHA",
@@ -31146,7 +31145,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862781+00:00"
+      "updated_at": "2026-07-26T08:41:08.581904+00:00"
     },
     "PRADPME": {
       "symbol": "PRADPME",
@@ -31195,7 +31194,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862880+00:00"
+      "updated_at": "2026-07-26T08:41:08.581980+00:00"
     },
     "PRAENG": {
       "symbol": "PRAENG",
@@ -31243,7 +31242,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.862980+00:00"
+      "updated_at": "2026-07-26T08:41:08.582059+00:00"
     },
     "PRAJIND": {
       "symbol": "PRAJIND",
@@ -31290,7 +31289,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863083+00:00"
+      "updated_at": "2026-07-26T08:41:08.582141+00:00"
     },
     "PRAKASH": {
       "symbol": "PRAKASH",
@@ -31339,7 +31338,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863185+00:00"
+      "updated_at": "2026-07-26T08:41:08.582222+00:00"
     },
     "PRAKASHSTL": {
       "symbol": "PRAKASHSTL",
@@ -31386,7 +31385,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863288+00:00"
+      "updated_at": "2026-07-26T08:41:08.582304+00:00"
     },
     "PRAVEG": {
       "symbol": "PRAVEG",
@@ -31432,7 +31431,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863406+00:00"
+      "updated_at": "2026-07-26T08:41:08.582381+00:00"
     },
     "PRECAM": {
       "symbol": "PRECAM",
@@ -31441,7 +31440,7 @@
       "industry": "Auto Parts",
       "price": 138.65,
       "ratios": {
-        "pe": 25.6285,
+        "pe": 25.7236,
         "pb": 1.5761,
         "roe_pct": 6.3,
         "debt_to_equity": 13.008,
@@ -31456,8 +31455,8 @@
       },
       "valuation": {
         "dcf_fair_value": 57.46,
-        "graham_number": 103.48,
-        "blended_fair_value": 80.47,
+        "graham_number": 103.29,
+        "blended_fair_value": 80.38,
         "estimated_upside_pct": -42.0,
         "valuation_models_used": 2
       },
@@ -31479,7 +31478,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863521+00:00"
+      "updated_at": "2026-07-26T08:41:08.582473+00:00"
     },
     "PRECOT": {
       "symbol": "PRECOT",
@@ -31488,7 +31487,7 @@
       "industry": "Textile Manufacturing",
       "price": 823.75,
       "ratios": {
-        "pe": 27.5594,
+        "pe": 27.5502,
         "pb": 2.0571,
         "roe_pct": 7.72,
         "debt_to_equity": 72.242,
@@ -31503,8 +31502,8 @@
       },
       "valuation": {
         "dcf_fair_value": -87.2,
-        "graham_number": 518.95,
-        "blended_fair_value": 518.95,
+        "graham_number": 519.04,
+        "blended_fair_value": 519.04,
         "estimated_upside_pct": -37.0,
         "valuation_models_used": 1
       },
@@ -31526,7 +31525,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863624+00:00"
+      "updated_at": "2026-07-26T08:41:08.582556+00:00"
     },
     "PRECWIRE": {
       "symbol": "PRECWIRE",
@@ -31575,7 +31574,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863726+00:00"
+      "updated_at": "2026-07-26T08:41:08.582636+00:00"
     },
     "PREMCO": {
       "symbol": "PREMCO",
@@ -31622,7 +31621,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863824+00:00"
+      "updated_at": "2026-07-26T08:41:08.582712+00:00"
     },
     "PREMEXPLN": {
       "symbol": "PREMEXPLN",
@@ -31631,7 +31630,7 @@
       "industry": "Specialty Chemicals",
       "price": 662.1,
       "ratios": {
-        "pe": 77.9859,
+        "pe": 77.5293,
         "pb": 12.3528,
         "roe_pct": 17.04,
         "debt_to_equity": 11.133,
@@ -31646,8 +31645,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 101.19,
-        "blended_fair_value": 101.19,
+        "graham_number": 101.48,
+        "blended_fair_value": 101.48,
         "estimated_upside_pct": -84.7,
         "valuation_models_used": 1
       },
@@ -31671,7 +31670,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.863928+00:00"
+      "updated_at": "2026-07-26T08:41:08.582792+00:00"
     },
     "PREMIERENE": {
       "symbol": "PREMIERENE",
@@ -31680,7 +31679,7 @@
       "industry": "Solar",
       "price": 1019.3,
       "ratios": {
-        "pe": 30.3273,
+        "pe": 30.3002,
         "pb": 10.6602,
         "roe_pct": 42.33,
         "debt_to_equity": 86.005,
@@ -31695,8 +31694,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 268.9,
-        "blended_fair_value": 268.9,
+        "graham_number": 269.02,
+        "blended_fair_value": 269.02,
         "estimated_upside_pct": -73.6,
         "valuation_models_used": 1
       },
@@ -31720,7 +31719,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.864036+00:00"
+      "updated_at": "2026-07-26T08:41:08.582873+00:00"
     },
     "PRESTIGE": {
       "symbol": "PRESTIGE",
@@ -31729,7 +31728,7 @@
       "industry": "Real Estate - Diversified",
       "price": 1592.8,
       "ratios": {
-        "pe": 57.3569,
+        "pe": 57.4811,
         "pb": 4.2134,
         "roe_pct": 8.0,
         "debt_to_equity": 105.493,
@@ -31744,8 +31743,8 @@
       },
       "valuation": {
         "dcf_fair_value": -143.61,
-        "graham_number": 486.01,
-        "blended_fair_value": 486.01,
+        "graham_number": 485.48,
+        "blended_fair_value": 485.48,
         "estimated_upside_pct": -69.5,
         "valuation_models_used": 1
       },
@@ -31767,7 +31766,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.864144+00:00"
+      "updated_at": "2026-07-26T08:41:08.582956+00:00"
     },
     "PRICOLLTD": {
       "symbol": "PRICOLLTD",
@@ -31776,7 +31775,7 @@
       "industry": "Auto Parts",
       "price": 628.7,
       "ratios": {
-        "pe": 30.5194,
+        "pe": 30.5788,
         "pb": 6.1063,
         "roe_pct": 22.09,
         "debt_to_equity": 30.215,
@@ -31791,8 +31790,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 218.45,
-        "blended_fair_value": 218.45,
+        "graham_number": 218.24,
+        "blended_fair_value": 218.24,
         "estimated_upside_pct": -65.3,
         "valuation_models_used": 1
       },
@@ -31816,7 +31815,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.864252+00:00"
+      "updated_at": "2026-07-26T08:41:08.583037+00:00"
     },
     "PRIMESECU": {
       "symbol": "PRIMESECU",
@@ -31825,7 +31824,7 @@
       "industry": "Capital Markets",
       "price": 274.45,
       "ratios": {
-        "pe": 72.2237,
+        "pe": 204.8134,
         "pb": 2.9917,
         "roe_pct": 0.0,
         "debt_to_equity": 0.582,
@@ -31840,9 +31839,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 88.56,
-        "blended_fair_value": 88.56,
-        "estimated_upside_pct": -67.7,
+        "graham_number": 52.59,
+        "blended_fair_value": 52.59,
+        "estimated_upside_pct": -80.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -31859,11 +31858,11 @@
           "Leverage ratio not directly comparable (financial sector)",
           "Strong revenue CAGR (46.6%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-68%)"
+          "Appears overvalued vs blended intrinsic estimate (~-81%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.864379+00:00"
+      "updated_at": "2026-07-26T08:41:08.583118+00:00"
     },
     "PRIMO": {
       "symbol": "PRIMO",
@@ -31911,7 +31910,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.864499+00:00"
+      "updated_at": "2026-07-26T08:41:08.583200+00:00"
     },
     "PRINCEPIPE": {
       "symbol": "PRINCEPIPE",
@@ -31958,7 +31957,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-07-25T03:33:52.864604+00:00"
+      "updated_at": "2026-07-26T08:41:08.583285+00:00"
     },
     "PRITIKAUTO": {
       "symbol": "PRITIKAUTO",
