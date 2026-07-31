@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-30T23:36:05.969477+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 821,
+  "stock_count": 822,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -39395,6 +39395,55 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-07-30T23:36:05.969455+00:00"
+    },
+    "FSL": {
+      "symbol": "FSL",
+      "company_name": "Firstsource Solutions Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 299.62,
+      "ratios": {
+        "pe": 30.6673,
+        "pb": 4.7176,
+        "roe_pct": 15.9,
+        "debt_to_equity": 67.135,
+        "profit_margin_pct": 7.06
+      },
+      "growth": {
+        "revenue_cagr_pct": 17.1,
+        "net_income_cagr_pct": 9.5,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 335.18,
+        "graham_number": 118.16,
+        "blended_fair_value": 226.67,
+        "estimated_upside_pct": -24.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 39,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 9,
+          "stability": 8,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (15.9%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (17.1%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-24%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-31T02:04:56.343584+00:00"
     }
   }
 }
