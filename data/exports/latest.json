@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-07-30T23:36:05.969477+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 823,
+  "stock_count": 824,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -39492,6 +39492,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-07-31T02:38:00.868039+00:00"
+    },
+    "BIKAJI": {
+      "symbol": "BIKAJI",
+      "company_name": "Bikaji Foods International Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 643.7,
+      "ratios": {
+        "pe": 62.6777,
+        "pb": 10.0435,
+        "roe_pct": 15.96,
+        "debt_to_equity": 17.531,
+        "profit_margin_pct": 8.63
+      },
+      "growth": {
+        "revenue_cagr_pct": 14.3,
+        "net_income_cagr_pct": 23.5,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 111.5,
+        "graham_number": 121.7,
+        "blended_fair_value": 116.6,
+        "estimated_upside_pct": -81.9,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 13,
+          "stability": 20,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (16.0%)",
+          "Healthy net margin (8.6%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Healthy revenue CAGR (14.3%)",
+          "Strong profit CAGR (23.5%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-07-31T02:48:22.862597+00:00"
     }
   }
 }
