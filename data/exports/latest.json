@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-07T11:18:57.008981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1553,
+  "stock_count": 1554,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -74307,6 +74307,54 @@
       },
       "source": "manual_search",
       "updated_at": "2026-08-07T12:48:53.326692+00:00"
+    },
+    "SYRMA": {
+      "symbol": "SYRMA",
+      "company_name": "Syrma SGS Technology Limited",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "price": 1424.7,
+      "ratios": {
+        "pe": 73.8952,
+        "pb": 9.5219,
+        "roe_pct": 0.0,
+        "debt_to_equity": 13.045,
+        "profit_margin_pct": 6.74
+      },
+      "growth": {
+        "revenue_cagr_pct": 33.8,
+        "net_income_cagr_pct": 38.6,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 164.86,
+        "graham_number": 254.77,
+        "blended_fair_value": 209.81,
+        "estimated_upside_pct": -85.3,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 34,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 12,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong revenue CAGR (33.8%)",
+          "Strong profit CAGR (38.6%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-85%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-07T12:49:45.123957+00:00"
     }
   }
 }
