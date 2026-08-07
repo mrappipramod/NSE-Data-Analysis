@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-07T11:18:57.008981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1551,
+  "stock_count": 1552,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -74210,6 +74210,54 @@
       },
       "source": "manual_search",
       "updated_at": "2026-08-07T12:44:49.566953+00:00"
+    },
+    "WOCKPHARMA": {
+      "symbol": "WOCKPHARMA",
+      "company_name": "Wockhardt Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 2021.0,
+      "ratios": {
+        "pe": 157.3988,
+        "pb": 6.6385,
+        "roe_pct": 4.0,
+        "debt_to_equity": 42.284,
+        "profit_margin_pct": 6.15
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.8,
+        "net_income_cagr_pct": null,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -67.67,
+        "graham_number": 296.57,
+        "blended_fair_value": 296.57,
+        "estimated_upside_pct": -85.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 29,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 4,
+          "stability": 13,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong liquidity position",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-85%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-07T12:45:25.100018+00:00"
     }
   }
 }
