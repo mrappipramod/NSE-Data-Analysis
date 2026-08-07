@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-07T11:18:57.008981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1554,
+  "stock_count": 1555,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -74355,6 +74355,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-08-07T12:49:45.123957+00:00"
+    },
+    "AIAENG": {
+      "symbol": "AIAENG",
+      "company_name": "AIA Engineering Limited",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 4776.0,
+      "ratios": {
+        "pe": 35.0687,
+        "pb": 5.5526,
+        "roe_pct": 16.95,
+        "debt_to_equity": 0.128,
+        "profit_margin_pct": 28.74
+      },
+      "growth": {
+        "revenue_cagr_pct": -3.5,
+        "net_income_cagr_pct": 6.4,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 1028.11,
+        "graham_number": 1623.48,
+        "blended_fair_value": 1325.8,
+        "estimated_upside_pct": -72.2,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 46,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 18,
+          "stability": 20,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Strong ROE (17.0%)",
+          "High net margin (28.7%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-3.5%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-07T12:55:16.227685+00:00"
     }
   }
 }
