@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-07T11:18:57.008981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1549,
+  "stock_count": 1550,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -74114,6 +74114,55 @@
       },
       "source": "manual_search",
       "updated_at": "2026-08-07T12:42:25.548677+00:00"
+    },
+    "TMCV": {
+      "symbol": "TMCV",
+      "company_name": "TMCV",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "price": 453.1,
+      "ratios": {
+        "pe": 55.0547,
+        "pb": 13.1026,
+        "roe_pct": 26.05,
+        "debt_to_equity": 44.095,
+        "profit_margin_pct": 3.61
+      },
+      "growth": {
+        "revenue_cagr_pct": -56.0,
+        "net_income_cagr_pct": -69.3,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 50.0,
+        "years_of_data": 3
+      },
+      "valuation": {
+        "dcf_fair_value": 296.45,
+        "graham_number": 80.02,
+        "blended_fair_value": 188.23,
+        "estimated_upside_pct": -58.5,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 25,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 9,
+          "stability": 8,
+          "growth": 8,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Excellent ROE (26.0%)",
+          "Manageable debt level",
+          "Declining revenue trend (-56.0%)",
+          "Profit growth declining/negative",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-58%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-07T12:43:58.595022+00:00"
     }
   }
 }
