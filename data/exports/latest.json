@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-07T11:18:57.008981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1547,
+  "stock_count": 1548,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -74017,6 +74017,54 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-08-07T11:18:57.008958+00:00"
+    },
+    "UNOMINDA": {
+      "symbol": "UNOMINDA",
+      "company_name": "Uno Minda Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 1285.0,
+      "ratios": {
+        "pe": 61.9277,
+        "pb": 11.8785,
+        "roe_pct": 0.0,
+        "debt_to_equity": 37.74,
+        "profit_margin_pct": 5.8
+      },
+      "growth": {
+        "revenue_cagr_pct": 20.5,
+        "net_income_cagr_pct": 22.4,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 31.31,
+        "graham_number": 224.74,
+        "blended_fair_value": 224.74,
+        "estimated_upside_pct": -82.5,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 30,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong revenue CAGR (20.5%)",
+          "Strong profit CAGR (22.4%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-82%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-07T12:39:35.767750+00:00"
     }
   }
 }
