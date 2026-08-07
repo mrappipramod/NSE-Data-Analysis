@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-07T11:18:57.008981+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1550,
+  "stock_count": 1551,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -74163,6 +74163,53 @@
       },
       "source": "manual_search",
       "updated_at": "2026-08-07T12:43:58.595022+00:00"
+    },
+    "TIMKEN": {
+      "symbol": "TIMKEN",
+      "company_name": "Timken India Limited",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "price": 3351.0,
+      "ratios": {
+        "pe": 60.7505,
+        "pb": 8.6482,
+        "roe_pct": 0.0,
+        "debt_to_equity": 0.5,
+        "profit_margin_pct": 11.84
+      },
+      "growth": {
+        "revenue_cagr_pct": 7.5,
+        "net_income_cagr_pct": 2.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 339.32,
+        "graham_number": 693.47,
+        "blended_fair_value": 516.39,
+        "estimated_upside_pct": -84.6,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 24,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 6,
+          "stability": 8,
+          "growth": 10,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (11.8%)",
+          "Manageable debt level",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-85%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-07T12:44:49.566953+00:00"
     }
   }
 }
