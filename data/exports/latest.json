@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generated_at": "2026-08-08T04:20:44.109942+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1226,
+  "stock_count": 1227,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -58434,6 +58434,53 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-08-08T04:20:44.109821+00:00"
+    },
+    "REDINGTON": {
+      "symbol": "REDINGTON",
+      "company_name": "Redington Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 354.85,
+      "ratios": {
+        "pe": 16.3149,
+        "pb": 2.7302,
+        "roe_pct": 0.0,
+        "debt_to_equity": 27.26,
+        "profit_margin_pct": 1.33
+      },
+      "growth": {
+        "revenue_cagr_pct": 14.5,
+        "net_income_cagr_pct": 2.3,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -7.85,
+        "graham_number": 252.2,
+        "blended_fair_value": 252.2,
+        "estimated_upside_pct": -28.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 36,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 9,
+          "profitability": 0,
+          "stability": 12,
+          "growth": 15,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Healthy revenue CAGR (14.5%)",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-29%)"
+        ]
+      },
+      "source": "manual_search",
+      "updated_at": "2026-08-08T05:03:38.386937+00:00"
     }
   }
 }
