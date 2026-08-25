@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-25T18:55:01.234657+00:00",
+  "generated_at": "2026-08-25T20:09:24.424387+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 376,
+  "stock_count": 378,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -18006,6 +18006,103 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-08-25T18:55:01.234633+00:00"
+    },
+    "ZYDUSWELL": {
+      "symbol": "ZYDUSWELL",
+      "company_name": "Zydus Wellness Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 525.45,
+      "ratios": {
+        "pe": 88.6088,
+        "pb": 2.8695,
+        "roe_pct": 0.0,
+        "debt_to_equity": 54.974,
+        "profit_margin_pct": 4.15
+      },
+      "growth": {
+        "revenue_cagr_pct": 20.7,
+        "net_income_cagr_pct": -14.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 13.85,
+        "graham_number": 156.31,
+        "blended_fair_value": 156.31,
+        "estimated_upside_pct": -70.3,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 26,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 2,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong revenue CAGR (20.7%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-70%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-08-25T20:09:24.424210+00:00"
+    },
+    "DHANLAXMI": {
+      "symbol": "DHANLAXMI",
+      "company_name": "Dhanlaxmi Crop Science Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "price": 55.0,
+      "ratios": {
+        "pe": 8.3969,
+        "pb": 1.7752,
+        "roe_pct": 0.0,
+        "debt_to_equity": 22.006,
+        "profit_margin_pct": 13.36
+      },
+      "growth": {
+        "revenue_cagr_pct": 54.0,
+        "net_income_cagr_pct": 146.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 67.57,
+        "blended_fair_value": 67.57,
+        "estimated_upside_pct": 22.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 75,
+        "rating": "🟢 STRONG BUY",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 8,
+          "stability": 20,
+          "growth": 25,
+          "valuation_upside": 10
+        },
+        "key_notes": [
+          "Healthy net margin (13.4%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (54.0%)",
+          "Strong profit CAGR (146.0%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-08-25T20:09:24.424376+00:00"
     }
   }
 }
