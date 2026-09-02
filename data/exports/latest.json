@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-02T04:16:38.417932+00:00",
+  "generated_at": "2026-09-02T06:17:52.034858+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 831,
+  "stock_count": 837,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -39656,6 +39656,298 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-09-02T04:16:38.417915+00:00"
+    },
+    "ZSARACOM": {
+      "symbol": "ZSARACOM",
+      "company_name": "Saraswati Commercial (India) Limited",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "price": 10390.0,
+      "ratios": {
+        "pe": 8.927,
+        "pb": 1.0338,
+        "roe_pct": 0.0,
+        "debt_to_equity": 0.011,
+        "profit_margin_pct": 80.14
+      },
+      "growth": {
+        "revenue_cagr_pct": -35.7,
+        "net_income_cagr_pct": 99.1,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 16222.88,
+        "blended_fair_value": 16222.88,
+        "estimated_upside_pct": 56.1,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 63,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 11,
+          "stability": 10,
+          "growth": 12,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (80.1%)",
+          "Leverage ratio not directly comparable (financial sector)",
+          "Declining revenue trend (-35.7%)",
+          "Strong profit CAGR (99.1%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-02T06:17:52.034242+00:00"
+    },
+    "ZUARI": {
+      "symbol": "ZUARI",
+      "company_name": "Zuari Agro Chemicals Limited",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 222.86,
+      "ratios": {
+        "pe": 0.9979,
+        "pb": 0.3706,
+        "roe_pct": 0.0,
+        "debt_to_equity": 30.705,
+        "profit_margin_pct": 36.56
+      },
+      "growth": {
+        "revenue_cagr_pct": -11.1,
+        "net_income_cagr_pct": 24.5,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -54.63,
+        "graham_number": 1738.31,
+        "blended_fair_value": 1738.31,
+        "estimated_upside_pct": 680.0,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 55,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 7,
+          "stability": 8,
+          "growth": 10,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (36.6%)",
+          "Manageable debt level",
+          "Declining revenue trend (-11.1%)",
+          "Strong profit CAGR (24.5%)",
+          "Significant estimated undervaluation (~680%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-02T06:17:52.034372+00:00"
+    },
+    "ZUARIIND": {
+      "symbol": "ZUARIIND",
+      "company_name": "Zuari Industries Limited",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "price": 268.8,
+      "ratios": {
+        "pe": 7.3785,
+        "pb": 0.2211,
+        "roe_pct": 0.0,
+        "debt_to_equity": 72.104,
+        "profit_margin_pct": 9.87
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.1,
+        "net_income_cagr_pct": -29.7,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -153.97,
+        "graham_number": 998.22,
+        "blended_fair_value": 998.22,
+        "estimated_upside_pct": 271.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 50,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 4,
+          "stability": 8,
+          "growth": 8,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Healthy net margin (9.9%)",
+          "Manageable debt level",
+          "Profit growth declining/negative",
+          "Significant estimated undervaluation (~271%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-02T06:17:52.034494+00:00"
+    },
+    "ZYDUSLIFE": {
+      "symbol": "ZYDUSLIFE",
+      "company_name": "Zydus Lifesciences Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 1148.4,
+      "ratios": {
+        "pe": 25.6168,
+        "pb": 4.2623,
+        "roe_pct": 0.0,
+        "debt_to_equity": 42.304,
+        "profit_margin_pct": 15.78
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.5,
+        "net_income_cagr_pct": 37.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 521.32,
+        "blended_fair_value": 521.32,
+        "estimated_upside_pct": -54.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 47,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 9,
+          "stability": 8,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (15.8%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (16.5%)",
+          "Strong profit CAGR (37.0%)",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-02T06:17:52.034610+00:00"
+    },
+    "ZYDUSWELL": {
+      "symbol": "ZYDUSWELL",
+      "company_name": "Zydus Wellness Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 527.85,
+      "ratios": {
+        "pe": 88.8636,
+        "pb": 2.8826,
+        "roe_pct": 0.0,
+        "debt_to_equity": 54.974,
+        "profit_margin_pct": 4.15
+      },
+      "growth": {
+        "revenue_cagr_pct": 20.7,
+        "net_income_cagr_pct": -14.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 13.85,
+        "graham_number": 156.44,
+        "blended_fair_value": 156.44,
+        "estimated_upside_pct": -70.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 26,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 2,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong revenue CAGR (20.7%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-70%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-02T06:17:52.034718+00:00"
+    },
+    "DHANLAXMI": {
+      "symbol": "DHANLAXMI",
+      "company_name": "Dhanlaxmi Crop Science Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "price": 55.0,
+      "ratios": {
+        "pe": 8.3969,
+        "pb": 1.7752,
+        "roe_pct": 0.0,
+        "debt_to_equity": 22.006,
+        "profit_margin_pct": 13.36
+      },
+      "growth": {
+        "revenue_cagr_pct": 54.0,
+        "net_income_cagr_pct": 146.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 67.57,
+        "blended_fair_value": 67.57,
+        "estimated_upside_pct": 22.9,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 75,
+        "rating": "🟢 STRONG BUY",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 8,
+          "stability": 20,
+          "growth": 25,
+          "valuation_upside": 10
+        },
+        "key_notes": [
+          "Healthy net margin (13.4%)",
+          "Very low debt",
+          "Strong liquidity position",
+          "Strong revenue CAGR (54.0%)",
+          "Strong profit CAGR (146.0%)",
+          "Consistent YoY growth"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-02T06:17:52.034848+00:00"
     }
   }
 }
