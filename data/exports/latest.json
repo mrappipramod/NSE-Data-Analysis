@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10T06:14:51.033001+00:00",
+  "generated_at": "2026-09-10T11:22:38.828045+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 1120,
+  "stock_count": 1131,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -53385,6 +53385,534 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-09-10T06:14:51.032887+00:00"
+    },
+    "ZENTEC": {
+      "symbol": "ZENTEC",
+      "company_name": "Zen Technologies Limited",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 1749.9,
+      "ratios": {
+        "pe": 90.2476,
+        "pb": 8.7565,
+        "roe_pct": 0.0,
+        "debt_to_equity": 0.95,
+        "profit_margin_pct": 26.85
+      },
+      "growth": {
+        "revenue_cagr_pct": 46.5,
+        "net_income_cagr_pct": 65.4,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 612.41,
+        "graham_number": 295.27,
+        "blended_fair_value": 453.84,
+        "estimated_upside_pct": -74.1,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 36,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 11,
+          "stability": 3,
+          "growth": 22,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (26.8%)",
+          "Strong revenue CAGR (46.5%)",
+          "Strong profit CAGR (65.4%)",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-74%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827434+00:00"
+    },
+    "ZFCVINDIA": {
+      "symbol": "ZFCVINDIA",
+      "company_name": "ZF Commercial Vehicle Control Systems India Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 2528.4,
+      "ratios": {
+        "pe": 2.8126,
+        "pb": 7.7968,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 11.86
+      },
+      "growth": {
+        "revenue_cagr_pct": 6.2,
+        "net_income_cagr_pct": 17.6,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": 950.94,
+        "graham_number": 2561.1,
+        "blended_fair_value": 1756.02,
+        "estimated_upside_pct": -30.5,
+        "valuation_models_used": 2
+      },
+      "fundamental_score": {
+        "total": 34,
+        "rating": "🟠 WEAK",
+        "pillars": {
+          "valuation": 8,
+          "profitability": 6,
+          "stability": 0,
+          "growth": 20,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Healthy net margin (11.9%)",
+          "Strong profit CAGR (17.6%)",
+          "Consistent YoY growth",
+          "Margins expanding",
+          "Appears overvalued vs blended intrinsic estimate (~-30%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827528+00:00"
+    },
+    "ZFSTEERING": {
+      "symbol": "ZFSTEERING",
+      "company_name": "ZF Steering Gear (India) Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 743.4,
+      "ratios": {
+        "pe": 34.0541,
+        "pb": null,
+        "roe_pct": 0.0,
+        "debt_to_equity": 22.157,
+        "profit_margin_pct": 3.41
+      },
+      "growth": {
+        "revenue_cagr_pct": 8.3,
+        "net_income_cagr_pct": -14.4,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 4
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 24,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 12,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Healthy revenue CAGR (8.3%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827592+00:00"
+    },
+    "ZODIACLOTH": {
+      "symbol": "ZODIACLOTH",
+      "company_name": "Zodiac Clothing Company Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Manufacturing",
+      "price": 70.42,
+      "ratios": {
+        "pe": null,
+        "pb": 1.0187,
+        "roe_pct": 0.0,
+        "debt_to_equity": 58.75,
+        "profit_margin_pct": -22.25
+      },
+      "growth": {
+        "revenue_cagr_pct": -1.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -11.18,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 15,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 7,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Manageable debt level",
+          "Declining revenue trend (-1.5%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827649+00:00"
+    },
+    "ZOTA": {
+      "symbol": "ZOTA",
+      "company_name": "Zota Health Care Limited",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "price": 1099.5,
+      "ratios": {
+        "pe": null,
+        "pb": 5.4909,
+        "roe_pct": 0.0,
+        "debt_to_equity": 38.847,
+        "profit_margin_pct": -16.95
+      },
+      "growth": {
+        "revenue_cagr_pct": 56.7,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 20,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 0,
+          "profitability": 0,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong revenue CAGR (56.7%)",
+          "Consistent YoY growth",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827705+00:00"
+    },
+    "ZSARACOM": {
+      "symbol": "ZSARACOM",
+      "company_name": "Saraswati Commercial (India) Limited",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "price": 11190.0,
+      "ratios": {
+        "pe": 9.8555,
+        "pb": 1.1134,
+        "roe_pct": 0.0,
+        "debt_to_equity": 0.011,
+        "profit_margin_pct": 80.14
+      },
+      "growth": {
+        "revenue_cagr_pct": 18.4,
+        "net_income_cagr_pct": 99.1,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 16023.24,
+        "blended_fair_value": 16023.24,
+        "estimated_upside_pct": 43.2,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 71,
+        "rating": "🟢 BUY",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 11,
+          "stability": 10,
+          "growth": 20,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (80.1%)",
+          "Leverage ratio not directly comparable (financial sector)",
+          "Strong revenue CAGR (18.4%)",
+          "Strong profit CAGR (99.1%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827762+00:00"
+    },
+    "ZUARI": {
+      "symbol": "ZUARI",
+      "company_name": "Zuari Agro Chemicals Limited",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 223.04,
+      "ratios": {
+        "pe": 1.009,
+        "pb": 0.3709,
+        "roe_pct": 0.0,
+        "debt_to_equity": 30.705,
+        "profit_margin_pct": 36.56
+      },
+      "growth": {
+        "revenue_cagr_pct": -11.1,
+        "net_income_cagr_pct": 24.5,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 33.3,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -54.62,
+        "graham_number": 1729.41,
+        "blended_fair_value": 1729.41,
+        "estimated_upside_pct": 675.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 57,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 7,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "High net margin (36.6%)",
+          "Manageable debt level",
+          "Declining revenue trend (-11.1%)",
+          "Strong profit CAGR (24.5%)",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827817+00:00"
+    },
+    "ZUARIIND": {
+      "symbol": "ZUARIIND",
+      "company_name": "Zuari Industries Limited",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "price": 271.5,
+      "ratios": {
+        "pe": 7.4547,
+        "pb": 0.2233,
+        "roe_pct": 0.0,
+        "debt_to_equity": 72.104,
+        "profit_margin_pct": 9.87
+      },
+      "growth": {
+        "revenue_cagr_pct": 3.0,
+        "net_income_cagr_pct": -29.7,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": -155.25,
+        "graham_number": 998.09,
+        "blended_fair_value": 998.09,
+        "estimated_upside_pct": 267.6,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 50,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 15,
+          "profitability": 4,
+          "stability": 8,
+          "growth": 8,
+          "valuation_upside": 15
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Healthy net margin (9.9%)",
+          "Manageable debt level",
+          "Profit growth declining/negative",
+          "Significant estimated undervaluation (~268%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827877+00:00"
+    },
+    "ZYDUSLIFE": {
+      "symbol": "ZYDUSLIFE",
+      "company_name": "Zydus Lifesciences Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 1117.8,
+      "ratios": {
+        "pe": 25.2953,
+        "pb": 4.1487,
+        "roe_pct": 0.0,
+        "debt_to_equity": 42.304,
+        "profit_margin_pct": 15.78
+      },
+      "growth": {
+        "revenue_cagr_pct": 16.5,
+        "net_income_cagr_pct": 37.0,
+        "margin_trend": "expanding",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": 517.58,
+        "blended_fair_value": 517.58,
+        "estimated_upside_pct": -53.7,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 47,
+        "rating": "🟡 HOLD",
+        "pillars": {
+          "valuation": 5,
+          "profitability": 9,
+          "stability": 8,
+          "growth": 25,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "High net margin (15.8%)",
+          "Manageable debt level",
+          "Strong revenue CAGR (16.5%)",
+          "Strong profit CAGR (37.0%)",
+          "Consistent YoY growth",
+          "Margins expanding"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827932+00:00"
+    },
+    "ZYDUSWELL": {
+      "symbol": "ZYDUSWELL",
+      "company_name": "Zydus Wellness Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 566.3,
+      "ratios": {
+        "pe": 95.6588,
+        "pb": 3.0926,
+        "roe_pct": 0.0,
+        "debt_to_equity": 54.974,
+        "profit_margin_pct": 4.15
+      },
+      "growth": {
+        "revenue_cagr_pct": 20.7,
+        "net_income_cagr_pct": -14.0,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": 13.85,
+        "graham_number": 156.18,
+        "blended_fair_value": 156.18,
+        "estimated_upside_pct": -72.4,
+        "valuation_models_used": 1
+      },
+      "fundamental_score": {
+        "total": 26,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 2,
+          "stability": 8,
+          "growth": 12,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Manageable debt level",
+          "Strong revenue CAGR (20.7%)",
+          "Profit growth declining/negative",
+          "Consistent YoY growth",
+          "Appears overvalued vs blended intrinsic estimate (~-72%)"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.827987+00:00"
+    },
+    "DHANLAXMI": {
+      "symbol": "DHANLAXMI",
+      "company_name": "Dhanlaxmi Crop Science Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "price": 55.0,
+      "ratios": {
+        "pe": null,
+        "pb": 1.9761,
+        "roe_pct": -1.08,
+        "debt_to_equity": 23.284,
+        "profit_margin_pct": -1.29
+      },
+      "growth": {
+        "revenue_cagr_pct": -6.5,
+        "net_income_cagr_pct": null,
+        "margin_trend": "contracting",
+        "revenue_growth_consistency_pct": 66.7,
+        "years_of_data": 5
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 26,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 4,
+          "profitability": 0,
+          "stability": 20,
+          "growth": 2,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Very low debt",
+          "Strong liquidity position",
+          "Declining revenue trend (-6.5%)",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-10T11:22:38.828039+00:00"
     }
   }
 }
