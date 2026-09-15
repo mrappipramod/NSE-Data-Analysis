@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-15T11:44:53.096266+00:00",
+  "generated_at": "2026-09-15T12:49:55.585682+00:00",
   "universe": "NSE_ALL_CHUNKED",
-  "stock_count": 2394,
+  "stock_count": 2395,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
   "disclaimer": "Fundamental research data only, not investment advice. Scores and fair-value estimates are model outputs from limited public data. See README for methodology.",
   "stocks": {
@@ -29298,7 +29298,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T16:16:13.647280+00:00"
+      "updated_at": "2026-09-15T12:49:55.568686+00:00"
     },
     "MAXPOSURE": {
       "symbol": "MAXPOSURE",
@@ -29345,7 +29345,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.903764+00:00"
+      "updated_at": "2026-09-15T12:49:55.568823+00:00"
     },
     "APS": {
       "symbol": "APS",
@@ -29355,44 +29355,45 @@
       "price": 520.15,
       "ratios": {
         "pe": 25.5979,
-        "pb": 6.3893,
+        "pb": 6.3865,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
       },
       "growth": {
-        "revenue_cagr_pct": 64.8,
-        "net_income_cagr_pct": 145.7,
+        "revenue_cagr_pct": 95.6,
+        "net_income_cagr_pct": 160.0,
         "margin_trend": "expanding",
-        "revenue_growth_consistency_pct": 66.7,
-        "years_of_data": 4
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 132.02,
+        "dcf_fair_value": 320.36,
         "graham_number": null,
-        "blended_fair_value": 132.02,
-        "estimated_upside_pct": -74.6,
+        "blended_fair_value": 320.36,
+        "estimated_upside_pct": -38.4,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 27,
-        "rating": "🔴 AVOID",
+        "total": 30,
+        "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 5,
           "profitability": 0,
           "stability": 0,
-          "growth": 22,
+          "growth": 25,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Strong revenue CAGR (64.8%)",
-          "Strong profit CAGR (145.7%)",
+          "Strong revenue CAGR (95.6%)",
+          "Strong profit CAGR (160.0%)",
+          "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-75%)"
+          "Appears overvalued vs blended intrinsic estimate (~-38%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.903904+00:00"
+      "updated_at": "2026-09-15T12:49:55.568942+00:00"
     },
     "IBLFL": {
       "symbol": "IBLFL",
@@ -29437,7 +29438,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904019+00:00"
+      "updated_at": "2026-09-15T12:49:55.569055+00:00"
     },
     "KLL": {
       "symbol": "KLL",
@@ -29483,7 +29484,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904132+00:00"
+      "updated_at": "2026-09-15T12:49:55.569168+00:00"
     },
     "KCEIL": {
       "symbol": "KCEIL",
@@ -29531,7 +29532,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904242+00:00"
+      "updated_at": "2026-09-15T12:49:55.569274+00:00"
     },
     "HRHNEXT": {
       "symbol": "HRHNEXT",
@@ -29578,7 +29579,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904371+00:00"
+      "updated_at": "2026-09-15T12:49:55.569379+00:00"
     },
     "SAIFL": {
       "symbol": "SAIFL",
@@ -29626,7 +29627,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904486+00:00"
+      "updated_at": "2026-09-15T12:49:55.569512+00:00"
     },
     "SUPREMEPWR": {
       "symbol": "SUPREMEPWR",
@@ -29673,7 +29674,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904599+00:00"
+      "updated_at": "2026-09-15T12:49:55.569628+00:00"
     },
     "INDIFRA": {
       "symbol": "INDIFRA",
@@ -29720,7 +29721,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904706+00:00"
+      "updated_at": "2026-09-15T12:49:55.569734+00:00"
     },
     "TECHLABS": {
       "symbol": "TECHLABS",
@@ -29736,39 +29737,37 @@
         "profit_margin_pct": 0.0
       },
       "growth": {
-        "revenue_cagr_pct": 37.1,
-        "net_income_cagr_pct": 160.0,
-        "margin_trend": "expanding",
+        "revenue_cagr_pct": 13.0,
+        "net_income_cagr_pct": 9.1,
+        "margin_trend": "contracting",
         "revenue_growth_consistency_pct": 100.0,
-        "years_of_data": 4
+        "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 194.75,
+        "dcf_fair_value": 94.58,
         "graham_number": null,
-        "blended_fair_value": 194.75,
-        "estimated_upside_pct": -72.5,
+        "blended_fair_value": 94.58,
+        "estimated_upside_pct": -86.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 25,
+        "total": 15,
         "rating": "🔴 AVOID",
         "pillars": {
           "valuation": 0,
           "profitability": 0,
           "stability": 0,
-          "growth": 25,
+          "growth": 15,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Strong revenue CAGR (37.1%)",
-          "Strong profit CAGR (160.0%)",
+          "Healthy revenue CAGR (13.0%)",
           "Consistent YoY growth",
-          "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-72%)"
+          "Appears overvalued vs blended intrinsic estimate (~-87%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904812+00:00"
+      "updated_at": "2026-09-15T12:49:55.569840+00:00"
     },
     "EFORCE": {
       "symbol": "EFORCE",
@@ -29778,7 +29777,7 @@
       "price": 73.4,
       "ratios": {
         "pe": 133.4545,
-        "pb": 2.3995,
+        "pb": 2.3819,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -29814,7 +29813,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.904915+00:00"
+      "updated_at": "2026-09-15T12:49:55.569943+00:00"
     },
     "SHREEOSFM": {
       "symbol": "SHREEOSFM",
@@ -29824,7 +29823,7 @@
       "price": 160.0,
       "ratios": {
         "pe": 32.5203,
-        "pb": 2.9283,
+        "pb": 2.9275,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -29861,7 +29860,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905023+00:00"
+      "updated_at": "2026-09-15T12:49:55.570048+00:00"
     },
     "SJLOGISTIC": {
       "symbol": "SJLOGISTIC",
@@ -29871,7 +29870,7 @@
       "price": 457.0,
       "ratios": {
         "pe": 9.5367,
-        "pb": 2.306,
+        "pb": 2.2985,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -29909,7 +29908,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905127+00:00"
+      "updated_at": "2026-09-15T12:49:55.570149+00:00"
     },
     "PRESSTONIC": {
       "symbol": "PRESSTONIC",
@@ -29954,7 +29953,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905230+00:00"
+      "updated_at": "2026-09-15T12:49:55.570250+00:00"
     },
     "ACCENTMIC": {
       "symbol": "ACCENTMIC",
@@ -30002,7 +30001,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905333+00:00"
+      "updated_at": "2026-09-15T12:49:55.570351+00:00"
     },
     "GRAPHISAD": {
       "symbol": "GRAPHISAD",
@@ -30050,7 +30049,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905489+00:00"
+      "updated_at": "2026-09-15T12:49:55.570450+00:00"
     },
     "SHEETAL": {
       "symbol": "SHEETAL",
@@ -30098,7 +30097,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905598+00:00"
+      "updated_at": "2026-09-15T12:49:55.570575+00:00"
     },
     "MARINETRAN": {
       "symbol": "MARINETRAN",
@@ -30108,7 +30107,7 @@
       "price": 27.0,
       "ratios": {
         "pe": 69.2308,
-        "pb": 1.3282,
+        "pb": 1.2948,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -30145,7 +30144,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905700+00:00"
+      "updated_at": "2026-09-15T12:49:55.570683+00:00"
     },
     "CBAZAAR": {
       "symbol": "CBAZAAR",
@@ -30190,7 +30189,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905803+00:00"
+      "updated_at": "2026-09-15T12:49:55.570784+00:00"
     },
     "ROCKINGDCE": {
       "symbol": "ROCKINGDCE",
@@ -30238,7 +30237,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.905906+00:00"
+      "updated_at": "2026-09-15T12:49:55.570886+00:00"
     },
     "SUNREST": {
       "symbol": "SUNREST",
@@ -30286,7 +30285,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906007+00:00"
+      "updated_at": "2026-09-15T12:49:55.570988+00:00"
     },
     "ROXHITECH": {
       "symbol": "ROXHITECH",
@@ -30332,7 +30331,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906111+00:00"
+      "updated_at": "2026-09-15T12:49:55.571091+00:00"
     },
     "BABAFP": {
       "symbol": "BABAFP",
@@ -30377,7 +30376,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906211+00:00"
+      "updated_at": "2026-09-15T12:49:55.571190+00:00"
     },
     "MICROPRO": {
       "symbol": "MICROPRO",
@@ -30423,7 +30422,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906311+00:00"
+      "updated_at": "2026-09-15T12:49:55.571289+00:00"
     },
     "SARTELE": {
       "symbol": "SARTELE",
@@ -30471,7 +30470,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906487+00:00"
+      "updated_at": "2026-09-15T12:49:55.571389+00:00"
     },
     "MAITREYA": {
       "symbol": "MAITREYA",
@@ -30516,7 +30515,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906615+00:00"
+      "updated_at": "2026-09-15T12:49:55.571507+00:00"
     },
     "TRANSTEEL": {
       "symbol": "TRANSTEEL",
@@ -30565,7 +30564,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906722+00:00"
+      "updated_at": "2026-09-15T12:49:55.571615+00:00"
     },
     "SHANTHALA": {
       "symbol": "SHANTHALA",
@@ -30612,7 +30611,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906826+00:00"
+      "updated_at": "2026-09-15T12:49:55.571716+00:00"
     },
     "PARAGON": {
       "symbol": "PARAGON",
@@ -30657,7 +30656,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.906928+00:00"
+      "updated_at": "2026-09-15T12:49:55.571817+00:00"
     },
     "ONDOOR": {
       "symbol": "ONDOOR",
@@ -30704,7 +30703,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907030+00:00"
+      "updated_at": "2026-09-15T12:49:55.571916+00:00"
     },
     "RCDL": {
       "symbol": "RCDL",
@@ -30714,7 +30713,7 @@
       "price": 35.3,
       "ratios": {
         "pe": 9.9157,
-        "pb": 0.8821,
+        "pb": 0.885,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -30752,7 +30751,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907131+00:00"
+      "updated_at": "2026-09-15T12:49:55.572016+00:00"
     },
     "WOMANCART": {
       "symbol": "WOMANCART",
@@ -30800,7 +30799,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907232+00:00"
+      "updated_at": "2026-09-15T12:49:55.572115+00:00"
     },
     "COMMITTED": {
       "symbol": "COMMITTED",
@@ -30810,7 +30809,7 @@
       "price": 53.1,
       "ratios": {
         "pe": 5.2574,
-        "pb": 0.8724,
+        "pb": 0.6771,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -30848,7 +30847,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907332+00:00"
+      "updated_at": "2026-09-15T12:49:55.572217+00:00"
     },
     "PLADAINFO": {
       "symbol": "PLADAINFO",
@@ -30896,7 +30895,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907487+00:00"
+      "updated_at": "2026-09-15T12:49:55.572319+00:00"
     },
     "KARNIKA": {
       "symbol": "KARNIKA",
@@ -30944,7 +30943,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907619+00:00"
+      "updated_at": "2026-09-15T12:49:55.572420+00:00"
     },
     "SCML": {
       "symbol": "SCML",
@@ -30992,7 +30991,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907722+00:00"
+      "updated_at": "2026-09-15T12:49:55.572547+00:00"
     },
     "CANARYS": {
       "symbol": "CANARYS",
@@ -31039,7 +31038,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907823+00:00"
+      "updated_at": "2026-09-15T12:49:55.572666+00:00"
     },
     "OLIL": {
       "symbol": "OLIL",
@@ -31087,7 +31086,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.907925+00:00"
+      "updated_at": "2026-09-15T12:49:55.572772+00:00"
     },
     "GOYALSALT": {
       "symbol": "GOYALSALT",
@@ -31135,7 +31134,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908026+00:00"
+      "updated_at": "2026-09-15T12:49:55.572874+00:00"
     },
     "VISHNUINFR": {
       "symbol": "VISHNUINFR",
@@ -31181,7 +31180,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908129+00:00"
+      "updated_at": "2026-09-15T12:49:55.572978+00:00"
     },
     "KONTOR": {
       "symbol": "KONTOR",
@@ -31227,7 +31226,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908230+00:00"
+      "updated_at": "2026-09-15T12:49:55.573078+00:00"
     },
     "EFACTOR": {
       "symbol": "EFACTOR",
@@ -31237,7 +31236,7 @@
       "price": 212.0,
       "ratios": {
         "pe": 14.1145,
-        "pb": 3.0752,
+        "pb": 3.082,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -31275,7 +31274,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908332+00:00"
+      "updated_at": "2026-09-15T12:49:55.573182+00:00"
     },
     "ARABIAN": {
       "symbol": "ARABIAN",
@@ -31323,7 +31322,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908467+00:00"
+      "updated_at": "2026-09-15T12:49:55.573284+00:00"
     },
     "VINYAS": {
       "symbol": "VINYAS",
@@ -31371,7 +31370,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908575+00:00"
+      "updated_at": "2026-09-15T12:49:55.573385+00:00"
     },
     "INSPIRE": {
       "symbol": "INSPIRE",
@@ -31418,7 +31417,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908677+00:00"
+      "updated_at": "2026-09-15T12:49:55.573505+00:00"
     },
     "NEWJAISA": {
       "symbol": "NEWJAISA",
@@ -31464,7 +31463,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908777+00:00"
+      "updated_at": "2026-09-15T12:49:55.573614+00:00"
     },
     "DIGIKORE": {
       "symbol": "DIGIKORE",
@@ -31511,7 +31510,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908878+00:00"
+      "updated_at": "2026-09-15T12:49:55.573717+00:00"
     },
     "MAL": {
       "symbol": "MAL",
@@ -31558,7 +31557,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.908979+00:00"
+      "updated_at": "2026-09-15T12:49:55.573817+00:00"
     },
     "SAAKSHI": {
       "symbol": "SAAKSHI",
@@ -31604,7 +31603,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909078+00:00"
+      "updated_at": "2026-09-15T12:49:55.573917+00:00"
     },
     "MASTER": {
       "symbol": "MASTER",
@@ -31652,7 +31651,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909177+00:00"
+      "updated_at": "2026-09-15T12:49:55.574020+00:00"
     },
     "HIGREEN": {
       "symbol": "HIGREEN",
@@ -31698,7 +31697,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909278+00:00"
+      "updated_at": "2026-09-15T12:49:55.574122+00:00"
     },
     "MARCO": {
       "symbol": "MARCO",
@@ -31743,7 +31742,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909408+00:00"
+      "updated_at": "2026-09-15T12:49:55.574223+00:00"
     },
     "CELLECOR": {
       "symbol": "CELLECOR",
@@ -31790,7 +31789,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909521+00:00"
+      "updated_at": "2026-09-15T12:49:55.574325+00:00"
     },
     "KODYTECH": {
       "symbol": "KODYTECH",
@@ -31837,7 +31836,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909623+00:00"
+      "updated_at": "2026-09-15T12:49:55.574426+00:00"
     },
     "MADHUSUDAN": {
       "symbol": "MADHUSUDAN",
@@ -31885,7 +31884,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909722+00:00"
+      "updated_at": "2026-09-15T12:49:55.574551+00:00"
     },
     "KEL": {
       "symbol": "KEL",
@@ -31933,7 +31932,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909823+00:00"
+      "updated_at": "2026-09-15T12:49:55.574662+00:00"
     },
     "CHAVDA": {
       "symbol": "CHAVDA",
@@ -31949,7 +31948,7 @@
         "profit_margin_pct": 0.0
       },
       "growth": {
-        "revenue_cagr_pct": 25.6,
+        "revenue_cagr_pct": 25.5,
         "net_income_cagr_pct": 12.2,
         "margin_trend": "stable",
         "revenue_growth_consistency_pct": 100.0,
@@ -31973,13 +31972,13 @@
           "valuation_upside": 0
         },
         "key_notes": [
-          "Strong revenue CAGR (25.6%)",
+          "Strong revenue CAGR (25.5%)",
           "Consistent YoY growth",
           "Insufficient data for intrinsic value estimate"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.909922+00:00"
+      "updated_at": "2026-09-15T12:49:55.574770+00:00"
     },
     "HOLMARC": {
       "symbol": "HOLMARC",
@@ -32025,7 +32024,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910025+00:00"
+      "updated_at": "2026-09-15T12:49:55.574875+00:00"
     },
     "UNIHEALTH": {
       "symbol": "UNIHEALTH",
@@ -32035,7 +32034,7 @@
       "price": 121.0,
       "ratios": {
         "pe": 7.3245,
-        "pb": 1.3805,
+        "pb": 1.3694,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -32074,7 +32073,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910133+00:00"
+      "updated_at": "2026-09-15T12:49:55.574976+00:00"
     },
     "JIWANRAM": {
       "symbol": "JIWANRAM",
@@ -32122,7 +32121,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910235+00:00"
+      "updated_at": "2026-09-15T12:49:55.575080+00:00"
     },
     "PRAMARA": {
       "symbol": "PRAMARA",
@@ -32170,7 +32169,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910333+00:00"
+      "updated_at": "2026-09-15T12:49:55.575183+00:00"
     },
     "SAROJA": {
       "symbol": "SAROJA",
@@ -32217,7 +32216,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910473+00:00"
+      "updated_at": "2026-09-15T12:49:55.575284+00:00"
     },
     "BASILIC": {
       "symbol": "BASILIC",
@@ -32264,7 +32263,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910578+00:00"
+      "updated_at": "2026-09-15T12:49:55.575384+00:00"
     },
     "MONOPHARMA": {
       "symbol": "MONOPHARMA",
@@ -32312,7 +32311,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910679+00:00"
+      "updated_at": "2026-09-15T12:49:55.575504+00:00"
     },
     "CPS": {
       "symbol": "CPS",
@@ -32358,7 +32357,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910779+00:00"
+      "updated_at": "2026-09-15T12:49:55.575618+00:00"
     },
     "SEL": {
       "symbol": "SEL",
@@ -32406,7 +32405,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910880+00:00"
+      "updated_at": "2026-09-15T12:49:55.575720+00:00"
     },
     "CLSL": {
       "symbol": "CLSL",
@@ -32454,7 +32453,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.910979+00:00"
+      "updated_at": "2026-09-15T12:49:55.575820+00:00"
     },
     "SSFL": {
       "symbol": "SSFL",
@@ -32501,7 +32500,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911079+00:00"
+      "updated_at": "2026-09-15T12:49:55.575919+00:00"
     },
     "YUDIZ": {
       "symbol": "YUDIZ",
@@ -32546,7 +32545,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911180+00:00"
+      "updated_at": "2026-09-15T12:49:55.576020+00:00"
     },
     "SANGANI": {
       "symbol": "SANGANI",
@@ -32593,7 +32592,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911281+00:00"
+      "updated_at": "2026-09-15T12:49:55.576119+00:00"
     },
     "ORIANA": {
       "symbol": "ORIANA",
@@ -32641,7 +32640,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911416+00:00"
+      "updated_at": "2026-09-15T12:49:55.576222+00:00"
     },
     "VINSYS": {
       "symbol": "VINSYS",
@@ -32688,7 +32687,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911539+00:00"
+      "updated_at": "2026-09-15T12:49:55.576323+00:00"
     },
     "ZEAL": {
       "symbol": "ZEAL",
@@ -32733,7 +32732,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911639+00:00"
+      "updated_at": "2026-09-15T12:49:55.576423+00:00"
     },
     "SHRITECH": {
       "symbol": "SHRITECH",
@@ -32782,7 +32781,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911737+00:00"
+      "updated_at": "2026-09-15T12:49:55.576550+00:00"
     },
     "YCCL": {
       "symbol": "YCCL",
@@ -32830,7 +32829,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911834+00:00"
+      "updated_at": "2026-09-15T12:49:55.576671+00:00"
     },
     "SERVICE": {
       "symbol": "SERVICE",
@@ -32875,7 +32874,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.911932+00:00"
+      "updated_at": "2026-09-15T12:49:55.576774+00:00"
     },
     "DRONE": {
       "symbol": "DRONE",
@@ -32921,7 +32920,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912031+00:00"
+      "updated_at": "2026-09-15T12:49:55.576876+00:00"
     },
     "SYNOPTICS": {
       "symbol": "SYNOPTICS",
@@ -32969,7 +32968,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912129+00:00"
+      "updated_at": "2026-09-15T12:49:55.576978+00:00"
     },
     "TRIDHYA": {
       "symbol": "TRIDHYA",
@@ -33015,7 +33014,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912230+00:00"
+      "updated_at": "2026-09-15T12:49:55.577080+00:00"
     },
     "GLOBALPET": {
       "symbol": "GLOBALPET",
@@ -33063,7 +33062,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912332+00:00"
+      "updated_at": "2026-09-15T12:49:55.577181+00:00"
     },
     "PENTAGON": {
       "symbol": "PENTAGON",
@@ -33108,7 +33107,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912478+00:00"
+      "updated_at": "2026-09-15T12:49:55.577280+00:00"
     },
     "MAGSON": {
       "symbol": "MAGSON",
@@ -33155,7 +33154,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912585+00:00"
+      "updated_at": "2026-09-15T12:49:55.577381+00:00"
     },
     "ESFL": {
       "symbol": "ESFL",
@@ -33200,7 +33199,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912684+00:00"
+      "updated_at": "2026-09-15T12:49:55.577502+00:00"
     },
     "GREENCHEF": {
       "symbol": "GREENCHEF",
@@ -33245,7 +33244,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912783+00:00"
+      "updated_at": "2026-09-15T12:49:55.577610+00:00"
     },
     "AATMAJ": {
       "symbol": "AATMAJ",
@@ -33292,7 +33291,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912883+00:00"
+      "updated_at": "2026-09-15T12:49:55.577712+00:00"
     },
     "VILINBIO": {
       "symbol": "VILINBIO",
@@ -33339,7 +33338,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.912985+00:00"
+      "updated_at": "2026-09-15T12:49:55.577814+00:00"
     },
     "CELLPOINT": {
       "symbol": "CELLPOINT",
@@ -33387,7 +33386,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913090+00:00"
+      "updated_at": "2026-09-15T12:49:55.577915+00:00"
     },
     "URBAN": {
       "symbol": "URBAN",
@@ -33434,7 +33433,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913192+00:00"
+      "updated_at": "2026-09-15T12:49:55.578015+00:00"
     },
     "SPECTSTM": {
       "symbol": "SPECTSTM",
@@ -33482,7 +33481,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913295+00:00"
+      "updated_at": "2026-09-15T12:49:55.578118+00:00"
     },
     "KDL": {
       "symbol": "KDL",
@@ -33529,7 +33528,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913416+00:00"
+      "updated_at": "2026-09-15T12:49:55.578221+00:00"
     },
     "SAHANA": {
       "symbol": "SAHANA",
@@ -33576,7 +33575,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913523+00:00"
+      "updated_at": "2026-09-15T12:49:55.578322+00:00"
     },
     "INFOLLION": {
       "symbol": "INFOLLION",
@@ -33623,7 +33622,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913626+00:00"
+      "updated_at": "2026-09-15T12:49:55.578426+00:00"
     },
     "PROV": {
       "symbol": "PROV",
@@ -33633,7 +33632,7 @@
       "price": 1090.0,
       "ratios": {
         "pe": 26.6113,
-        "pb": 2.6054,
+        "pb": 2.6091,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -33670,7 +33669,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913730+00:00"
+      "updated_at": "2026-09-15T12:49:55.578549+00:00"
     },
     "CRAYONS": {
       "symbol": "CRAYONS",
@@ -33717,7 +33716,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913830+00:00"
+      "updated_at": "2026-09-15T12:49:55.578657+00:00"
     },
     "DENTALKART": {
       "symbol": "DENTALKART",
@@ -33764,7 +33763,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.913929+00:00"
+      "updated_at": "2026-09-15T12:49:55.578759+00:00"
     },
     "REMUS": {
       "symbol": "REMUS",
@@ -33811,7 +33810,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914028+00:00"
+      "updated_at": "2026-09-15T12:49:55.578861+00:00"
     },
     "KRISHCA": {
       "symbol": "KRISHCA",
@@ -33827,11 +33826,11 @@
         "profit_margin_pct": 0.0
       },
       "growth": {
-        "revenue_cagr_pct": 100.1,
-        "net_income_cagr_pct": 97.6,
-        "margin_trend": "stable",
+        "revenue_cagr_pct": 47.6,
+        "net_income_cagr_pct": 7.1,
+        "margin_trend": "contracting",
         "revenue_growth_consistency_pct": 100.0,
-        "years_of_data": 4
+        "years_of_data": 5
       },
       "valuation": {
         "dcf_fair_value": null,
@@ -33841,24 +33840,23 @@
         "valuation_models_used": 0
       },
       "fundamental_score": {
-        "total": 26,
+        "total": 19,
         "rating": "🔴 AVOID",
         "pillars": {
           "valuation": 4,
           "profitability": 0,
           "stability": 0,
-          "growth": 22,
+          "growth": 15,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Strong revenue CAGR (100.1%)",
-          "Strong profit CAGR (97.6%)",
+          "Strong revenue CAGR (47.6%)",
           "Consistent YoY growth",
           "Insufficient data for intrinsic value estimate"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914127+00:00"
+      "updated_at": "2026-09-15T12:49:55.578962+00:00"
     },
     "AUROIMPEX": {
       "symbol": "AUROIMPEX",
@@ -33903,7 +33901,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914228+00:00"
+      "updated_at": "2026-09-15T12:49:55.579064+00:00"
     },
     "DENEERS": {
       "symbol": "DENEERS",
@@ -33951,7 +33949,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914328+00:00"
+      "updated_at": "2026-09-15T12:49:55.579164+00:00"
     },
     "QUICKTOUCH": {
       "symbol": "QUICKTOUCH",
@@ -33997,7 +33995,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914447+00:00"
+      "updated_at": "2026-09-15T12:49:55.579264+00:00"
     },
     "AGUL": {
       "symbol": "AGUL",
@@ -34043,7 +34041,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914550+00:00"
+      "updated_at": "2026-09-15T12:49:55.579364+00:00"
     },
     "PATTECH": {
       "symbol": "PATTECH",
@@ -34090,7 +34088,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914648+00:00"
+      "updated_at": "2026-09-15T12:49:55.579464+00:00"
     },
     "MOS": {
       "symbol": "MOS",
@@ -34137,7 +34135,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914748+00:00"
+      "updated_at": "2026-09-15T12:49:55.579587+00:00"
     },
     "INFINIUM": {
       "symbol": "INFINIUM",
@@ -34183,7 +34181,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914850+00:00"
+      "updated_at": "2026-09-15T12:49:55.579691+00:00"
     },
     "SOTAC": {
       "symbol": "SOTAC",
@@ -34229,7 +34227,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.914953+00:00"
+      "updated_at": "2026-09-15T12:49:55.579793+00:00"
     },
     "NIRMAN": {
       "symbol": "NIRMAN",
@@ -34275,7 +34273,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915053+00:00"
+      "updated_at": "2026-09-15T12:49:55.579892+00:00"
     },
     "VELS": {
       "symbol": "VELS",
@@ -34321,7 +34319,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915155+00:00"
+      "updated_at": "2026-09-15T12:49:55.580093+00:00"
     },
     "MCON": {
       "symbol": "MCON",
@@ -34369,7 +34367,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915256+00:00"
+      "updated_at": "2026-09-15T12:49:55.580202+00:00"
     },
     "VERTEXPLUS": {
       "symbol": "VERTEXPLUS",
@@ -34415,7 +34413,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915376+00:00"
+      "updated_at": "2026-09-15T12:49:55.580302+00:00"
     },
     "SYSTANGO": {
       "symbol": "SYSTANGO",
@@ -34463,7 +34461,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915487+00:00"
+      "updated_at": "2026-09-15T12:49:55.580405+00:00"
     },
     "SRIVASAVI": {
       "symbol": "SRIVASAVI",
@@ -34510,7 +34508,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915588+00:00"
+      "updated_at": "2026-09-15T12:49:55.580523+00:00"
     },
     "VIAZ": {
       "symbol": "VIAZ",
@@ -34558,7 +34556,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915688+00:00"
+      "updated_at": "2026-09-15T12:49:55.580632+00:00"
     },
     "AGARWALFT": {
       "symbol": "AGARWALFT",
@@ -34568,7 +34566,7 @@
       "price": 84.95,
       "ratios": {
         "pe": 20.0354,
-        "pb": 6.1309,
+        "pb": 3.0793,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -34588,10 +34586,10 @@
         "valuation_models_used": 0
       },
       "fundamental_score": {
-        "total": 27,
-        "rating": "🔴 AVOID",
+        "total": 31,
+        "rating": "🟠 WEAK",
         "pillars": {
-          "valuation": 5,
+          "valuation": 9,
           "profitability": 0,
           "stability": 0,
           "growth": 22,
@@ -34605,7 +34603,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915788+00:00"
+      "updated_at": "2026-09-15T12:49:55.580739+00:00"
     },
     "LRRPL": {
       "symbol": "LRRPL",
@@ -34652,7 +34650,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915888+00:00"
+      "updated_at": "2026-09-15T12:49:55.580839+00:00"
     },
     "SHERA": {
       "symbol": "SHERA",
@@ -34699,7 +34697,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.915990+00:00"
+      "updated_at": "2026-09-15T12:49:55.580938+00:00"
     },
     "GRCL": {
       "symbol": "GRCL",
@@ -34747,7 +34745,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916088+00:00"
+      "updated_at": "2026-09-15T12:49:55.581038+00:00"
     },
     "ARISTO": {
       "symbol": "ARISTO",
@@ -34795,7 +34793,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916191+00:00"
+      "updated_at": "2026-09-15T12:49:55.581142+00:00"
     },
     "DUCOL": {
       "symbol": "DUCOL",
@@ -34840,7 +34838,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916289+00:00"
+      "updated_at": "2026-09-15T12:49:55.581244+00:00"
     },
     "CMNL": {
       "symbol": "CMNL",
@@ -34850,7 +34848,7 @@
       "price": 67.95,
       "ratios": {
         "pe": null,
-        "pb": 1.7218,
+        "pb": 1.7253,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -34885,7 +34883,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916405+00:00"
+      "updated_at": "2026-09-15T12:49:55.581343+00:00"
     },
     "ANLON": {
       "symbol": "ANLON",
@@ -34932,7 +34930,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916512+00:00"
+      "updated_at": "2026-09-15T12:49:55.581443+00:00"
     },
     "RBMINFRA": {
       "symbol": "RBMINFRA",
@@ -34980,7 +34978,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916613+00:00"
+      "updated_at": "2026-09-15T12:49:55.581565+00:00"
     },
     "HOMESFY": {
       "symbol": "HOMESFY",
@@ -35025,7 +35023,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916712+00:00"
+      "updated_at": "2026-09-15T12:49:55.581672+00:00"
     },
     "MOXSH": {
       "symbol": "MOXSH",
@@ -35071,7 +35069,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916825+00:00"
+      "updated_at": "2026-09-15T12:49:55.581775+00:00"
     },
     "UMA": {
       "symbol": "UMA",
@@ -35087,18 +35085,18 @@
         "profit_margin_pct": 0.0
       },
       "growth": {
-        "revenue_cagr_pct": 6.8,
-        "net_income_cagr_pct": -17.5,
-        "margin_trend": "contracting",
-        "revenue_growth_consistency_pct": 66.7,
-        "years_of_data": 4
+        "revenue_cagr_pct": 11.9,
+        "net_income_cagr_pct": 43.5,
+        "margin_trend": "stable",
+        "revenue_growth_consistency_pct": 100.0,
+        "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 50.49,
+        "dcf_fair_value": null,
         "graham_number": null,
-        "blended_fair_value": 50.49,
-        "estimated_upside_pct": 51.4,
-        "valuation_models_used": 1
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
       },
       "fundamental_score": {
         "total": 32,
@@ -35107,17 +35105,19 @@
           "valuation": 12,
           "profitability": 0,
           "stability": 0,
-          "growth": 5,
-          "valuation_upside": 15
+          "growth": 20,
+          "valuation_upside": 0
         },
         "key_notes": [
           "Trading near/below book value",
-          "Profit growth declining/negative",
-          "Significant estimated undervaluation (~51%)"
+          "Healthy revenue CAGR (11.9%)",
+          "Strong profit CAGR (43.5%)",
+          "Consistent YoY growth",
+          "Insufficient data for intrinsic value estimate"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.916930+00:00"
+      "updated_at": "2026-09-15T12:49:55.581876+00:00"
     },
     "ARIHANTACA": {
       "symbol": "ARIHANTACA",
@@ -35165,17 +35165,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917035+00:00"
+      "updated_at": "2026-09-15T12:49:55.581979+00:00"
     },
     "DOLLEX": {
       "symbol": "DOLLEX",
       "company_name": "Dollex Agrotech Limited",
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "price": 38.45,
+      "price": 37.4,
       "ratios": {
-        "pe": 19.5178,
-        "pb": 1.9762,
+        "pe": 18.9848,
+        "pb": 1.9222,
         "roe_pct": 0.0,
         "debt_to_equity": 126.948,
         "profit_margin_pct": 3.47
@@ -35191,7 +35191,7 @@
         "dcf_fair_value": null,
         "graham_number": 29.37,
         "blended_fair_value": 29.37,
-        "estimated_upside_pct": -23.6,
+        "estimated_upside_pct": -21.5,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -35206,11 +35206,11 @@
         },
         "key_notes": [
           "Strong revenue CAGR (26.8%)",
-          "Appears overvalued vs blended intrinsic estimate (~-24%)"
+          "Appears overvalued vs blended intrinsic estimate (~-22%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917137+00:00"
+      "updated_at": "2026-09-15T12:49:55.582084+00:00"
     },
     "ALLETEC": {
       "symbol": "ALLETEC",
@@ -35257,7 +35257,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917252+00:00"
+      "updated_at": "2026-09-15T12:49:55.582187+00:00"
     },
     "BAHETI": {
       "symbol": "BAHETI",
@@ -35267,7 +35267,7 @@
       "price": 284.0,
       "ratios": {
         "pe": 16.3218,
-        "pb": 3.1493,
+        "pb": 3.1675,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -35305,7 +35305,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917370+00:00"
+      "updated_at": "2026-09-15T12:49:55.582287+00:00"
     },
     "PRITIKA": {
       "symbol": "PRITIKA",
@@ -35352,7 +35352,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917479+00:00"
+      "updated_at": "2026-09-15T12:49:55.582387+00:00"
     },
     "AMIABLE": {
       "symbol": "AMIABLE",
@@ -35362,7 +35362,7 @@
       "price": 77.0,
       "ratios": {
         "pe": 14.0255,
-        "pb": 1.3509,
+        "pb": 1.3476,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -35399,7 +35399,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917583+00:00"
+      "updated_at": "2026-09-15T12:49:55.582508+00:00"
     },
     "IPSL": {
       "symbol": "IPSL",
@@ -35446,7 +35446,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917682+00:00"
+      "updated_at": "2026-09-15T12:49:55.582635+00:00"
     },
     "RITEZONE": {
       "symbol": "RITEZONE",
@@ -35492,7 +35492,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917784+00:00"
+      "updated_at": "2026-09-15T12:49:55.582738+00:00"
     },
     "PHANTOMFX": {
       "symbol": "PHANTOMFX",
@@ -35540,7 +35540,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917883+00:00"
+      "updated_at": "2026-09-15T12:49:55.582838+00:00"
     },
     "FROG": {
       "symbol": "FROG",
@@ -35585,7 +35585,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.917983+00:00"
+      "updated_at": "2026-09-15T12:49:55.582938+00:00"
     },
     "SWASTIK": {
       "symbol": "SWASTIK",
@@ -35630,7 +35630,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918083+00:00"
+      "updated_at": "2026-09-15T12:49:55.583039+00:00"
     },
     "LLOYDS": {
       "symbol": "LLOYDS",
@@ -35677,7 +35677,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918182+00:00"
+      "updated_at": "2026-09-15T12:49:55.583137+00:00"
     },
     "CMRSL": {
       "symbol": "CMRSL",
@@ -35723,7 +35723,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918281+00:00"
+      "updated_at": "2026-09-15T12:49:55.583240+00:00"
     },
     "MAKS": {
       "symbol": "MAKS",
@@ -35769,7 +35769,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918401+00:00"
+      "updated_at": "2026-09-15T12:49:55.583342+00:00"
     },
     "KANDARP": {
       "symbol": "KANDARP",
@@ -35814,17 +35814,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918505+00:00"
+      "updated_at": "2026-09-15T12:49:55.583441+00:00"
     },
     "ANNAPURNA": {
       "symbol": "ANNAPURNA",
       "company_name": "Annapurna Swadisht Limited",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 137.95,
+      "price": 137.39,
       "ratios": {
-        "pe": 9.5999,
-        "pb": 0.8503,
+        "pe": 9.5609,
+        "pb": 0.8469,
         "roe_pct": 0.0,
         "debt_to_equity": 69.281,
         "profit_margin_pct": 6.21
@@ -35840,7 +35840,7 @@
         "dcf_fair_value": null,
         "graham_number": 229.03,
         "blended_fair_value": 229.03,
-        "estimated_upside_pct": 66.0,
+        "estimated_upside_pct": 66.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -35863,7 +35863,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918607+00:00"
+      "updated_at": "2026-09-15T12:49:55.583564+00:00"
     },
     "TAPIFRUIT": {
       "symbol": "TAPIFRUIT",
@@ -35908,7 +35908,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918705+00:00"
+      "updated_at": "2026-09-15T12:49:55.583671+00:00"
     },
     "ISHAN": {
       "symbol": "ISHAN",
@@ -35924,7 +35924,7 @@
         "profit_margin_pct": 0.0
       },
       "growth": {
-        "revenue_cagr_pct": -8.6,
+        "revenue_cagr_pct": -9.1,
         "net_income_cagr_pct": -8.4,
         "margin_trend": "contracting",
         "revenue_growth_consistency_pct": 33.3,
@@ -35948,13 +35948,13 @@
           "valuation_upside": 0
         },
         "key_notes": [
-          "Declining revenue trend (-8.6%)",
+          "Declining revenue trend (-9.1%)",
           "Profit growth declining/negative",
           "Insufficient data for intrinsic value estimate"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918804+00:00"
+      "updated_at": "2026-09-15T12:49:55.583772+00:00"
     },
     "SABAR": {
       "symbol": "SABAR",
@@ -36002,7 +36002,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.918904+00:00"
+      "updated_at": "2026-09-15T12:49:55.583874+00:00"
     },
     "MEGAFLEX": {
       "symbol": "MEGAFLEX",
@@ -36050,7 +36050,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919005+00:00"
+      "updated_at": "2026-09-15T12:49:55.583977+00:00"
     },
     "KORE": {
       "symbol": "KORE",
@@ -36097,7 +36097,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919108+00:00"
+      "updated_at": "2026-09-15T12:49:55.584080+00:00"
     },
     "JFLLIFE": {
       "symbol": "JFLLIFE",
@@ -36144,7 +36144,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919211+00:00"
+      "updated_at": "2026-09-15T12:49:55.584180+00:00"
     },
     "AMEYA": {
       "symbol": "AMEYA",
@@ -36192,7 +36192,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919313+00:00"
+      "updated_at": "2026-09-15T12:49:55.584281+00:00"
     },
     "VEEKAYEM": {
       "symbol": "VEEKAYEM",
@@ -36239,7 +36239,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919433+00:00"
+      "updated_at": "2026-09-15T12:49:55.584382+00:00"
     },
     "USASEEDS": {
       "symbol": "USASEEDS",
@@ -36286,7 +36286,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919542+00:00"
+      "updated_at": "2026-09-15T12:49:55.584502+00:00"
     },
     "AGNI": {
       "symbol": "AGNI",
@@ -36296,7 +36296,7 @@
       "price": 51.8,
       "ratios": {
         "pe": 235.4545,
-        "pb": 3.1816,
+        "pb": 3.1318,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -36333,7 +36333,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919642+00:00"
+      "updated_at": "2026-09-15T12:49:55.584611+00:00"
     },
     "SKP": {
       "symbol": "SKP",
@@ -36380,7 +36380,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919743+00:00"
+      "updated_at": "2026-09-15T12:49:55.584711+00:00"
     },
     "KCK": {
       "symbol": "KCK",
@@ -36426,7 +36426,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919845+00:00"
+      "updated_at": "2026-09-15T12:49:55.584820+00:00"
     },
     "RILINFRA": {
       "symbol": "RILINFRA",
@@ -36475,7 +36475,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.919946+00:00"
+      "updated_at": "2026-09-15T12:49:55.584924+00:00"
     },
     "FIDEL": {
       "symbol": "FIDEL",
@@ -36522,7 +36522,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920047+00:00"
+      "updated_at": "2026-09-15T12:49:55.585023+00:00"
     },
     "GSTL": {
       "symbol": "GSTL",
@@ -36532,7 +36532,7 @@
       "price": 43.95,
       "ratios": {
         "pe": null,
-        "pb": 1.6218,
+        "pb": 1.5454,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 0.0
@@ -36567,7 +36567,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920148+00:00"
+      "updated_at": "2026-09-15T12:49:55.585124+00:00"
     },
     "SONUINFRA": {
       "symbol": "SONUINFRA",
@@ -36616,7 +36616,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920252+00:00"
+      "updated_at": "2026-09-15T12:49:55.585226+00:00"
     },
     "PROPEQUITY": {
       "symbol": "PROPEQUITY",
@@ -36639,9 +36639,9 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 229.43,
+        "dcf_fair_value": 229.44,
         "graham_number": null,
-        "blended_fair_value": 229.43,
+        "blended_fair_value": 229.44,
         "estimated_upside_pct": -21.7,
         "valuation_models_used": 1
       },
@@ -36663,17 +36663,17 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920372+00:00"
+      "updated_at": "2026-09-15T12:49:55.585328+00:00"
     },
     "SWARAJ": {
       "symbol": "SWARAJ",
       "company_name": "Swaraj Suiting Limited",
       "sector": "Consumer Cyclical",
       "industry": "Textile Manufacturing",
-      "price": 335.15,
+      "price": 318.4,
       "ratios": {
-        "pe": 14.7513,
-        "pb": 2.2109,
+        "pe": 14.0141,
+        "pb": 2.1004,
         "roe_pct": 0.0,
         "debt_to_equity": 96.062,
         "profit_margin_pct": 8.95
@@ -36689,7 +36689,7 @@
         "dcf_fair_value": null,
         "graham_number": 278.38,
         "blended_fair_value": 278.38,
-        "estimated_upside_pct": -16.9,
+        "estimated_upside_pct": -12.6,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -36708,11 +36708,11 @@
           "Strong profit CAGR (109.3%)",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-17%)"
+          "Appears overvalued vs blended intrinsic estimate (~-13%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920482+00:00"
+      "updated_at": "2026-09-15T12:49:55.585431+00:00"
     },
     "COOLCAPS": {
       "symbol": "COOLCAPS",
@@ -36757,7 +36757,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920584+00:00"
+      "updated_at": "2026-09-15T12:49:55.585550+00:00"
     },
     "SPRL": {
       "symbol": "SPRL",
@@ -36803,7 +36803,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-09-13T17:04:01.920686+00:00"
+      "updated_at": "2026-09-15T12:49:55.585658+00:00"
     },
     "SHIGAN": {
       "symbol": "SHIGAN",
@@ -113767,6 +113767,51 @@
       },
       "source": "scheduled_chunk",
       "updated_at": "2026-09-15T00:49:26.176397+00:00"
+    },
+    "QFIL": {
+      "symbol": "QFIL",
+      "company_name": "Quality Foils (India) Limited",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "price": 111.0,
+      "ratios": {
+        "pe": 21.5534,
+        "pb": 1.0018,
+        "roe_pct": 0.0,
+        "debt_to_equity": null,
+        "profit_margin_pct": 0.0
+      },
+      "growth": {
+        "revenue_cagr_pct": null,
+        "net_income_cagr_pct": null,
+        "margin_trend": "unknown",
+        "revenue_growth_consistency_pct": null,
+        "years_of_data": 0
+      },
+      "valuation": {
+        "dcf_fair_value": null,
+        "graham_number": null,
+        "blended_fair_value": null,
+        "estimated_upside_pct": null,
+        "valuation_models_used": 0
+      },
+      "fundamental_score": {
+        "total": 12,
+        "rating": "🔴 AVOID",
+        "pillars": {
+          "valuation": 12,
+          "profitability": 0,
+          "stability": 0,
+          "growth": 0,
+          "valuation_upside": 0
+        },
+        "key_notes": [
+          "Trading near/below book value",
+          "Insufficient data for intrinsic value estimate"
+        ]
+      },
+      "source": "scheduled_chunk",
+      "updated_at": "2026-09-15T12:49:55.579990+00:00"
     }
   }
 }
