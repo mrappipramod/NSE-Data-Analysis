@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-25T06:29:25.471973+00:00",
+  "generated_at": "2026-10-25T11:15:31.855152+00:00",
   "universe": "NSE_ALL_CHUNKED",
   "stock_count": 2393,
   "data_source": "yfinance (Yahoo Finance, unofficial)",
@@ -200,7 +200,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490639+00:00"
+      "updated_at": "2026-10-25T11:15:31.848572+00:00"
     },
     "PFC": {
       "symbol": "PFC",
@@ -1171,7 +1171,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498465+00:00"
+      "updated_at": "2026-10-25T11:15:31.853402+00:00"
     },
     "INOXWIND": {
       "symbol": "INOXWIND",
@@ -3301,7 +3301,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496876+00:00"
+      "updated_at": "2026-10-25T11:15:31.852431+00:00"
     },
     "ABB": {
       "symbol": "ABB",
@@ -3701,10 +3701,10 @@
       "price": 430.5,
       "ratios": {
         "pe": 21.1029,
-        "pb": 2.3628,
-        "roe_pct": 0.0,
+        "pb": 2.196,
+        "roe_pct": 11.83,
         "debt_to_equity": null,
-        "profit_margin_pct": 28.47
+        "profit_margin_pct": 28.74
       },
       "growth": {
         "revenue_cagr_pct": 13.5,
@@ -3714,31 +3714,31 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 858.17,
-        "graham_number": 289.19,
-        "blended_fair_value": 573.68,
-        "estimated_upside_pct": 33.3,
+        "dcf_fair_value": 874.74,
+        "graham_number": 299.97,
+        "blended_fair_value": 587.36,
+        "estimated_upside_pct": 36.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 52,
+        "total": 56,
         "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 14,
-          "profitability": 11,
+          "profitability": 15,
           "stability": 0,
           "growth": 12,
           "valuation_upside": 15
         },
         "key_notes": [
           "Attractive PEG ratio",
-          "High net margin (28.5%)",
+          "High net margin (28.7%)",
           "Healthy revenue CAGR (13.5%)",
-          "Significant estimated undervaluation (~33%)"
+          "Significant estimated undervaluation (~36%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497318+00:00"
+      "updated_at": "2026-10-25T11:15:31.852714+00:00"
     },
     "BHARTIARTL": {
       "symbol": "BHARTIARTL",
@@ -4326,7 +4326,7 @@
       "industry": "Diagnostics & Research",
       "price": 1838.2,
       "ratios": {
-        "pe": 56.7346,
+        "pe": 56.7521,
         "pb": 12.2377,
         "roe_pct": 0.0,
         "debt_to_equity": 7.83,
@@ -4341,8 +4341,8 @@
       },
       "valuation": {
         "dcf_fair_value": 618.02,
-        "graham_number": 330.91,
-        "blended_fair_value": 474.47,
+        "graham_number": 330.86,
+        "blended_fair_value": 474.44,
         "estimated_upside_pct": -74.2,
         "valuation_models_used": 2
       },
@@ -4366,7 +4366,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.501295+00:00"
+      "updated_at": "2026-10-25T11:15:31.855129+00:00"
     },
     "JSWSTEEL": {
       "symbol": "JSWSTEEL",
@@ -4375,11 +4375,11 @@
       "industry": "Steel",
       "price": 1185.5,
       "ratios": {
-        "pe": 11.6971,
+        "pe": 11.7249,
         "pb": 2.8921,
-        "roe_pct": 0.0,
-        "debt_to_equity": 95.374,
-        "profit_margin_pct": 13.06
+        "roe_pct": 31.93,
+        "debt_to_equity": 61.529,
+        "profit_margin_pct": 14.29
       },
       "growth": {
         "revenue_cagr_pct": 3.6,
@@ -4389,31 +4389,33 @@
         "years_of_data": 4
       },
       "valuation": {
-        "dcf_fair_value": 417.24,
-        "graham_number": 966.83,
-        "blended_fair_value": 692.04,
-        "estimated_upside_pct": -41.6,
+        "dcf_fair_value": 437.19,
+        "graham_number": 965.68,
+        "blended_fair_value": 701.43,
+        "estimated_upside_pct": -40.8,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 39,
-        "rating": "🟠 WEAK",
+        "total": 56,
+        "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 12,
-          "profitability": 6,
-          "stability": 3,
+          "profitability": 15,
+          "stability": 11,
           "growth": 18,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Healthy net margin (13.1%)",
+          "Excellent ROE (31.9%)",
+          "Healthy net margin (14.3%)",
+          "Manageable debt level",
           "Strong profit CAGR (75.3%)",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-42%)"
+          "Appears overvalued vs blended intrinsic estimate (~-41%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489677+00:00"
+      "updated_at": "2026-10-25T11:15:31.848001+00:00"
     },
     "360ONE": {
       "symbol": "360ONE",
@@ -4777,9 +4779,9 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 207.82,
+        "dcf_fair_value": 207.79,
         "graham_number": 143.61,
-        "blended_fair_value": 175.72,
+        "blended_fair_value": 175.7,
         "estimated_upside_pct": -31.9,
         "valuation_models_used": 2
       },
@@ -4800,7 +4802,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483067+00:00"
+      "updated_at": "2026-10-25T11:15:31.843851+00:00"
     },
     "CUMMINSIND": {
       "symbol": "CUMMINSIND",
@@ -5474,7 +5476,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491328+00:00"
+      "updated_at": "2026-10-25T11:15:31.848985+00:00"
     },
     "FORTIS": {
       "symbol": "FORTIS",
@@ -6492,10 +6494,10 @@
       "price": 687.4,
       "ratios": {
         "pe": 17.0022,
-        "pb": 2.8612,
-        "roe_pct": 0.0,
-        "debt_to_equity": 37.523,
-        "profit_margin_pct": 7.38
+        "pb": 2.6667,
+        "roe_pct": 16.9,
+        "debt_to_equity": 35.926,
+        "profit_margin_pct": 7.25
       },
       "growth": {
         "revenue_cagr_pct": 6.4,
@@ -6505,31 +6507,32 @@
         "years_of_data": 4
       },
       "valuation": {
-        "dcf_fair_value": 91.99,
-        "graham_number": 467.49,
-        "blended_fair_value": 279.74,
-        "estimated_upside_pct": -59.3,
+        "dcf_fair_value": 94.71,
+        "graham_number": 484.24,
+        "blended_fair_value": 289.48,
+        "estimated_upside_pct": -57.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 35,
-        "rating": "🟠 WEAK",
+        "total": 45,
+        "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 9,
-          "profitability": 0,
-          "stability": 8,
+          "profitability": 7,
+          "stability": 11,
           "growth": 18,
           "valuation_upside": 0
         },
         "key_notes": [
+          "Strong ROE (16.9%)",
           "Manageable debt level",
           "Consistent YoY growth",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-59%)"
+          "Appears overvalued vs blended intrinsic estimate (~-58%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488907+00:00"
+      "updated_at": "2026-10-25T11:15:31.847513+00:00"
     },
     "SJVN": {
       "symbol": "SJVN",
@@ -7678,7 +7681,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489347+00:00"
+      "updated_at": "2026-10-25T11:15:31.847789+00:00"
     },
     "TATAELXSI": {
       "symbol": "TATAELXSI",
@@ -8682,7 +8685,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491794+00:00"
+      "updated_at": "2026-10-25T11:15:31.849262+00:00"
     },
     "VOLTAS": {
       "symbol": "VOLTAS",
@@ -10244,11 +10247,11 @@
       "industry": "Steel",
       "price": 1015.9,
       "ratios": {
-        "pe": 38.0202,
-        "pb": 2.0304,
-        "roe_pct": 0.0,
-        "debt_to_equity": 43.613,
-        "profit_margin_pct": 4.82
+        "pe": 36.2175,
+        "pb": 1.9742,
+        "roe_pct": 5.46,
+        "debt_to_equity": 41.616,
+        "profit_margin_pct": 4.65
       },
       "growth": {
         "revenue_cagr_pct": -13.1,
@@ -10259,18 +10262,18 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 548.46,
-        "blended_fair_value": 548.46,
-        "estimated_upside_pct": -46.0,
+        "graham_number": 569.88,
+        "blended_fair_value": 569.88,
+        "estimated_upside_pct": -43.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 19,
+        "total": 20,
         "rating": "🔴 AVOID",
         "pillars": {
           "valuation": 4,
-          "profitability": 2,
-          "stability": 8,
+          "profitability": 0,
+          "stability": 11,
           "growth": 5,
           "valuation_upside": 0
         },
@@ -10279,11 +10282,11 @@
           "Declining revenue trend (-13.1%)",
           "Profit growth declining/negative",
           "Margins expanding",
-          "Appears overvalued vs blended intrinsic estimate (~-46%)"
+          "Appears overvalued vs blended intrinsic estimate (~-44%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486762+00:00"
+      "updated_at": "2026-10-25T11:15:31.846154+00:00"
     },
     "ADANIENT": {
       "symbol": "ADANIENT",
@@ -10584,11 +10587,11 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 310.72,
+        "dcf_fair_value": null,
         "graham_number": 66.15,
-        "blended_fair_value": 188.44,
-        "estimated_upside_pct": -53.4,
-        "valuation_models_used": 2
+        "blended_fair_value": 66.15,
+        "estimated_upside_pct": -83.6,
+        "valuation_models_used": 1
       },
       "fundamental_score": {
         "total": 15,
@@ -10604,11 +10607,11 @@
           "High leverage",
           "Strong revenue CAGR (20.2%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-53%)"
+          "Appears overvalued vs blended intrinsic estimate (~-84%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490157+00:00"
+      "updated_at": "2026-10-25T11:15:31.848283+00:00"
     },
     "PAYTM": {
       "symbol": "PAYTM",
@@ -106563,7 +106566,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T16:59:30.683433+00:00"
+      "updated_at": "2026-10-25T11:15:31.843496+00:00"
     },
     "ISFT": {
       "symbol": "ISFT",
@@ -106611,7 +106614,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.482639+00:00"
+      "updated_at": "2026-10-25T11:15:31.843610+00:00"
     },
     "ISGEC": {
       "symbol": "ISGEC",
@@ -106656,7 +106659,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.482814+00:00"
+      "updated_at": "2026-10-25T11:15:31.843695+00:00"
     },
     "ISHANCH": {
       "symbol": "ISHANCH",
@@ -106702,7 +106705,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.482941+00:00"
+      "updated_at": "2026-10-25T11:15:31.843774+00:00"
     },
     "ITCHOTELS": {
       "symbol": "ITCHOTELS",
@@ -106711,7 +106714,7 @@
       "industry": "Resorts & Casinos",
       "price": 156.25,
       "ratios": {
-        "pe": 36.2529,
+        "pe": 37.5601,
         "pb": 2.7918,
         "roe_pct": 0.0,
         "debt_to_equity": 0.634,
@@ -106725,10 +106728,10 @@
         "years_of_data": 2
       },
       "valuation": {
-        "dcf_fair_value": 90.43,
-        "graham_number": 73.67,
-        "blended_fair_value": 82.05,
-        "estimated_upside_pct": -47.5,
+        "dcf_fair_value": 90.42,
+        "graham_number": 72.38,
+        "blended_fair_value": 81.4,
+        "estimated_upside_pct": -47.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -106751,7 +106754,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483185+00:00"
+      "updated_at": "2026-10-25T11:15:31.843929+00:00"
     },
     "ITDC": {
       "symbol": "ITDC",
@@ -106798,7 +106801,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483299+00:00"
+      "updated_at": "2026-10-25T11:15:31.844005+00:00"
     },
     "ITI": {
       "symbol": "ITI",
@@ -106846,7 +106849,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483415+00:00"
+      "updated_at": "2026-10-25T11:15:31.844086+00:00"
     },
     "IVALUE": {
       "symbol": "IVALUE",
@@ -106895,7 +106898,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483540+00:00"
+      "updated_at": "2026-10-25T11:15:31.844162+00:00"
     },
     "IVC": {
       "symbol": "IVC",
@@ -106941,7 +106944,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483653+00:00"
+      "updated_at": "2026-10-25T11:15:31.844237+00:00"
     },
     "IVP": {
       "symbol": "IVP",
@@ -106989,7 +106992,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483786+00:00"
+      "updated_at": "2026-10-25T11:15:31.844311+00:00"
     },
     "IWP": {
       "symbol": "IWP",
@@ -107036,7 +107039,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.483905+00:00"
+      "updated_at": "2026-10-25T11:15:31.844384+00:00"
     },
     "IXIGO": {
       "symbol": "IXIGO",
@@ -107045,8 +107048,8 @@
       "industry": "Travel Services",
       "price": 146.58,
       "ratios": {
-        "pe": 76.7435,
-        "pb": 3.1795,
+        "pe": 43.7552,
+        "pb": 3.0155,
         "roe_pct": 10.71,
         "debt_to_equity": 0.876,
         "profit_margin_pct": 11.49
@@ -107060,9 +107063,9 @@
       },
       "valuation": {
         "dcf_fair_value": 134.49,
-        "graham_number": 44.51,
-        "blended_fair_value": 89.5,
-        "estimated_upside_pct": -38.9,
+        "graham_number": 60.53,
+        "blended_fair_value": 97.51,
+        "estimated_upside_pct": -33.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -107081,11 +107084,11 @@
           "Strong revenue CAGR (34.8%)",
           "Strong profit CAGR (49.4%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-39%)"
+          "Appears overvalued vs blended intrinsic estimate (~-34%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484022+00:00"
+      "updated_at": "2026-10-25T11:15:31.844468+00:00"
     },
     "IZMO": {
       "symbol": "IZMO",
@@ -107134,7 +107137,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484145+00:00"
+      "updated_at": "2026-10-25T11:15:31.844543+00:00"
     },
     "J&KBANK": {
       "symbol": "J&KBANK",
@@ -107143,8 +107146,8 @@
       "industry": "Banks - Regional",
       "price": 113.09,
       "ratios": {
-        "pe": 5.424,
-        "pb": 0.7548,
+        "pe": 5.2772,
+        "pb": 0.7097,
         "roe_pct": 14.54,
         "debt_to_equity": null,
         "profit_margin_pct": 34.32
@@ -107158,9 +107161,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 265.13,
-        "blended_fair_value": 265.13,
-        "estimated_upside_pct": 134.4,
+        "graham_number": 277.18,
+        "blended_fair_value": 277.18,
+        "estimated_upside_pct": 145.1,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -107178,11 +107181,11 @@
           "High net margin (34.3%)",
           "Healthy revenue CAGR (8.2%)",
           "Strong profit CAGR (26.0%)",
-          "Significant estimated undervaluation (~134%)"
+          "Significant estimated undervaluation (~145%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484256+00:00"
+      "updated_at": "2026-10-25T11:15:31.844613+00:00"
     },
     "JAGRAN": {
       "symbol": "JAGRAN",
@@ -107230,7 +107233,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484366+00:00"
+      "updated_at": "2026-10-25T11:15:31.844684+00:00"
     },
     "JAGSNPHARM": {
       "symbol": "JAGSNPHARM",
@@ -107278,7 +107281,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484480+00:00"
+      "updated_at": "2026-10-25T11:15:31.844755+00:00"
     },
     "JAICORPLTD": {
       "symbol": "JAICORPLTD",
@@ -107326,7 +107329,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484588+00:00"
+      "updated_at": "2026-10-25T11:15:31.844825+00:00"
     },
     "JAINREC": {
       "symbol": "JAINREC",
@@ -107374,7 +107377,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484694+00:00"
+      "updated_at": "2026-10-25T11:15:31.844894+00:00"
     },
     "JAIPURKURT": {
       "symbol": "JAIPURKURT",
@@ -107422,7 +107425,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484824+00:00"
+      "updated_at": "2026-10-25T11:15:31.844965+00:00"
     },
     "JAMNAAUTO": {
       "symbol": "JAMNAAUTO",
@@ -107469,7 +107472,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.484944+00:00"
+      "updated_at": "2026-10-25T11:15:31.845036+00:00"
     },
     "JARO": {
       "symbol": "JARO",
@@ -107518,7 +107521,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485053+00:00"
+      "updated_at": "2026-10-25T11:15:31.845105+00:00"
     },
     "JASH": {
       "symbol": "JASH",
@@ -107566,7 +107569,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485166+00:00"
+      "updated_at": "2026-10-25T11:15:31.845174+00:00"
     },
     "JAYAGROGN": {
       "symbol": "JAYAGROGN",
@@ -107613,7 +107616,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485277+00:00"
+      "updated_at": "2026-10-25T11:15:31.845243+00:00"
     },
     "JAYBARMARU": {
       "symbol": "JAYBARMARU",
@@ -107660,7 +107663,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485387+00:00"
+      "updated_at": "2026-10-25T11:15:31.845313+00:00"
     },
     "JAYKAY": {
       "symbol": "JAYKAY",
@@ -107709,7 +107712,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485499+00:00"
+      "updated_at": "2026-10-25T11:15:31.845383+00:00"
     },
     "JAYNECOIND": {
       "symbol": "JAYNECOIND",
@@ -107756,7 +107759,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485612+00:00"
+      "updated_at": "2026-10-25T11:15:31.845462+00:00"
     },
     "JAYSREETEA": {
       "symbol": "JAYSREETEA",
@@ -107802,7 +107805,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485741+00:00"
+      "updated_at": "2026-10-25T11:15:31.845531+00:00"
     },
     "JBCHEPHARM": {
       "symbol": "JBCHEPHARM",
@@ -107851,7 +107854,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485862+00:00"
+      "updated_at": "2026-10-25T11:15:31.845601+00:00"
     },
     "JBMA": {
       "symbol": "JBMA",
@@ -107899,7 +107902,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.485970+00:00"
+      "updated_at": "2026-10-25T11:15:31.845670+00:00"
     },
     "JETFREIGHT": {
       "symbol": "JETFREIGHT",
@@ -107945,7 +107948,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486076+00:00"
+      "updated_at": "2026-10-25T11:15:31.845742+00:00"
     },
     "JGCHEM": {
       "symbol": "JGCHEM",
@@ -107989,7 +107992,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486185+00:00"
+      "updated_at": "2026-10-25T11:15:31.845813+00:00"
     },
     "JHS": {
       "symbol": "JHS",
@@ -108036,7 +108039,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486302+00:00"
+      "updated_at": "2026-10-25T11:15:31.845882+00:00"
     },
     "JINDALPHOT": {
       "symbol": "JINDALPHOT",
@@ -108085,7 +108088,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486413+00:00"
+      "updated_at": "2026-10-25T11:15:31.845949+00:00"
     },
     "JINDALPOLY": {
       "symbol": "JINDALPOLY",
@@ -108132,7 +108135,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486520+00:00"
+      "updated_at": "2026-10-25T11:15:31.846016+00:00"
     },
     "JINDALSAW": {
       "symbol": "JINDALSAW",
@@ -108180,7 +108183,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486632+00:00"
+      "updated_at": "2026-10-25T11:15:31.846085+00:00"
     },
     "JINDRILL": {
       "symbol": "JINDRILL",
@@ -108229,7 +108232,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486879+00:00"
+      "updated_at": "2026-10-25T11:15:31.846225+00:00"
     },
     "JINDWORLD": {
       "symbol": "JINDWORLD",
@@ -108275,7 +108278,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.486988+00:00"
+      "updated_at": "2026-10-25T11:15:31.846295+00:00"
     },
     "JIOFIN": {
       "symbol": "JIOFIN",
@@ -108324,7 +108327,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487096+00:00"
+      "updated_at": "2026-10-25T11:15:31.846365+00:00"
     },
     "JISLDVREQS": {
       "symbol": "JISLDVREQS",
@@ -108370,7 +108373,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487208+00:00"
+      "updated_at": "2026-10-25T11:15:31.846449+00:00"
     },
     "JISLJALEQS": {
       "symbol": "JISLJALEQS",
@@ -108416,7 +108419,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487312+00:00"
+      "updated_at": "2026-10-25T11:15:31.846522+00:00"
     },
     "JITFINFRA": {
       "symbol": "JITFINFRA",
@@ -108462,7 +108465,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487415+00:00"
+      "updated_at": "2026-10-25T11:15:31.846588+00:00"
     },
     "JKCEMENT": {
       "symbol": "JKCEMENT",
@@ -108472,10 +108475,10 @@
       "price": 4854.0,
       "ratios": {
         "pe": 39.6666,
-        "pb": 5.3296,
-        "roe_pct": 0.0,
-        "debt_to_equity": 87.522,
-        "profit_margin_pct": 6.56
+        "pb": 5.1057,
+        "roe_pct": 13.62,
+        "debt_to_equity": 101.329,
+        "profit_margin_pct": 6.34
       },
       "growth": {
         "revenue_cagr_pct": 12.1,
@@ -108486,18 +108489,18 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 1583.54,
-        "blended_fair_value": 1583.54,
-        "estimated_upside_pct": -67.4,
+        "graham_number": 1617.9,
+        "blended_fair_value": 1617.9,
+        "estimated_upside_pct": -66.7,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 32,
+        "total": 37,
         "rating": "🟠 WEAK",
         "pillars": {
           "valuation": 5,
-          "profitability": 2,
-          "stability": 3,
+          "profitability": 4,
+          "stability": 6,
           "growth": 22,
           "valuation_upside": 0
         },
@@ -108511,7 +108514,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487529+00:00"
+      "updated_at": "2026-10-25T11:15:31.846657+00:00"
     },
     "JKIL": {
       "symbol": "JKIL",
@@ -108559,7 +108562,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487641+00:00"
+      "updated_at": "2026-10-25T11:15:31.846727+00:00"
     },
     "JKLAKSHMI": {
       "symbol": "JKLAKSHMI",
@@ -108604,7 +108607,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487770+00:00"
+      "updated_at": "2026-10-25T11:15:31.846797+00:00"
     },
     "JKPAPER": {
       "symbol": "JKPAPER",
@@ -108652,7 +108655,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.487893+00:00"
+      "updated_at": "2026-10-25T11:15:31.846868+00:00"
     },
     "JKTYRE": {
       "symbol": "JKTYRE",
@@ -108661,7 +108664,7 @@
       "industry": "Auto Parts",
       "price": 309.15,
       "ratios": {
-        "pe": 13.3427,
+        "pe": 17.7979,
         "pb": 1.4705,
         "roe_pct": 0.0,
         "debt_to_equity": 80.551,
@@ -108676,16 +108679,16 @@
       },
       "valuation": {
         "dcf_fair_value": -150.62,
-        "graham_number": 331.06,
-        "blended_fair_value": 331.06,
-        "estimated_upside_pct": 7.1,
+        "graham_number": 286.64,
+        "blended_fair_value": 286.64,
+        "estimated_upside_pct": -7.3,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 42,
+        "total": 39,
         "rating": "🟠 WEAK",
         "pillars": {
-          "valuation": 15,
+          "valuation": 12,
           "profitability": 0,
           "stability": 3,
           "growth": 18,
@@ -108698,7 +108701,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488006+00:00"
+      "updated_at": "2026-10-25T11:15:31.846938+00:00"
     },
     "JLHL": {
       "symbol": "JLHL",
@@ -108707,11 +108710,11 @@
       "industry": "Medical Care Facilities",
       "price": 244.0,
       "ratios": {
-        "pe": 44.2029,
-        "pb": 5.1805,
-        "roe_pct": 0.0,
-        "debt_to_equity": 37.837,
-        "profit_margin_pct": 12.04
+        "pe": 44.4444,
+        "pb": 4.8877,
+        "roe_pct": 12.11,
+        "debt_to_equity": 41.011,
+        "profit_margin_pct": 11.5
       },
       "growth": {
         "revenue_cagr_pct": 18.9,
@@ -108722,32 +108725,32 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 76.48,
-        "blended_fair_value": 76.48,
-        "estimated_upside_pct": -68.7,
+        "graham_number": 78.53,
+        "blended_fair_value": 78.53,
+        "estimated_upside_pct": -67.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
-        "total": 36,
-        "rating": "🟠 WEAK",
+        "total": 48,
+        "rating": "🟡 HOLD",
         "pillars": {
           "valuation": 0,
-          "profitability": 6,
-          "stability": 8,
+          "profitability": 10,
+          "stability": 16,
           "growth": 22,
           "valuation_upside": 0
         },
         "key_notes": [
-          "Healthy net margin (12.0%)",
+          "Healthy net margin (11.5%)",
           "Manageable debt level",
+          "Strong liquidity position",
           "Strong revenue CAGR (18.9%)",
           "Strong profit CAGR (38.6%)",
-          "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-69%)"
+          "Consistent YoY growth"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488113+00:00"
+      "updated_at": "2026-10-25T11:15:31.847009+00:00"
     },
     "JMA": {
       "symbol": "JMA",
@@ -108793,7 +108796,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488220+00:00"
+      "updated_at": "2026-10-25T11:15:31.847078+00:00"
     },
     "JMFINANCIL": {
       "symbol": "JMFINANCIL",
@@ -108842,7 +108845,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488327+00:00"
+      "updated_at": "2026-10-25T11:15:31.847148+00:00"
     },
     "JNKINDIA": {
       "symbol": "JNKINDIA",
@@ -108889,7 +108892,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488434+00:00"
+      "updated_at": "2026-10-25T11:15:31.847218+00:00"
     },
     "JPOLYINVST": {
       "symbol": "JPOLYINVST",
@@ -108898,7 +108901,7 @@
       "industry": "Asset Management",
       "price": 854.0,
       "ratios": {
-        "pe": 1.1303,
+        "pe": 1.1101,
         "pb": 0.5593,
         "roe_pct": 0.0,
         "debt_to_equity": 1.462,
@@ -108913,9 +108916,9 @@
       },
       "valuation": {
         "dcf_fair_value": 9.39,
-        "graham_number": 5094.7,
-        "blended_fair_value": 5094.7,
-        "estimated_upside_pct": 496.6,
+        "graham_number": 5140.85,
+        "blended_fair_value": 5140.85,
+        "estimated_upside_pct": 502.0,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -108938,7 +108941,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488548+00:00"
+      "updated_at": "2026-10-25T11:15:31.847288+00:00"
     },
     "JPPOWER": {
       "symbol": "JPPOWER",
@@ -108947,11 +108950,11 @@
       "industry": "Utilities - Independent Power Producers",
       "price": 12.67,
       "ratios": {
-        "pe": 23.9057,
-        "pb": 0.9727,
+        "pe": 23.0364,
+        "pb": 1.12,
         "roe_pct": 3.79,
         "debt_to_equity": 23.023,
-        "profit_margin_pct": 8.51
+        "profit_margin_pct": 8.53
       },
       "growth": {
         "revenue_cagr_pct": -1.3,
@@ -108962,9 +108965,9 @@
       },
       "valuation": {
         "dcf_fair_value": 22.1,
-        "graham_number": 12.46,
-        "blended_fair_value": 17.28,
-        "estimated_upside_pct": 36.4,
+        "graham_number": 11.83,
+        "blended_fair_value": 16.96,
+        "estimated_upside_pct": 33.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -108987,7 +108990,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488660+00:00"
+      "updated_at": "2026-10-25T11:15:31.847358+00:00"
     },
     "JSFB": {
       "symbol": "JSFB",
@@ -108996,8 +108999,8 @@
       "industry": "Banks - Regional",
       "price": 383.15,
       "ratios": {
-        "pe": 10.6638,
-        "pb": 0.9024,
+        "pe": 8.5582,
+        "pb": 0.9028,
         "roe_pct": 0.0,
         "debt_to_equity": null,
         "profit_margin_pct": 12.91
@@ -109010,10 +109013,10 @@
         "years_of_data": 4
       },
       "valuation": {
-        "dcf_fair_value": 752.76,
-        "graham_number": 585.87,
-        "blended_fair_value": 669.32,
-        "estimated_upside_pct": 74.7,
+        "dcf_fair_value": 752.63,
+        "graham_number": 653.86,
+        "blended_fair_value": 703.25,
+        "estimated_upside_pct": 83.5,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -109031,11 +109034,11 @@
           "Healthy net margin (12.9%)",
           "Healthy revenue CAGR (14.8%)",
           "Consistent YoY growth",
-          "Significant estimated undervaluation (~75%)"
+          "Significant estimated undervaluation (~84%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.488787+00:00"
+      "updated_at": "2026-10-25T11:15:31.847440+00:00"
     },
     "JSLL": {
       "symbol": "JSLL",
@@ -109084,7 +109087,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489018+00:00"
+      "updated_at": "2026-10-25T11:15:31.847584+00:00"
     },
     "JSWCEMENT": {
       "symbol": "JSWCEMENT",
@@ -109131,7 +109134,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489127+00:00"
+      "updated_at": "2026-10-25T11:15:31.847653+00:00"
     },
     "JSWDULUX": {
       "symbol": "JSWDULUX",
@@ -109180,7 +109183,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489237+00:00"
+      "updated_at": "2026-10-25T11:15:31.847721+00:00"
     },
     "JSWHL": {
       "symbol": "JSWHL",
@@ -109228,7 +109231,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489455+00:00"
+      "updated_at": "2026-10-25T11:15:31.847861+00:00"
     },
     "JSWINFRA": {
       "symbol": "JSWINFRA",
@@ -109277,7 +109280,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489568+00:00"
+      "updated_at": "2026-10-25T11:15:31.847930+00:00"
     },
     "JTEKTINDIA": {
       "symbol": "JTEKTINDIA",
@@ -109325,7 +109328,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489813+00:00"
+      "updated_at": "2026-10-25T11:15:31.848073+00:00"
     },
     "JTLIND": {
       "symbol": "JTLIND",
@@ -109371,7 +109374,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.489930+00:00"
+      "updated_at": "2026-10-25T11:15:31.848143+00:00"
     },
     "JUBLCPL": {
       "symbol": "JUBLCPL",
@@ -109420,7 +109423,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490040+00:00"
+      "updated_at": "2026-10-25T11:15:31.848214+00:00"
     },
     "JUBLINGREA": {
       "symbol": "JUBLINGREA",
@@ -109467,7 +109470,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490302+00:00"
+      "updated_at": "2026-10-25T11:15:31.848354+00:00"
     },
     "JUBLPHARMA": {
       "symbol": "JUBLPHARMA",
@@ -109516,7 +109519,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490413+00:00"
+      "updated_at": "2026-10-25T11:15:31.848431+00:00"
     },
     "JUNIPER": {
       "symbol": "JUNIPER",
@@ -109564,7 +109567,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490526+00:00"
+      "updated_at": "2026-10-25T11:15:31.848502+00:00"
     },
     "JWL": {
       "symbol": "JWL",
@@ -109573,7 +109576,7 @@
       "industry": "Railroads",
       "price": 173.39,
       "ratios": {
-        "pe": 46.1144,
+        "pe": 48.0305,
         "pb": 2.5047,
         "roe_pct": 0.0,
         "debt_to_equity": 33.365,
@@ -109588,9 +109591,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 76.53,
-        "blended_fair_value": 76.53,
-        "estimated_upside_pct": -55.9,
+        "graham_number": 74.99,
+        "blended_fair_value": 74.99,
+        "estimated_upside_pct": -56.8,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -109606,11 +109609,11 @@
         "key_notes": [
           "Manageable debt level",
           "Healthy revenue CAGR (12.1%)",
-          "Appears overvalued vs blended intrinsic estimate (~-56%)"
+          "Appears overvalued vs blended intrinsic estimate (~-57%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490773+00:00"
+      "updated_at": "2026-10-25T11:15:31.848643+00:00"
     },
     "JYOTHYLAB": {
       "symbol": "JYOTHYLAB",
@@ -109658,7 +109661,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.490895+00:00"
+      "updated_at": "2026-10-25T11:15:31.848711+00:00"
     },
     "JYOTICNC": {
       "symbol": "JYOTICNC",
@@ -109707,7 +109710,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491005+00:00"
+      "updated_at": "2026-10-25T11:15:31.848779+00:00"
     },
     "JYOTISTRUC": {
       "symbol": "JYOTISTRUC",
@@ -109755,7 +109758,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491112+00:00"
+      "updated_at": "2026-10-25T11:15:31.848847+00:00"
     },
     "KABRAEXTRU": {
       "symbol": "KABRAEXTRU",
@@ -109802,7 +109805,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491217+00:00"
+      "updated_at": "2026-10-25T11:15:31.848916+00:00"
     },
     "KALAMANDIR": {
       "symbol": "KALAMANDIR",
@@ -109850,7 +109853,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491440+00:00"
+      "updated_at": "2026-10-25T11:15:31.849056+00:00"
     },
     "KALPATARU": {
       "symbol": "KALPATARU",
@@ -109898,7 +109901,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491548+00:00"
+      "updated_at": "2026-10-25T11:15:31.849124+00:00"
     },
     "KALYANIFRG": {
       "symbol": "KALYANIFRG",
@@ -109944,7 +109947,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491660+00:00"
+      "updated_at": "2026-10-25T11:15:31.849193+00:00"
     },
     "KAMAHOLD": {
       "symbol": "KAMAHOLD",
@@ -109991,7 +109994,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.491910+00:00"
+      "updated_at": "2026-10-25T11:15:31.849333+00:00"
     },
     "KAMATHOTEL": {
       "symbol": "KAMATHOTEL",
@@ -110040,7 +110043,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492016+00:00"
+      "updated_at": "2026-10-25T11:15:31.849402+00:00"
     },
     "KAMOPAINTS": {
       "symbol": "KAMOPAINTS",
@@ -110088,7 +110091,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492122+00:00"
+      "updated_at": "2026-10-25T11:15:31.849480+00:00"
     },
     "KANANIIND": {
       "symbol": "KANANIIND",
@@ -110135,7 +110138,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492233+00:00"
+      "updated_at": "2026-10-25T11:15:31.849550+00:00"
     },
     "KANPRPLA": {
       "symbol": "KANPRPLA",
@@ -110184,7 +110187,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492346+00:00"
+      "updated_at": "2026-10-25T11:15:31.849620+00:00"
     },
     "KANSAINER": {
       "symbol": "KANSAINER",
@@ -110230,7 +110233,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492455+00:00"
+      "updated_at": "2026-10-25T11:15:31.849689+00:00"
     },
     "KAPSTON": {
       "symbol": "KAPSTON",
@@ -110279,7 +110282,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492562+00:00"
+      "updated_at": "2026-10-25T11:15:31.849757+00:00"
     },
     "KARMAENG": {
       "symbol": "KARMAENG",
@@ -110328,7 +110331,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492668+00:00"
+      "updated_at": "2026-10-25T11:15:31.849827+00:00"
     },
     "KARURVYSYA": {
       "symbol": "KARURVYSYA",
@@ -110376,7 +110379,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492796+00:00"
+      "updated_at": "2026-10-25T11:15:31.849894+00:00"
     },
     "KAUSHALYA": {
       "symbol": "KAUSHALYA",
@@ -110425,7 +110428,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.492919+00:00"
+      "updated_at": "2026-10-25T11:15:31.849961+00:00"
     },
     "KAVDEFENCE": {
       "symbol": "KAVDEFENCE",
@@ -110472,7 +110475,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493030+00:00"
+      "updated_at": "2026-10-25T11:15:31.850032+00:00"
     },
     "KAYA": {
       "symbol": "KAYA",
@@ -110517,7 +110520,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493136+00:00"
+      "updated_at": "2026-10-25T11:15:31.850098+00:00"
     },
     "KAYNES": {
       "symbol": "KAYNES",
@@ -110526,7 +110529,7 @@
       "industry": "Electronic Components",
       "price": 3187.9,
       "ratios": {
-        "pe": 59.7209,
+        "pe": 62.1544,
         "pb": 4.5979,
         "roe_pct": 0.0,
         "debt_to_equity": 19.168,
@@ -110541,9 +110544,9 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 912.54,
-        "blended_fair_value": 912.54,
-        "estimated_upside_pct": -71.4,
+        "graham_number": 894.5,
+        "blended_fair_value": 894.5,
+        "estimated_upside_pct": -71.9,
         "valuation_models_used": 1
       },
       "fundamental_score": {
@@ -110562,11 +110565,11 @@
           "Strong revenue CAGR (47.7%)",
           "Strong profit CAGR (56.4%)",
           "Consistent YoY growth",
-          "Appears overvalued vs blended intrinsic estimate (~-71%)"
+          "Appears overvalued vs blended intrinsic estimate (~-72%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493244+00:00"
+      "updated_at": "2026-10-25T11:15:31.850166+00:00"
     },
     "KCP": {
       "symbol": "KCP",
@@ -110615,7 +110618,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493351+00:00"
+      "updated_at": "2026-10-25T11:15:31.850237+00:00"
     },
     "KCPSUGIND": {
       "symbol": "KCPSUGIND",
@@ -110664,7 +110667,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493459+00:00"
+      "updated_at": "2026-10-25T11:15:31.850309+00:00"
     },
     "KDDL": {
       "symbol": "KDDL",
@@ -110712,7 +110715,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493569+00:00"
+      "updated_at": "2026-10-25T11:15:31.850381+00:00"
     },
     "KEC": {
       "symbol": "KEC",
@@ -110760,7 +110763,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493681+00:00"
+      "updated_at": "2026-10-25T11:15:31.850464+00:00"
     },
     "KEEPLEARN": {
       "symbol": "KEEPLEARN",
@@ -110806,7 +110809,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493819+00:00"
+      "updated_at": "2026-10-25T11:15:31.850537+00:00"
     },
     "KEI": {
       "symbol": "KEI",
@@ -110855,7 +110858,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.493933+00:00"
+      "updated_at": "2026-10-25T11:15:31.850607+00:00"
     },
     "KELLTONTEC": {
       "symbol": "KELLTONTEC",
@@ -110902,7 +110905,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494047+00:00"
+      "updated_at": "2026-10-25T11:15:31.850676+00:00"
     },
     "KENNAMET": {
       "symbol": "KENNAMET",
@@ -110918,7 +110921,7 @@
         "profit_margin_pct": 12.97
       },
       "growth": {
-        "revenue_cagr_pct": 12.0,
+        "revenue_cagr_pct": 11.4,
         "net_income_cagr_pct": 30.7,
         "margin_trend": "expanding",
         "revenue_growth_consistency_pct": 100.0,
@@ -110946,12 +110949,12 @@
           "Healthy net margin (13.0%)",
           "Very low debt",
           "Strong liquidity position",
-          "Healthy revenue CAGR (12.0%)",
+          "Healthy revenue CAGR (11.4%)",
           "Strong profit CAGR (30.7%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494155+00:00"
+      "updated_at": "2026-10-25T11:15:31.850745+00:00"
     },
     "KERNEX": {
       "symbol": "KERNEX",
@@ -111000,7 +111003,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494259+00:00"
+      "updated_at": "2026-10-25T11:15:31.850814+00:00"
     },
     "KEYFINSERV": {
       "symbol": "KEYFINSERV",
@@ -111049,7 +111052,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494364+00:00"
+      "updated_at": "2026-10-25T11:15:31.850883+00:00"
     },
     "KFINTECH": {
       "symbol": "KFINTECH",
@@ -111098,7 +111101,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494475+00:00"
+      "updated_at": "2026-10-25T11:15:31.850952+00:00"
     },
     "KHANDSE": {
       "symbol": "KHANDSE",
@@ -111145,7 +111148,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494589+00:00"
+      "updated_at": "2026-10-25T11:15:31.851019+00:00"
     },
     "KICL": {
       "symbol": "KICL",
@@ -111192,7 +111195,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494695+00:00"
+      "updated_at": "2026-10-25T11:15:31.851087+00:00"
     },
     "KILITCH": {
       "symbol": "KILITCH",
@@ -111241,7 +111244,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494841+00:00"
+      "updated_at": "2026-10-25T11:15:31.851158+00:00"
     },
     "KIMS": {
       "symbol": "KIMS",
@@ -111289,7 +111292,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.494954+00:00"
+      "updated_at": "2026-10-25T11:15:31.851230+00:00"
     },
     "KINGFA": {
       "symbol": "KINGFA",
@@ -111338,7 +111341,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495062+00:00"
+      "updated_at": "2026-10-25T11:15:31.851300+00:00"
     },
     "KIOCL": {
       "symbol": "KIOCL",
@@ -111384,7 +111387,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495180+00:00"
+      "updated_at": "2026-10-25T11:15:31.851369+00:00"
     },
     "KIRANVYPAR": {
       "symbol": "KIRANVYPAR",
@@ -111432,7 +111435,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495289+00:00"
+      "updated_at": "2026-10-25T11:15:31.851450+00:00"
     },
     "KIRIINDUS": {
       "symbol": "KIRIINDUS",
@@ -111481,7 +111484,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495398+00:00"
+      "updated_at": "2026-10-25T11:15:31.851524+00:00"
     },
     "KIRLFER": {
       "symbol": "KIRLFER",
@@ -111527,7 +111530,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495506+00:00"
+      "updated_at": "2026-10-25T11:15:31.851598+00:00"
     },
     "KIRLOSBROS": {
       "symbol": "KIRLOSBROS",
@@ -111575,7 +111578,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495612+00:00"
+      "updated_at": "2026-10-25T11:15:31.851668+00:00"
     },
     "KIRLOSENG": {
       "symbol": "KIRLOSENG",
@@ -111624,7 +111627,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495738+00:00"
+      "updated_at": "2026-10-25T11:15:31.851738+00:00"
     },
     "KIRLOSIND": {
       "symbol": "KIRLOSIND",
@@ -111670,7 +111673,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495858+00:00"
+      "updated_at": "2026-10-25T11:15:31.851807+00:00"
     },
     "KIRLPNU": {
       "symbol": "KIRLPNU",
@@ -111679,7 +111682,7 @@
       "industry": "Specialty Industrial Machinery",
       "price": 584.7,
       "ratios": {
-        "pe": 28.9742,
+        "pe": 28.9599,
         "pb": 6.0826,
         "roe_pct": 0.0,
         "debt_to_equity": 0.265,
@@ -111694,8 +111697,8 @@
       },
       "valuation": {
         "dcf_fair_value": 311.26,
-        "graham_number": 208.92,
-        "blended_fair_value": 260.09,
+        "graham_number": 208.97,
+        "blended_fair_value": 260.12,
         "estimated_upside_pct": -55.5,
         "valuation_models_used": 2
       },
@@ -111719,7 +111722,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.495973+00:00"
+      "updated_at": "2026-10-25T11:15:31.851876+00:00"
     },
     "KISSHT": {
       "symbol": "KISSHT",
@@ -111768,7 +111771,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496083+00:00"
+      "updated_at": "2026-10-25T11:15:31.851945+00:00"
     },
     "KITEX": {
       "symbol": "KITEX",
@@ -111813,7 +111816,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496190+00:00"
+      "updated_at": "2026-10-25T11:15:31.852012+00:00"
     },
     "KKCL": {
       "symbol": "KKCL",
@@ -111862,7 +111865,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496303+00:00"
+      "updated_at": "2026-10-25T11:15:31.852080+00:00"
     },
     "KLBRENG-B": {
       "symbol": "KLBRENG-B",
@@ -111911,7 +111914,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496410+00:00"
+      "updated_at": "2026-10-25T11:15:31.852147+00:00"
     },
     "KMEW": {
       "symbol": "KMEW",
@@ -111920,7 +111923,7 @@
       "industry": "Marine Shipping",
       "price": 3149.7,
       "ratios": {
-        "pe": 58.5446,
+        "pe": 58.5337,
         "pb": 13.5051,
         "roe_pct": 0.0,
         "debt_to_equity": 38.764,
@@ -111935,8 +111938,8 @@
       },
       "valuation": {
         "dcf_fair_value": null,
-        "graham_number": 531.33,
-        "blended_fair_value": 531.33,
+        "graham_number": 531.38,
+        "blended_fair_value": 531.38,
         "estimated_upside_pct": -83.1,
         "valuation_models_used": 1
       },
@@ -111958,7 +111961,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496516+00:00"
+      "updated_at": "2026-10-25T11:15:31.852216+00:00"
     },
     "KMSUGAR": {
       "symbol": "KMSUGAR",
@@ -112006,7 +112009,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496628+00:00"
+      "updated_at": "2026-10-25T11:15:31.852285+00:00"
     },
     "KNAGRI": {
       "symbol": "KNAGRI",
@@ -112053,7 +112056,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496755+00:00"
+      "updated_at": "2026-10-25T11:15:31.852354+00:00"
     },
     "KOHINOOR": {
       "symbol": "KOHINOOR",
@@ -112099,7 +112102,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.496985+00:00"
+      "updated_at": "2026-10-25T11:15:31.852503+00:00"
     },
     "KOKUYOCMLN": {
       "symbol": "KOKUYOCMLN",
@@ -112144,7 +112147,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497094+00:00"
+      "updated_at": "2026-10-25T11:15:31.852575+00:00"
     },
     "KOLTEPATIL": {
       "symbol": "KOLTEPATIL",
@@ -112189,7 +112192,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497207+00:00"
+      "updated_at": "2026-10-25T11:15:31.852645+00:00"
     },
     "KOTARISUG": {
       "symbol": "KOTARISUG",
@@ -112236,7 +112239,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497427+00:00"
+      "updated_at": "2026-10-25T11:15:31.852784+00:00"
     },
     "KOTHARIPET": {
       "symbol": "KOTHARIPET",
@@ -112284,7 +112287,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497539+00:00"
+      "updated_at": "2026-10-25T11:15:31.852855+00:00"
     },
     "KOTHARIPRO": {
       "symbol": "KOTHARIPRO",
@@ -112332,7 +112335,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497650+00:00"
+      "updated_at": "2026-10-25T11:15:31.852924+00:00"
     },
     "KOTIC": {
       "symbol": "KOTIC",
@@ -112380,7 +112383,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497773+00:00"
+      "updated_at": "2026-10-25T11:15:31.852990+00:00"
     },
     "KOTYARK": {
       "symbol": "KOTYARK",
@@ -112427,7 +112430,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497882+00:00"
+      "updated_at": "2026-10-25T11:15:31.853057+00:00"
     },
     "KOVAI": {
       "symbol": "KOVAI",
@@ -112476,7 +112479,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.497989+00:00"
+      "updated_at": "2026-10-25T11:15:31.853126+00:00"
     },
     "KPEL": {
       "symbol": "KPEL",
@@ -112525,7 +112528,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498121+00:00"
+      "updated_at": "2026-10-25T11:15:31.853195+00:00"
     },
     "KPIGREEN": {
       "symbol": "KPIGREEN",
@@ -112574,7 +112577,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498243+00:00"
+      "updated_at": "2026-10-25T11:15:31.853264+00:00"
     },
     "KPIL": {
       "symbol": "KPIL",
@@ -112622,7 +112625,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498357+00:00"
+      "updated_at": "2026-10-25T11:15:31.853333+00:00"
     },
     "KPL": {
       "symbol": "KPL",
@@ -112671,7 +112674,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498573+00:00"
+      "updated_at": "2026-10-25T11:15:31.853483+00:00"
     },
     "KPRMILL": {
       "symbol": "KPRMILL",
@@ -112717,7 +112720,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498684+00:00"
+      "updated_at": "2026-10-25T11:15:31.853553+00:00"
     },
     "KRBL": {
       "symbol": "KRBL",
@@ -112766,7 +112769,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498822+00:00"
+      "updated_at": "2026-10-25T11:15:31.853622+00:00"
     },
     "KREBSBIO": {
       "symbol": "KREBSBIO",
@@ -112812,7 +112815,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.498937+00:00"
+      "updated_at": "2026-10-25T11:15:31.853687+00:00"
     },
     "KRISHANA": {
       "symbol": "KRISHANA",
@@ -112859,7 +112862,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499045+00:00"
+      "updated_at": "2026-10-25T11:15:31.853755+00:00"
     },
     "KRISHIVAL": {
       "symbol": "KRISHIVAL",
@@ -112907,7 +112910,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499157+00:00"
+      "updated_at": "2026-10-25T11:15:31.853822+00:00"
     },
     "KRISHNADEF": {
       "symbol": "KRISHNADEF",
@@ -112956,7 +112959,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499266+00:00"
+      "updated_at": "2026-10-25T11:15:31.853891+00:00"
     },
     "KRITIKA": {
       "symbol": "KRITIKA",
@@ -113003,7 +113006,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499378+00:00"
+      "updated_at": "2026-10-25T11:15:31.853960+00:00"
     },
     "KRONOX": {
       "symbol": "KRONOX",
@@ -113050,7 +113053,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499485+00:00"
+      "updated_at": "2026-10-25T11:15:31.854028+00:00"
     },
     "KROSS": {
       "symbol": "KROSS",
@@ -113099,7 +113102,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499590+00:00"
+      "updated_at": "2026-10-25T11:15:31.854096+00:00"
     },
     "KRSNAA": {
       "symbol": "KRSNAA",
@@ -113148,7 +113151,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499696+00:00"
+      "updated_at": "2026-10-25T11:15:31.854164+00:00"
     },
     "KRYSTAL": {
       "symbol": "KRYSTAL",
@@ -113196,7 +113199,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499834+00:00"
+      "updated_at": "2026-10-25T11:15:31.854233+00:00"
     },
     "KSB": {
       "symbol": "KSB",
@@ -113245,7 +113248,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.499949+00:00"
+      "updated_at": "2026-10-25T11:15:31.854301+00:00"
     },
     "KSCL": {
       "symbol": "KSCL",
@@ -113291,7 +113294,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500061+00:00"
+      "updated_at": "2026-10-25T11:15:31.854369+00:00"
     },
     "KSHINTL": {
       "symbol": "KSHINTL",
@@ -113339,7 +113342,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500168+00:00"
+      "updated_at": "2026-10-25T11:15:31.854445+00:00"
     },
     "KSL": {
       "symbol": "KSL",
@@ -113388,7 +113391,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500288+00:00"
+      "updated_at": "2026-10-25T11:15:31.854518+00:00"
     },
     "KSOLVES": {
       "symbol": "KSOLVES",
@@ -113397,8 +113400,8 @@
       "industry": "Software - Application",
       "price": 218.64,
       "ratios": {
-        "pe": 13.9706,
-        "pb": 17.6266,
+        "pe": 14.4222,
+        "pb": 17.6493,
         "roe_pct": 0.0,
         "debt_to_equity": 19.398,
         "profit_margin_pct": 22.3
@@ -113412,9 +113415,9 @@
       },
       "valuation": {
         "dcf_fair_value": 348.61,
-        "graham_number": 66.09,
-        "blended_fair_value": 207.35,
-        "estimated_upside_pct": -5.2,
+        "graham_number": 65.0,
+        "blended_fair_value": 206.81,
+        "estimated_upside_pct": -5.4,
         "valuation_models_used": 2
       },
       "fundamental_score": {
@@ -113435,7 +113438,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500396+00:00"
+      "updated_at": "2026-10-25T11:15:31.854589+00:00"
     },
     "KSR": {
       "symbol": "KSR",
@@ -113481,7 +113484,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500501+00:00"
+      "updated_at": "2026-10-25T11:15:31.854655+00:00"
     },
     "KTKBANK": {
       "symbol": "KTKBANK",
@@ -113527,7 +113530,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500613+00:00"
+      "updated_at": "2026-10-25T11:15:31.854724+00:00"
     },
     "KUANTUM": {
       "symbol": "KUANTUM",
@@ -113575,7 +113578,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500739+00:00"
+      "updated_at": "2026-10-25T11:15:31.854792+00:00"
     },
     "KWIL": {
       "symbol": "KWIL",
@@ -113621,7 +113624,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500853+00:00"
+      "updated_at": "2026-10-25T11:15:31.854856+00:00"
     },
     "LAGNAM": {
       "symbol": "LAGNAM",
@@ -113631,10 +113634,10 @@
       "price": 89.78,
       "ratios": {
         "pe": 8.666,
-        "pb": 1.172,
-        "roe_pct": 0.0,
-        "debt_to_equity": 264.432,
-        "profit_margin_pct": 2.9
+        "pb": 1.061,
+        "roe_pct": 19.15,
+        "debt_to_equity": 272.435,
+        "profit_margin_pct": 3.89
       },
       "growth": {
         "revenue_cagr_pct": 26.4,
@@ -113644,31 +113647,32 @@
         "years_of_data": 5
       },
       "valuation": {
-        "dcf_fair_value": 775.7,
-        "graham_number": 133.63,
-        "blended_fair_value": 454.67,
-        "estimated_upside_pct": 406.4,
+        "dcf_fair_value": 748.28,
+        "graham_number": 140.44,
+        "blended_fair_value": 444.36,
+        "estimated_upside_pct": 394.9,
         "valuation_models_used": 2
       },
       "fundamental_score": {
-        "total": 50,
-        "rating": "🟡 HOLD",
+        "total": 60,
+        "rating": "🟢 BUY",
         "pillars": {
           "valuation": 15,
-          "profitability": 2,
-          "stability": 0,
+          "profitability": 9,
+          "stability": 3,
           "growth": 18,
           "valuation_upside": 15
         },
         "key_notes": [
           "Trading near/below book value",
+          "Strong ROE (19.1%)",
           "High leverage",
           "Strong revenue CAGR (26.4%)",
-          "Significant estimated undervaluation (~406%)"
+          "Significant estimated undervaluation (~395%)"
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.500961+00:00"
+      "updated_at": "2026-10-25T11:15:31.854924+00:00"
     },
     "LAHOTIOV": {
       "symbol": "LAHOTIOV",
@@ -113715,7 +113719,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.501071+00:00"
+      "updated_at": "2026-10-25T11:15:31.854992+00:00"
     },
     "LAL": {
       "symbol": "LAL",
@@ -113763,7 +113767,7 @@
         ]
       },
       "source": "scheduled_chunk",
-      "updated_at": "2026-10-23T17:59:07.501182+00:00"
+      "updated_at": "2026-10-25T11:15:31.855061+00:00"
     },
     "LAMBODHARA": {
       "symbol": "LAMBODHARA",
